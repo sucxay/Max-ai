@@ -1,6 +1,15 @@
 import subprocess
 from langchain.tools import tool 
 
+
+APP_ALIAS= {
+    'vscode': "Visual Code Studio", 
+    "chrome" : "Google Chrome",
+    "camera" : "Photo Booth",
+    "brave": "Brave Browser"
+
+}
+
 def set_volume(level: int):
     """Set system volume 0-100"""
     level = max(0, min(100, level))
@@ -91,6 +100,70 @@ def system_brightness(action :str , level  : int =30):
         return f"Error controlling brightness: {e}" 
 
 
-        
+import subprocess
+from langchain.tools import tool
+
+APP_ALIASES = {
+    "vscode": "Visual Studio Code",
+    "vs code": "Visual Studio Code",
+    "code": "Visual Studio Code",
+    "chrome": "Google Chrome",
+    "browser": "Google Chrome",
+    "safari": "Safari",
+    "terminal": "Terminal",
+    "spotify": "Spotify",
+    "discord": "Discord",
+    "whatsapp": "WhatsApp",
+    "telegram": "Telegram",
+    "finder": "Finder",
+    "settings": "System Settings",
+    "calculator": "Calculator",
+    "notes": "Notes",
+    "camera":"Photo Booth"
+}
 
 
+@tool
+def open_app(app_name: str) -> str:
+    """Open a macOS application by its common name or alias."""
+
+    try:
+        name = app_name.strip().lower()
+        app = APP_ALIASES.get(name, app_name.strip())
+
+        subprocess.run(
+            ["open", "-a", app],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+
+        return f"Opened {app} successfully."
+
+    except subprocess.CalledProcessError as e:
+        return f"Could not open {app_name}: {e.stderr.strip()}"
+
+    except Exception as e:
+        return f"Error opening application: {e}"
+
+@tool 
+def close_app(app_name: str) -> str:
+    """Close a macOS application by its common name or alias."""
+    try:
+        name = app_name.strip().lower()
+        app = APP_ALIASES.get(name, app_name.strip())
+
+        subprocess.run(
+            ["killall", app],
+            check=True,
+            capture_output=True,
+            text=True
+        )
+
+        return f"Closed {app} successfully."
+
+    except subprocess.CalledProcessError as e:
+        return f"Could not close {app_name}: {e.stderr.strip()}"
+
+    except Exception as e:
+        return f"Error closing application: {e}"
