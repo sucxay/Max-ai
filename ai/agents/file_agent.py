@@ -1,8 +1,8 @@
-from langchain.agents import create_agent
-from ai.llm.llm import get_llm
+from langchain.agents import create_agent 
+from ai.llm.llm import get_llm 
 from ai.mcp.file_mcp import get_tools
-from langchain.tools import tool
-import subprocess
+from langchain.tools import tool 
+import subprocess 
 from pathlib import Path
 SYSTEM_PROMPT = """
 You are Nova's file assistant, part of a voice assistant on the user's MacBook.
@@ -49,7 +49,7 @@ BLOCKED_SUFFIXES = {
 }
 
 
-@tool
+@tool 
 def open_file(path: str, reveal_in_finder: bool = False) -> str:
     """Open a file with its default Mac app (a PDF in Preview, a doc in Pages) or open a folder.
     Set reveal_in_finder to true to show it in Finder instead. Only works inside the allowed folders."""
@@ -73,4 +73,5 @@ async def file_agent():
         tools = tools + [open_file],
          system_prompt=SYSTEM_PROMPT    )
 
-    return agent
+    return agent 
+ 

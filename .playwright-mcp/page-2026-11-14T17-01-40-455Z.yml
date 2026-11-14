@@ -1,0 +1,1045 @@
+- generic [ref=e2]:
+  - link "Skip to main content" [ref=e3] [cursor=pointer]:
+    - /url: "#content"
+  - banner [ref=e4]:
+    - link [aria-hidden] [ref=e5] [cursor=pointer]:
+      - /url: https://arxiv.org/IgnoreMe
+    - link "archive home" [ref=e6] [cursor=pointer]:
+      - /url: https://arxiv.org/
+      - img "archive" [ref=e7]
+    - link "Search" [ref=e8] [cursor=pointer]:
+      - /url: https://arxiv.org/search
+    - navigation "Main navigation" [ref=e13]:
+      - link "Submit" [ref=e14] [cursor=pointer]:
+        - /url: https://arxiv.org/submit
+      - link "Donate" [ref=e15] [cursor=pointer]:
+        - /url: https://info.arxiv.org/about/donate.html
+      - link "Log in" [ref=e17] [cursor=pointer]:
+        - /url: https://arxiv.org/login
+  - main [ref=e18]:
+    - generic [ref=e19]:
+      - generic [ref=e21]:
+        - paragraph [ref=e22]: arXiv is a free distribution service and an open-access archive for more than 3.2 million scholarly articles in the fields of physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering and systems science, and economics. Materials on this site are not peer-reviewed by arXiv.
+        - search [ref=e23]:
+          - text: "Subject search and browse:"
+          - combobox "Subject search and browse:" [ref=e24]:
+            - option "Physics" [selected]
+            - option "Mathematics"
+            - option "Quantitative Biology"
+            - option "Computer Science"
+            - option "Quantitative Finance"
+            - option "Statistics"
+            - option "Electrical Engineering and Systems Science"
+            - option "Economics"
+          - button "Search" [ref=e25]
+          - button "Form Interface" [ref=e26]
+          - button "Catchup" [ref=e27]
+      - heading "Physics" [level=2] [ref=e28]
+      - list [ref=e29]:
+        - listitem [ref=e30]:
+          - link "Astrophysics" [ref=e31] [cursor=pointer]:
+            - /url: /archive/astro-ph
+          - text: (
+          - strong [ref=e32]: astro-ph
+          - link "new astro-ph" [ref=e33] [cursor=pointer]:
+            - /url: /list/astro-ph/new
+            - text: new
+          - text: ","
+          - link "recent astro-ph" [ref=e34] [cursor=pointer]:
+            - /url: /list/astro-ph/recent
+            - text: recent
+          - text: ","
+          - link "search astro-ph" [ref=e35] [cursor=pointer]:
+            - /url: https://arxiv.org/search/astro-ph
+            - text: search
+          - text: )
+          - link "Astrophysics Astrophysics of Galaxies" [ref=e36] [cursor=pointer]:
+            - /url: /list/astro-ph.GA/recent
+            - text: Astrophysics of Galaxies
+          - text: ;
+          - link "Astrophysics Cosmology and Nongalactic Astrophysics" [ref=e37] [cursor=pointer]:
+            - /url: /list/astro-ph.CO/recent
+            - text: Cosmology and Nongalactic Astrophysics
+          - text: ;
+          - link "Astrophysics Earth and Planetary Astrophysics" [ref=e38] [cursor=pointer]:
+            - /url: /list/astro-ph.EP/recent
+            - text: Earth and Planetary Astrophysics
+          - text: ;
+          - link "Astrophysics High Energy Astrophysical Phenomena" [ref=e39] [cursor=pointer]:
+            - /url: /list/astro-ph.HE/recent
+            - text: High Energy Astrophysical Phenomena
+          - text: ;
+          - link "Astrophysics Instrumentation and Methods for Astrophysics" [ref=e40] [cursor=pointer]:
+            - /url: /list/astro-ph.IM/recent
+            - text: Instrumentation and Methods for Astrophysics
+          - text: ;
+          - link "Astrophysics Solar and Stellar Astrophysics" [ref=e41] [cursor=pointer]:
+            - /url: /list/astro-ph.SR/recent
+            - text: Solar and Stellar Astrophysics
+        - listitem [ref=e42]:
+          - link "Condensed Matter" [ref=e43] [cursor=pointer]:
+            - /url: /archive/cond-mat
+          - text: (
+          - strong [ref=e44]: cond-mat
+          - link "new cond-mat" [ref=e45] [cursor=pointer]:
+            - /url: /list/cond-mat/new
+            - text: new
+          - text: ","
+          - link "recent cond-mat" [ref=e46] [cursor=pointer]:
+            - /url: /list/cond-mat/recent
+            - text: recent
+          - text: ","
+          - link "search cond-mat" [ref=e47] [cursor=pointer]:
+            - /url: https://arxiv.org/search/cond-mat
+            - text: search
+          - text: )
+          - link "Condensed Matter Disordered Systems and Neural Networks" [ref=e48] [cursor=pointer]:
+            - /url: /list/cond-mat.dis-nn/recent
+            - text: Disordered Systems and Neural Networks
+          - text: ;
+          - link "Condensed Matter Materials Science" [ref=e49] [cursor=pointer]:
+            - /url: /list/cond-mat.mtrl-sci/recent
+            - text: Materials Science
+          - text: ;
+          - link "Condensed Matter Mesoscale and Nanoscale Physics" [ref=e50] [cursor=pointer]:
+            - /url: /list/cond-mat.mes-hall/recent
+            - text: Mesoscale and Nanoscale Physics
+          - text: ;
+          - link "Condensed Matter Other Condensed Matter" [ref=e51] [cursor=pointer]:
+            - /url: /list/cond-mat.other/recent
+            - text: Other Condensed Matter
+          - text: ;
+          - link "Condensed Matter Quantum Gases" [ref=e52] [cursor=pointer]:
+            - /url: /list/cond-mat.quant-gas/recent
+            - text: Quantum Gases
+          - text: ;
+          - link "Condensed Matter Soft Condensed Matter" [ref=e53] [cursor=pointer]:
+            - /url: /list/cond-mat.soft/recent
+            - text: Soft Condensed Matter
+          - text: ;
+          - link "Condensed Matter Statistical Mechanics" [ref=e54] [cursor=pointer]:
+            - /url: /list/cond-mat.stat-mech/recent
+            - text: Statistical Mechanics
+          - text: ;
+          - link "Condensed Matter Strongly Correlated Electrons" [ref=e55] [cursor=pointer]:
+            - /url: /list/cond-mat.str-el/recent
+            - text: Strongly Correlated Electrons
+          - text: ;
+          - link "Condensed Matter Superconductivity" [ref=e56] [cursor=pointer]:
+            - /url: /list/cond-mat.supr-con/recent
+            - text: Superconductivity
+        - listitem [ref=e57]:
+          - link "General Relativity and Quantum Cosmology" [ref=e58] [cursor=pointer]:
+            - /url: /archive/gr-qc
+          - text: (
+          - strong [ref=e59]: gr-qc
+          - link "new gr-qc" [ref=e60] [cursor=pointer]:
+            - /url: /list/gr-qc/new
+            - text: new
+          - text: ","
+          - link "recent gr-qc" [ref=e61] [cursor=pointer]:
+            - /url: /list/gr-qc/recent
+            - text: recent
+          - text: ","
+          - link "search gr-qc" [ref=e62] [cursor=pointer]:
+            - /url: https://arxiv.org/search/gr-qc
+            - text: search
+          - text: )
+        - listitem [ref=e63]:
+          - link "High Energy Physics - Experiment" [ref=e64] [cursor=pointer]:
+            - /url: /archive/hep-ex
+          - text: (
+          - strong [ref=e65]: hep-ex
+          - link "new hep-ex" [ref=e66] [cursor=pointer]:
+            - /url: /list/hep-ex/new
+            - text: new
+          - text: ","
+          - link "recent hep-ex" [ref=e67] [cursor=pointer]:
+            - /url: /list/hep-ex/recent
+            - text: recent
+          - text: ","
+          - link "search hep-ex" [ref=e68] [cursor=pointer]:
+            - /url: https://arxiv.org/search/hep-ex
+            - text: search
+          - text: )
+        - listitem [ref=e69]:
+          - link "High Energy Physics - Lattice" [ref=e70] [cursor=pointer]:
+            - /url: /archive/hep-lat
+          - text: (
+          - strong [ref=e71]: hep-lat
+          - link "new hep-lat" [ref=e72] [cursor=pointer]:
+            - /url: /list/hep-lat/new
+            - text: new
+          - text: ","
+          - link "recent hep-lat" [ref=e73] [cursor=pointer]:
+            - /url: /list/hep-lat/recent
+            - text: recent
+          - text: ","
+          - link "search hep-lat" [ref=e74] [cursor=pointer]:
+            - /url: https://arxiv.org/search/hep-lat
+            - text: search
+          - text: )
+        - listitem [ref=e75]:
+          - link "High Energy Physics - Phenomenology" [ref=e76] [cursor=pointer]:
+            - /url: /archive/hep-ph
+          - text: (
+          - strong [ref=e77]: hep-ph
+          - link "new hep-ph" [ref=e78] [cursor=pointer]:
+            - /url: /list/hep-ph/new
+            - text: new
+          - text: ","
+          - link "recent hep-ph" [ref=e79] [cursor=pointer]:
+            - /url: /list/hep-ph/recent
+            - text: recent
+          - text: ","
+          - link "search hep-ph" [ref=e80] [cursor=pointer]:
+            - /url: https://arxiv.org/search/hep-ph
+            - text: search
+          - text: )
+        - listitem [ref=e81]:
+          - link "High Energy Physics - Theory" [ref=e82] [cursor=pointer]:
+            - /url: /archive/hep-th
+          - text: (
+          - strong [ref=e83]: hep-th
+          - link "new hep-th" [ref=e84] [cursor=pointer]:
+            - /url: /list/hep-th/new
+            - text: new
+          - text: ","
+          - link "recent hep-th" [ref=e85] [cursor=pointer]:
+            - /url: /list/hep-th/recent
+            - text: recent
+          - text: ","
+          - link "search hep-th" [ref=e86] [cursor=pointer]:
+            - /url: https://arxiv.org/search/hep-th
+            - text: search
+          - text: )
+        - listitem [ref=e87]:
+          - link "Mathematical Physics" [ref=e88] [cursor=pointer]:
+            - /url: /archive/math-ph
+          - text: (
+          - strong [ref=e89]: math-ph
+          - link "new math-ph" [ref=e90] [cursor=pointer]:
+            - /url: /list/math-ph/new
+            - text: new
+          - text: ","
+          - link "recent math-ph" [ref=e91] [cursor=pointer]:
+            - /url: /list/math-ph/recent
+            - text: recent
+          - text: ","
+          - link "search math-ph" [ref=e92] [cursor=pointer]:
+            - /url: https://arxiv.org/search/math-ph
+            - text: search
+          - text: )
+        - listitem [ref=e93]:
+          - link "Nonlinear Sciences" [ref=e94] [cursor=pointer]:
+            - /url: /archive/nlin
+          - text: (
+          - strong [ref=e95]: nlin
+          - link "new nlin" [ref=e96] [cursor=pointer]:
+            - /url: /list/nlin/new
+            - text: new
+          - text: ","
+          - link "recent nlin" [ref=e97] [cursor=pointer]:
+            - /url: /list/nlin/recent
+            - text: recent
+          - text: ","
+          - link "search nlin" [ref=e98] [cursor=pointer]:
+            - /url: https://arxiv.org/search/nlin
+            - text: search
+          - text: ") includes:"
+          - link "Nonlinear Sciences Adaptation and Self-Organizing Systems" [ref=e99] [cursor=pointer]:
+            - /url: /list/nlin.AO/recent
+            - text: Adaptation and Self-Organizing Systems
+          - text: ;
+          - link "Nonlinear Sciences Cellular Automata and Lattice Gases" [ref=e100] [cursor=pointer]:
+            - /url: /list/nlin.CG/recent
+            - text: Cellular Automata and Lattice Gases
+          - text: ;
+          - link "Nonlinear Sciences Chaotic Dynamics" [ref=e101] [cursor=pointer]:
+            - /url: /list/nlin.CD/recent
+            - text: Chaotic Dynamics
+          - text: ;
+          - link "Nonlinear Sciences Exactly Solvable and Integrable Systems" [ref=e102] [cursor=pointer]:
+            - /url: /list/nlin.SI/recent
+            - text: Exactly Solvable and Integrable Systems
+          - text: ;
+          - link "Nonlinear Sciences Pattern Formation and Solitons" [ref=e103] [cursor=pointer]:
+            - /url: /list/nlin.PS/recent
+            - text: Pattern Formation and Solitons
+        - listitem [ref=e104]:
+          - link "Nuclear Experiment" [ref=e105] [cursor=pointer]:
+            - /url: /archive/nucl-ex
+          - text: (
+          - strong [ref=e106]: nucl-ex
+          - link "new nucl-ex" [ref=e107] [cursor=pointer]:
+            - /url: /list/nucl-ex/new
+            - text: new
+          - text: ","
+          - link "recent nucl-ex" [ref=e108] [cursor=pointer]:
+            - /url: /list/nucl-ex/recent
+            - text: recent
+          - text: ","
+          - link "search nucl-ex" [ref=e109] [cursor=pointer]:
+            - /url: https://arxiv.org/search/nucl-ex
+            - text: search
+          - text: )
+        - listitem [ref=e110]:
+          - link "Nuclear Theory" [ref=e111] [cursor=pointer]:
+            - /url: /archive/nucl-th
+          - text: (
+          - strong [ref=e112]: nucl-th
+          - link "new nucl-th" [ref=e113] [cursor=pointer]:
+            - /url: /list/nucl-th/new
+            - text: new
+          - text: ","
+          - link "recent nucl-th" [ref=e114] [cursor=pointer]:
+            - /url: /list/nucl-th/recent
+            - text: recent
+          - text: ","
+          - link "search nucl-th" [ref=e115] [cursor=pointer]:
+            - /url: https://arxiv.org/search/nucl-th
+            - text: search
+          - text: )
+        - listitem [ref=e116]:
+          - link "Physics" [ref=e117] [cursor=pointer]:
+            - /url: /archive/physics
+          - text: (
+          - strong [ref=e118]: physics
+          - link "new physics" [ref=e119] [cursor=pointer]:
+            - /url: /list/physics/new
+            - text: new
+          - text: ","
+          - link "recent physics" [ref=e120] [cursor=pointer]:
+            - /url: /list/physics/recent
+            - text: recent
+          - text: ","
+          - link "search physics" [ref=e121] [cursor=pointer]:
+            - /url: https://arxiv.org/search/physics
+            - text: search
+          - text: ") includes:"
+          - link "Physics Accelerator Physics" [ref=e122] [cursor=pointer]:
+            - /url: /list/physics.acc-ph/recent
+            - text: Accelerator Physics
+          - text: ;
+          - link "Physics Applied Physics" [ref=e123] [cursor=pointer]:
+            - /url: /list/physics.app-ph/recent
+            - text: Applied Physics
+          - text: ;
+          - link "Physics Atmospheric and Oceanic Physics" [ref=e124] [cursor=pointer]:
+            - /url: /list/physics.ao-ph/recent
+            - text: Atmospheric and Oceanic Physics
+          - text: ;
+          - link "Physics Atomic and Molecular Clusters" [ref=e125] [cursor=pointer]:
+            - /url: /list/physics.atm-clus/recent
+            - text: Atomic and Molecular Clusters
+          - text: ;
+          - link "Physics Atomic Physics" [ref=e126] [cursor=pointer]:
+            - /url: /list/physics.atom-ph/recent
+            - text: Atomic Physics
+          - text: ;
+          - link "Physics Biological Physics" [ref=e127] [cursor=pointer]:
+            - /url: /list/physics.bio-ph/recent
+            - text: Biological Physics
+          - text: ;
+          - link "Physics Chemical Physics" [ref=e128] [cursor=pointer]:
+            - /url: /list/physics.chem-ph/recent
+            - text: Chemical Physics
+          - text: ;
+          - link "Physics Classical Physics" [ref=e129] [cursor=pointer]:
+            - /url: /list/physics.class-ph/recent
+            - text: Classical Physics
+          - text: ;
+          - link "Physics Computational Physics" [ref=e130] [cursor=pointer]:
+            - /url: /list/physics.comp-ph/recent
+            - text: Computational Physics
+          - text: ;
+          - link "Physics Data Analysis, Statistics and Probability" [ref=e131] [cursor=pointer]:
+            - /url: /list/physics.data-an/recent
+            - text: Data Analysis, Statistics and Probability
+          - text: ;
+          - link "Physics Fluid Dynamics" [ref=e132] [cursor=pointer]:
+            - /url: /list/physics.flu-dyn/recent
+            - text: Fluid Dynamics
+          - text: ;
+          - link "Physics General Physics" [ref=e133] [cursor=pointer]:
+            - /url: /list/physics.gen-ph/recent
+            - text: General Physics
+          - text: ;
+          - link "Physics Geophysics" [ref=e134] [cursor=pointer]:
+            - /url: /list/physics.geo-ph/recent
+            - text: Geophysics
+          - text: ;
+          - link "Physics History and Philosophy of Physics" [ref=e135] [cursor=pointer]:
+            - /url: /list/physics.hist-ph/recent
+            - text: History and Philosophy of Physics
+          - text: ;
+          - link "Physics Instrumentation and Detectors" [ref=e136] [cursor=pointer]:
+            - /url: /list/physics.ins-det/recent
+            - text: Instrumentation and Detectors
+          - text: ;
+          - link "Physics Medical Physics" [ref=e137] [cursor=pointer]:
+            - /url: /list/physics.med-ph/recent
+            - text: Medical Physics
+          - text: ;
+          - link "Physics Optics" [ref=e138] [cursor=pointer]:
+            - /url: /list/physics.optics/recent
+            - text: Optics
+          - text: ;
+          - link "Physics Physics and Society" [ref=e139] [cursor=pointer]:
+            - /url: /list/physics.soc-ph/recent
+            - text: Physics and Society
+          - text: ;
+          - link "Physics Physics Education" [ref=e140] [cursor=pointer]:
+            - /url: /list/physics.ed-ph/recent
+            - text: Physics Education
+          - text: ;
+          - link "Physics Plasma Physics" [ref=e141] [cursor=pointer]:
+            - /url: /list/physics.plasm-ph/recent
+            - text: Plasma Physics
+          - text: ;
+          - link "Physics Popular Physics" [ref=e142] [cursor=pointer]:
+            - /url: /list/physics.pop-ph/recent
+            - text: Popular Physics
+          - text: ;
+          - link "Physics Space Physics" [ref=e143] [cursor=pointer]:
+            - /url: /list/physics.space-ph/recent
+            - text: Space Physics
+        - listitem [ref=e144]:
+          - link "Quantum Physics" [ref=e145] [cursor=pointer]:
+            - /url: /archive/quant-ph
+          - text: (
+          - strong [ref=e146]: quant-ph
+          - link "new quant-ph" [ref=e147] [cursor=pointer]:
+            - /url: /list/quant-ph/new
+            - text: new
+          - text: ","
+          - link "recent quant-ph" [ref=e148] [cursor=pointer]:
+            - /url: /list/quant-ph/recent
+            - text: recent
+          - text: ","
+          - link "search quant-ph" [ref=e149] [cursor=pointer]:
+            - /url: https://arxiv.org/search/quant-ph
+            - text: search
+          - text: )
+      - heading "Mathematics" [level=2] [ref=e150]
+      - list [ref=e151]:
+        - listitem [ref=e152]:
+          - link "Mathematics" [ref=e153] [cursor=pointer]:
+            - /url: /archive/math
+          - text: (
+          - strong [ref=e154]: math
+          - link "new math" [ref=e155] [cursor=pointer]:
+            - /url: /list/math/new
+            - text: new
+          - text: ","
+          - link "recent math" [ref=e156] [cursor=pointer]:
+            - /url: /list/math/recent
+            - text: recent
+          - text: ","
+          - link "search math" [ref=e157] [cursor=pointer]:
+            - /url: https://arxiv.org/search/math
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Mathematics" [ref=e158] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/math/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Mathematics Algebraic Geometry" [ref=e159] [cursor=pointer]:
+            - /url: /list/math.AG/recent
+            - text: Algebraic Geometry
+          - text: ;
+          - link "Mathematics Algebraic Topology" [ref=e160] [cursor=pointer]:
+            - /url: /list/math.AT/recent
+            - text: Algebraic Topology
+          - text: ;
+          - link "Mathematics Analysis of PDEs" [ref=e161] [cursor=pointer]:
+            - /url: /list/math.AP/recent
+            - text: Analysis of PDEs
+          - text: ;
+          - link "Mathematics Category Theory" [ref=e162] [cursor=pointer]:
+            - /url: /list/math.CT/recent
+            - text: Category Theory
+          - text: ;
+          - link "Mathematics Classical Analysis and ODEs" [ref=e163] [cursor=pointer]:
+            - /url: /list/math.CA/recent
+            - text: Classical Analysis and ODEs
+          - text: ;
+          - link "Mathematics Combinatorics" [ref=e164] [cursor=pointer]:
+            - /url: /list/math.CO/recent
+            - text: Combinatorics
+          - text: ;
+          - link "Mathematics Commutative Algebra" [ref=e165] [cursor=pointer]:
+            - /url: /list/math.AC/recent
+            - text: Commutative Algebra
+          - text: ;
+          - link "Mathematics Complex Variables" [ref=e166] [cursor=pointer]:
+            - /url: /list/math.CV/recent
+            - text: Complex Variables
+          - text: ;
+          - link "Mathematics Differential Geometry" [ref=e167] [cursor=pointer]:
+            - /url: /list/math.DG/recent
+            - text: Differential Geometry
+          - text: ;
+          - link "Mathematics Dynamical Systems" [ref=e168] [cursor=pointer]:
+            - /url: /list/math.DS/recent
+            - text: Dynamical Systems
+          - text: ;
+          - link "Mathematics Functional Analysis" [ref=e169] [cursor=pointer]:
+            - /url: /list/math.FA/recent
+            - text: Functional Analysis
+          - text: ;
+          - link "Mathematics General Mathematics" [ref=e170] [cursor=pointer]:
+            - /url: /list/math.GM/recent
+            - text: General Mathematics
+          - text: ;
+          - link "Mathematics General Topology" [ref=e171] [cursor=pointer]:
+            - /url: /list/math.GN/recent
+            - text: General Topology
+          - text: ;
+          - link "Mathematics Geometric Topology" [ref=e172] [cursor=pointer]:
+            - /url: /list/math.GT/recent
+            - text: Geometric Topology
+          - text: ;
+          - link "Mathematics Group Theory" [ref=e173] [cursor=pointer]:
+            - /url: /list/math.GR/recent
+            - text: Group Theory
+          - text: ;
+          - link "Mathematics History and Overview" [ref=e174] [cursor=pointer]:
+            - /url: /list/math.HO/recent
+            - text: History and Overview
+          - text: ;
+          - link "Mathematics Information Theory" [ref=e175] [cursor=pointer]:
+            - /url: /list/math.IT/recent
+            - text: Information Theory
+          - text: ;
+          - link "Mathematics K-Theory and Homology" [ref=e176] [cursor=pointer]:
+            - /url: /list/math.KT/recent
+            - text: K-Theory and Homology
+          - text: ;
+          - link "Mathematics Logic" [ref=e177] [cursor=pointer]:
+            - /url: /list/math.LO/recent
+            - text: Logic
+          - text: ;
+          - link "Mathematics Mathematical Physics" [ref=e178] [cursor=pointer]:
+            - /url: /list/math.MP/recent
+            - text: Mathematical Physics
+          - text: ;
+          - link "Mathematics Metric Geometry" [ref=e179] [cursor=pointer]:
+            - /url: /list/math.MG/recent
+            - text: Metric Geometry
+          - text: ;
+          - link "Mathematics Number Theory" [ref=e180] [cursor=pointer]:
+            - /url: /list/math.NT/recent
+            - text: Number Theory
+          - text: ;
+          - link "Mathematics Numerical Analysis" [ref=e181] [cursor=pointer]:
+            - /url: /list/math.NA/recent
+            - text: Numerical Analysis
+          - text: ;
+          - link "Mathematics Operator Algebras" [ref=e182] [cursor=pointer]:
+            - /url: /list/math.OA/recent
+            - text: Operator Algebras
+          - text: ;
+          - link "Mathematics Optimization and Control" [ref=e183] [cursor=pointer]:
+            - /url: /list/math.OC/recent
+            - text: Optimization and Control
+          - text: ;
+          - link "Mathematics Probability" [ref=e184] [cursor=pointer]:
+            - /url: /list/math.PR/recent
+            - text: Probability
+          - text: ;
+          - link "Mathematics Quantum Algebra" [ref=e185] [cursor=pointer]:
+            - /url: /list/math.QA/recent
+            - text: Quantum Algebra
+          - text: ;
+          - link "Mathematics Representation Theory" [ref=e186] [cursor=pointer]:
+            - /url: /list/math.RT/recent
+            - text: Representation Theory
+          - text: ;
+          - link "Mathematics Rings and Algebras" [ref=e187] [cursor=pointer]:
+            - /url: /list/math.RA/recent
+            - text: Rings and Algebras
+          - text: ;
+          - link "Mathematics Spectral Theory" [ref=e188] [cursor=pointer]:
+            - /url: /list/math.SP/recent
+            - text: Spectral Theory
+          - text: ;
+          - link "Mathematics Statistics Theory" [ref=e189] [cursor=pointer]:
+            - /url: /list/math.ST/recent
+            - text: Statistics Theory
+          - text: ;
+          - link "Mathematics Symplectic Geometry" [ref=e190] [cursor=pointer]:
+            - /url: /list/math.SG/recent
+            - text: Symplectic Geometry
+      - heading "Computer Science" [level=2] [ref=e191]
+      - list [ref=e192]:
+        - listitem [ref=e193]:
+          - link "Computing Research Repository" [ref=e194] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/cs/index.html
+          - text: (
+          - strong [ref=e195]: CoRR
+          - link "new CoRR" [ref=e196] [cursor=pointer]:
+            - /url: /list/cs/new
+            - text: new
+          - text: ","
+          - link "recent CoRR" [ref=e197] [cursor=pointer]:
+            - /url: /list/cs/recent
+            - text: recent
+          - text: ","
+          - link "search CoRR" [ref=e198] [cursor=pointer]:
+            - /url: https://arxiv.org/search/cs
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Computing Research Repository" [ref=e199] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/cs/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Computing Research Repository Artificial Intelligence" [ref=e200] [cursor=pointer]:
+            - /url: /list/cs.AI/recent
+            - text: Artificial Intelligence
+          - text: ;
+          - link "Computing Research Repository Computation and Language" [ref=e201] [cursor=pointer]:
+            - /url: /list/cs.CL/recent
+            - text: Computation and Language
+          - text: ;
+          - link "Computing Research Repository Computational Complexity" [ref=e202] [cursor=pointer]:
+            - /url: /list/cs.CC/recent
+            - text: Computational Complexity
+          - text: ;
+          - link "Computing Research Repository Computational Engineering, Finance, and Science" [ref=e203] [cursor=pointer]:
+            - /url: /list/cs.CE/recent
+            - text: Computational Engineering, Finance, and Science
+          - text: ;
+          - link "Computing Research Repository Computational Geometry" [ref=e204] [cursor=pointer]:
+            - /url: /list/cs.CG/recent
+            - text: Computational Geometry
+          - text: ;
+          - link "Computing Research Repository Computer Science and Game Theory" [ref=e205] [cursor=pointer]:
+            - /url: /list/cs.GT/recent
+            - text: Computer Science and Game Theory
+          - text: ;
+          - link "Computing Research Repository Computer Vision and Pattern Recognition" [ref=e206] [cursor=pointer]:
+            - /url: /list/cs.CV/recent
+            - text: Computer Vision and Pattern Recognition
+          - text: ;
+          - link "Computing Research Repository Computers and Society" [ref=e207] [cursor=pointer]:
+            - /url: /list/cs.CY/recent
+            - text: Computers and Society
+          - text: ;
+          - link "Computing Research Repository Cryptography and Security" [ref=e208] [cursor=pointer]:
+            - /url: /list/cs.CR/recent
+            - text: Cryptography and Security
+          - text: ;
+          - link "Computing Research Repository Data Structures and Algorithms" [ref=e209] [cursor=pointer]:
+            - /url: /list/cs.DS/recent
+            - text: Data Structures and Algorithms
+          - text: ;
+          - link "Computing Research Repository Databases" [ref=e210] [cursor=pointer]:
+            - /url: /list/cs.DB/recent
+            - text: Databases
+          - text: ;
+          - link "Computing Research Repository Digital Libraries" [ref=e211] [cursor=pointer]:
+            - /url: /list/cs.DL/recent
+            - text: Digital Libraries
+          - text: ;
+          - link "Computing Research Repository Discrete Mathematics" [ref=e212] [cursor=pointer]:
+            - /url: /list/cs.DM/recent
+            - text: Discrete Mathematics
+          - text: ;
+          - link "Computing Research Repository Distributed, Parallel, and Cluster Computing" [ref=e213] [cursor=pointer]:
+            - /url: /list/cs.DC/recent
+            - text: Distributed, Parallel, and Cluster Computing
+          - text: ;
+          - link "Computing Research Repository Emerging Technologies" [ref=e214] [cursor=pointer]:
+            - /url: /list/cs.ET/recent
+            - text: Emerging Technologies
+          - text: ;
+          - link "Computing Research Repository Formal Languages and Automata Theory" [ref=e215] [cursor=pointer]:
+            - /url: /list/cs.FL/recent
+            - text: Formal Languages and Automata Theory
+          - text: ;
+          - link "Computing Research Repository General Literature" [ref=e216] [cursor=pointer]:
+            - /url: /list/cs.GL/recent
+            - text: General Literature
+          - text: ;
+          - link "Computing Research Repository Graphics" [ref=e217] [cursor=pointer]:
+            - /url: /list/cs.GR/recent
+            - text: Graphics
+          - text: ;
+          - link "Computing Research Repository Hardware Architecture" [ref=e218] [cursor=pointer]:
+            - /url: /list/cs.AR/recent
+            - text: Hardware Architecture
+          - text: ;
+          - link "Computing Research Repository Human-Computer Interaction" [ref=e219] [cursor=pointer]:
+            - /url: /list/cs.HC/recent
+            - text: Human-Computer Interaction
+          - text: ;
+          - link "Computing Research Repository Information Retrieval" [ref=e220] [cursor=pointer]:
+            - /url: /list/cs.IR/recent
+            - text: Information Retrieval
+          - text: ;
+          - link "Computing Research Repository Information Theory" [ref=e221] [cursor=pointer]:
+            - /url: /list/cs.IT/recent
+            - text: Information Theory
+          - text: ;
+          - link "Computing Research Repository Logic in Computer Science" [ref=e222] [cursor=pointer]:
+            - /url: /list/cs.LO/recent
+            - text: Logic in Computer Science
+          - text: ;
+          - link "Computing Research Repository Machine Learning" [ref=e223] [cursor=pointer]:
+            - /url: /list/cs.LG/recent
+            - text: Machine Learning
+          - text: ;
+          - link "Computing Research Repository Mathematical Software" [ref=e224] [cursor=pointer]:
+            - /url: /list/cs.MS/recent
+            - text: Mathematical Software
+          - text: ;
+          - link "Computing Research Repository Multiagent Systems" [ref=e225] [cursor=pointer]:
+            - /url: /list/cs.MA/recent
+            - text: Multiagent Systems
+          - text: ;
+          - link "Computing Research Repository Multimedia" [ref=e226] [cursor=pointer]:
+            - /url: /list/cs.MM/recent
+            - text: Multimedia
+          - text: ;
+          - link "Computing Research Repository Networking and Internet Architecture" [ref=e227] [cursor=pointer]:
+            - /url: /list/cs.NI/recent
+            - text: Networking and Internet Architecture
+          - text: ;
+          - link "Computing Research Repository Neural and Evolutionary Computing" [ref=e228] [cursor=pointer]:
+            - /url: /list/cs.NE/recent
+            - text: Neural and Evolutionary Computing
+          - text: ;
+          - link "Computing Research Repository Numerical Analysis" [ref=e229] [cursor=pointer]:
+            - /url: /list/cs.NA/recent
+            - text: Numerical Analysis
+          - text: ;
+          - link "Computing Research Repository Operating Systems" [ref=e230] [cursor=pointer]:
+            - /url: /list/cs.OS/recent
+            - text: Operating Systems
+          - text: ;
+          - link "Computing Research Repository Other Computer Science" [ref=e231] [cursor=pointer]:
+            - /url: /list/cs.OH/recent
+            - text: Other Computer Science
+          - text: ;
+          - link "Computing Research Repository Performance" [ref=e232] [cursor=pointer]:
+            - /url: /list/cs.PF/recent
+            - text: Performance
+          - text: ;
+          - link "Computing Research Repository Programming Languages" [ref=e233] [cursor=pointer]:
+            - /url: /list/cs.PL/recent
+            - text: Programming Languages
+          - text: ;
+          - link "Computing Research Repository Robotics" [ref=e234] [cursor=pointer]:
+            - /url: /list/cs.RO/recent
+            - text: Robotics
+          - text: ;
+          - link "Computing Research Repository Social and Information Networks" [ref=e235] [cursor=pointer]:
+            - /url: /list/cs.SI/recent
+            - text: Social and Information Networks
+          - text: ;
+          - link "Computing Research Repository Software Engineering" [ref=e236] [cursor=pointer]:
+            - /url: /list/cs.SE/recent
+            - text: Software Engineering
+          - text: ;
+          - link "Computing Research Repository Sound" [ref=e237] [cursor=pointer]:
+            - /url: /list/cs.SD/recent
+            - text: Sound
+          - text: ;
+          - link "Computing Research Repository Symbolic Computation" [ref=e238] [cursor=pointer]:
+            - /url: /list/cs.SC/recent
+            - text: Symbolic Computation
+          - text: ;
+          - link "Computing Research Repository Systems and Control" [ref=e239] [cursor=pointer]:
+            - /url: /list/cs.SY/recent
+            - text: Systems and Control
+      - heading "Quantitative Biology" [level=2] [ref=e240]
+      - list [ref=e241]:
+        - listitem [ref=e242]:
+          - link "Quantitative Biology" [ref=e243] [cursor=pointer]:
+            - /url: /archive/q-bio
+          - text: (
+          - strong [ref=e244]: q-bio
+          - link "new q-bio" [ref=e245] [cursor=pointer]:
+            - /url: /list/q-bio/new
+            - text: new
+          - text: ","
+          - link "recent q-bio" [ref=e246] [cursor=pointer]:
+            - /url: /list/q-bio/recent
+            - text: recent
+          - text: ","
+          - link "search q-bio" [ref=e247] [cursor=pointer]:
+            - /url: https://arxiv.org/search/q-bio
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Quantitative Biology" [ref=e248] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/q-bio/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Quantitative Biology Biomolecules" [ref=e249] [cursor=pointer]:
+            - /url: /list/q-bio.BM/recent
+            - text: Biomolecules
+          - text: ;
+          - link "Quantitative Biology Cell Behavior" [ref=e250] [cursor=pointer]:
+            - /url: /list/q-bio.CB/recent
+            - text: Cell Behavior
+          - text: ;
+          - link "Quantitative Biology Genomics" [ref=e251] [cursor=pointer]:
+            - /url: /list/q-bio.GN/recent
+            - text: Genomics
+          - text: ;
+          - link "Quantitative Biology Molecular Networks" [ref=e252] [cursor=pointer]:
+            - /url: /list/q-bio.MN/recent
+            - text: Molecular Networks
+          - text: ;
+          - link "Quantitative Biology Neurons and Cognition" [ref=e253] [cursor=pointer]:
+            - /url: /list/q-bio.NC/recent
+            - text: Neurons and Cognition
+          - text: ;
+          - link "Quantitative Biology Other Quantitative Biology" [ref=e254] [cursor=pointer]:
+            - /url: /list/q-bio.OT/recent
+            - text: Other Quantitative Biology
+          - text: ;
+          - link "Quantitative Biology Populations and Evolution" [ref=e255] [cursor=pointer]:
+            - /url: /list/q-bio.PE/recent
+            - text: Populations and Evolution
+          - text: ;
+          - link "Quantitative Biology Quantitative Methods" [ref=e256] [cursor=pointer]:
+            - /url: /list/q-bio.QM/recent
+            - text: Quantitative Methods
+          - text: ;
+          - link "Quantitative Biology Subcellular Processes" [ref=e257] [cursor=pointer]:
+            - /url: /list/q-bio.SC/recent
+            - text: Subcellular Processes
+          - text: ;
+          - link "Quantitative Biology Tissues and Organs" [ref=e258] [cursor=pointer]:
+            - /url: /list/q-bio.TO/recent
+            - text: Tissues and Organs
+      - heading "Quantitative Finance" [level=2] [ref=e259]
+      - list [ref=e260]:
+        - listitem [ref=e261]:
+          - link "Quantitative Finance" [ref=e262] [cursor=pointer]:
+            - /url: /archive/q-fin
+          - text: (
+          - strong [ref=e263]: q-fin
+          - link "new q-fin" [ref=e264] [cursor=pointer]:
+            - /url: /list/q-fin/new
+            - text: new
+          - text: ","
+          - link "recent q-fin" [ref=e265] [cursor=pointer]:
+            - /url: /list/q-fin/recent
+            - text: recent
+          - text: ","
+          - link "search q-fin" [ref=e266] [cursor=pointer]:
+            - /url: https://arxiv.org/search/q-fin
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Quantitative Finance" [ref=e267] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/q-fin/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Quantitative Finance Computational Finance" [ref=e268] [cursor=pointer]:
+            - /url: /list/q-fin.CP/recent
+            - text: Computational Finance
+          - text: ;
+          - link "Quantitative Finance Economics" [ref=e269] [cursor=pointer]:
+            - /url: /list/q-fin.EC/recent
+            - text: Economics
+          - text: ;
+          - link "Quantitative Finance General Finance" [ref=e270] [cursor=pointer]:
+            - /url: /list/q-fin.GN/recent
+            - text: General Finance
+          - text: ;
+          - link "Quantitative Finance Mathematical Finance" [ref=e271] [cursor=pointer]:
+            - /url: /list/q-fin.MF/recent
+            - text: Mathematical Finance
+          - text: ;
+          - link "Quantitative Finance Portfolio Management" [ref=e272] [cursor=pointer]:
+            - /url: /list/q-fin.PM/recent
+            - text: Portfolio Management
+          - text: ;
+          - link "Quantitative Finance Pricing of Securities" [ref=e273] [cursor=pointer]:
+            - /url: /list/q-fin.PR/recent
+            - text: Pricing of Securities
+          - text: ;
+          - link "Quantitative Finance Risk Management" [ref=e274] [cursor=pointer]:
+            - /url: /list/q-fin.RM/recent
+            - text: Risk Management
+          - text: ;
+          - link "Quantitative Finance Statistical Finance" [ref=e275] [cursor=pointer]:
+            - /url: /list/q-fin.ST/recent
+            - text: Statistical Finance
+          - text: ;
+          - link "Quantitative Finance Trading and Market Microstructure" [ref=e276] [cursor=pointer]:
+            - /url: /list/q-fin.TR/recent
+            - text: Trading and Market Microstructure
+      - heading "Statistics" [level=2] [ref=e277]
+      - list [ref=e278]:
+        - listitem [ref=e279]:
+          - link "Statistics" [ref=e280] [cursor=pointer]:
+            - /url: /archive/stat
+          - text: (
+          - strong [ref=e281]: stat
+          - link "new stat" [ref=e282] [cursor=pointer]:
+            - /url: /list/stat/new
+            - text: new
+          - text: ","
+          - link "recent stat" [ref=e283] [cursor=pointer]:
+            - /url: /list/stat/recent
+            - text: recent
+          - text: ","
+          - link "search stat" [ref=e284] [cursor=pointer]:
+            - /url: https://arxiv.org/search/stat
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Statistics" [ref=e285] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/stat/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Statistics Applications" [ref=e286] [cursor=pointer]:
+            - /url: /list/stat.AP/recent
+            - text: Applications
+          - text: ;
+          - link "Statistics Computation" [ref=e287] [cursor=pointer]:
+            - /url: /list/stat.CO/recent
+            - text: Computation
+          - text: ;
+          - link "Statistics Machine Learning" [ref=e288] [cursor=pointer]:
+            - /url: /list/stat.ML/recent
+            - text: Machine Learning
+          - text: ;
+          - link "Statistics Methodology" [ref=e289] [cursor=pointer]:
+            - /url: /list/stat.ME/recent
+            - text: Methodology
+          - text: ;
+          - link "Statistics Other Statistics" [ref=e290] [cursor=pointer]:
+            - /url: /list/stat.OT/recent
+            - text: Other Statistics
+          - text: ;
+          - link "Statistics Statistics Theory" [ref=e291] [cursor=pointer]:
+            - /url: /list/stat.TH/recent
+            - text: Statistics Theory
+      - heading "Electrical Engineering and Systems Science" [level=2] [ref=e292]
+      - list [ref=e293]:
+        - listitem [ref=e294]:
+          - link "Electrical Engineering and Systems Science" [ref=e295] [cursor=pointer]:
+            - /url: /archive/eess
+          - text: (
+          - strong [ref=e296]: eess
+          - link "new eess" [ref=e297] [cursor=pointer]:
+            - /url: /list/eess/new
+            - text: new
+          - text: ","
+          - link "recent eess" [ref=e298] [cursor=pointer]:
+            - /url: /list/eess/recent
+            - text: recent
+          - text: ","
+          - link "search eess" [ref=e299] [cursor=pointer]:
+            - /url: https://arxiv.org/search/eess
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Electrical Engineering and Systems Science" [ref=e300] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/eess/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Electrical Engineering and Systems Science Audio and Speech Processing" [ref=e301] [cursor=pointer]:
+            - /url: /list/eess.AS/recent
+            - text: Audio and Speech Processing
+          - text: ;
+          - link "Electrical Engineering and Systems Science Image and Video Processing" [ref=e302] [cursor=pointer]:
+            - /url: /list/eess.IV/recent
+            - text: Image and Video Processing
+          - text: ;
+          - link "Electrical Engineering and Systems Science Signal Processing" [ref=e303] [cursor=pointer]:
+            - /url: /list/eess.SP/recent
+            - text: Signal Processing
+          - text: ;
+          - link "Electrical Engineering and Systems Science Systems and Control" [ref=e304] [cursor=pointer]:
+            - /url: /list/eess.SY/recent
+            - text: Systems and Control
+      - heading "Economics" [level=2] [ref=e305]
+      - list [ref=e306]:
+        - listitem [ref=e307]:
+          - link "Economics" [ref=e308] [cursor=pointer]:
+            - /url: /archive/econ
+          - text: (
+          - strong [ref=e309]: econ
+          - link "new econ" [ref=e310] [cursor=pointer]:
+            - /url: /list/econ/new
+            - text: new
+          - text: ","
+          - link "recent econ" [ref=e311] [cursor=pointer]:
+            - /url: /list/econ/recent
+            - text: recent
+          - text: ","
+          - link "search econ" [ref=e312] [cursor=pointer]:
+            - /url: https://arxiv.org/search/econ
+            - text: search
+          - text: ") includes: (see"
+          - link "detailed description Economics" [ref=e313] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/econ/index.html
+            - text: detailed description
+          - text: "):"
+          - link "Economics Econometrics" [ref=e314] [cursor=pointer]:
+            - /url: /list/econ.EM/recent
+            - text: Econometrics
+          - text: ;
+          - link "Economics General Economics" [ref=e315] [cursor=pointer]:
+            - /url: /list/econ.GN/recent
+            - text: General Economics
+          - text: ;
+          - link "Economics Theoretical Economics" [ref=e316] [cursor=pointer]:
+            - /url: /list/econ.TH/recent
+            - text: Theoretical Economics
+      - heading "About arXiv" [level=2] [ref=e317]
+      - list [ref=e318]:
+        - listitem [ref=e319]:
+          - link "General information" [ref=e320] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about
+        - listitem [ref=e321]:
+          - link "How to Submit to arXiv" [ref=e322] [cursor=pointer]:
+            - /url: https://info.arxiv.org/help/submit/index.html
+        - listitem [ref=e323]:
+          - link "Membership & Giving" [ref=e324] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/donate.html
+        - listitem [ref=e325]:
+          - link "Who We Are" [ref=e326] [cursor=pointer]:
+            - /url: https://info.arxiv.org/about/people/index.html
+  - contentinfo [ref=e327]:
+    - generic [ref=e329]:
+      - generic [ref=e330]:
+        - text: We gratefully acknowledge support from our
+        - link [ref=e331] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/major_funders.html
+          - strong [ref=e332]: major funders
+        - text: ","
+        - link [ref=e333] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about/ourmembers.html
+          - strong [ref=e334]: member institutions
+        - text: ", and all contributors."
+      - navigation "Site navigation" [ref=e335]:
+        - link "About" [ref=e336] [cursor=pointer]:
+          - /url: https://info.arxiv.org/about
+        - generic [aria-hidden] [ref=e337]: ·
+        - link "Help" [ref=e338] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help
+        - generic [aria-hidden] [ref=e339]: ·
+        - link "Contact" [ref=e340] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/contact.html
+        - generic [aria-hidden] [ref=e341]: ·
+        - link "Subscribe" [ref=e342] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/subscribe.html
+        - generic [aria-hidden] [ref=e343]: ·
+        - link "Copyright" [ref=e344] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/license/index.html
+        - generic [aria-hidden] [ref=e345]: ·
+        - link "Privacy" [ref=e346] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/policies/privacy_policy.html
+        - generic [aria-hidden] [ref=e347]: ·
+        - link "Accessibility" [ref=e348] [cursor=pointer]:
+          - /url: https://info.arxiv.org/help/web_accessibility.html
+        - generic [aria-hidden] [ref=e349]: ·
+        - link "Operational Status (opens in new tab)" [ref=e350] [cursor=pointer]:
+          - /url: https://status.arxiv.org/
+          - text: Operational Status
+          - generic [ref=e351]: (opens in new tab)

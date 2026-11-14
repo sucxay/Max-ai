@@ -1,0 +1,709 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e13]:
+          - link "YouTube Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e20]: IN
+        - button "Skip navigation" [ref=e24] [cursor=pointer]
+      - generic [ref=e28]:
+        - search [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e32]:
+              - combobox "Search" [expanded] [ref=e34]: backend engg concepts
+              - button "Clear search query" [ref=e107] [cursor=pointer]
+            - button "Search" [ref=e35] [cursor=pointer]
+        - generic [ref=e40]:
+          - button "Search with your voice" [ref=e42] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e47]:
+        - button "Settings" [ref=e52] [cursor=pointer]
+        - link "Sign in" [ref=e58] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3D%252Fresults%253Fsearch_query%253Dbackend%252Bengg%252Bconcepts&hl=en-GB&ec=65620
+  - navigation [ref=e62]:
+    - generic [ref=e63]:
+      - link "Home" [ref=e65] [cursor=pointer]:
+        - /url: /
+      - link "Shorts" [ref=e71] [cursor=pointer]:
+        - /url: /shorts/
+      - link "Subscriptions" [ref=e77] [cursor=pointer]:
+        - /url: /feed/subscriptions
+      - link "You" [ref=e83] [cursor=pointer]:
+        - /url: /feed/you
+  - generic [ref=e88]:
+    - text: •
+    - main [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - tablist [ref=e123]:
+            - tab "All" [selected] [ref=e126] [cursor=pointer]
+            - tab "Shorts" [ref=e131] [cursor=pointer]
+            - tab "Unwatched" [ref=e136] [cursor=pointer]
+            - tab "Videos" [ref=e141] [cursor=pointer]
+            - tab "Recently uploaded" [ref=e146] [cursor=pointer]
+            - tab "Live" [ref=e151] [cursor=pointer]
+          - generic [ref=e155]:
+            - button "Search filters" [ref=e157] [cursor=pointer]:
+              - generic: Filters
+            - tooltip "tooltip"
+        - generic [ref=e164]:
+          - generic [ref=e166]:
+            - generic [ref=e179] [cursor=pointer]:
+              - generic [ref=e180]:
+                - link "3-Hour Live AI Workshop" [ref=e183]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2ypScpT4auT4BZyi_PcPzd7xkAqGkNr5igHK9O3LxhZkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYKOx7tBqQKkxVXBB8lGPqgDBMgDCqoEuwJP0NJnKKGMYKxnwzWbZRCtrpW0L_X79GgJ3UkFxtyoQYxGOtcdQxcr4f2m-2-3ZH4Kd2GiULSneNKncdPhdoTtLuIP85SyskwxMQACMRBZh-SS-JjouznRSm-iBF0jgI5eC6HdJIIxJCjYF3SBSGLTuG-_UXCWanotb2dB3nSNqTptzLAAiULS3_stv6-DWzCH1ldc23e3NjUe88GNiHmydEbvYeSjLOpxMdZdH8C0JsMLqg7CMy2oE62ZFYU3-iwYt3jTRuu5KQiiU2bej_m5zIcUDXk-OgSQMlRe6D9snwBkfGy2zMzhJaJmM64ce7kKjgi6Ns8gXHFoCRmzacl-WKshcrZs8MGtrqUjP_6Ob0LJ0R7iMPyKOsPhhLg9QWglSjtJqgorMUfnKPJ4toRNhbEgBOo_vN2PKX2IBd7Rx7dYkgUICBN4zMPothygBqQBgAeCxpebHJAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgHg_axAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB57qsQKoB5_qsQKoB_jrsQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCDQIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAYSNmg0jVQFFiY5-e4-IeYA2ABagEBcgEAmgkpaHR0cHM6Ly9iZTEweC5pbi9haS10b29scy13b3Jrc2hvcC1nYS1yMy-xCRtTw3-IvpFQyAkAmAsBugs-CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQGAAgGIAga6Awl2aXNpbnphYWHQCxKiDB4qBgoE8N-xAmIPCg1jb20uYmUxMHguYXBweACIAQDSDAIQAdoMJgoLELCtzZGt1MndtQESAgEDGg0Y3tHHt1gg8d79uPUFQAFKAhAfmg0BEqoNAklOyA0B0g26AWh0dHBzOi8vYmUxMHguaW4vYWktdG9vbHMtd29ya3Nob3AtZ2EtcjMvP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heF9vdG8mdXRtX2NhbXBhaWduPTIzNzQ4NzA3OTU5JnV0bV90ZXJtPSZ1dG1fY29udGVudD0mdXRtX2lkPTIzNzQ4NzA3OTU5JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzczODgzNzIxNLAOp-6LlBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXux7MbBY0ug-6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYASAAEgJj8vD_BwE&num=1&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_0EWz9N0wrUF9YG07q1aTodrjipSw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "Master AI tools—ChatGPT, Dalle2—for optimal productivity. Get Be10x certified Just @ ₹9" [ref=e186]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C2ypScpT4auT4BZyi_PcPzd7xkAqGkNr5igHK9O3LxhZkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYKOx7tBqQKkxVXBB8lGPqgDBMgDCqoEuwJP0NJnKKGMYKxnwzWbZRCtrpW0L_X79GgJ3UkFxtyoQYxGOtcdQxcr4f2m-2-3ZH4Kd2GiULSneNKncdPhdoTtLuIP85SyskwxMQACMRBZh-SS-JjouznRSm-iBF0jgI5eC6HdJIIxJCjYF3SBSGLTuG-_UXCWanotb2dB3nSNqTptzLAAiULS3_stv6-DWzCH1ldc23e3NjUe88GNiHmydEbvYeSjLOpxMdZdH8C0JsMLqg7CMy2oE62ZFYU3-iwYt3jTRuu5KQiiU2bej_m5zIcUDXk-OgSQMlRe6D9snwBkfGy2zMzhJaJmM64ce7kKjgi6Ns8gXHFoCRmzacl-WKshcrZs8MGtrqUjP_6Ob0LJ0R7iMPyKOsPhhLg9QWglSjtJqgorMUfnKPJ4toRNhbEgBOo_vN2PKX2IBd7Rx7dYkgUICBN4zMPothygBqQBgAeCxpebHJAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgHg_axAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB57qsQKoB5_qsQKoB_jrsQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCDQIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAYSNmg0jVQFFiY5-e4-IeYA2ABagEBcgEAmgkpaHR0cHM6Ly9iZTEweC5pbi9haS10b29scy13b3Jrc2hvcC1nYS1yMy-xCRtTw3-IvpFQyAkAmAsBugs-CAMQBRgWIAgoATAcQAFIAFhOYABoAHABiAEAmAEBogEICgCoAgHYAgLYAQGAAgGIAga6Awl2aXNpbnphYWHQCxKiDB4qBgoE8N-xAmIPCg1jb20uYmUxMHguYXBweACIAQDSDAIQAdoMJgoLELCtzZGt1MndtQESAgEDGg0Y3tHHt1gg8d79uPUFQAFKAhAfmg0BEqoNAklOyA0B0g26AWh0dHBzOi8vYmUxMHguaW4vYWktdG9vbHMtd29ya3Nob3AtZ2EtcjMvP3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cG1heF9vdG8mdXRtX2NhbXBhaWduPTIzNzQ4NzA3OTU5JnV0bV90ZXJtPSZ1dG1fY29udGVudD0mdXRtX2lkPTIzNzQ4NzA3OTU5JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzczODgzNzIxNLAOp-6LlBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXux7MbBY0ug-6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYASAAEgJj8vD_BwE&num=1&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_0EWz9N0wrUF9YG07q1aTodrjipSw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e187]:
+                  - generic [ref=e189]:
+                    - generic [ref=e190]: Sponsored
+                    - text: ·
+                  - generic [ref=e191]: Be 10x
+              - button "My Ad Centre" [ref=e195]
+            - generic [ref=e200] [cursor=pointer]:
+              - link [aria-hidden] [ref=e201]:
+                - /url: /watch?v=0Rwb4Xmlcwc&list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1
+                - generic [ref=e203]: 31 videos
+              - generic [ref=e215]:
+                - generic [ref=e216]:
+                  - heading [level=3] [ref=e217]:
+                    - link "Backend from first principles" [ref=e218]:
+                      - /url: /watch?v=0Rwb4Xmlcwc&list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1
+                  - generic [ref=e220]:
+                    - group [ref=e221]:
+                      - link "Sriniously" [ref=e224]:
+                        - /url: /@sriniously
+                      - link "Playlist" [ref=e227]:
+                        - /url: /@sriniously
+                    - group [ref=e228]
+                    - group [ref=e229]:
+                      - link "1. Roadmap for backend from first principles · 31:24" [ref=e231]:
+                        - /url: /watch?v=0Rwb4Xmlcwc&list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1
+                    - group [ref=e232]:
+                      - link "2. Walk the path of a true backend engineer · 3:53" [ref=e234]:
+                        - /url: /watch?v=3qFjZbFRSAU&list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1
+                    - group [ref=e235]:
+                      - link "View full playlist" [ref=e238]:
+                        - /url: /playlist?list=PLui3EUkuMTPgZcV0QhQrOcwMPcBCcd_Q1
+                    - group [ref=e239]:
+                      - generic [ref=e240]: A set of videos where we explore backend systems from the most fundamental concepts.
+                - button "More actions" [ref=e243]
+            - generic [ref=e247]:
+              - heading "Shorts" [level=2] [ref=e255]
+              - generic [ref=e257]:
+                - generic [ref=e260]:
+                  - link [aria-hidden] [ref=e261] [cursor=pointer]:
+                    - /url: /shorts/naKSTWu-z8I
+                  - generic [ref=e265] [cursor=pointer]:
+                    - generic [ref=e266]:
+                      - heading [level=3] [ref=e267]:
+                        - 'link "How much does a BACKEND SOFTWARE ENGINEER make? #shorts #ytshorts #techjobsin2minutes" [ref=e268]':
+                          - /url: /shorts/naKSTWu-z8I
+                      - generic [aria-hidden] [ref=e269]: 1.5m views
+                    - button "More actions" [ref=e271]
+                - generic [ref=e277]:
+                  - link [aria-hidden] [ref=e278] [cursor=pointer]:
+                    - /url: /shorts/QxWHOgyV1u0
+                  - generic [ref=e282] [cursor=pointer]:
+                    - generic [ref=e283]:
+                      - heading [level=3] [ref=e284]:
+                        - 'link "Backend concepts every engineer should know! #backenddeveloper" [ref=e285]':
+                          - /url: /shorts/QxWHOgyV1u0
+                      - generic [aria-hidden] [ref=e286]: 1.6k views
+                    - button "More actions" [ref=e288]
+                - generic [ref=e294]:
+                  - link [aria-hidden] [ref=e295] [cursor=pointer]:
+                    - /url: /shorts/yZyPWeANLSw
+                  - generic [ref=e299] [cursor=pointer]:
+                    - generic [ref=e300]:
+                      - heading [level=3] [ref=e301]:
+                        - link "18 Backend Concepts EVERY Engineer MUST KNOW!" [ref=e302]:
+                          - /url: /shorts/yZyPWeANLSw
+                      - generic [aria-hidden] [ref=e303]: 37k views
+                    - button "More actions" [ref=e305]
+                - generic [ref=e311]:
+                  - link [aria-hidden] [ref=e312] [cursor=pointer]:
+                    - /url: /shorts/NUBvw0lKcGU
+                  - generic [ref=e316] [cursor=pointer]:
+                    - generic [ref=e317]:
+                      - heading [level=3] [ref=e318]:
+                        - link "Is Backend Development Dead in 2026? The Reality of AI in Tech!" [ref=e319]:
+                          - /url: /shorts/NUBvw0lKcGU
+                      - generic [aria-hidden] [ref=e320]: 97k views
+                    - button "More actions" [ref=e322]
+                - generic [ref=e328]:
+                  - link [aria-hidden] [ref=e329] [cursor=pointer]:
+                    - /url: /shorts/MCWzbKfVAok
+                  - generic [ref=e333] [cursor=pointer]:
+                    - generic [ref=e334]:
+                      - heading [level=3] [ref=e335]:
+                        - 'link "Essential Backend Concepts you should know in 2026 #backend #systemdesign #foryou" [ref=e336]':
+                          - /url: /shorts/MCWzbKfVAok
+                      - generic [aria-hidden] [ref=e337]: 204 views
+                    - button "More actions" [ref=e339]
+          - generic [ref=e349]:
+            - generic [ref=e350]: AI Engineering for Developers - Learn DSA and System Design
+            - generic [ref=e357]:
+              - generic [ref=e358] [cursor=pointer]:
+                - generic [ref=e359]:
+                  - link "Build industry-ready skills with Bosscoder's structured SDE upskilling program. Become an AI-first engineer. Master software engineering with Applied GenAI. Get Trained by Experts. 250+ Hiring Partners. Lifetime Career Support. 24x7 Doubt Support." [ref=e362]:
+                    - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiym_m4-IeYAxV2PYMDHb6yLCoYACICCAEQAhoCc2Y&ase=2&gclid=EAIaIQobChMIspv5uPiHmAMVdj2DAx2-siwqEAEYASAAEgLYBfD_BwE&num=1&cid=CAASugHkaIKAf6eID08CkMZNy9a_krpbPv63yGoaC9x8Udgn2GnAPEa49QyE7_rb1Qdg6byHvwbRyQ5AtVMwaSnYWSk18nzK2OpqYxDVE-V4GZdpEM61FOGlGntf7UgOp3Vss9Uw9-yQOQowfD7hqRZEtq1_hX7l6Xla-5KQcUk5RiTT0lMdNcCO7qMzjJUIkrj2GmohLARcYJwyuPG8NpIAIS68k3zjB9zSonxkMjmXJtKE5VMhXTLvPNFJGuM&cce=2&category=acrcp_v1_32&sig=AOD64_0VTbnfdPuCc2SrLxGueOsYo7N22Q&adurl=https://www.bosscoderacademy.com/software-engineering-course%3Futm_campaign%3DGads-SDE-Search-AI-KW-AIMax-06Nov%26utm_medium%3DSearch%26utm_source%3DGoogle-Ads%26utm_term%3DAi%2520assisted%2520software%2520development%26Ref%3DGoogleAds-SDE-Search-AI-KW-AIMax-06Nov%26gad_source%3D2%26gad_campaignid%3D24436799516&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+                  - generic [ref=e363]:
+                    - generic [ref=e365]:
+                      - generic [ref=e366]: Sponsored
+                      - text: ·
+                    - generic [ref=e367]: https://www.bosscoderacademy.com/ai/sde
+                - button "My Ad Centre" [ref=e371]
+              - generic [ref=e375]:
+                - link "Work on Live Projects" [ref=e376]
+                - link "Software Developer Course" [ref=e378]
+                - link "Structured Curriculum" [ref=e380]
+                - link "Upgrade Your SDE Career" [ref=e382]
+                - link "Alumni Success Stories" [ref=e384]
+          - generic [ref=e387]:
+            - generic [ref=e389] [cursor=pointer]:
+              - link [aria-hidden] [ref=e390]:
+                - /url: /watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+                - generic [ref=e392]: 36 videos
+              - generic [ref=e404]:
+                - generic [ref=e405]:
+                  - heading [level=3] [ref=e406]:
+                    - link "Backend Engineering (Beginner)" [ref=e407]:
+                      - /url: /watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+                  - generic [ref=e409]:
+                    - group [ref=e410]:
+                      - link "Hussein Nasser" [ref=e413]:
+                        - /url: /@hnasr
+                      - generic "Verified" [ref=e414]
+                      - link "Playlist" [ref=e417]:
+                        - /url: /@hnasr
+                    - group [ref=e418]
+                    - group [ref=e419]:
+                      - link "How to Become a Good Backend Engineer (Fundamentals) · 26:40" [ref=e421]:
+                        - /url: /watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT&pp=0gcJCRYF0aJEHMZM
+                    - group [ref=e422]:
+                      - link "Advice for beginner backend engineers who just started their new jobs in software companies · 23:31" [ref=e424]:
+                        - /url: /watch?v=V3C0VvNrFZ8&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+                    - group [ref=e425]:
+                      - link "View full playlist" [ref=e428]:
+                        - /url: /playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+                    - group [ref=e429]:
+                      - generic [ref=e430]: This collection of videos covers major system design concepts and fundamentals that every backend engineer needs to understand. This will help you in your design interviews. The videos are ordered in the way they should be consumed. This playlist is designed for beginners viewers Also visit backend.husseinnasser.com List of all Backend Engineering Playlists 👨‍💻Backend Engineering (Beginner) https://www.youtube.com/playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT 👩‍💻Backend Engineering (Intermediate) https://www.youtube.com/playlist?list=PLQnljOFTspQWGuRmwojJ6LiV0ejm6eOcs 👨🏻‍💻Backend Engineering (Advanced) https://www.youtube.com/playlist?list=PLQnljOFTspQUybacGRk1b_p13dgI-SmcZ
+                - button "More actions" [ref=e433]
+            - generic [ref=e438] [cursor=pointer]:
+              - link [aria-hidden] [ref=e439]:
+                - /url: /watch?v=XvFmUE-36Kc&list=PL_c9BZzLwBRIHUNeoywVJXViXGEsk6PDr
+                - generic [ref=e441]: 8 videos
+              - generic [ref=e453]:
+                - generic [ref=e454]:
+                  - heading [level=3] [ref=e455]:
+                    - link "Backend Engineering" [ref=e456]:
+                      - /url: /watch?v=XvFmUE-36Kc&list=PL_c9BZzLwBRIHUNeoywVJXViXGEsk6PDr
+                  - generic [ref=e458]:
+                    - group [ref=e459]:
+                      - link "Caleb Curry" [ref=e462]:
+                        - /url: /@codebreakthrough
+                      - generic "Verified" [ref=e463]
+                      - link "Playlist" [ref=e466]:
+                        - /url: /@codebreakthrough
+                    - group [ref=e467]
+                    - group [ref=e468]:
+                      - link "API Design and Architecture - Backend Engineering Intro (1 Hour) · 51:43" [ref=e470]:
+                        - /url: /watch?v=XvFmUE-36Kc&list=PL_c9BZzLwBRIHUNeoywVJXViXGEsk6PDr
+                    - group [ref=e471]:
+                      - link "API Status Codes and OpenAPI Documentation - Backend Engineering · 26:40" [ref=e473]:
+                        - /url: /watch?v=doR604EaOhM&list=PL_c9BZzLwBRIHUNeoywVJXViXGEsk6PDr
+                    - group [ref=e474]:
+                      - link "View full playlist" [ref=e477]:
+                        - /url: /playlist?list=PL_c9BZzLwBRIHUNeoywVJXViXGEsk6PDr
+                    - group [ref=e478]:
+                      - generic [ref=e479]: Lessons and Tutorials on Backend software engineering and API development
+                - button "More actions" [ref=e482]
+          - generic [ref=e500] [cursor=pointer]:
+            - generic [ref=e501]:
+              - link "Fundamentals of Backend Engineering" [ref=e504]:
+                - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiym_m4-IeYAxV2PYMDHb6yLCoYACICCAEQABoCc2Y&ase=2&gclid=EAIaIQobChMIspv5uPiHmAMVdj2DAx2-siwqEAEYAiAAEgKdzvD_BwE&num=2&cid=CAASugHkaIKAf6eID08CkMZNy9a_krpbPv63yGoaC9x8Udgn2GnAPEa49QyE7_rb1Qdg6byHvwbRyQ5AtVMwaSnYWSk18nzK2OpqYxDVE-V4GZdpEM61FOGlGntf7UgOp3Vss9Uw9-yQOQowfD7hqRZEtq1_hX7l6Xla-5KQcUk5RiTT0lMdNcCO7qMzjJUIkrj2GmohLARcYJwyuPG8NpIAIS68k3zjB9zSonxkMjmXJtKE5VMhXTLvPNFJGuM&cce=2&category=acrcp_v1_32&sig=AOD64_2EQ2M3O8CzlTQfqOXVWFfOt7OFzg&adurl=https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols/%3Futm_campaign%3DSearch_DSA_Beta_Prof_la.EN_cc.India_Subs%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DIndia%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_185390585033_._ad_769665429290_._kw_%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D22900574867&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=0
+              - link "Control your development with Personal Plan. Access courses in development and more." [ref=e507]:
+                - /url: https://www.google.com/aclk?sa=L&ai=DChsSEwiym_m4-IeYAxV2PYMDHb6yLCoYACICCAEQABoCc2Y&ase=2&gclid=EAIaIQobChMIspv5uPiHmAMVdj2DAx2-siwqEAEYAiAAEgKdzvD_BwE&num=2&cid=CAASugHkaIKAf6eID08CkMZNy9a_krpbPv63yGoaC9x8Udgn2GnAPEa49QyE7_rb1Qdg6byHvwbRyQ5AtVMwaSnYWSk18nzK2OpqYxDVE-V4GZdpEM61FOGlGntf7UgOp3Vss9Uw9-yQOQowfD7hqRZEtq1_hX7l6Xla-5KQcUk5RiTT0lMdNcCO7qMzjJUIkrj2GmohLARcYJwyuPG8NpIAIS68k3zjB9zSonxkMjmXJtKE5VMhXTLvPNFJGuM&cce=2&category=acrcp_v1_32&sig=AOD64_2EQ2M3O8CzlTQfqOXVWFfOt7OFzg&adurl=https://www.udemy.com/course/fundamentals-of-backend-communications-and-protocols/%3Futm_campaign%3DSearch_DSA_Beta_Prof_la.EN_cc.India_Subs%26utm_source%3Dgoogle%26utm_medium%3Dpaid-search%26portfolio%3DIndia%26utm_audience%3Dmx%26utm_tactic%3Dnb%26utm_term%3D_._ag_185390585033_._ad_769665429290_._kw_%26utm_content%3Ds%26funnel%3D%26test%3D%26gad_source%3D2%26gad_campaignid%3D22900574867&ms=%5BCLICK_MS%5D&nx=%5BNX%5D&ny=%5BNY%5D&nb=7
+              - generic [ref=e508]:
+                - generic [ref=e510]:
+                  - generic [ref=e511]: Sponsored
+                  - text: ·
+                - generic [ref=e512]: https://www.udemy.com/
+            - button "My Ad Centre" [ref=e516]
+          - generic [ref=e521]:
+            - generic [ref=e523]:
+              - link [aria-hidden] [ref=e525] [cursor=pointer]:
+                - /url: /watch?v=XvFmUE-36Kc&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e527] [cursor=pointer]:
+                - generic [ref=e528]:
+                  - heading [level=3] [ref=e530]:
+                    - link "API Design and Architecture - Backend Engineering Intro (1 Hour) 51 minutes" [ref=e531]:
+                      - /url: /watch?v=XvFmUE-36Kc&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: API Design and Architecture - Backend Engineering Intro (1 Hour)
+                  - generic [ref=e534]:
+                    - generic [ref=e535]: 546k
+                    - generic [ref=e536]: •1 yr ago
+                - generic [ref=e537]:
+                  - link "Go to channel Caleb Curry" [ref=e538]:
+                    - /url: /@codebreakthrough
+                  - generic [ref=e539]:
+                    - link "Caleb Curry" [ref=e543]:
+                      - /url: /@codebreakthrough
+                    - img "Verified" [ref=e548]
+                - generic [ref=e550]:
+                  - generic [ref=e551]: ... Playlist - https://calcur.tech/software-engineering Lesson Notes - https://calcur.tech/notes ⚙️ Backend Engineering Mind Map ...
+                  - tooltip "tooltip"
+                - img "4K" [ref=e556]:
+                  - generic [aria-hidden] [ref=e557]: 4K
+                - generic [ref=e560]:
+                  - generic [ref=e561]:
+                    - generic [ref=e564]: 24 chapters
+                    - button "Intro | How is this lesson different? | What is an API? | Types of APIs | SOAP | GraphQL | gRPC | WebSockets | JSON | Example Collection Following this Pattern / Endpoints | GET | POST | GET by ID | PUT | PATCH | DELETE | POST | GET | Nested Data vs. Filtering | Caleb is Hungry | Query Parameters vs Path vs Body | When NOT to use query parameters (or URL paths) | A full request example | Status Codes" [ref=e566]
+                  - button "More" [ref=e571]
+            - generic [ref=e575]:
+              - heading "Shorts" [level=2] [ref=e583]
+              - generic [ref=e584]:
+                - generic [ref=e585]:
+                  - generic [ref=e588]:
+                    - link [aria-hidden] [ref=e589] [cursor=pointer]:
+                      - /url: /shorts/R1dm3vr2ook
+                    - generic [ref=e593] [cursor=pointer]:
+                      - generic [ref=e594]:
+                        - heading [level=3] [ref=e595]:
+                          - 'link "10 Essential Backend Concepts Explained: API Security, Databases & Scaling | Swecodes" [ref=e596]':
+                            - /url: /shorts/R1dm3vr2ook
+                        - generic [aria-hidden] [ref=e597]: 74 views
+                      - button "More actions" [ref=e599]
+                  - generic [ref=e605]:
+                    - link [aria-hidden] [ref=e606] [cursor=pointer]:
+                      - /url: /shorts/eLkG4cII7Qc
+                    - generic [ref=e610] [cursor=pointer]:
+                      - generic [ref=e611]:
+                        - heading [level=3] [ref=e612]:
+                          - 'link "How to Learn Backend Engineering from First Principles #BackendDevelopment #SoftwareEngineering" [ref=e613]':
+                            - /url: /shorts/eLkG4cII7Qc
+                        - generic [aria-hidden] [ref=e614]: 6k views
+                      - button "More actions" [ref=e616]
+                  - generic [ref=e622]:
+                    - link [aria-hidden] [ref=e623] [cursor=pointer]:
+                      - /url: /shorts/Yd7BX0u2Zvg
+                    - generic [ref=e627] [cursor=pointer]:
+                      - generic [ref=e628]:
+                        - heading [level=3] [ref=e629]:
+                          - 'link "10 Backend Concepts Every Developer Should Know 2025 Update 🔥🚀 | #Backend #SystemDesign #TechJobs" [ref=e630]':
+                            - /url: /shorts/Yd7BX0u2Zvg
+                        - generic [aria-hidden] [ref=e631]: 39k views
+                      - button "More actions" [ref=e633]
+                  - generic [ref=e639]:
+                    - link [aria-hidden] [ref=e640] [cursor=pointer]:
+                      - /url: /shorts/-ObQ-TIi3Rk
+                    - generic [ref=e644] [cursor=pointer]:
+                      - generic [ref=e645]:
+                        - heading [level=3] [ref=e646]:
+                          - link "Python Backend Developer Roadmap 2026 (Step-by-Step)" [ref=e647]:
+                            - /url: /shorts/-ObQ-TIi3Rk
+                        - generic [aria-hidden] [ref=e648]: 14k views
+                      - button "More actions" [ref=e650]
+                  - generic [ref=e656]:
+                    - link [aria-hidden] [ref=e657] [cursor=pointer]:
+                      - /url: /shorts/JOV_nLWAKrg
+                    - generic [ref=e661] [cursor=pointer]:
+                      - generic [ref=e662]:
+                        - heading [level=3] [ref=e663]:
+                          - link "2026 Backend Engineer Roadmap" [ref=e664]:
+                            - /url: /shorts/JOV_nLWAKrg
+                        - generic [aria-hidden] [ref=e665]: 120k views
+                      - button "More actions" [ref=e667]
+                - generic [ref=e671]:
+                  - generic [ref=e674]:
+                    - link [aria-hidden] [ref=e675] [cursor=pointer]:
+                      - /url: /shorts/bmgOC1S9FnI
+                    - generic [ref=e679] [cursor=pointer]:
+                      - generic [ref=e680]:
+                        - heading [level=3] [ref=e681]:
+                          - link "Roadmap to Learn Backend Development | Want to master Backend Development in 2025?" [ref=e682]:
+                            - /url: /shorts/bmgOC1S9FnI
+                        - generic [aria-hidden] [ref=e683]: 459k views
+                      - button "More actions" [ref=e685]
+                  - generic [ref=e691]:
+                    - link [aria-hidden] [ref=e692] [cursor=pointer]:
+                      - /url: /shorts/MRGTZvsGLaQ
+                    - generic [ref=e696] [cursor=pointer]:
+                      - generic [ref=e697]:
+                        - heading [level=3] [ref=e698]:
+                          - link "10 System Design Blocks Every Backend Engineer Should Know" [ref=e699]:
+                            - /url: /shorts/MRGTZvsGLaQ
+                        - generic [aria-hidden] [ref=e700]: 181 views
+                      - button "More actions" [ref=e702]
+                  - generic [ref=e708]:
+                    - link [aria-hidden] [ref=e709] [cursor=pointer]:
+                      - /url: /shorts/xihcxGqNMIk
+                    - generic [ref=e713] [cursor=pointer]:
+                      - generic [ref=e714]:
+                        - heading [level=3] [ref=e715]:
+                          - link "Backend concepts explained in under a minute" [ref=e716]:
+                            - /url: /shorts/xihcxGqNMIk
+                        - generic [aria-hidden] [ref=e717]: 139 views
+                      - button "More actions" [ref=e719]
+                  - generic [ref=e725]:
+                    - link [aria-hidden] [ref=e726] [cursor=pointer]:
+                      - /url: /shorts/cdQlDKstrYw
+                    - generic [ref=e730] [cursor=pointer]:
+                      - generic [ref=e731]:
+                        - heading [level=3] [ref=e732]:
+                          - link "10 Concepts Every Backend Dev Must Know 🚀" [ref=e733]:
+                            - /url: /shorts/cdQlDKstrYw
+                        - generic [aria-hidden] [ref=e734]: 1.2k views
+                      - button "More actions" [ref=e736]
+                  - generic [ref=e742]:
+                    - link [aria-hidden] [ref=e743] [cursor=pointer]:
+                      - /url: /shorts/BrDLAn-Fve0
+                      - img [ref=e748]:
+                        - generic [aria-hidden] [ref=e749]: New
+                    - generic [ref=e750] [cursor=pointer]:
+                      - generic [ref=e751]:
+                        - heading [level=3] [ref=e752]:
+                          - 'link "8 Powerful Backend Technologies Used by Top Companies in the Industry 💻🔥#BackendDevelopment #Java" [ref=e753]':
+                            - /url: /shorts/BrDLAn-Fve0
+                        - generic [aria-hidden] [ref=e754]: 814 views
+                      - button "More actions" [ref=e756]
+              - button "Show more" [ref=e763] [cursor=pointer]
+            - generic [ref=e768] [cursor=pointer]:
+              - link [aria-hidden] [ref=e769]:
+                - /url: /watch?v=oN5xT_2JWuI&list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY
+                - generic [ref=e771]: 39 videos
+              - generic [ref=e783]:
+                - generic [ref=e784]:
+                  - heading [level=3] [ref=e785]:
+                    - link "50 Backend Concepts | Backend System Design and Interview Preparation" [ref=e786]:
+                      - /url: /watch?v=oN5xT_2JWuI&list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY
+                  - generic [ref=e788]:
+                    - group [ref=e789]:
+                      - link "Learn Code With Durgesh" [ref=e792]:
+                        - /url: /@LearnCodeWithDurgesh
+                      - generic "Verified" [ref=e793]
+                      - link "Playlist" [ref=e796]:
+                        - /url: /@LearnCodeWithDurgesh
+                    - group [ref=e797]:
+                      - generic [ref=e798]: Updated yesterday
+                    - group [ref=e799]
+                    - group [ref=e800]:
+                      - link "🔥My Backend Series Challenge | Starting new game changing series - Hindi · 16:26" [ref=e802]:
+                        - /url: /watch?v=oN5xT_2JWuI&list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY
+                    - group [ref=e803]:
+                      - link "🔥SOLID Principle in Software Engineering in details | DAY 1 | Backend Concepts in Hindi · 40:02" [ref=e805]:
+                        - /url: /watch?v=vBAiCsZE5RQ&list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY
+                    - group [ref=e806]:
+                      - link "View full playlist" [ref=e809]:
+                        - /url: /playlist?list=PL0zysOflRCelEgoXpARFjrMFJD7chtnQY
+                    - group [ref=e810]:
+                      - generic [ref=e811]: 50 essential backend concepts explained in a practical, easy-to-understand way. This 50-day Backend Mastery Challenge is designed to help you build strong backend fundamentals, understand system design, and prepare for backend developer interviews. Learn important concepts like APIs, databases, caching, Redis, Kafka, microservices, scalability, load balancing, distributed systems, system design, and more through practical examples. Perfect for Java/Spring Boot developers, backend developers, software engineers, and interview preparation.
+                - button "More actions" [ref=e814]
+            - generic [ref=e819]:
+              - link [aria-hidden] [ref=e821] [cursor=pointer]:
+                - /url: /watch?v=aJb09OHhitI&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e823] [cursor=pointer]:
+                - generic [ref=e824]:
+                  - heading [level=3] [ref=e826]:
+                    - link "10 Concepts EVERY Backend Dev Should Know 5 minutes, 11 seconds" [ref=e827]:
+                      - /url: /watch?v=aJb09OHhitI&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: 10 Concepts EVERY Backend Dev Should Know
+                  - generic [ref=e830]:
+                    - generic [ref=e831]: 224k
+                    - generic [ref=e832]: •11 mo ago
+                - generic [ref=e833]:
+                  - link "Go to channel CodeHead" [ref=e834]:
+                    - /url: /@codehead01
+                  - generic [ref=e835]:
+                    - link "CodeHead" [ref=e839]:
+                      - /url: /@codehead01
+                    - img "Verified" [ref=e844]
+                - generic [ref=e846]:
+                  - generic [ref=e847]: "Git gud at coding with Scrimba: https://scrimba.com/the-backend-developer-path-c0tbi0l98f?via=codehead (20% OFF with this ..."
+                  - tooltip "tooltip"
+                - generic [ref=e850]:
+                  - generic [ref=e851]:
+                    - generic [ref=e852]: Summary
+                    - button "CodeHead breaks down ten essential topics for robust server-side development in under five minutes. From mastering database integrity with ACID properties to utilizing reverse proxies for enhanced security and performance, this overview covers the systems that keep applications running smoothly behind the scenes." [ref=e855]
+                    - text: ·
+                  - button "More" [ref=e860]
+            - generic [ref=e865]:
+              - link [aria-hidden] [ref=e867] [cursor=pointer]:
+                - /url: /watch?v=XBu54nfzxAQ&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e869] [cursor=pointer]:
+                - generic [ref=e870]:
+                  - heading [level=3] [ref=e872]:
+                    - link "Backend web development - a complete overview 12 minutes, 58 seconds" [ref=e873]:
+                      - /url: /watch?v=XBu54nfzxAQ&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: Backend web development - a complete overview
+                  - generic [ref=e876]:
+                    - generic [ref=e877]: 3m
+                    - generic [ref=e878]: •5 yr ago
+                - generic [ref=e879]:
+                  - link "Go to channel SuperSimpleDev" [ref=e880]:
+                    - /url: /@SuperSimpleDev
+                  - generic [ref=e881]:
+                    - link "SuperSimpleDev" [ref=e885]:
+                      - /url: /@SuperSimpleDev
+                    - img "Verified" [ref=e890]
+                - generic [ref=e892]:
+                  - generic [ref=e893]: We learn backend technologies we need to build a web application. We go over backend programming languages, backend web ...
+                  - tooltip "tooltip"
+                - img "Closed captions" [ref=e898]:
+                  - generic [aria-hidden] [ref=e899]: Subtitles
+                - generic [ref=e902]:
+                  - generic [ref=e903]:
+                    - generic [ref=e906]: 16 chapters
+                    - button "Frontend vs backend | What is a server? | Backend programming language | Backend framework | Package manager | Database | Request response cycle | API | REST API | Cloud computing and IaaS (Infrastructure as a Service) | VMs and Load Balancers | PaaS (Platform as a Service) | Microservices | SaaS (Software as a Service) | Additional technologies | Backend review" [ref=e908]
+                  - button "More" [ref=e913]
+            - generic [ref=e921]:
+              - 'link "AI info: Disclosed as containing AI-generated content. Click to learn more" [ref=e927] [cursor=pointer]':
+                - generic [aria-hidden] [ref=e928]: ⓘ AI
+              - generic [ref=e932] [cursor=pointer]:
+                - generic [ref=e933]:
+                  - link "KlingAI 3.0" [ref=e936]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Chi_ccpT4auT4BZyi_PcPzd7xkAqGtYT7iQH5zfv_-xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdWTjJs-qAMEyAMKqgS5Ak_Q5U20vZVZlcxothg0OaKLo7A85PDdTwz9ehiAp4FOqXA-xAxIPgzk0I3pTIZsYxZ6dLMez45395F1wPB9r_w6j3Tam5OEWSY6JiMfNWX0vITvnPusFPxde6YUSyTf3FMgkNwUvCB_etUHdZJXaNWCAaUDfYZraTJlYVLNY6DEJnHOsgSOQtLc5zK-sZ1bsjTYL1zbLuAgLx_y1orDNL528TRaqaMssyYnzFwe17NtjgeoTJ8kO64KtZ5ZySH-Pwm8T_1C-64iTP1QZNaB8rODyR8EeXJyCJE_UkvsOJ8dA93GYnoOwiXvORMM3rS7X_XmUNuaM8eyTSqx-3bnVkc4MvF4LvzI-jfSs3nOzwQZfsc9LCQD4O3Z2MBjsR9NcLOrKnYr-BgTSf_gfl2TY7C3kyEcYZf0pyaIBcWfjOBXkgUICBN4-aSbiRqgBqQBgAeI9bT1GZAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgHg_axAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB57qsQKoB5_qsQKoB_jrsQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCDQIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAYSNmg0jVQFFiY5-e4-IeYA2ABagEBcgEAmgkVaHR0cHM6Ly9rbGluZy5haS9hcHAvsQm2cz6bjpnhLcgJAJgLAboLPggDEAUYFiAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIFugMJdmlzaW56YWFh0AsSogw7KgYKBPDfsQJiFQoTa2xpbmcuYWkudmlkZW8uY2hhdGoVChNrbGluZy5haS52aWRlby5jaGF0eACIAQDSDAIQAdoMJgoLEICGgtK4heO9lQESAgEDGg0YxZ-M4Fcgy6SBzd4FQAFKAhAfmg0BEqoNAklOyA0B0g3kAWh0dHBzOi8va2xpbmcuYWkvYXBwLz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWFkc21hcmNoJnV0bV9jYW1wYWlnbj1QbWF4LUNQQSZ1dG1fdGVybT1CdXlTdWItUmVndWxhciZ1dG1fY29udGVudD1JTiZhY2NvdW50X2lkPTQwNDE4MzQwNzImY2FtcGFpZ25faWQ9MjM1NTAyMjE0OTkmYWRncm91cF9pZD02NzEyMzQxNDk0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzU1NTQxMTkwObAO9ufYgBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXpF1mokmFPtq6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYAiAAEgIiqfD_BwE&num=2&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_2hXlAzoxLFgfxTUXEieehRw362Vw&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - link "World's First Native 4K AI Video Model for Professional Cinematic Visuals" [ref=e939]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=Chi_ccpT4auT4BZyi_PcPzd7xkAqGtYT7iQH5zfv_-xVkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAdWTjJs-qAMEyAMKqgS5Ak_Q5U20vZVZlcxothg0OaKLo7A85PDdTwz9ehiAp4FOqXA-xAxIPgzk0I3pTIZsYxZ6dLMez45395F1wPB9r_w6j3Tam5OEWSY6JiMfNWX0vITvnPusFPxde6YUSyTf3FMgkNwUvCB_etUHdZJXaNWCAaUDfYZraTJlYVLNY6DEJnHOsgSOQtLc5zK-sZ1bsjTYL1zbLuAgLx_y1orDNL528TRaqaMssyYnzFwe17NtjgeoTJ8kO64KtZ5ZySH-Pwm8T_1C-64iTP1QZNaB8rODyR8EeXJyCJE_UkvsOJ8dA93GYnoOwiXvORMM3rS7X_XmUNuaM8eyTSqx-3bnVkc4MvF4LvzI-jfSs3nOzwQZfsc9LCQD4O3Z2MBjsR9NcLOrKnYr-BgTSf_gfl2TY7C3kyEcYZf0pyaIBcWfjOBXkgUICBN4-aSbiRqgBqQBgAeI9bT1GZAHBKgH6u6xAqgHpc-xAqgH552xAqgH6J2xAqgHg_axAqgH-dOxAqgHydqxAqgHqeCxAqgHqNIbqAex3BuoB7CbsQKoB_2ysQKoB8jPsQKoB8nPsQKoB_zVsQKoB_vVsQKoB4zWsQKoB4vWsQKoB5risQKoB5visQKoB57qsQKoB5_qsQKoB_jrsQKoB7zqsQKoB_yvsQKoB77ZsQKoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQLSCDQIgEEQARheMgKCAjoPgEKAwICAgICAgAKqgIAYSNmg0jVQFFiY5-e4-IeYA2ABagEBcgEAmgkVaHR0cHM6Ly9rbGluZy5haS9hcHAvsQm2cz6bjpnhLcgJAJgLAboLPggDEAUYFiAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIFugMJdmlzaW56YWFh0AsSogw7KgYKBPDfsQJiFQoTa2xpbmcuYWkudmlkZW8uY2hhdGoVChNrbGluZy5haS52aWRlby5jaGF0eACIAQDSDAIQAdoMJgoLEICGgtK4heO9lQESAgEDGg0YxZ-M4Fcgy6SBzd4FQAFKAhAfmg0BEqoNAklOyA0B0g3kAWh0dHBzOi8va2xpbmcuYWkvYXBwLz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWFkc21hcmNoJnV0bV9jYW1wYWlnbj1QbWF4LUNQQSZ1dG1fdGVybT1CdXlTdWItUmVndWxhciZ1dG1fY29udGVudD1JTiZhY2NvdW50X2lkPTQwNDE4MzQwNzImY2FtcGFpZ25faWQ9MjM1NTAyMjE0OTkmYWRncm91cF9pZD02NzEyMzQxNDk0JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMzU1NTQxMTkwObAO9ufYgBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXpF1mokmFPtq6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYAiAAEgIiqfD_BwE&num=2&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_2hXlAzoxLFgfxTUXEieehRw362Vw&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e940]:
+                    - generic [ref=e942]:
+                      - generic [ref=e943]: Sponsored
+                      - text: ·
+                    - generic [ref=e944]: KlingAI
+                - button "My Ad Centre" [ref=e948]
+            - generic [ref=e953] [cursor=pointer]:
+              - link [aria-hidden] [ref=e954]:
+                - /url: /watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH&pp=0gcJCW8DOCosWNin
+                - generic [ref=e956]: 29 lessons
+              - generic [ref=e968]:
+                - generic [ref=e969]:
+                  - heading [level=3] [ref=e970]:
+                    - link "Master Backend Development Series | NodeJS | MongoDB | Express JS" [ref=e971]:
+                      - /url: /watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH&pp=0gcJCW8DOCosWNin
+                  - generic [ref=e973]:
+                    - group [ref=e974]:
+                      - link "Sheryians Coding School" [ref=e977]:
+                        - /url: /@sheryians
+                      - generic "Verified" [ref=e978]
+                      - link "Course" [ref=e981]:
+                        - /url: /@sheryians
+                    - group [ref=e982]
+                    - group [ref=e983]:
+                      - link "Master JavaScript Essentials for Backend Development | Part 1 · 43:08" [ref=e985]:
+                        - /url: /watch?v=T55Kb8rrH1g&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH
+                    - group [ref=e986]:
+                      - link "Install Node.js & Learn File System Operations | Backend Development Part 2 · 51:57" [ref=e988]:
+                        - /url: /watch?v=OFbSqd54Wwk&list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH
+                    - group [ref=e989]:
+                      - link "View full course" [ref=e992]:
+                        - /url: /playlist?list=PLbtI3_MArDOkXRLxdMt1NOMtCS-84ibHH
+                - button "More actions" [ref=e995]
+            - generic [ref=e1000]:
+              - link [aria-hidden] [ref=e1002] [cursor=pointer]:
+                - /url: /watch?v=k_h8miQmtbw&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e1004] [cursor=pointer]:
+                - generic [ref=e1005]:
+                  - heading [level=3] [ref=e1007]:
+                    - link "The Ultimate Backend Developer Roadmap in 2026🔥|| Skills, Projects & Free Resources 13 minutes, 51 seconds" [ref=e1008]:
+                      - /url: /watch?v=k_h8miQmtbw&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: The Ultimate Backend Developer Roadmap in 2026🔥|| Skills, Projects & Free Resources
+                  - generic [ref=e1011]:
+                    - generic [ref=e1012]: 122k
+                    - generic [ref=e1013]: •2 yr ago
+                - generic [ref=e1014]:
+                  - link "Go to channel Harsha Verse" [ref=e1015]:
+                    - /url: /@harshaversetelugu
+                  - generic [ref=e1016]:
+                    - link "Harsha Verse" [ref=e1020]:
+                      - /url: /@harshaversetelugu
+                    - img "Verified" [ref=e1025]
+                - generic [ref=e1027]:
+                  - text: "Make the Best Investment of Your Life and Join Our Beyond Basics Community Here: https://beyondbasics.dev/ Checkout GFG ..."
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1032]:
+                  - generic [aria-hidden] [ref=e1033]: 4K
+                - generic [ref=e1036]:
+                  - generic [ref=e1037]:
+                    - generic [ref=e1040]: 6 chapters
+                    - button "Basics of Backend | 3 Imp Skills | Best Chance to Upskill | Beginner Roadmap | Intermediate Roadmap | Advanced Roadmap" [ref=e1042]
+                  - button "More" [ref=e1047]
+            - generic [ref=e1052] [cursor=pointer]:
+              - link [aria-hidden] [ref=e1053]:
+                - /url: /watch?v=tN6oJu2DqCM&list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM
+                - generic [ref=e1055]: 17 lessons
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - heading [level=3] [ref=e1069]:
+                    - link "Back End Developer Learning Path" [ref=e1070]:
+                      - /url: /watch?v=tN6oJu2DqCM&list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM
+                  - generic [ref=e1072]:
+                    - group [ref=e1073]:
+                      - link "freeCodeCamp.org" [ref=e1076]:
+                        - /url: /@freecodecamp
+                      - generic "Verified" [ref=e1077]
+                      - link "Course" [ref=e1080]:
+                        - /url: /@freecodecamp
+                    - group [ref=e1081]
+                    - group [ref=e1082]:
+                      - link "Back End Developer Roadmap · 10:30" [ref=e1084]:
+                        - /url: /watch?v=tN6oJu2DqCM&list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM
+                    - group [ref=e1085]:
+                      - link "Full Stack Web Development for Beginners (Full Course on HTML, CSS, JavaScript, Node.js, MongoDB) · 7:29:12" [ref=e1087]:
+                        - /url: /watch?v=nu_pCVPKzTk&list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM
+                    - group [ref=e1088]:
+                      - link "View full course" [ref=e1091]:
+                        - /url: /playlist?list=PLWKjhJtqVAbn21gs5UnLhCQ82f923WCgM
+                    - group [ref=e1092]:
+                      - generic [ref=e1093]: If you want to become a backend developer, this is where to start. This is our backend developer learning path. We’ve curated a collection of top-notch courses on all of the key technologies you need to learn and you can watch them all right here on our channel, for free.
+                - button "More actions" [ref=e1096]
+            - generic [ref=e1101]:
+              - link [aria-hidden] [ref=e1103] [cursor=pointer]:
+                - /url: /watch?v=OeEHJgzqS1k&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e1105] [cursor=pointer]:
+                - generic [ref=e1106]:
+                  - heading [level=3] [ref=e1108]:
+                    - link "The Complete Backend Developer Roadmap 8 minutes, 24 seconds" [ref=e1109]:
+                      - /url: /watch?v=OeEHJgzqS1k&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: The Complete Backend Developer Roadmap
+                  - generic [ref=e1112]:
+                    - generic [ref=e1113]: 994k
+                    - generic [ref=e1114]: •2 yr ago
+                - generic [ref=e1115]:
+                  - link "Go to channel Programming with Mosh" [ref=e1116]:
+                    - /url: /@programmingwithmosh
+                  - generic [ref=e1117]:
+                    - link "Programming with Mosh" [ref=e1121]:
+                      - /url: /@programmingwithmosh
+                    - img "Verified" [ref=e1126]
+                - generic [ref=e1128]:
+                  - generic [ref=e1129]: Go from zero to a backend developer in 12 months. This step-by-step roadmap covers the essential skills and latest technologies ...
+                  - tooltip "tooltip"
+                - generic [ref=e1132]:
+                  - generic [ref=e1133]:
+                    - generic [ref=e1136]: 8 chapters
+                    - button "Introduction | Programming languages | Version control (Git) | Data structures & algorithms | Design patterns | Databases | Web frameworks | Additional skills" [ref=e1138]
+                  - button "More" [ref=e1143]
+            - generic [ref=e1148]:
+              - link [aria-hidden] [ref=e1150] [cursor=pointer]:
+                - /url: /watch?v=PsM_4WTuI8Y&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz0gcJCccHAYcqIYzv
+              - generic [ref=e1152] [cursor=pointer]:
+                - generic [ref=e1153]:
+                  - heading [level=3] [ref=e1155]:
+                    - link "Don't Attend a Backend Interview Before Watching This Video 5 minutes, 10 seconds" [ref=e1156]:
+                      - /url: /watch?v=PsM_4WTuI8Y&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz0gcJCccHAYcqIYzv
+                      - text: Don't Attend a Backend Interview Before Watching This Video
+                  - generic [ref=e1159]:
+                    - generic [ref=e1160]: 47k
+                    - generic [ref=e1161]: •3 mo ago
+                - generic [ref=e1162]:
+                  - link "Go to channel Cloud X Berry" [ref=e1163]:
+                    - /url: /@TheCloudXBerry
+                  - link "Cloud X Berry" [ref=e1168]:
+                    - /url: /@TheCloudXBerry
+                - generic [ref=e1169]:
+                  - generic [ref=e1170]: In this video, Cloud x Berry breaks down 10 essential backend concepts every developer should understand. We explore how ...
+                  - tooltip "tooltip"
+                - generic [ref=e1173]:
+                  - generic [ref=e1174]:
+                    - generic [ref=e1177]: 13 chapters
+                    - 'button "Why Backend Systems Fail | 1: HTTP and APIs | 2: Authentication and Authorization | 3: Database Indexes | 4: Database Transactions | 5: Concurrency and Race Conditions | 6: Caching and Redis | 7: Message Queues and Background Jobs | 8: Idempotency and Duplicate Prevention | 9: Rate Limiting | 10: Scalability and Load Balancing | The Complete Backend Toolkit | Think Beyond Code: Understand the Whole System" [ref=e1179]'
+                  - button "More" [ref=e1184]
+            - generic [ref=e1200] [cursor=pointer]:
+              - generic [ref=e1201]:
+                - link "Data Analytics & GenAI Course" [ref=e1204]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C54mScpT4auT4BZyi_PcPzd7xkAr8psD1igGCsIy7wBawkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB3dLAlQOpAqTFVcEHyUY-qAMEyAMKqgSqAk_QlgdGoIxgrGfDNZtlEK2ulbQv9fv0aAndSQXG3KhBjEY61x1DFyvh_ab7b7dkfgp3YaJQtKd40qdx0-F2hO0u4g_zlLKyTDExAAIxEFmH5JL4mOi7OdFKb6IEXSOAjl4Lod0kgjEkKNgXdIFIYtO4b79RcJZqei1vZ0HedI2pOm3MsACJQtLf-y2_r4NbMIfWV1zbd7c2NR7zwY2IebJ0Ru9h5KMs6nEx1l0fwLQmwwuqDsIzLagTrZkVhTf6LBi3eNNG67kpCKJTZt6P-bnMhxQNeT46BJAyVF7oP2yfAGR8bLbMzOUlolRowgJDuQrudY7qM8eyTSqx-3bEgfRGMvF4LvzZ-jjzoX3sz31HNcA9BCeeITnq_NGyX5mcWwtSnLgBT8C3g_eIBby924RPkgUHCBN4rL7caqAGpAGAB4utv2qQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0gg0CIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAGEjZoNI1UBRYmOfnuPiHmANgAWoBAXIBAJoJQWh0dHBzOi8vd3d3LmNvZGluZ25pbmphcy5jb20vcHJvZ3JhbXMvam9iLWJvb3RjYW1wLWRhdGEtYW5hbHl0aWNzsQnMGSDJTZmM1MgJAJgLAboLPggDEAUYFiAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIGugMJdmlzaW56YWFh0AsSogwnKgYKBPDfsQJqGAoWY29tLmFwcGxpY2F0aW9uLnpvbWF0b3gAiAEA0gwCEAHaDCYKCxDAuIeejqGShJABEgIBAxoNGLy924RPIIrRx9T1BUABSgIQH5oNARKqDQJJTsgNAdINuQFodHRwczovL3d3dy5jb2RpbmduaW5qYXMuY29tL3Byb2dyYW1zL2pvYi1ib290Y2FtcC1kYXRhLWFuYWx5dGljcz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPVBNYXgmdXRtX2NhbXBhaWduPTE5ODIwNjQ2MTI1X19fX19wb2RjYXN0XzZub3YyNl9jJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTIxNjI4ODQ0NLAO35GSnBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXDQyalxeiVPS6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYAyAAEgKkpfD_BwE&num=3&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_0TSvV5UWnxy9aRX8MglNIvtsirwA&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - link "100% Placement Assistance on completion with 35 LPA avg CTC. 1:1 Live doubt support." [ref=e1207]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C54mScpT4auT4BZyi_PcPzd7xkAr8psD1igGCsIy7wBawkB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaAB3dLAlQOpAqTFVcEHyUY-qAMEyAMKqgSqAk_QlgdGoIxgrGfDNZtlEK2ulbQv9fv0aAndSQXG3KhBjEY61x1DFyvh_ab7b7dkfgp3YaJQtKd40qdx0-F2hO0u4g_zlLKyTDExAAIxEFmH5JL4mOi7OdFKb6IEXSOAjl4Lod0kgjEkKNgXdIFIYtO4b79RcJZqei1vZ0HedI2pOm3MsACJQtLf-y2_r4NbMIfWV1zbd7c2NR7zwY2IebJ0Ru9h5KMs6nEx1l0fwLQmwwuqDsIzLagTrZkVhTf6LBi3eNNG67kpCKJTZt6P-bnMhxQNeT46BJAyVF7oP2yfAGR8bLbMzOUlolRowgJDuQrudY7qM8eyTSqx-3bEgfRGMvF4LvzZ-jjzoX3sz31HNcA9BCeeITnq_NGyX5mcWwtSnLgBT8C3g_eIBby924RPkgUHCBN4rL7caqAGpAGAB4utv2qQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0gg0CIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAGEjZoNI1UBRYmOfnuPiHmANgAWoBAXIBAJoJQWh0dHBzOi8vd3d3LmNvZGluZ25pbmphcy5jb20vcHJvZ3JhbXMvam9iLWJvb3RjYW1wLWRhdGEtYW5hbHl0aWNzsQnMGSDJTZmM1MgJAJgLAboLPggDEAUYFiAIKAEwHEABSABYTmAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEBgAIBiAIGugMJdmlzaW56YWFh0AsSogwnKgYKBPDfsQJqGAoWY29tLmFwcGxpY2F0aW9uLnpvbWF0b3gAiAEA0gwCEAHaDCYKCxDAuIeejqGShJABEgIBAxoNGLy924RPIIrRx9T1BUABSgIQH5oNARKqDQJJTsgNAdINuQFodHRwczovL3d3dy5jb2RpbmduaW5qYXMuY29tL3Byb2dyYW1zL2pvYi1ib290Y2FtcC1kYXRhLWFuYWx5dGljcz91dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPVBNYXgmdXRtX2NhbXBhaWduPTE5ODIwNjQ2MTI1X19fX19wb2RjYXN0XzZub3YyNl9jJmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yMTIxNjI4ODQ0NLAO35GSnBm4E____________wGwFAPAFYGAgEDQFQHYFQGYFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXDQyalxeiVPS6FwYoADAAOAHQGAHwGAHCGQIIAQ&ase=2&gclid=EAIaIQobChMI5PnnuPiHmAMVHBH_CB1NbxyiEAEYAyAAEgKkpfD_BwE&num=3&cid=CAASqgHkaPege3gfSQ8y2P8sYHfy0OakZf7Wua7yLbDbA9VI6aHVUMchRr873ZMsZ0JUxZpP16HyDwvZMMAtctCTbH-0lPkeiSYjR7dcu50KQKvRtu7viJQTEh1XLi6TOka2DmmhE4il28GpOlxjsq4z5swZvsckq71_MY4hKkrVbTTjFcLxzj3SrmbrclPxFi5uNZmZoRwAVr5Pmw-3v34jD7PGscfJrSdU7t102g&sig=AOD64_0TSvV5UWnxy9aRX8MglNIvtsirwA&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                - generic [ref=e1208]:
+                  - generic [ref=e1210]:
+                    - generic [ref=e1211]: Sponsored
+                    - text: ·
+                  - generic [ref=e1212]: Coding Ninjas
+              - button "My Ad Centre" [ref=e1216]
+            - generic [ref=e1221] [cursor=pointer]:
+              - link [aria-hidden] [ref=e1222]:
+                - /url: /watch?v=EH3vGeqeIAo&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW
+                - generic [ref=e1224]: 25 videos
+              - generic [ref=e1236]:
+                - generic [ref=e1237]:
+                  - heading [level=3] [ref=e1238]:
+                    - link "Chai aur Javascript Backend | Hindi" [ref=e1239]:
+                      - /url: /watch?v=EH3vGeqeIAo&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW
+                  - generic [ref=e1241]:
+                    - group [ref=e1242]:
+                      - link "Chai aur Code" [ref=e1245]:
+                        - /url: /@chaiaurcode
+                      - generic "Verified" [ref=e1246]
+                      - link "Playlist" [ref=e1249]:
+                        - /url: /@chaiaurcode
+                    - group [ref=e1250]
+                    - group [ref=e1251]:
+                      - link "Javascript Backend Roadmap | chai aur backend · 29:20" [ref=e1253]:
+                        - /url: /watch?v=EH3vGeqeIAo&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&pp=0gcJCRYF0aJEHMZM
+                    - group [ref=e1254]:
+                      - link "How to deploy backend code in production · 50:14" [ref=e1256]:
+                        - /url: /watch?v=pOV4EjUtl70&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW
+                    - group [ref=e1257]:
+                      - link "View full playlist" [ref=e1260]:
+                        - /url: /playlist?list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW
+                    - group [ref=e1261]:
+                      - generic [ref=e1262]: Welcome to another playlist about building a complete and complex backend using javascript as your programming language. In this series, we will start from scratch and will build a complete backend for our complex project.
+                - button "More actions" [ref=e1265]
+            - generic [ref=e1270]:
+              - link [aria-hidden] [ref=e1272] [cursor=pointer]:
+                - /url: /watch?v=s9Qh9fWeOAk&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e1274] [cursor=pointer]:
+                - generic [ref=e1275]:
+                  - heading [level=3] [ref=e1277]:
+                    - link "System Design was HARD until I Learned these 30 Concepts 20 minutes" [ref=e1278]:
+                      - /url: /watch?v=s9Qh9fWeOAk&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: System Design was HARD until I Learned these 30 Concepts
+                  - generic [ref=e1281]:
+                    - generic [ref=e1282]: 1.9m
+                    - generic [ref=e1283]: •1 yr ago
+                - generic [ref=e1284]:
+                  - link "Go to channel Ashish Pratap Singh" [ref=e1285]:
+                    - /url: /@ashishps_1
+                  - generic [ref=e1286]:
+                    - link "Ashish Pratap Singh" [ref=e1290]:
+                      - /url: /@ashishps_1
+                    - img "Verified" [ref=e1295]
+                - generic [ref=e1297]:
+                  - generic [ref=e1298]: "My System Design Course: https://algomaster.io/sdyt In this video, I share 30 of the most important System Design concepts to ..."
+                  - tooltip "tooltip"
+                - img "4K" [ref=e1303]:
+                  - generic [aria-hidden] [ref=e1304]: 4K
+                - generic [ref=e1307]:
+                  - generic [ref=e1308]:
+                    - generic [ref=e1309]: Summary
+                    - button "Ashish Pratap Singh breaks down essential components like client-server architecture, database management, and scalability techniques. This guide covers how these building blocks interact to create reliable, large-scale applications." [ref=e1312]
+                    - text: ·
+                  - button "More" [ref=e1317]
+            - generic [ref=e1322]:
+              - link [aria-hidden] [ref=e1324] [cursor=pointer]:
+                - /url: /watch?v=0Rwb4Xmlcwc&t=1839s&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+              - generic [ref=e1326] [cursor=pointer]:
+                - generic [ref=e1327]:
+                  - heading [level=3] [ref=e1329]:
+                    - link "1. Roadmap for backend from first principles 31 minutes" [ref=e1330]:
+                      - /url: /watch?v=0Rwb4Xmlcwc&t=1839s&pp=ygUVYmFja2VuZCBlbmdnIGNvbmNlcHRz
+                      - text: 1. Roadmap for backend from first principles
+                  - generic [ref=e1333]:
+                    - generic [ref=e1334]: 1m
+                    - generic [ref=e1335]: •2 yr ago
+                - generic [ref=e1336]:
+                  - link "Go to channel Sriniously" [ref=e1337]:
+                    - /url: /@sriniously
+                  - link "Sriniously" [ref=e1342]:
+                    - /url: /@sriniously
+                - generic [ref=e1343]:
+                  - generic [ref=e1344]: "... 12 factor app 28:55 - OpenAPI standards 29:58 - Webhooks 30:39 - DevOps for backend engineers #backend #nodejs #golang ..."
+                  - tooltip "tooltip"
+                - generic [ref=e1347]:
+                  - generic [ref=e1348]:
+                    - generic [ref=e1351]: Matching chapter
+                    - button "30:39 DevOps for backend engineers" [ref=e1353]
+                  - button "More" [ref=e1358]

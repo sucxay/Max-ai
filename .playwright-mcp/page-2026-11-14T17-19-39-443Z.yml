@@ -1,0 +1,698 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - generic [ref=e7]:
+        - button "Guide" [active] [ref=e9] [cursor=pointer]
+        - generic [ref=e11]:
+          - link "YouTube Home" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e16]: IN
+        - button "Skip navigation" [ref=e20] [cursor=pointer]
+      - generic [ref=e24]:
+        - search [ref=e25]:
+          - generic [ref=e27]:
+            - generic [ref=e28]:
+              - combobox "Search" [expanded] [ref=e30]: Dasoham
+              - button "Clear search query" [ref=e107] [cursor=pointer]
+            - button "Search" [ref=e31] [cursor=pointer]
+        - generic [ref=e34]:
+          - button "Search with your voice" [ref=e36] [cursor=pointer]
+          - tooltip "tooltip"
+      - generic [ref=e41]:
+        - button "Settings" [ref=e46] [cursor=pointer]
+        - link "Sign in" [ref=e50] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3D%252Fresults%253Fsearch_query%253DDasoham&hl=en-GB&ec=65620
+  - navigation [ref=e54]:
+    - generic [ref=e77]:
+      - link "Home" [ref=e79] [cursor=pointer]:
+        - /url: /
+      - link "Shorts" [ref=e85] [cursor=pointer]:
+        - /url: /shorts/
+      - link "Subscriptions" [ref=e91] [cursor=pointer]:
+        - /url: /feed/subscriptions
+      - link "You" [ref=e97] [cursor=pointer]:
+        - /url: /feed/you
+  - generic [ref=e55]:
+    - text: •
+    - main [ref=e115]:
+      - generic [ref=e116]:
+        - generic [ref=e118]:
+          - tablist [ref=e123]:
+            - tab "All" [selected] [ref=e126] [cursor=pointer]
+            - tab "Shorts" [ref=e131] [cursor=pointer]
+            - tab "Unwatched" [ref=e136] [cursor=pointer]
+            - tab "Videos" [ref=e141] [cursor=pointer]
+            - tab "Recently uploaded" [ref=e146] [cursor=pointer]
+            - tab "Live" [ref=e151] [cursor=pointer]
+          - generic [ref=e155]:
+            - button "Search filters" [ref=e157] [cursor=pointer]:
+              - generic: Filters
+            - tooltip "tooltip"
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - link [ref=e170] [cursor=pointer]:
+              - /url: /@daasoham
+            - generic [ref=e173]:
+              - link "Daasoham Verified @daasoham•219k subscribers 'Daasoham Kosalendrasya'- I am the servant of the Lord of Kosala, Sri Rama. This is how Hanuman introduces himself." [ref=e174] [cursor=pointer]:
+                - /url: /@daasoham
+                - generic [ref=e175]:
+                  - generic [ref=e176]:
+                    - generic [ref=e177]: Daasoham
+                    - img "Verified" [ref=e184]
+                  - generic [ref=e188]: "@daasoham•219k subscribers"
+                  - generic [ref=e189]: "'Daasoham Kosalendrasya'- I am the servant of the Lord of Kosala, Sri Rama. This is how Hanuman introduces himself."
+              - link "Subscribe" [ref=e194] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3D%252Fresults%253Fsearch_query%253DDasoham%26continue_action%3DQUlxb01IYjN2SHpvd3Vub0VSUFJMV3NCRWdMX3xBQnJ0NjlsdnVSVG5ZdU1SZmloLXU1TU1hdkViaXNkMXIyZjQ3cUoyWlRMSjN0ZW5PZ0dFSHpuWkhpd19IZ2RQejhVRG1zb3VNaWtTTnktc183OFNNUEtUOGlqVWFnaEFmUUxHUTVUNU0zUHRKMEJTaFhOaFNlRkVDbG1jQ2tKcFRuX3dMTnZ6M3Z2T2t5eW9KZnZsczhHOWNiQWtGdkxBMTV2TXZKZEdDelhyTjEwS0VQTW0tcXJXei1B&hl=en-GB
+          - generic [ref=e199]:
+            - link [ref=e201] [cursor=pointer]:
+              - /url: /@dasoham0223
+            - generic [ref=e204]:
+              - link "Dasoham @dasoham0223•25.9k subscribers Welcome To Dasoham! We are a Team of young folks wanting to provide high quality entertainment to you! You might have seen ..." [ref=e205] [cursor=pointer]:
+                - /url: /@dasoham0223
+                - generic [ref=e206]:
+                  - generic [ref=e207]: Dasoham
+                  - generic [ref=e211]: "@dasoham0223•25.9k subscribers"
+                  - generic [ref=e212]: Welcome To Dasoham! We are a Team of young folks wanting to provide high quality entertainment to you! You might have seen ...
+              - link "Subscribe" [ref=e217] [cursor=pointer]:
+                - /url: https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3D%252Fresults%253Fsearch_query%253DDasoham%26continue_action%3DQUlxb01IWWU1MmRaOFlxSmxjWmpHZm5xbWw2YnxBQnJ0NjlraFlfaGEtaUZqR2VvMjlYemtaa0hDZHFBd1JMSjkyY1JGMWJ2YjVhZUtVZjZiam1sU3NRSDk0T0g0cHFBWExNNGZZd01wWnJwaE0zU2NNallNakVaa1dxdEVBOTJqSVFJRmY1WjdZSmJiRGFUM0Y3cU1mSnN2X0RGRVN2MGppOXN6UC03TjZJOXRwOEhNZGJpa1JnNzdKc3RMZ0ZBZ2pwUmh6V0prYW9uekR4dnlROXdBQUFJ&hl=en-GB
+          - generic [ref=e221]:
+            - heading "Shorts" [level=2] [ref=e231]
+            - generic [ref=e233]:
+              - generic [ref=e236]:
+                - link [aria-hidden] [ref=e237] [cursor=pointer]:
+                  - /url: /shorts/-ijGrYUI-MU
+                - generic [ref=e241] [cursor=pointer]:
+                  - generic [ref=e242]:
+                    - heading [level=3] [ref=e243]:
+                      - link "Movies you should definitely watch in 2025 🔥!!!!| Dasoham's Reccommendation series|" [ref=e244]:
+                        - /url: /shorts/-ijGrYUI-MU
+                    - generic [aria-hidden] [ref=e245]: 28k views
+                  - button "More actions" [ref=e247]
+              - generic [ref=e253]:
+                - link [aria-hidden] [ref=e254] [cursor=pointer]:
+                  - /url: /shorts/HK4-4hXsKno
+                - generic [ref=e258] [cursor=pointer]:
+                  - generic [ref=e259]:
+                    - heading [level=3] [ref=e260]:
+                      - link "Best thriller movies to watch in 2025 🔥😯 | Dasoham's reccommendaton series|" [ref=e261]:
+                        - /url: /shorts/HK4-4hXsKno
+                    - generic [aria-hidden] [ref=e262]: 15k views
+                  - button "More actions" [ref=e264]
+              - generic [ref=e270]:
+                - link [aria-hidden] [ref=e271] [cursor=pointer]:
+                  - /url: /shorts/NoZgnWoc_3I
+                - generic [ref=e275] [cursor=pointer]:
+                  - generic [ref=e276]:
+                    - heading [level=3] [ref=e277]:
+                      - link "Best series and movies to watch 2025 🔥🥵| Dasoham's Reccommendation Series|" [ref=e278]:
+                        - /url: /shorts/NoZgnWoc_3I
+                    - generic [aria-hidden] [ref=e279]: 9k views
+                  - button "More actions" [ref=e281]
+              - generic [ref=e287]:
+                - link [aria-hidden] [ref=e288] [cursor=pointer]:
+                  - /url: /shorts/RZ4fT2pHvDs
+                - generic [ref=e292] [cursor=pointer]:
+                  - generic [ref=e293]:
+                    - heading [level=3] [ref=e294]:
+                      - 'link "Breaking Bad The greatest TV Show 🗿🔥| Dasoham | #comedy #relatable #breakingbad" [ref=e295]':
+                        - /url: /shorts/RZ4fT2pHvDs
+                    - generic [aria-hidden] [ref=e296]: 6.5k views
+                  - button "More actions" [ref=e298]
+              - generic [ref=e304]:
+                - link [aria-hidden] [ref=e305] [cursor=pointer]:
+                  - /url: /shorts/Pvp7EWvUGWg
+                - generic [ref=e309] [cursor=pointer]:
+                  - generic [ref=e310]:
+                    - heading [level=3] [ref=e311]:
+                      - link "Mom se better manipulator koi nahi😂" [ref=e312]:
+                        - /url: /shorts/Pvp7EWvUGWg
+                    - generic [aria-hidden] [ref=e313]: 6.8k views
+                  - button "More actions" [ref=e315]
+          - generic [ref=e327] [cursor=pointer]:
+            - link [aria-hidden] [ref=e328]:
+              - /url: /watch?v=Ex2F_ZzzuOQ
+              - img [ref=e333]:
+                - generic [aria-hidden] [ref=e334]: 0:11
+            - generic [ref=e335]:
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - link "From groceries to essentials, delivered in minutes*" [ref=e340]:
+                    - /url: /watch?v=Ex2F_ZzzuOQ
+                  - link "Everything your home needs, delivered in minutes*. Shop smart with bigbasket." [ref=e343]:
+                    - /url: /watch?v=Ex2F_ZzzuOQ
+                  - generic [ref=e344]:
+                    - button "bigbasket" [ref=e348]
+                    - generic [ref=e352]:
+                      - generic [ref=e353]: Sponsored
+                      - text: ·
+                    - generic [ref=e354]: bigbasket
+                - button "My Ad Centre" [ref=e358]
+              - link "Order now" [ref=e365]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CycZAKpj4asmKCYrKv_gPgrW4wArJqu7kigGDksCAvxZkEAEgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAd_Lv6U_qQKkxVXBB8lGPqgDBKoEvQJP0LFgs2M6wM23VdzEMo-mLTDWqXsZyWdGSj3l9DsThxQEddvFT00K9vm6UgXkV3SyBZs8RvRWOidWVEXdGvdZvy_LWA0WI5T_gdvt6rTRr9Qc-lw17KLZt7q0W31YyKpmiI3cuChnCoN8cluSELE5k03zElLehyyhjnZLx3A1ZNOko78YrZZZwKNZpJiAC6UqyJdl4_vF--jLze0MIaUqWFTH9jfzXvuHcQ6XNJYL8RMkRQdXm-JFHhQSHkYLqQ0dIXAjqtm7F9XqzYeE7bxgLGom_mhYTrTz-SqiClYCdsgsrcKxSJzFLiJw6TmLgvPMXJEBcf_qEN6DB31Og1GfQV-8OTtu2O_6Dyz2EMissgibP2h1gMvQsyRa-H6tk5jvKDXjDRNQAUQ-i7GXh2CXCNq8Kp2MzWE4L3sOFIgFw6ebgluSBQwIEjDk8c7n2b_hjhOSBQgIE3jhpPCZGqAGVYAH34OQhRqQBwSoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAfVzhuoB77ZsQKoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIIC0V4MkZfWnp6dU9RqAgB0gg0CIBBEAEYXjICggI6D4BCgMCAgICAgIACqoCAGEjZoNI1UBRYuLnk_vuHmANgAWoBAXIBAJoJIWh0dHA6Ly93d3cuYmlnYmFza2V0LmNvbS9zaC8wNTNjZrEJTuIaT2XFOw_ICRfICY8ByAnCAboLPAgDEAUYBiAHKAEwHEABSABYXWAAaABwAYgBAJgBAaIBCAoAqAIB2AIC2AEDgAIBiAIHugMHdmlzaW5yYtALE-ALAaIMCCoGCgTw37EC0gwCEAHaDCYKCxDwm7vS3pWLmNQBEgIBAxoNGMOnm4JbIOj2lJTyBUABSgIQH5oNAROqDQJJTsgNAdIN_QNodHRwczovL2FkLmRvdWJsZWNsaWNrLm5ldC9kZG0vdHJhY2tjbGsvTjExNDcxNDguMjc5MzgyQklETUFOQUdFUl9ERkFTSVQvQjMzMzQ2NDgwLjQzNTE4MTI4NztkY190cmtfYWlkPTYyODEwODI2NDtkY190cmtfY2lkPTI0NjI4MDU4NztkY19kYm1fdG9rZW49QU9qZUxORUFBQUE3Q2pRS0RBZ0FGUUFBQUFBZEFBQUFBQklNQ0FBVkFBQUFBQjBBQUFBQUloUUl3NmViZ2x1b0F1R2s4Smthc0FLYWhKZnNBMEE3RU1ldTBBR1dZUGwxTDVzOVBhWWV3QlREYWs1aztkY19sYXQ9O2RjX3JkaWQ9O3RhZ19mb3JfY2hpbGRfZGlyZWN0ZWRfdHJlYXRtZW50PTt0ZnVhPTtsdGQ9O2RjX3Rkdj0xO2RjX3RyYW5zcGFyZW50PTE7ZGNfcnVpPTE7ZGNfZXBzPUFIYXM4Y0I1d1plbkltVG1oVzFkMTV6RldIU1dnOTVUeHl6ei1iQ2QxSlo4OUs4WVVTMl9yVXB2bE5YQUwzYlpKRmlSSmV1TEoyRGZ3aGdYR3ZVY3h3O2RjX3B1YmlkPTI_aHR0cDovL3d3dy5iaWdiYXNrZXQuY29tL3NoLzA1M2NmP2dhZF9zb3VyY2U9MrAT1tu8JrgT____________AbAUA8AVgYCAQNAVAdgVAZgWAagWAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAboXBigAMAA4AdAYAfAYAQ&ase=2&gclid=EAIaIQobChMIycfk_vuHmAMVCuUPCR2CGg6oEAEYASAAEgJRxfD_BwE&num=1&cid=CAASqgHkaHQzt2mK4UvA5Tqg2V8uCZIJwd-_94ppUIaH6JWDuRR8ZqHE6oiuIisqXLgrMQFBTdW88VR6vLS5wMIf-VJg_-bjk5rNdX_3x2SQ_2gjO9m2gFxpJe3vkGaeKQTauTnIqP_B34nmbh_T0FH4MHfRl7pOAEurqTy-hLiZdwHBDe5wMzqb3spxK_-1O8p2UuZOIhRamZa2aOi2uRgEjmowTm1N8f6ym_E6Ug&ad_cpn=%5BCPN%5D&sig=AOD64_2spNw7Q2OQjhFzOOT0ZkYGPgxnoQ&ctype=110&video_id=Ex2F_ZzzuOQ&client=ca-pub-6219811747049371&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D
+          - generic [ref=e370]:
+            - link [aria-hidden] [ref=e372] [cursor=pointer]:
+              - /url: /watch?v=QkiJ0bUBMs4&list=RDQkiJ0bUBMs4&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e374] [cursor=pointer]:
+              - generic [ref=e375]:
+                - generic [ref=e376]:
+                  - heading [level=3] [ref=e377]:
+                    - link "Ava Nah Sripati | Karunapoorna | Dwadasha Stotra - 10 | With Lyrics 6 minutes, 50 seconds" [ref=e378]:
+                      - /url: /watch?v=QkiJ0bUBMs4&list=RDQkiJ0bUBMs4&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Ava Nah Sripati | Karunapoorna | Dwadasha Stotra - 10 | With Lyrics
+                  - button "Action menu" [ref=e382]
+                - generic [ref=e388]:
+                  - generic [ref=e389]: 201k
+                  - generic [ref=e390]: •1 yr ago
+              - generic [ref=e391]:
+                - link "Go to channel Daasoham" [ref=e392]:
+                  - /url: /@daasoham
+                - generic [ref=e393]:
+                  - link "Daasoham" [ref=e397]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e402]
+              - generic [ref=e406]:
+                - text: "Tenth chapter from Dwadasha Stotra written by Sri Madhwacharyaru. Music and Vocals: Venugopal Khatavkar."
+                - tooltip "tooltip"
+              - img "4K" [ref=e411]:
+                - generic [aria-hidden] [ref=e412]: 4K
+          - generic [ref=e414]:
+            - link [aria-hidden] [ref=e416] [cursor=pointer]:
+              - /url: /watch?v=G9DgkB49t8g&list=RDG9DgkB49t8g&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e418] [cursor=pointer]:
+              - generic [ref=e419]:
+                - generic [ref=e420]:
+                  - heading [level=3] [ref=e421]:
+                    - 'link "Tava Dasoham | Rama Devotional song | Thyagaraja | #SoundsOfIsha 5 minutes" [ref=e422]':
+                      - /url: /watch?v=G9DgkB49t8g&list=RDG9DgkB49t8g&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: "Tava Dasoham | Rama Devotional song | Thyagaraja | #SoundsOfIsha"
+                  - button "Action menu" [ref=e426]
+                - generic [ref=e432]:
+                  - generic [ref=e433]: 302k
+                  - generic [ref=e434]: •4 yr ago
+              - generic [ref=e435]:
+                - link "Go to channel Sounds of Isha" [ref=e436]:
+                  - /url: /channel/UCT8M_hDfTRjUbs8hwahZyBA
+                - generic [ref=e437]:
+                  - link "Sounds of Isha" [ref=e441]:
+                    - /url: /channel/UCT8M_hDfTRjUbs8hwahZyBA
+                  - img "Official Artist Channel" [ref=e446]
+              - generic [ref=e448]:
+                - text: "On the occassion of #ThyagarajaAradhana, here is an offering by the students of @IshaSamskriti - an ode to Rama, in utmost ..."
+                - tooltip "tooltip"
+          - generic [ref=e450]:
+            - link [aria-hidden] [ref=e452] [cursor=pointer]:
+              - /url: /watch?v=0VtXrBGPmLI&list=RD0VtXrBGPmLI&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e454] [cursor=pointer]:
+              - generic [ref=e455]:
+                - generic [ref=e456]:
+                  - heading [level=3] [ref=e457]:
+                    - link "Preenayamo Vasudevam | Song by Sri Madhwacharya | Dwadasha Stotram 7 minutes, 5 seconds" [ref=e458]:
+                      - /url: /watch?v=0VtXrBGPmLI&list=RD0VtXrBGPmLI&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Preenayamo Vasudevam | Song by Sri Madhwacharya | Dwadasha Stotram
+                  - button "Action menu" [ref=e462]
+                - generic [ref=e468]:
+                  - generic [ref=e469]: 719k
+                  - generic [ref=e470]: •4 yr ago
+              - generic [ref=e471]:
+                - link "Go to channel Daasoham" [ref=e472]:
+                  - /url: /@daasoham
+                - generic [ref=e473]:
+                  - link "Daasoham" [ref=e477]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e482]
+              - generic [ref=e486]:
+                - text: Music and vocals by Venugopal K. Chorus by Lakshmeesha K and Chi. Badarinarayana K. 8th chapter from Dwadasha Stotra ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e491]:
+                - generic [aria-hidden] [ref=e492]: 4K
+          - generic [ref=e493]:
+            - heading "Shorts" [level=2] [ref=e503]
+            - generic [ref=e504]:
+              - generic [ref=e505]:
+                - generic [ref=e508]:
+                  - link [aria-hidden] [ref=e509] [cursor=pointer]:
+                    - /url: /shorts/fA61nCfvphY
+                  - generic [ref=e513] [cursor=pointer]:
+                    - generic [ref=e514]:
+                      - heading [level=3] [ref=e515]:
+                        - link "Best animated movies to watch 2025 🥷🔥| Dasoham's Reccomendation Series|" [ref=e516]:
+                          - /url: /shorts/fA61nCfvphY
+                      - generic [aria-hidden] [ref=e517]: 7.7k views
+                    - button "More actions" [ref=e519]
+                - generic [ref=e525]:
+                  - link [aria-hidden] [ref=e526] [cursor=pointer]:
+                    - /url: /shorts/aTwEiSgM4E4
+                  - generic [ref=e530] [cursor=pointer]:
+                    - generic [ref=e531]:
+                      - heading [level=3] [ref=e532]:
+                        - 'link "Ye L generation kab samjhegi 🤡| Dasoham | #comedy #relatable" [ref=e533]':
+                          - /url: /shorts/aTwEiSgM4E4
+                      - generic [aria-hidden] [ref=e534]: 6.6k views
+                    - button "More actions" [ref=e536]
+                - generic [ref=e542]:
+                  - link [aria-hidden] [ref=e543] [cursor=pointer]:
+                    - /url: /shorts/MoPXwUpK6pE
+                  - generic [ref=e547] [cursor=pointer]:
+                    - generic [ref=e548]:
+                      - heading [level=3] [ref=e549]:
+                        - 'link "When two cinephiles meet ⚔️😠| Dasoham | #comedy #cinema" [ref=e550]':
+                          - /url: /shorts/MoPXwUpK6pE
+                      - generic [aria-hidden] [ref=e551]: 3.7k views
+                    - button "More actions" [ref=e553]
+                - generic [ref=e559]:
+                  - link [aria-hidden] [ref=e560] [cursor=pointer]:
+                    - /url: /shorts/vlqwv-_Xub8
+                  - generic [ref=e564] [cursor=pointer]:
+                    - generic [ref=e565]:
+                      - heading [level=3] [ref=e566]:
+                        - 'link "Tag that pookie 😘😂#dasoham #littichokha" [ref=e567]':
+                          - /url: /shorts/vlqwv-_Xub8
+                      - generic [aria-hidden] [ref=e568]: 19k views
+                    - button "More actions" [ref=e570]
+                - generic [ref=e576]:
+                  - link [aria-hidden] [ref=e577] [cursor=pointer]:
+                    - /url: /shorts/LacPHy9uV-Q
+                  - generic [ref=e581] [cursor=pointer]:
+                    - generic [ref=e582]:
+                      - heading [level=3] [ref=e583]:
+                        - 'link "Dasoham | #dasasahitya #satyatmatirtha_swamiji #uttaradimatha" [ref=e584]':
+                          - /url: /shorts/LacPHy9uV-Q
+                      - generic [aria-hidden] [ref=e585]: 52k views
+                    - button "More actions" [ref=e587]
+              - generic [ref=e591]:
+                - generic [ref=e594]:
+                  - link [aria-hidden] [ref=e595] [cursor=pointer]:
+                    - /url: /shorts/1Jxi0mI0EMM
+                  - generic [ref=e599] [cursor=pointer]:
+                    - generic [ref=e600]:
+                      - heading [level=3] [ref=e601]:
+                        - 'link "If OTT Platforms Were Indian Salesmen 😂 | Dasoham | #Shorts #Funny |" [ref=e602]':
+                          - /url: /shorts/1Jxi0mI0EMM
+                      - generic [aria-hidden] [ref=e603]: 11k views
+                    - button "More actions" [ref=e605]
+                - generic [ref=e611]:
+                  - link [aria-hidden] [ref=e612] [cursor=pointer]:
+                    - /url: /shorts/UvdVql16XoU
+                  - generic [ref=e616] [cursor=pointer]:
+                    - generic [ref=e617]:
+                      - heading [level=3] [ref=e618]:
+                        - link "A toy car makes every man happy 🫶😭| Dasoham| Cars Pt. 1|" [ref=e619]:
+                          - /url: /shorts/UvdVql16XoU
+                      - generic [aria-hidden] [ref=e620]: 7.7k views
+                    - button "More actions" [ref=e622]
+                - generic [ref=e628]:
+                  - link [aria-hidden] [ref=e629] [cursor=pointer]:
+                    - /url: /shorts/TsIaLLA7tnU
+                  - generic [ref=e633] [cursor=pointer]:
+                    - generic [ref=e634]:
+                      - heading [level=3] [ref=e635]:
+                        - link "Best Indian Comedy Characters 🤣🔥| Dasoham |" [ref=e636]:
+                          - /url: /shorts/TsIaLLA7tnU
+                      - generic [aria-hidden] [ref=e637]: 3.7k views
+                    - button "More actions" [ref=e639]
+                - generic [ref=e645]:
+                  - link [aria-hidden] [ref=e646] [cursor=pointer]:
+                    - /url: /shorts/oDtje7chxvg
+                  - generic [ref=e650] [cursor=pointer]:
+                    - generic [ref=e651]:
+                      - heading [level=3] [ref=e652]:
+                        - 'link "WAIT FOR THE HERO''s ENTRY 🔥| Dasoham | Cars Pt. 2| #comedy #relatable" [ref=e653]':
+                          - /url: /shorts/oDtje7chxvg
+                      - generic [aria-hidden] [ref=e654]: 6.2k views
+                    - button "More actions" [ref=e656]
+                - generic [ref=e662]:
+                  - link [aria-hidden] [ref=e663] [cursor=pointer]:
+                    - /url: /shorts/d6HGdMT1qxE
+                  - generic [ref=e667] [cursor=pointer]:
+                    - generic [ref=e668]:
+                      - heading [level=3] [ref=e669]:
+                        - 'link "WHEN I MEET MY BEST FRIEND''S WIFE | Dasoham | #shorts #funny |" [ref=e670]':
+                          - /url: /shorts/d6HGdMT1qxE
+                      - generic [aria-hidden] [ref=e671]: 4k views
+                    - button "More actions" [ref=e673]
+            - button "Show more" [ref=e680] [cursor=pointer]
+          - generic [ref=e685] [cursor=pointer]:
+            - link [aria-hidden] [ref=e686]:
+              - /url: /watch?v=JWlPrb-cDEs&list=PLa4DOIDyrMh1dpgu5pGrCzgcDn8oTVI-4
+              - generic [ref=e688]: 14 videos
+            - generic [ref=e702]:
+              - generic [ref=e703]:
+                - heading [level=3] [ref=e704]:
+                  - link "Dwadasha Stotra full - playlist" [ref=e705]:
+                    - /url: /watch?v=JWlPrb-cDEs&list=PLa4DOIDyrMh1dpgu5pGrCzgcDn8oTVI-4
+                - generic [ref=e707]:
+                  - group [ref=e708]:
+                    - link "Daasoham" [ref=e711]:
+                      - /url: /@daasoham
+                    - generic "Verified" [ref=e712]
+                    - link "Playlist" [ref=e717]:
+                      - /url: /@daasoham
+                  - group [ref=e718]
+                  - group [ref=e719]:
+                    - link "Dwadasha Stotra- 1 || Vande Vandyam Sadanandam · 2:42" [ref=e721]:
+                      - /url: /watch?v=JWlPrb-cDEs&list=PLa4DOIDyrMh1dpgu5pGrCzgcDn8oTVI-4
+                  - group [ref=e722]:
+                    - link "Dwadasha Stotra - 2 || Sujanodadhi || With lyrics (CC) in 5 Languages · 1:51" [ref=e724]:
+                      - /url: /watch?v=Q3XHfPc5XSo&list=PLa4DOIDyrMh1dpgu5pGrCzgcDn8oTVI-4
+                  - group [ref=e725]:
+                    - link "View full playlist" [ref=e728]:
+                      - /url: /playlist?list=PLa4DOIDyrMh1dpgu5pGrCzgcDn8oTVI-4
+                  - group [ref=e729]:
+                    - generic [ref=e730]: All the 12 adhyayas of Dvadasha stotra by Sri Madhwacharya
+              - button "More actions" [ref=e733]
+          - generic [ref=e738]:
+            - link [aria-hidden] [ref=e740] [cursor=pointer]:
+              - /url: /watch?v=QVXiyXM83OM&list=RDQVXiyXM83OM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e742] [cursor=pointer]:
+              - generic [ref=e743]:
+                - generic [ref=e744]:
+                  - heading [level=3] [ref=e745]:
+                    - link "Keshavanama || Vijayadasaru || With Lyrics in 5 Languages (CC) || ಕೇಶವನಾಮ (ಕಾಶಿಯ ಹಾದಿಯಲಿ) 6 minutes, 4 seconds" [ref=e746]:
+                      - /url: /watch?v=QVXiyXM83OM&list=RDQVXiyXM83OM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Keshavanama || Vijayadasaru || With Lyrics in 5 Languages (CC) || ಕೇಶವನಾಮ (ಕಾಶಿಯ ಹಾದಿಯಲಿ)
+                  - button "Action menu" [ref=e750]
+                - generic [ref=e756]:
+                  - generic [ref=e757]: 5.9m
+                  - generic [ref=e758]: •5 yr ago
+              - generic [ref=e759]:
+                - link "Go to channel Daasoham" [ref=e760]:
+                  - /url: /@daasoham
+                - generic [ref=e761]:
+                  - link "Daasoham" [ref=e765]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e770]
+              - generic [ref=e774]:
+                - text: "Keshavanama (Kashiya Hadiyali...) Lyrics: Sri Vijaya Dasaru Composed and sung by: Venugopal K Chorus: Badarinarayana K ..."
+                - tooltip "tooltip"
+              - img "Closed captions" [ref=e779]:
+                - generic [aria-hidden] [ref=e780]: Subtitles
+          - generic [ref=e782]:
+            - link [aria-hidden] [ref=e784] [cursor=pointer]:
+              - /url: /watch?v=v1JFl8SsdTg&list=RDv1JFl8SsdTg&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e786] [cursor=pointer]:
+              - generic [ref=e787]:
+                - generic [ref=e788]:
+                  - heading [level=3] [ref=e789]:
+                    - link "Vishnu Sahasranamam || विष्णुसहस्रनामस्तोत्रम् || 21 minutes" [ref=e790]:
+                      - /url: /watch?v=v1JFl8SsdTg&list=RDv1JFl8SsdTg&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Vishnu Sahasranamam || विष्णुसहस्रनामस्तोत्रम् ||
+                  - button "Action menu" [ref=e794]
+                - generic [ref=e800]:
+                  - generic [ref=e801]: 950k
+                  - generic [ref=e802]: •6 yr ago
+              - generic [ref=e803]:
+                - link "Go to channel Daasoham" [ref=e804]:
+                  - /url: /@daasoham
+                - generic [ref=e805]:
+                  - link "Daasoham" [ref=e809]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e814]
+              - generic [ref=e818]:
+                - text: ಮಹಾಭಾರತದಲ್ಲಿ ಭೇಷ್ಮಾಚಾರ್ಯರು ಹೇಳಿದ ವಿಷ್ಣುಸಹಸ್ರನಾಮ. Vishnu Sahasranamam ...
+                - tooltip "tooltip"
+          - generic [ref=e820]:
+            - link [aria-hidden] [ref=e822] [cursor=pointer]:
+              - /url: /watch?v=1-l4zkBbzb0&list=RD1-l4zkBbzb0&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e824] [cursor=pointer]:
+              - generic [ref=e825]:
+                - generic [ref=e826]:
+                  - heading [level=3] [ref=e827]:
+                    - link "Gajendra Moksha (Lyrical video) | ಗಜೇಂದ್ರ ಮೋಕ್ಷ (ಸಾಹಿತ್ಯದೊಂದಿಗೆ) 16 minutes" [ref=e828]:
+                      - /url: /watch?v=1-l4zkBbzb0&list=RD1-l4zkBbzb0&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Gajendra Moksha (Lyrical video) | ಗಜೇಂದ್ರ ಮೋಕ್ಷ (ಸಾಹಿತ್ಯದೊಂದಿಗೆ)
+                  - button "Action menu" [ref=e832]
+                - generic [ref=e838]:
+                  - generic [ref=e839]: 13m
+                  - generic [ref=e840]: •4 yr ago
+              - generic [ref=e841]:
+                - link "Go to channel Daasoham" [ref=e842]:
+                  - /url: /@daasoham
+                - generic [ref=e843]:
+                  - link "Daasoham" [ref=e847]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e852]
+              - generic [ref=e856]:
+                - text: Gajendra moksha by Sri Vadirajaru. Composed and sung by Venugopal K. Narayana Krishna Bhajan.
+                - tooltip "tooltip"
+          - generic [ref=e858] [cursor=pointer]:
+            - link [aria-hidden] [ref=e859]:
+              - /url: /watch?v=Csow0jc4Nug&list=PLVQa9F2gDsqHj38hvGYBrh9jCU1bvJrL-
+              - generic [ref=e861]: 21 videos
+            - generic [ref=e875]:
+              - generic [ref=e876]:
+                - heading [level=3] [ref=e877]:
+                  - link "Dasoham songs" [ref=e878]:
+                    - /url: /watch?v=Csow0jc4Nug&list=PLVQa9F2gDsqHj38hvGYBrh9jCU1bvJrL-
+                - generic [ref=e880]:
+                  - group [ref=e881]:
+                    - link "Tim Davis" [ref=e884]:
+                      - /url: /@TimDavis-ss2zb
+                    - link "Playlist" [ref=e887]:
+                      - /url: /@TimDavis-ss2zb
+                  - group [ref=e888]
+                  - group [ref=e889]:
+                    - link "Hakkiya Hegaleri Bandavage | With Lyrics | ಹಕ್ಕಿಯ ಹೆಗಲೇರಿ ಬಂದವಗೆ · 6:05" [ref=e891]:
+                      - /url: /watch?v=Csow0jc4Nug&list=PLVQa9F2gDsqHj38hvGYBrh9jCU1bvJrL-
+                  - group [ref=e892]:
+                    - link "Mukhya Karana Vishnu Sarvesha || Gopala Dasaru · 5:57" [ref=e894]:
+                      - /url: /watch?v=otAh_iMGaO4&list=PLVQa9F2gDsqHj38hvGYBrh9jCU1bvJrL-
+                  - group [ref=e895]:
+                    - link "View full playlist" [ref=e898]:
+                      - /url: /playlist?list=PLVQa9F2gDsqHj38hvGYBrh9jCU1bvJrL-
+              - button "More actions" [ref=e901]
+          - generic [ref=e906]:
+            - link [aria-hidden] [ref=e908] [cursor=pointer]:
+              - /url: /watch?v=GBoOzFicTzE&list=RDGBoOzFicTzE&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e910] [cursor=pointer]:
+              - generic [ref=e911]:
+                - generic [ref=e912]:
+                  - heading [level=3] [ref=e913]:
+                    - link "Jai Jai Rama Hare | Jai jai Krishna hare 13 minutes, 34 seconds" [ref=e914]:
+                      - /url: /watch?v=GBoOzFicTzE&list=RDGBoOzFicTzE&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Jai Jai Rama Hare | Jai jai Krishna hare
+                  - button "Action menu" [ref=e918]
+                - generic [ref=e924]:
+                  - generic [ref=e925]: 480k
+                  - generic [ref=e926]: •6 yr ago
+              - generic [ref=e927]:
+                - link "Go to channel Daasoham" [ref=e928]:
+                  - /url: /@daasoham
+                - generic [ref=e929]:
+                  - link "Daasoham" [ref=e933]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e938]
+              - generic [ref=e942]:
+                - text: This song, composed by Sri Murugodu Krishna Dasaru, is written by Sri Varadesha Vitthala Daasaru where the glories of Sri ...
+                - tooltip "tooltip"
+          - generic [ref=e944]:
+            - link [aria-hidden] [ref=e946] [cursor=pointer]:
+              - /url: /watch?v=VmiIR4vXMZA&list=RDVmiIR4vXMZA&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e948] [cursor=pointer]:
+              - generic [ref=e949]:
+                - generic [ref=e950]:
+                  - heading [level=3] [ref=e951]:
+                    - link "Vayu Stuti (with sanskrit, kannada subtitles) || नरसिंह नखस्तुतिः, वायुस्तुतिः ||‌ 22 minutes" [ref=e952]:
+                      - /url: /watch?v=VmiIR4vXMZA&list=RDVmiIR4vXMZA&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Vayu Stuti (with sanskrit, kannada subtitles) || नरसिंह नखस्तुतिः, वायुस्तुतिः ||‌
+                  - button "Action menu" [ref=e956]
+                - generic [ref=e962]:
+                  - generic [ref=e963]: 912k
+                  - generic [ref=e964]: •6 yr ago
+              - generic [ref=e965]:
+                - link "Go to channel Daasoham" [ref=e966]:
+                  - /url: /@daasoham
+                - generic [ref=e967]:
+                  - link "Daasoham" [ref=e971]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e976]
+              - generic [ref=e980]:
+                - text: ತ್ರಿವಿಕ್ರಮಪಂಡಿತಾಚಾರ್ಯರು ರಚಿಸಿದ ವಾಯುಸ್ತುತಿ. (ಶ್ರೀಮದಾಚಾರ್ಯರು ...
+                - tooltip "tooltip"
+              - img "Closed captions" [ref=e985]:
+                - generic [aria-hidden] [ref=e986]: Subtitles
+          - generic [ref=e988]:
+            - link [aria-hidden] [ref=e990] [cursor=pointer]:
+              - /url: /watch?v=DgCKyylb4rM&list=RDDgCKyylb4rM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e992] [cursor=pointer]:
+              - generic [ref=e993]:
+                - generic [ref=e994]:
+                  - heading [level=3] [ref=e995]:
+                    - link "దాసోహం దాసోహం | Bhagavath Ramanuja Swamy Song | Telugu Devotional Song | Manjuhari Kolatam 6 minutes, 28 seconds" [ref=e996]:
+                      - /url: /watch?v=DgCKyylb4rM&list=RDDgCKyylb4rM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: దాసోహం దాసోహం | Bhagavath Ramanuja Swamy Song | Telugu Devotional Song | Manjuhari Kolatam
+                  - button "Action menu" [ref=e1000]
+                - generic [ref=e1006]:
+                  - generic [ref=e1007]: 73k
+                  - generic [ref=e1008]: •5 yr ago
+              - generic [ref=e1009]:
+                - link "Go to channel Manjuhari Kolatam" [ref=e1010]:
+                  - /url: /@manjuharikolatam6802
+                - link "Manjuhari Kolatam" [ref=e1015]:
+                  - /url: /@manjuharikolatam6802
+              - generic [ref=e1016]:
+                - text: Surrender yourselves to Lord Venkateswara, Bhagavat Ramanuja, and Jeeyar Swamy to attain selfless life. Song Name ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1021]:
+                - generic [aria-hidden] [ref=e1022]: 4K
+          - generic [ref=e1024]:
+            - link [aria-hidden] [ref=e1026] [cursor=pointer]:
+              - /url: /watch?v=eJ100SLtzGY&list=RDeJ100SLtzGY&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1028] [cursor=pointer]:
+              - generic [ref=e1029]:
+                - generic [ref=e1030]:
+                  - heading [level=3] [ref=e1031]:
+                    - link "Rama Rama | DANCE | Rama Nama Ramayana - 2 10 minutes, 24 seconds" [ref=e1032]:
+                      - /url: /watch?v=eJ100SLtzGY&list=RDeJ100SLtzGY&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Rama Rama | DANCE | Rama Nama Ramayana - 2
+                  - button "Action menu" [ref=e1036]
+                - generic [ref=e1042]:
+                  - generic [ref=e1043]: 21k
+                  - generic [ref=e1044]: •3 mo ago
+              - generic [ref=e1045]:
+                - link "Go to channel Daasoham" [ref=e1046]:
+                  - /url: /@daasoham
+                - generic [ref=e1047]:
+                  - link "Daasoham" [ref=e1051]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e1056]
+              - generic [ref=e1060]:
+                - text: Video by Lakshmeesha Khatavkar. Written by Sri Prasanna Vitthala Dasaru (Pt. Vadirajacharya Karanam). Composed and sung ...
+                - tooltip "tooltip"
+          - generic [ref=e1062]:
+            - link [aria-hidden] [ref=e1064] [cursor=pointer]:
+              - /url: /watch?v=D7TTvlj3lA0&list=RDD7TTvlj3lA0&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1066] [cursor=pointer]:
+              - generic [ref=e1067]:
+                - generic [ref=e1068]:
+                  - heading [level=3] [ref=e1069]:
+                    - link "Ramachandrasya Dasoham 9 minutes, 11 seconds" [ref=e1070]:
+                      - /url: /watch?v=D7TTvlj3lA0&list=RDD7TTvlj3lA0&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Ramachandrasya Dasoham
+                  - button "Action menu" [ref=e1074]
+                - generic [ref=e1078]: "827"
+              - generic [ref=e1082]:
+                - link "Go to channel Balaji Shankar - Topic" [ref=e1083]:
+                  - /url: /channel/UC9WH7jUMfuuv0JH3wzMiX5g
+                - link "Balaji Shankar - Topic" [ref=e1088]:
+                  - /url: /channel/UC9WH7jUMfuuv0JH3wzMiX5g
+              - generic [ref=e1089]:
+                - generic [ref=e1090]: Provided to YouTube by Phonographic Digital Limited Ramachandrasya Dasoham · Balaji Shankar Dikshithar Krithis - Balaji ...
+                - tooltip "tooltip"
+          - generic [ref=e1092]:
+            - link [aria-hidden] [ref=e1094] [cursor=pointer]:
+              - /url: /watch?v=dEWdNoSQpsA&list=RDdEWdNoSQpsA&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1096] [cursor=pointer]:
+              - generic [ref=e1097]:
+                - generic [ref=e1098]:
+                  - heading [level=3] [ref=e1099]:
+                    - link "Dasoham Dasoham (Sung by Sri Vidyabhushana) 5 minutes, 54 seconds" [ref=e1100]:
+                      - /url: /watch?v=dEWdNoSQpsA&list=RDdEWdNoSQpsA&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Dasoham Dasoham (Sung by Sri Vidyabhushana)
+                  - button "Action menu" [ref=e1104]
+                - generic [ref=e1110]:
+                  - generic [ref=e1111]: 28k
+                  - generic [ref=e1112]: •9 yr ago
+              - generic [ref=e1113]:
+                - link "Go to channel Spiritual Music" [ref=e1114]:
+                  - /url: /@spiritualmusic1172
+                - link "Spiritual Music" [ref=e1119]:
+                  - /url: /@spiritualmusic1172
+              - generic [ref=e1120]:
+                - text: "Disclaimer: The video clips are posted for viewing pleasure and as an archive for good classical songs. By this I don't wish to ..."
+                - tooltip "tooltip"
+          - generic [ref=e1122]:
+            - link [aria-hidden] [ref=e1124] [cursor=pointer]:
+              - /url: /watch?v=dAvhAhaKQFM&list=RDdAvhAhaKQFM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1126] [cursor=pointer]:
+              - generic [ref=e1127]:
+                - generic [ref=e1128]:
+                  - heading [level=3] [ref=e1129]:
+                    - link "Dasanagu Visheshanagu | With Lyrics | Kanakadasaru 6 minutes, 17 seconds" [ref=e1130]:
+                      - /url: /watch?v=dAvhAhaKQFM&list=RDdAvhAhaKQFM&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Dasanagu Visheshanagu | With Lyrics | Kanakadasaru
+                  - button "Action menu" [ref=e1134]
+                - generic [ref=e1140]:
+                  - generic [ref=e1141]: 6.3m
+                  - generic [ref=e1142]: •1 yr ago
+              - generic [ref=e1143]:
+                - link "Go to channel Daasoham" [ref=e1144]:
+                  - /url: /@daasoham
+                - generic [ref=e1145]:
+                  - link "Daasoham" [ref=e1149]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e1154]
+              - generic [ref=e1158]:
+                - text: Written by Sri Kanaka Dasaru. ರಾಗ ಸಂಯೋಜನೆ ಶ್ರೀ ಪುತ್ತೂರು ನರಸಿಂಹ ನಾಯಕ್. ಗಾಯನ ಮತ್ತು ...
+                - tooltip "tooltip"
+              - img "4K" [ref=e1163]:
+                - generic [aria-hidden] [ref=e1164]: 4K
+          - generic [ref=e1166]:
+            - link [aria-hidden] [ref=e1168] [cursor=pointer]:
+              - /url: /watch?v=LtbGiwKfLE4&list=RDLtbGiwKfLE4&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1170] [cursor=pointer]:
+              - generic [ref=e1171]:
+                - generic [ref=e1172]:
+                  - heading [level=3] [ref=e1173]:
+                    - link "Tava Dasoham 6 minutes, 7 seconds" [ref=e1174]:
+                      - /url: /watch?v=LtbGiwKfLE4&list=RDLtbGiwKfLE4&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: Tava Dasoham
+                  - button "Action menu" [ref=e1178]
+                - generic [ref=e1182]: 1.9k
+              - generic [ref=e1186]:
+                - link "Go to channel Sudha Ragunathan - Topic" [ref=e1187]:
+                  - /url: /channel/UCa11gPg9zJ2LTt734fR3LHg
+                - generic [ref=e1188]:
+                  - link "Sudha Ragunathan" [ref=e1192]:
+                    - /url: /channel/UCa11gPg9zJ2LTt734fR3LHg
+                  - img "Official Artist Channel" [ref=e1197]
+              - generic [ref=e1199]:
+                - generic [ref=e1200]: "Provided to YouTube by Divo Tv Private Limited Tava Dasoham · Sudha Ragunathan Vandhanamu ℗ 2008 Kosmik Music Vocals: ..."
+                - tooltip "tooltip"
+          - generic [ref=e1202]:
+            - link [aria-hidden] [ref=e1204] [cursor=pointer]:
+              - /url: /watch?v=OEzWpeG0Yh0&list=RDOEzWpeG0Yh0&start_radio=1&pp=ygUHRGFzb2hhbaAHAdIHCQnHBwGHKiGM7w%3D%3D
+            - generic [ref=e1206] [cursor=pointer]:
+              - generic [ref=e1207]:
+                - generic [ref=e1208]:
+                  - heading [level=3] [ref=e1209]:
+                    - link "Ninna Olumeyinda | Venugopal K | Daasoham 5 minutes, 56 seconds" [ref=e1210]:
+                      - /url: /watch?v=OEzWpeG0Yh0&list=RDOEzWpeG0Yh0&start_radio=1&pp=ygUHRGFzb2hhbaAHAdIHCQnHBwGHKiGM7w%3D%3D
+                      - text: Ninna Olumeyinda | Venugopal K | Daasoham
+                  - button "Action menu" [ref=e1214]
+                - generic [ref=e1220]:
+                  - generic [ref=e1221]: 646k
+                  - generic [ref=e1222]: •3 yr ago
+              - generic [ref=e1223]:
+                - link "Go to channel Daasoham" [ref=e1224]:
+                  - /url: /@daasoham
+                - generic [ref=e1225]:
+                  - link "Daasoham" [ref=e1229]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e1234]
+              - generic [ref=e1238]:
+                - text: "Music and vocals - Dr. Venugopal Khatavkar. Tune made famous by Sri Katageri Dasaru. Lyrics: Sri Vijaya Dasaru Ninna ..."
+                - tooltip "tooltip"
+          - generic [ref=e1240]:
+            - link [aria-hidden] [ref=e1242] [cursor=pointer]:
+              - /url: /watch?v=B_cunYg_R0U&list=RDB_cunYg_R0U&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+            - generic [ref=e1244] [cursor=pointer]:
+              - generic [ref=e1245]:
+                - generic [ref=e1246]:
+                  - heading [level=3] [ref=e1247]:
+                    - link "ನರಸಿಂಹ ಸುಳಾದಿ ॥ Narasimha Suladi || ಶ್ರೀ ವಿಜಯದಾಸವಿರು ॥ ವೇಣುಗೋಪಾಲ ಖಟಾವ್ಕರ್ 5 minutes, 11 seconds" [ref=e1248]:
+                      - /url: /watch?v=B_cunYg_R0U&list=RDB_cunYg_R0U&start_radio=1&pp=ygUHRGFzb2hhbaAHAQ%3D%3D
+                      - text: ನರಸಿಂಹ ಸುಳಾದಿ ॥ Narasimha Suladi || ಶ್ರೀ ವಿಜಯದಾಸವಿರು ॥ ವೇಣುಗೋಪಾಲ ಖಟಾವ್ಕರ್
+                  - button "Action menu" [ref=e1252]
+                - generic [ref=e1258]:
+                  - generic [ref=e1259]: 991k
+                  - generic [ref=e1260]: •5 yr ago
+              - generic [ref=e1261]:
+                - link "Go to channel Daasoham" [ref=e1262]:
+                  - /url: /@daasoham
+                - generic [ref=e1263]:
+                  - link "Daasoham" [ref=e1267]:
+                    - /url: /@daasoham
+                  - img "Verified" [ref=e1272]
+              - generic [ref=e1276]:
+                - text: "Sri Narasimha Sulaadi #Sulaadi."
+                - tooltip "tooltip"
