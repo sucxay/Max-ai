@@ -1,3 +1,7 @@
 .env
 tests/
 ARCHITECTURE.md
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/

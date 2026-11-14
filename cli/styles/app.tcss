@@ -1,0 +1,102 @@
+Screen {
+    background: #000000;
+    color: #dce8f5;
+}
+
+#topbar {
+    height: 3;
+    padding: 0 2;
+    background: #000000;
+    color: #dce8f5;
+    border-bottom: tall #153a55;
+}
+
+#brand {
+    width: 1fr;
+    content-align: left middle;
+    text-style: bold;
+}
+
+#connection-status {
+    width: auto;
+    content-align: right middle;
+    color: #39e7ff;
+}
+
+#main {
+    height: 1fr;
+    layout: horizontal;
+    padding: 1 1 0 1;
+}
+
+#mascot {
+    width: 30;
+    min-width: 24;
+    height: 1fr;
+    content-align: center middle;
+    border: round #167dff;
+    background: #000000;
+    padding: 0 1;
+}
+
+#sprite {
+    height: 1fr;
+    width: 1fr;
+    content-align: center middle;
+    background: #000000;
+}
+
+.mascot-state {
+    height: 1;
+    width: 1fr;
+    text-align: center;
+    color: #39e7ff;
+    text-style: bold;
+}
+
+.mascot-hint {
+    height: 2;
+    width: 1fr;
+    text-align: center;
+    color: #8394a8;
+}
+
+#conversation {
+    width: 1fr;
+    height: 1fr;
+    margin-left: 1;
+    padding: 1 2;
+    border: round #253347;
+    background: #000000;
+    scrollbar-color: #167dff;
+    scrollbar-color-hover: #39e7ff;
+}
+
+#input-row {
+    height: 3;
+    margin: 0 1;
+    padding: 0 1;
+    background: #000000;
+    border: round #167dff;
+}
+
+#input-prompt {
+    width: 3;
+    content-align: center middle;
+    color: #39e7ff;
+    text-style: bold;
+}
+
+#request-input {
+    width: 1fr;
+    border: none;
+    background: #000000;
+}
+
+#command-help {
+    height: 1;
+    padding: 0 2;
+    color: #8394a8;
+    text-align: center;
+}
+

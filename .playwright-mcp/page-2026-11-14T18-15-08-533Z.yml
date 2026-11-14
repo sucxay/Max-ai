@@ -1,0 +1,1207 @@
+- generic [active] [ref=f2e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=f2e2] [cursor=pointer]
+      - link "Accessibility help" [ref=f2e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=f2e8]:
+    - search [ref=f2e9]:
+      - generic [ref=f2e11]:
+        - link "Go to Google Home" [ref=f2e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=en&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQPHoECAYQBA
+        - generic [ref=f2e21]:
+          - generic [ref=f2e22]:
+            - combobox "Search" [ref=f2e25]: Kanye West Kanye West
+            - generic [ref=f2e26]:
+              - button "Clear" [ref=f2e28] [cursor=pointer]
+              - generic [ref=f2e33]:
+                - button "Search by voice" [ref=f2e34] [cursor=pointer]
+                - button "Search by image" [ref=f2e37] [cursor=pointer]
+          - button "Search" [ref=f2e40] [cursor=pointer]
+    - generic [ref=f2e45]:
+      - button "Settings" [ref=f2e47] [cursor=pointer]
+      - button "Share" [ref=f2e52] [cursor=pointer]
+      - generic [ref=f2e58]:
+        - button "Google apps" [ref=f2e60] [cursor=pointer]
+        - link "Sign in" [ref=f2e65] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=en&passive=true&continue=https://www.google.com/search%3Fq%3DKanye%2BWest%26sei%3DKaX4arniOd7G4-EP-vi5iQE&ec=futura_srp_og_si_72236_p
+  - generic [ref=f2e67]:
+    - navigation [ref=f2e73]:
+      - generic [ref=f2e79]:
+        - list [ref=f2e80]:
+          - listitem [ref=f2e81]:
+            - link "AI Mode" [ref=f2e84] [cursor=pointer]:
+              - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=50&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ2J8OegQIFRAD
+          - listitem [ref=f2e88]:
+            - link "All" [disabled] [ref=f2e89]
+          - listitem [ref=f2e92]:
+            - link "Images" [ref=f2e93] [cursor=pointer]:
+              - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&q=Kanye+West&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQtKgLegQILhAB
+          - listitem [ref=f2e96]:
+            - link "Videos" [ref=f2e97] [cursor=pointer]:
+              - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&q=Kanye+West&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQtKgLegQIKxAB
+          - listitem [ref=f2e100]:
+            - link "Short videos" [ref=f2e101] [cursor=pointer]:
+              - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=short_vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&q=Kanye+West&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQs6gLegQIKRAB
+          - listitem [ref=f2e104]:
+            - link "News" [ref=f2e105] [cursor=pointer]:
+              - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ0pQJegQIJRAB
+          - listitem [ref=f2e108]:
+            - link "Shopping" [ref=f2e109] [cursor=pointer]:
+              - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_koHVe5RLSnJlTH2QYaq_YVfnwA0k4pzZ9d-ZbRA0e6tww_WM0IOMLGL1GAIRO4RsbswwV7vZPZo1QkU56yz0vFTcXrVK0fxMdh3iLcgrC2FcAxZA59LsqkQm2nq0PnOV3Agfuz7xkSRQWPxjBLtIJxXmD5q-7bFdM5lcgAhos07cPrQV3WKrslAg9fnJ-iJsv7NSUPg&q=Kanye+West&ved=1t:220175&ictx=111
+          - listitem [ref=f2e112]:
+            - button [ref=f2e113] [cursor=pointer]:
+              - generic "More filters" [ref=f2e114]: More
+        - button "Tools" [ref=f2e121] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=f2e128]
+    - generic [ref=f2e133]:
+      - main [ref=f2e134]:
+        - generic [ref=f2e142]:
+          - button "Thumbnail image for Kanye West" [ref=f2e146] [cursor=pointer]
+          - generic [ref=f2e149]:
+            - heading "Kanye West" [level=2] [ref=f2e152]
+            - generic [ref=f2e153]:
+              - generic [ref=f2e154]: American rapper and songwriter
+              - button [ref=f2e162] [cursor=pointer]:
+                - img "More options for Kanye West" [ref=f2e163]
+        - generic [ref=f2e167]:
+          - generic [ref=f2e171]:
+            - generic [ref=f2e174]:
+              - heading "Web results" [level=2] [ref=f2e175]
+              - generic [ref=f2e176]:
+                - generic [ref=f2e179]:
+                  - link "Kanye West Wikipedia https://en.wikipedia.org › wiki › Kanye_West" [ref=f2e181] [cursor=pointer]:
+                    - /url: /goto?url=CAESZQHEIkXXgw28aIl4CcFLpn1qzD3MOqHosBCn5C7Zrg7sVmiXOHMuwBZWJlbjP88n_PymjdTDkj-fOT7IF0SvJtQL9b97RuQrgt5VGPlyG_udPnXch-aJUTAA8mlYOb9UUNeR95D3&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - heading "Kanye West" [level=3] [ref=f2e182]
+                    - generic [ref=f2e188]:
+                      - generic [ref=f2e189]: Wikipedia
+                      - generic [ref=f2e191]: https://en.wikipedia.org › wiki › Kanye_West
+                  - button "About this result" [ref=f2e197] [cursor=pointer]
+                - generic [ref=f2e203]:
+                  - generic [ref=f2e204]:
+                    - text: Ye is
+                    - emphasis [ref=f2e205]: an American rapper, songwriter, and record producer
+                    - text: . He has been listed among the greatest rappers of all time and referred to as one of the most ...
+                  - link "Read more" [ref=f2e206] [cursor=pointer]:
+                    - /url: /goto?url=CAES_gEBxCJF1wo1jnvca201ltJz-reV6-JtqTIdtk390yxtM2M6Dj0xFYDfBvwUlmRW998reXsecGp_KuVFSc4HD7ci8fLMSwY5cBrCh1v68Xz-GxhsCLuFskByzkc0faa8NYPQm6g2iZrDgGuHp7r_y0WfgjwEqzHWpWGi_oxPSmA06mMk5xro_3eUodFLjgez-Su-Hl9jLzLtjViN7ZpJub58VU66dbupXU8bhoIDd55lpEcVtI-jmtKDfbeXRj2qGjTY-VSyCwWZPQp5H-jfWzv0yqtqQ3Z_v2cZRzSy0mIfeqvrteTB7lVHH8uJ_962xfmXk43No7B0J6ELUHSCoA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                - link [aria-hidden] [ref=f2e209] [cursor=pointer]:
+                  - /url: /goto?url=CAESZQHEIkXXGctjHr07LbiWlnnRVcmUSvrtM7RVmhClMcKEZkqcfihvg-uONkhN0osFQunFg-RnTV0wIwfTCmuCdRJLRri8bDhehEGQzro6-Gff-fd5rhSF4BpK17TEaIYUdM_EP3HK&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+            - generic [ref=f2e216]:
+              - heading "People also ask" [level=2] [ref=f2e218]
+              - generic [ref=f2e219]:
+                - button "What condition does Kanye West suffer from?" [ref=f2e225] [cursor=pointer]
+                - button "What is happening with Kanye West right now?" [ref=f2e239] [cursor=pointer]
+                - button "What is Kanye's IQ level?" [ref=f2e253] [cursor=pointer]
+                - button "Is Kanye pro LGBTQ?" [ref=f2e267] [cursor=pointer]
+            - generic [ref=f2e283]:
+              - generic [ref=f2e286]:
+                - generic [ref=f2e288]:
+                  - heading "AI Overview" [level=2] [ref=f2e292]
+                  - button "Listen" [ref=f2e296]:
+                    - generic [ref=f2e300] [cursor=pointer]
+                - generic [ref=f2e326]:
+                  - generic [ref=f2e327]:
+                    - strong [ref=f2e328]:
+                      - button "Kanye West" [ref=f2e333] [cursor=pointer]
+                    - text: (legally changed to
+                    - strong [ref=f2e335]: Ye
+                    - text: ) is an American rapper, singer, songwriter, record producer, fashion designer, and entrepreneur born on June 8, 1977.
+                    - generic [ref=f2e339]:
+                      - link "Wikipedia" [ref=f2e340] [cursor=pointer]:
+                        - /url: /goto?url=CAESZQHEIkXX0nifc3VXHpmgVRxhzgpSHU957H5Ma-1ONq_fkJV_GeTPpiN05bwsO7tB-7W7kUFhP295ZPmyqncw12alXl80EFiMGwENTkHzcALpE5F1MACoXr1-TdyullFMTqO3u7vH
+                      - button "Wikipedia (+2) – related results" [ref=f2e341] [cursor=pointer]:
+                        - generic [ref=f2e343]:
+                          - generic [ref=f2e344]: Wikipedia
+                          - generic [ref=f2e345]: "+2"
+                  - heading "Music Career & Key Albums" [level=3] [ref=f2e346]
+                  - list [ref=f2e347]:
+                    - listitem [ref=f2e349]:
+                      - generic [ref=f2e350]:
+                        - strong [ref=f2e351]: "Rise to Fame:"
+                        - text: First gained recognition as a producer for
+                        - link "Roc-A-Fella Records" [ref=f2e354] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXXuElx0cRErGYWIvFwVZ70izKf0XQUbox3Ecg36c33UIbxlkpryj4EVZeXlUbEMaBWr53pwx8VtUKjOTb8thd7vaRZqYntEr6GxI4Jy7Pqba-nSB-KqTjnMda8ffu1ex3YS0catxHj7cUX
+                        - text: in the early 2000s before releasing his debut studio album,
+                        - emphasis [ref=f2e355]: The College Dropout
+                        - text: ", in 2004."
+                    - listitem [ref=f2e357]:
+                      - generic [ref=f2e358]:
+                        - strong [ref=f2e359]: "Grammy Success:"
+                        - text: He has won 24 Grammy Awards and released multiple chart-topping albums on the Billboard 200.
+                    - listitem [ref=f2e361]:
+                      - generic [ref=f2e362]:
+                        - strong [ref=f2e363]: "Recent Releases:"
+                        - text: Released the album
+                        - emphasis [ref=f2e364]: BULLY
+                        - text: and
+                        - emphasis [ref=f2e365]: BULLY - DELUXE
+                        - text: in 2006.
+                      - generic [ref=f2e369]:
+                        - link [ref=f2e370] [cursor=pointer]:
+                          - /url: /goto?url=CAEScwHEIkXXu_KA8bhp4Tqudlc57yei3EoihW4taFhIlzJMG28IJVEjVXTSZkO8YXaz2SnHrWNBOmcxWl4UTs5KzBI6HyrgtDa15RNYsoHX7ac7gf4YMUx_HwtKzFYcsYIiOlNVDaqgXzAzIDYNxiHSuf5MC8M
+                        - button [ref=f2e371] [cursor=pointer]:
+                          - generic [ref=f2e373]:
+                            - generic [ref=f2e374]: Spotify
+                            - generic [ref=f2e375]: "+4"
+                  - heading [level=3] [ref=f2e377]: Fashion & Business
+                  - list [aria-hidden] [ref=f2e378]:
+                    - listitem [ref=f2e380]:
+                      - generic [ref=f2e381]:
+                        - strong [ref=f2e382]: "Yeezy:"
+                        - text: Launched the
+                        - link [ref=f2e385] [cursor=pointer]:
+                          - /url: /goto?url=CAESTgHEIkXXFwin0cike4xx2dyR7vgfd77mCzjRSGuoCNT5JaD2Lb2sY1CSireAMkyJukW491FoeqhGwd5AGJXDW7jHapLRU8lzhLmQ3QVYfA
+                          - text: Yeezy
+                        - text: fashion and footwear line, which grew into a massive streetwear and sneaker empire before major corporate partnerships (such as Adidas) were terminated in late 2022 due to his public antisemitic remarks .
+                    - listitem [ref=f2e388]:
+                      - generic [ref=f2e389]:
+                        - strong [ref=f2e390]: "Relaunches:"
+                        - text: He held a Yeezy runway show in Los Angeles in late 2026, appearing alongside his four children (North, Saint, Chicago, and Psalm) and wife Bianca Censori.
+                      - generic [ref=f2e394]:
+                        - link [ref=f2e395] [cursor=pointer]:
+                          - /url: /goto?url=CAESbAHEIkXXgt2uyKz6_x6NRJOAdruxjmxbXBKO1gXUm0xt8E8IbWqTxeiaKri1YaVgXOGYNrRhxVMwb9CVeaNFu7cTDJ_j6KYOQgxYqMO6GvouqZSOM86Nh1dvNkByuw44POGGLhOPX8JKvF4hrA
+                        - button [ref=f2e396] [cursor=pointer]:
+                          - generic [ref=f2e398]:
+                            - generic [ref=f2e399]: Britannica
+                            - generic [ref=f2e400]: "+3"
+                  - generic [ref=f2e401]:
+                    - heading [level=3] [ref=f2e403]: Controversies & Public Life
+                    - list [aria-hidden] [ref=f2e404]:
+                      - listitem [ref=f2e406]:
+                        - generic [ref=f2e407]:
+                          - strong [ref=f2e408]: "Mental Health & Apologies:"
+                          - text: Diagnosed with bipolar disorder, Ye has publicly referenced mental health struggles regarding past controversies. In early 2026, he published statements and an apology ad in
+                          - emphasis [ref=f2e409]: The Wall Street Journal
+                          - text: addressing the Jewish and Black communities regarding past antisemitic comments.
+                        - generic [ref=f2e413]:
+                          - link [ref=f2e414] [cursor=pointer]:
+                            - /url: /goto?url=CAESbAHEIkXXgt2uyKz6_x6NRJOAdruxjmxbXBKO1gXUm0xt8E8IbWqTxeiaKri1YaVgXOGYNrRhxVMwb9CVeaNFu7cTDJ_j6KYOQgxYqMO6GvouqZSOM86Nh1dvNkByuw44POGGLhOPX8JKvF4hrA
+                          - button [ref=f2e415] [cursor=pointer]:
+                            - generic [ref=f2e417]:
+                              - generic [ref=f2e418]: Britannica
+                              - generic [ref=f2e419]: "+2"
+                    - generic [ref=f2e421]:
+                      - generic [ref=f2e422]: "Learn more about Kanye West's career impact and musical legacy:"
+                      - generic [ref=f2e425]:
+                        - button [ref=f2e429] [cursor=pointer]:
+                          - generic [ref=f2e430]: 3:23
+                        - generic [ref=f2e443]:
+                          - link [ref=f2e444] [cursor=pointer]:
+                            - /url: /goto?url=CAESaAHEIkXXr5ZSAjnH_aqMmeizHR9pbwPnPfcknlGbNfg1QY5VcK5wVusyF3hNFutsKbCTk4DauRw0KQRKDCFE31RZhazZ13IH-n44oo_RMwTovhLCu_QIkq1Rq2qDj0ejiVZvw5hGCyok
+                          - generic [ref=f2e445]:
+                            - generic [ref=f2e446]: "Black Music Month Profiles: The Legendary Career Of Kanye West"
+                            - generic [ref=f2e447]:
+                              - generic [ref=f2e448]:
+                                - generic [ref=f2e449]:
+                                  - generic [ref=f2e450]: 2.2K views
+                                  - text: · 4 years ago
+                                - generic [ref=f2e451]: YouTube · Billboard
+                              - button [ref=f2e457] [cursor=pointer]
+                    - generic [ref=f2e464]:
+                      - text: Would you like to know more about his
+                      - link [ref=f2e467] [cursor=pointer]:
+                        - strong [ref=f2e472]: discography
+                      - text: ","
+                      - link [ref=f2e475] [cursor=pointer]:
+                        - strong [ref=f2e480]: fashion history
+                      - text: ", or"
+                      - link [ref=f2e483] [cursor=pointer]:
+                        - strong [ref=f2e488]: recent music projects
+                      - text: "?"
+                    - generic [ref=f2e492]:
+                      - list [ref=f2e493]:
+                        - listitem [ref=f2e494]:
+                          - generic [ref=f2e495]:
+                            - link [ref=f2e496] [cursor=pointer]:
+                              - /url: /goto?url=CAESZQHEIkXX0nifc3VXHpmgVRxhzgpSHU957H5Ma-1ONq_fkJV_GeTPpiN05bwsO7tB-7W7kUFhP295ZPmyqncw12alXl80EFiMGwENTkHzcALpE5F1MACoXr1-TdyullFMTqO3u7vH
+                            - generic [ref=f2e497]:
+                              - generic [ref=f2e498]:
+                                - generic [ref=f2e501]: Wikipedia
+                                - button [ref=f2e505] [cursor=pointer]
+                              - generic [ref=f2e511]:
+                                - generic [aria-hidden] [ref=f2e512]: Kanye West - Wikipedia
+                                - generic [ref=f2e513]: Kanye West "Kanye" redirects here. For other uses, see Kanye (disambiguation) and Kanye West (disambiguation). Ye (/jeɪ/ YAY; born...
+                        - listitem [ref=f2e516]:
+                          - generic [ref=f2e517]:
+                            - link [ref=f2e518] [cursor=pointer]:
+                              - /url: /goto?url=CAEScwHEIkXXu_KA8bhp4Tqudlc57yei3EoihW4taFhIlzJMG28IJVEjVXTSZkO8YXaz2SnHrWNBOmcxWl4UTs5KzBI6HyrgtDa15RNYsoHX7ac7gf4YMUx_HwtKzFYcsYIiOlNVDaqgXzAzIDYNxiHSuf5MC8M
+                            - generic [ref=f2e519]:
+                              - generic [ref=f2e520]:
+                                - generic [ref=f2e523]: Spotify
+                                - button [ref=f2e527] [cursor=pointer]
+                              - generic [ref=f2e533]:
+                                - generic [aria-hidden] [ref=f2e534]: Listen to Kanye West Songs | Spotify
+                                - generic [ref=f2e535]: "Kanye West: 70,707,538 monthly listeners; 35,201,210 followers. Popular Tracks: Flashing Lights, Heartless, Stronger, Runaway, Can..."
+                        - listitem [ref=f2e538]:
+                          - generic [ref=f2e539]:
+                            - link [ref=f2e540] [cursor=pointer]:
+                              - /url: /goto?url=CAESbAHEIkXXgt2uyKz6_x6NRJOAdruxjmxbXBKO1gXUm0xt8E8IbWqTxeiaKri1YaVgXOGYNrRhxVMwb9CVeaNFu7cTDJ_j6KYOQgxYqMO6GvouqZSOM86Nh1dvNkByuw44POGGLhOPX8JKvF4hrA
+                            - generic [ref=f2e541]:
+                              - generic [ref=f2e542]:
+                                - generic [ref=f2e545]: Britannica
+                                - button [ref=f2e549] [cursor=pointer]
+                              - generic [ref=f2e555]:
+                                - generic [aria-hidden] [ref=f2e556]: Kanye West | Biography, Songs, Albums, Bully, & Facts - Britannica
+                                - generic [ref=f2e557]: Kanye West Who is Kanye West? Kanye West is an American producer, rapper, and fashion designer who first gained recognition for hi...
+                        - listitem [ref=f2e560]:
+                          - generic [ref=f2e561]:
+                            - link [ref=f2e562] [cursor=pointer]:
+                              - /url: /goto?url=CAESYQHEIkXX6ZICEBNVSw92W8p9HhfHB4awn4IiDHL3LNSqM2JVzYTo_VvEgIkV6rp2g56H8bLw1vkzUcfWiuENJ8DWmweRZEyOwn6wRbkE4U0ccaiypVcg23ysLBcAi_ldp3E
+                            - generic [ref=f2e563]:
+                              - generic [ref=f2e564]:
+                                - generic [ref=f2e567]: IMDb
+                                - button [ref=f2e571] [cursor=pointer]
+                              - generic [ref=f2e577]:
+                                - generic [aria-hidden] [ref=f2e578]: Ye - IMDb
+                                - generic [ref=f2e579]: Kanye Omari West (born June 8, 1977) is an American rapper, record producer, singer, songwriter, entrepreneur, and fashion designe...
+                        - listitem [ref=f2e582]:
+                          - generic [ref=f2e583]:
+                            - link [ref=f2e584] [cursor=pointer]:
+                              - /url: /goto?url=CAESaQHEIkXX73qr3itmbNKuUKA0BhmCiXEaJuA1ojvSrithh3bPVOp57Y5eo9rRjjcv4b_EnGoCUq2boNKumEdFYXYFAAuFSCGDx4efv8rwvuB6AgLLnUgC7X3Ma4dCkWO1YoIe7iHMEIBrgQ
+                            - generic [ref=f2e585]:
+                              - generic [ref=f2e586]:
+                                - generic [ref=f2e589]: Billboard
+                                - button [ref=f2e593] [cursor=pointer]
+                              - generic [ref=f2e599]:
+                                - generic [aria-hidden] [ref=f2e600]: Kanye West | Biography, Music & News | Billboard
+                                - generic [ref=f2e601]: "Background: Born Atlanta, raised Chicago; June 8, 1977; 5'8\"; legally changed name to Ye in October 2021. Career: Began producing ..."
+                        - listitem [ref=f2e604]:
+                          - generic [ref=f2e605]:
+                            - link [ref=f2e606] [cursor=pointer]:
+                              - /url: /goto?url=CAEScQHEIkXXMaj9ekV350TtXZFjHGYKvPJynZJnwhebxmyrWHsML1qsFLm0j0DRDeCPPoSbiJJHUz2XTGyS5c0KSilgkQdFk4Kwk0YaBV6lAPUDL_D6ojth6VXpkZTmgtb6aZcTz13joT-TfsB48UCsN2yp
+                            - generic [ref=f2e607]:
+                              - generic [ref=f2e608]:
+                                - generic [ref=f2e611]: Apple Music
+                                - button [ref=f2e615] [cursor=pointer]
+                              - generic [ref=f2e621]:
+                                - generic [aria-hidden] [ref=f2e622]: ‎Kanye West - Apple Music
+                                - generic [ref=f2e623]: "Latest Release: BULLY - DELUXE (32 songs, June 19, 2026). Top Songs: Can't Tell Me Nothing, Heartless, Runaway, All Falls Down, Fl..."
+                        - listitem [ref=f2e625]:
+                          - generic [ref=f2e626]:
+                            - link [ref=f2e627] [cursor=pointer]:
+                              - /url: /goto?url=CAESaAHEIkXXzR2gaSVs2PlCTn94orOcVgc06jhxwNb_RbUF1dKXxBc6TxS-wN8uQ1_RNrFbgcG_JzKh_LQHxB3dyBpgjFnXPuhFDUwv9Qds9VamQ2ZiP5dP6G8cjkdAn3x0SAlNkR9fdfK_
+                            - generic [ref=f2e628]:
+                              - generic [ref=f2e629]:
+                                - generic [ref=f2e632]:
+                                  - text: YouTube
+                                  - generic [ref=f2e633]: ·ECHO tv
+                                - button [ref=f2e637] [cursor=pointer]
+                              - generic [ref=f2e642]:
+                                - button [ref=f2e647] [cursor=pointer]:
+                                  - generic [ref=f2e648]: 16:04
+                                - generic [aria-hidden] [ref=f2e655]: How Kanye West Destroyed a 6 Billion dollar Empire
+                        - listitem [ref=f2e656]:
+                          - generic [ref=f2e657]:
+                            - link [ref=f2e658] [cursor=pointer]:
+                              - /url: /goto?url=CAESaAHEIkXXr5ZSAjnH_aqMmeizHR9pbwPnPfcknlGbNfg1QY5VcK5wVusyF3hNFutsKbCTk4DauRw0KQRKDCFE31RZhazZ13IH-n44oo_RMwTovhLCu_QIkq1Rq2qDj0ejiVZvw5hGCyok
+                            - generic [ref=f2e659]:
+                              - generic [ref=f2e660]:
+                                - generic [ref=f2e663]:
+                                  - text: YouTube
+                                  - generic [ref=f2e664]: ·Billboard
+                                - button [ref=f2e668] [cursor=pointer]
+                              - generic [ref=f2e673]:
+                                - button [ref=f2e678] [cursor=pointer]:
+                                  - generic [ref=f2e679]: 3:23
+                                - generic [aria-hidden] [ref=f2e686]: "Black Music Month Profiles: The Legendary Career Of Kanye West"
+                        - listitem [ref=f2e687]:
+                          - generic [ref=f2e688]:
+                            - link [ref=f2e689] [cursor=pointer]:
+                              - /url: /goto?url=CAESbAHEIkXX_1EuybrHf5OBH28Lb8y6cH2wgGkRsjd3FY5M-TgtPUrZKgJag2o7qBDRLlO3HxKJwow-tZA7g92UFb1FJISgzoVIy6zktJCrCRZFMQCCjqcgV8GePCmjfKjB_DZM34lJrRpUShZ66g
+                            - generic [ref=f2e690]:
+                              - generic [ref=f2e691]:
+                                - generic [ref=f2e694]:
+                                  - text: YouTube
+                                  - generic [ref=f2e695]: ·Entertainment Tonight
+                                - button [ref=f2e699] [cursor=pointer]
+                              - generic [ref=f2e704]:
+                                - button [ref=f2e709] [cursor=pointer]:
+                                  - generic [ref=f2e710]: 2m
+                                - generic [aria-hidden] [ref=f2e722]: Kanye West Reunites With All 4 Kids as He Relaunches Yeezy in LA
+                        - listitem [ref=f2e723]:
+                          - generic [ref=f2e724]:
+                            - link [ref=f2e725] [cursor=pointer]:
+                              - /url: /goto?url=CAESaAHEIkXXLFX1QjLVDVtY68MzywGVVPbrMX-Muc49aucxIWOnJA1FWXa7eiXnfPDCGtxBcAE1rKgmrhH4n3bJ1-ic1uKOlHk2x4Q3v2GBujrU_OlH6xpp-WwTDGzTMI8D0JOmIsYdhP40
+                            - generic [ref=f2e726]:
+                              - generic [ref=f2e727]:
+                                - generic [ref=f2e730]:
+                                  - text: YouTube
+                                  - generic [ref=f2e731]: ·E! News
+                                - button [ref=f2e735] [cursor=pointer]
+                              - generic [ref=f2e740]:
+                                - button [ref=f2e745] [cursor=pointer]:
+                                  - generic [ref=f2e746]: 1:22
+                                - generic [aria-hidden] [ref=f2e753]: Kanye West Makes Rare Appearance With All 4 Kids at Yeezy Runway Show
+                      - button [aria-hidden] [ref=f2e754] [cursor=pointer]
+              - button "Show more AI Overview" [ref=f2e760]:
+                - generic [ref=f2e761] [cursor=pointer]: Show more
+            - generic [ref=f2e768]:
+              - generic [ref=f2e774]:
+                - heading "Listen" [level=3] [ref=f2e777]
+                - generic [ref=f2e783]:
+                  - link "YouTube" [ref=f2e785] [cursor=pointer]:
+                    - /url: /goto?url=CAESoQEBxCJF1zu4Adwp0djMosWbbhECO4P9p5SODh1xFphuGyOezVwQ-sc1eA7vg_aiYFLaRFhOo9gsmPgBJ9FKOmn1rAYJofHNxTqALpZoewxtMYgrUpVsUImpnv6bvjbGXFjCHI3_bjn26arBKaNMzulrUxYRgQ-lXjW4lxPcPIfEieK-3uTLEXK4JMEg9E6-FKPBtozXEwXKMABF4QuVUpXKrA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - link "Spotify" [ref=f2e793] [cursor=pointer]:
+                    - /url: /goto?url=CAESgQEBxCJF1_htynhd8a534S4ederKIY_6_hSf5ojVGRN3k70MtrMDXf5g6W44DrMYEa4yRcmVQeC_YV4W0h_12zBJUe2f0GgHZs46dm1JN2Fa8JqBA3iPbs8AqRDWCzunmDOxvqaFuLtTkY9iwgX1j4lZSx3FK-bnRswob64LBqljTXI&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - link "Apple Music" [ref=f2e801] [cursor=pointer]:
+                    - /url: /goto?url=CAESbAHEIkXX021u8-rbcNgzEZahnxfUdd3GVqtf_szzPDNYapKlMZVjH7_CtPSGSZ8pFtoqRGZwvKibLCmkhFNs4fxYmaUVFcmqKGmF_EXAaWXoonQQiJP1zjUQGBF9IULkpeW09waLhKPj67rXKg&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - link "YouTube Music" [ref=f2e809] [cursor=pointer]:
+                    - /url: /goto?url=CAESowEBxCJF12PVhCMnp6iWmY3CpW4jRnr5GXcaYbRM8uld039MV437I509ee6OgheM1BIPYyNHhdCo2ueg-JirUXK-ZMJxKfo-Dh9mV-HVY5UyCJxpRVM6W4k3gEaS-ostwLch5bVz5FDK4izsAzjcP7Rq4EoOB4Bk8k8drwNEu1Sf7r627K8yfyYY_RcXkkCWiepmcXa2lsCYBgZbD1IyozubWSul&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - generic [ref=f2e817]:
+                - heading "Web results" [level=2] [ref=f2e818]
+                - generic [ref=f2e819]:
+                  - generic [ref=f2e822]:
+                    - link "Ye (@ye) • Instagram photos and videos Instagram · ye 2Cr+ followers" [ref=f2e824] [cursor=pointer]:
+                      - /url: /goto?url=CAESYAHEIkXXXu_tzwePS0h94ojuK8502x9XhKlYkYpnhUSHUBdEbs1uMvghUn4TG82ts0CvKtZpGrJ_Tq0R3wyOKHFYKoIEhLq5HFLTkuE5ILn0W-DJw48Ax0FjGsfQXakg0w&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                      - heading "Ye (@ye) • Instagram photos and videos" [level=3] [ref=f2e825]
+                      - generic [ref=f2e831]:
+                        - generic [ref=f2e832]: Instagram · ye
+                        - generic [ref=f2e834]: 2Cr+ followers
+                    - button "About this result" [ref=f2e840] [cursor=pointer]
+                  - generic [ref=f2e845]: "20M followers · 24 following · 13 posts · @ye: “2.77 Billion and counting”"
+            - generic [ref=f2e848]:
+              - generic [ref=f2e854]:
+                - heading "Profiles" [level=3] [ref=f2e857]
+                - generic [ref=f2e859]:
+                  - link "Kanye West Instagram" [ref=f2e863] [cursor=pointer]:
+                    - /url: /goto?url=CAESWQHEIkXX0E0inhh6hOD7HebZXXs8Ro65nlOCOdMysbDa6TzVs3_D371hvSdHnnj8zzc-Dki01hz_mD0QREaZTCDz7h5FrNF_yRC5tRfrDzFsC3vGKvJvtQap&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - generic [ref=f2e864]:
+                      - generic "Kanye West" [ref=f2e866]
+                      - generic [ref=f2e868]: Instagram
+                  - link "Kanye West X (Twitter)" [ref=f2e873] [cursor=pointer]:
+                    - /url: /goto?url=CAESVAHEIkXXGayRch5fxVv-xIBsliPyzXDp-nDBU73x4S3AjDNVo0isdYJB5VSTr-qhLRV26RUq4R-sMw2VB2RmiTysLkRSF_s--FrcNkjwB8sPGmJwIQ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - generic [ref=f2e874]:
+                      - generic "Kanye West" [ref=f2e876]
+                      - generic [ref=f2e878]: X (Twitter)
+                  - link "Kanye West Facebook" [ref=f2e883] [cursor=pointer]:
+                    - /url: /goto?url=CAESXwHEIkXXnww6wGHnJBJEJ6N8KV0oTyc8u3sZxD6W9-uxjmpldU0umzXuKvEFIEkKsaeYhdilIffFevw6HotzrqYrciTZxRq2MeTUyUGsdbrplQ5IwMjfn3ODE8OwZ8Km&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - generic [ref=f2e884]:
+                      - generic "Kanye West" [ref=f2e886]
+                      - generic [ref=f2e888]: Facebook
+              - generic [ref=f2e892]:
+                - heading "People also search for" [level=3] [ref=f2e894]
+                - generic [ref=f2e899]:
+                  - list [ref=f2e900]:
+                    - listitem [ref=f2e902]:
+                      - generic [ref=f2e903]:
+                        - link "Bianca Censori" [ref=f2e904] [cursor=pointer]:
+                          - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&si=AE1YtOpq69kQPYJq7TIn_jext5SiMwQcb6Hqfr7QepP6tJJpj7yo37-RlFpgWyAohEyb3nUoSEyklfciPwdohkpBNPT2oHp5PLwv0r_YJQa37Yph8jNAW2SkHFvQOlZ0BgqQwZVYHziVTcMytRtb60GSTMwLPDgHM9tZpbo7GraChOptOK5Mg8EV5Tt3n_eudG5O13iCD1ypwaq_voQc333UwIgfFM7Hrw%3D%3D&q=Bianca+Censori&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQs9oBKAB6BAgQEAY
+                        - heading [level=3] [aria-hidden] [ref=f2e909]:
+                          - generic [ref=f2e910]: Bianca Censori
+                    - listitem [ref=f2e912]:
+                      - generic [ref=f2e913]:
+                        - link "Kim Kardashian" [ref=f2e914] [cursor=pointer]:
+                          - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&si=AE1YtOpYlMP-vGLOpX3-jqVKriI1ZSPgSD1yHkLMGBNlL3t3zjAnafqptB9rMyrzF3r3Zb9jGOigNrElq1EKiXmFzakkvxF5xnOh8IwABe08kSHd7bpyWMcI4PGF80Nb2BTxpWm6YA4Zkmfgn4pnKr1W-o0JUL-8OIAAuYLMmGt26h6PxDkdpgVh5GKy1fcEMvVXIcC4Ci4O_snd7xEBfHVDkU6RVn4fDA%3D%3D&q=Kim+Kardashian&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQs9oBKAB6BAgQEAo
+                        - heading [level=3] [aria-hidden] [ref=f2e919]:
+                          - generic [ref=f2e920]: Kim Kardashian
+                    - listitem [ref=f2e922]:
+                      - generic [ref=f2e923]:
+                        - link "North West" [ref=f2e924] [cursor=pointer]:
+                          - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&si=AE1YtOpYlMP-vGLOpX3-jqVKriI1ZSPgSD1yHkLMGBNlL3t3znzGagl-sIwT_Or6cBHCBdtjF1CnJUsAIZqZ1uegcBCl_3VQP_SSeaK3azqG1I4ZOjrStoTil10cUuDAIVJaAzXr_x2tOhSWwdKmeXXu9WS-AzRfe8U-sVM0gmUmJaj-VQTeTqcSEhB5QcCYaRKoURQ0H70c&q=North+West&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQs9oBKAB6BAgQEA4
+                        - heading [level=3] [aria-hidden] [ref=f2e929]:
+                          - generic [ref=f2e930]: North West
+                    - listitem [ref=f2e932]:
+                      - generic [ref=f2e933]:
+                        - link "Kris Humphries" [ref=f2e934] [cursor=pointer]:
+                          - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&si=AE1YtOruOSDH5h0KlIqwNcNYS7e3cFcPRS41TGgpXOwnNEOgU0Sy6TgPlXElqgJD2ymYW__3j9luShtQTDhGg1T0yuMz1apJ1N9ZYCTfsTgfHkTDA7M39ZDtS3IO4iNI7sx-q_uS4cL4mx5svvMyEPPNZL6O89Ddt7pZkTs-vaMmFPZw0b8Av7sCAOEvuFf-wrYoDkybGyx_zfcUe57mQSEmW0508eYT1w%3D%3D&q=Kris+Humphries&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQs9oBKAB6BAgQEBI
+                        - heading [level=3] [aria-hidden] [ref=f2e939]:
+                          - generic [ref=f2e940]: Kris Humphries
+                  - link "See more" [ref=f2e942] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQQjC1BIMzU1LLEyuL_VIrSoJLUguKfzGKBaTmF-SkKiTmFOcrFKcmFiVnKKTlFy1i5fJOzKtMVQhPLS65xSbJ4CaZm2fz285o382ngZt-ip377e9kskO_6ggAmQR3tm0AAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQzO0BKAR6BAgQEBQ
+              - generic [ref=f2e953]:
+                - heading "Songs" [level=2] [ref=f2e956]
+                - generic [ref=f2e957]:
+                  - generic [ref=f2e959]:
+                    - link "I Wonder Graduation 2007" [ref=f2e964] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+i+wonder&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0TM_KMoyvKkzWEvQtLc5MdiwqySwuCckPzs9LX8QqnJ2YV5mqUJ5aXKKQqVCen5eSWgQALY2GGkUAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEAQ
+                      - generic [ref=f2e968]:
+                        - generic [ref=f2e969]: I Wonder
+                        - generic [ref=f2e970]:
+                          - generic [ref=f2e971]: Graduation
+                          - generic [aria-hidden] [ref=f2e973]: ·
+                          - generic [ref=f2e974]: "2007"
+                    - link "Runaway My Beautiful Dark Twisted Fantasy 2010" [ref=f2e981] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+runaway&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tFP1zcsNM1KMc2uTNMS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqUnZhXmapQnlpcolBUmpdYnlgJAArjVqZDAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEAc
+                      - generic [ref=f2e985]:
+                        - generic [ref=f2e986]: Runaway
+                        - generic [ref=f2e987]:
+                          - generic [ref=f2e988]: My Beautiful Dark Twisted Fantasy
+                          - generic [aria-hidden] [ref=f2e990]: ·
+                          - generic [ref=f2e991]: "2010"
+                    - link "Can’t Tell Me Nothing Graduation 2007" [ref=f2e998] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+can%E2%80%99t+tell+me+nothing&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tFP1zcsNM0qzC4xytMS9C0tzkx2LCrJLC4JyQ_Oz0tfxKqUnZhXmapQnlpcopCcmPeoYWaJQklqTo5CbqpCXn5JRmZeOgBuKFCYUwAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEAo
+                      - generic [ref=f2e1002]:
+                        - generic [ref=f2e1003]: Can’t Tell Me Nothing
+                        - generic [ref=f2e1004]:
+                          - generic [ref=f2e1005]: Graduation
+                          - generic [aria-hidden] [ref=f2e1007]: ·
+                          - generic [ref=f2e1008]: "2007"
+                    - link "Heartless 808s & Heartbreak 2008" [ref=f2e1015] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+heartless&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tFP1zcsNM1KMizIStcS9C0tzkx2LCrJLC4JyQ_Oz0tfxCqSnZhXmapQnlpcopCRmlhUkpNaXAwARQoVS0UAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEA0
+                      - generic [ref=f2e1019]:
+                        - generic [ref=f2e1020]: Heartless
+                        - generic [ref=f2e1021]:
+                          - generic [ref=f2e1022]: 808s & Heartbreak
+                          - generic [aria-hidden] [ref=f2e1024]: ·
+                          - generic [ref=f2e1025]: "2008"
+                    - link "Stronger Graduation 2007" [ref=f2e1033] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+stronger&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0TDMyszBLtzDUEvQtLc5MdiwqySwuCckPzs9LX8QqnJ2YV5mqUJ5aXKJQXFIEFEstAgApvSgmRQAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEBA
+                      - generic [ref=f2e1037]:
+                        - generic [ref=f2e1038]: Stronger
+                        - generic [ref=f2e1039]:
+                          - generic [ref=f2e1040]: Graduation
+                          - generic [aria-hidden] [ref=f2e1042]: ·
+                          - generic [ref=f2e1043]: "2007"
+                    - link "Gold Digger Late Registration 2005" [ref=f2e1050] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+gold+digger&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0TDMySzEvSqvQEvQtLc5MdiwqySwuCckPzs9LX8Qqlp2YV5mqUJ5aXKKQnp-TopCSmZ6eWgQA5vOEC0gAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQri56BAhBEBM
+                      - generic [ref=f2e1054]:
+                        - generic [ref=f2e1055]: Gold Digger
+                        - generic [ref=f2e1056]:
+                          - generic [ref=f2e1057]: Late Registration
+                          - generic [aria-hidden] [ref=f2e1059]: ·
+                          - generic [ref=f2e1060]: "2005"
+                  - link "View 20+ more" [ref=f2e1064] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+songs&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQQjC1xLKTrfRzS4szk_UTi0oyi0usivPz0osXsQpkJ-ZVpiqUpxaXKICFAIIsSI9DAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQxYkLKAF6BAhBEBU
+                    - generic [ref=f2e1066]:
+                      - separator [aria-hidden] [ref=f2e1067]
+                      - generic [ref=f2e1068]: View 20+ more
+            - generic [ref=f2e1080]:
+              - heading "Albums" [level=2] [ref=f2e1083]
+              - list [ref=f2e1090]:
+                - listitem [ref=f2e1091]:
+                  - generic [ref=f2e1094]:
+                    - link "Graduation 2007" [ref=f2e1095] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Graduation&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxjbOyiorMtMSzk630c0uLM5P1E4tKMotLrBJzkkpzixexinon5lWmKoSnFpcouBclppQmlmTm5wEA2XN8rkoAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAG
+                    - generic [ref=f2e1099]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1100]:
+                        - generic [ref=f2e1101]: Graduation
+                      - generic [ref=f2e1103]: "2007"
+                - listitem [ref=f2e1105]:
+                  - generic [ref=f2e1108]:
+                    - link "BULLY 2026" [ref=f2e1109] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+BULLY&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0LE8rsMitTCnUEs9OttLPLS3OTNZPLCrJLC6xSsxJKs0tXsQq4J2YV5mqEJ5aXKLgFOrjEwkAfhLhs0gAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAM
+                    - generic [ref=f2e1113]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1114]:
+                        - generic [ref=f2e1115]: BULLY
+                      - generic [ref=f2e1117]: "2026"
+                - listitem [ref=f2e1119]:
+                  - generic [ref=f2e1122]:
+                    - link "My Beautiful Dark Twisted Fantasy 2010" [ref=f2e1123] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+My+Beautiful+Dark+Twisted+Fantasy&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxk3KTLMpLtMSzk630c0uLM5P1E4tKMotLrBJzkkpzixex6ngn5lWmKoSnFpco-FYqOKUmlpZkppXmKLgkFmUrhJQD1aamKLgl5pUkFlcCAGO74dRhAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAS
+                    - generic [ref=f2e1127]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1128]:
+                        - generic [ref=f2e1129]: My Beautiful Dark Twisted Fantasy
+                      - generic [ref=f2e1131]: "2010"
+                - listitem [ref=f2e1133]:
+                  - generic [ref=f2e1136]:
+                    - link "Donda 2021" [ref=f2e1137] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Donda&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0zLIwzijKzc3SEs9OttLPLS3OTNZPLCrJLC6xSsxJKs0tXsQq4J2YV5mqEJ5aXKLgkp-XkggAa8TBv0gAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAY
+                    - generic [ref=f2e1141]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1142]:
+                        - generic [ref=f2e1143]: Donda
+                      - generic [ref=f2e1145]: "2021"
+                - listitem [ref=f2e1147]:
+                  - generic [ref=f2e1150]:
+                    - link "The Life of Pablo 2016" [ref=f2e1151] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+The+Life+of+Pablo&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gYxDY2qzAoN07XEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sXscp4J-ZVpiqEpxaXKIRkpCr4ZKalKuSnKQQkJuXkAwB29ZtMUgAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAe
+                    - generic [ref=f2e1155]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1156]:
+                        - generic [ref=f2e1157]: The Life of Pablo
+                      - generic [ref=f2e1159]: "2016"
+                - listitem [ref=f2e1161]:
+                  - generic [ref=f2e1164]:
+                    - link "Yeezus 2013" [ref=f2e1165] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Yeezus&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxywrMy4zKtcSzk630c0uLM5P1E4tKMotLrBJzkkpzixexCnon5lWmKoSnFpcoRKamVpUWAwCwmH6ZRgAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAk
+                    - generic [ref=f2e1169]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1170]:
+                        - generic [ref=f2e1171]: Yeezus
+                      - generic [ref=f2e1173]: "2013"
+                - listitem [ref=f2e1175]:
+                  - generic [ref=f2e1178]:
+                    - link "The College Dropout 2004" [ref=f2e1179] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+The+College+Dropout&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQAjNN8owMcrXEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sXscp5J-ZVpiqEpxaXKIRkpCo45-fkpKanKrgU5Rfkl5YAAPvthWFSAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAq
+                    - generic [ref=f2e1183]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1184]:
+                        - generic [ref=f2e1185]: The College Dropout
+                      - generic [ref=f2e1187]: "2004"
+                - listitem [ref=f2e1189]:
+                  - generic [ref=f2e1192]:
+                    - link "808s & Heartbreak 2008" [ref=f2e1193] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+808s+and+Heartbreak&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxTXLSk5OStcSzk630c0uLM5P1E4tKMotLrBJzkkpzixexynkn5lWmKoSnFpcoWBhYFCsk5qUoeKQCVSUVpSZmAwC51_beUwAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBAw
+                    - generic [ref=f2e1197]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1198]:
+                        - generic [ref=f2e1199]: 808s & Heartbreak
+                      - generic [ref=f2e1201]: "2008"
+                - listitem [ref=f2e1203]:
+                  - generic [ref=f2e1206]:
+                    - link "Late Registration 2005" [ref=f2e1207] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Late+Registration&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQAjNNq4rzyrTEs5Ot9HNLizOT9ROLSjKLS6wSc5JKc4sXscp4J-ZVpiqEpxaXKPgklqQqBKWmA-WLEksy8_MAwjsklFAAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQISBA2
+                    - generic [ref=f2e1211]:
+                      - heading [level=3] [aria-hidden] [ref=f2e1212]:
+                        - generic [ref=f2e1213]: Late Registration
+                      - generic [ref=f2e1215]: "2005"
+                - listitem [ref=f2e1217]:
+                  - link "See more Albums" [ref=f2e1220] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+albums&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ9JYCegQISBA6&ictx=1
+                    - generic [ref=f2e1221]: See more
+            - generic [ref=f2e1231]:
+              - generic [ref=f2e1233]:
+                - heading "What people are saying" [level=2] [ref=f2e1234]
+                - generic [ref=f2e1237]: Trending posts and discussions
+              - generic [ref=f2e1248]:
+                - list [ref=f2e1250]:
+                  - generic [ref=f2e1251]:
+                    - listitem [ref=f2e1252]:
+                      - generic [ref=f2e1256]:
+                        - link "Why fans love kanye west so much despite everything? Popular comment · People like his music, if he was trash he would be cancelled a long time ago. 20+ upvotes . 60+ comments · 4 hours ago r/AskReddit Reddit" [ref=f2e1257] [cursor=pointer]:
+                          - /url: /goto?url=CAESmgEBxCJF14eZh6bLRRAsJy35XrZHaMqtWSNuz0eWBPC0qoQIPCsNDI0oxgcWqTj99XlVlG9sA8RMih0ggvpqvpTZpFnTAgM9LKdVBBQlwGsxDVZh6tv3TGQce50gZc-rk5uq1cAGdJDT5ExvEqTZDF771yRBqAllMF0tkmUvzoe8cT0U4wBPQIweKIqF3YOMcBvaYmcGHXu4hsuM&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1258]:
+                            - heading "Why fans love kanye west so much despite everything?" [level=3] [ref=f2e1260]
+                            - generic [ref=f2e1261]:
+                              - generic [ref=f2e1262]:
+                                - generic [ref=f2e1263]: Popular comment · People like his music, if he was trash he would be cancelled a long time ago.
+                                - generic [ref=f2e1264]: 20+ upvotes
+                              - generic [ref=f2e1265]: .
+                            - generic [ref=f2e1266]: 60+ comments · 4 hours ago
+                            - generic [ref=f2e1275]:
+                              - generic [ref=f2e1276]: r/AskReddit
+                              - generic [ref=f2e1277]: Reddit
+                        - button "About this result" [ref=f2e1283] [cursor=pointer]
+                    - listitem [ref=f2e1288]:
+                      - generic [ref=f2e1292]:
+                        - link "0:42 Kanye West probably never imagined that one of his most emotional songs would end up being played by Seth Rogen’s feet. In the 2015 Christmas comedy The Night Before, Rogen’s character finds himself on a giant floor piano and starts playing the unmistakable opening notes of “Runaway.” Originally released in 2010 on My Beautiful Dark Twisted Fantasy, “Runaway” became one of Kanye’s most celebrated songs, instantly recognizable from its simple piano introduction. Somehow, hearing those same notes played with someone’s feet in the middle of a Christmas comedy makes the scene even funnier. Such a random musical reference, but it works perfectly. Send this to someone who would recognize “Runaway” from the very first note. 3.8K+ likes · 23 hours ago songss Instagram" [ref=f2e1293] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXu9KP3zAGVIdVR-B971x2YX0zPJV8o6znmD6HdOigsN3dsbrZdiW7mXl1QNILvV8NiKjuYXGhAlu67oqve46lq7UEAU-WHwBlV80aKRWowyfvCjeUSU2FYaEbKrekWPcf20Sm&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1294]: 0:42
+                          - generic [ref=f2e1303]:
+                            - heading "Kanye West probably never imagined that one of his most emotional songs would end up being played by Seth Rogen’s feet. In the 2015 Christmas comedy The Night Before, Rogen’s character finds himself on a giant floor piano and starts playing the unmistakable opening notes of “Runaway.” Originally released in 2010 on My Beautiful Dark Twisted Fantasy, “Runaway” became one of Kanye’s most celebrated songs, instantly recognizable from its simple piano introduction. Somehow, hearing those same notes played with someone’s feet in the middle of a Christmas comedy makes the scene even funnier. Such a random musical reference, but it works perfectly. Send this to someone who would recognize “Runaway” from the very first note." [level=3] [ref=f2e1305]
+                            - generic [ref=f2e1306]: 3.8K+ likes · 23 hours ago
+                            - generic [ref=f2e1319]:
+                              - generic [ref=f2e1320]: songss
+                              - generic [ref=f2e1321]: Instagram
+                        - button "About this result" [ref=f2e1327] [cursor=pointer]
+                    - listitem [ref=f2e1332]:
+                      - generic [ref=f2e1336]:
+                        - link "Kanye West doing a photoshoot for The Observer in London, 18 years ago today 📸 (2008) 1.6K+ likes · 2 days ago RapWikip X" [ref=f2e1337] [cursor=pointer]:
+                          - /url: /goto?url=CAESpAEBxCJF1zwkVBq0wCWMdd5cAJUdTadw_VtYONmy2DzYzN5rGnzLurr6nj9y8VBUuErszTQiTL0i_NAOVPtEuNXrgygHRZBEatxynTxCrwM9yxsQ-MHrwi6aukVjoWgfMl6Q8h4dyXYKZnBS3sXPwqoLmD1SKiQA7vdDlQpg2Q8mnh0NlppCoLHJUGlh2vHJIQeHK87j8RtkIjRSsw7j4ceHGyM31A&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1341]:
+                            - heading "Kanye West doing a photoshoot for The Observer in London, 18 years ago today 📸 (2008)" [level=3] [ref=f2e1343]
+                            - generic [ref=f2e1344]: 1.6K+ likes · 2 days ago
+                            - generic [ref=f2e1356]:
+                              - generic [ref=f2e1357]: RapWikip
+                              - generic [ref=f2e1358]: X
+                        - button "About this result" [ref=f2e1364] [cursor=pointer]
+                    - listitem [ref=f2e1369]:
+                      - generic [ref=f2e1374]:
+                        - 'link "Kanye West Reaches Deal With German Vocalist Over \"Gun to My Head\" Sample More details here: https://buff.ly/iRA45Op 30+ reactions · 2 hours ago complex Facebook" [ref=f2e1375] [cursor=pointer]':
+                          - /url: /goto?url=CAESxwEBxCJF1w0f28_uSr8RHQtQ9x_GyXq9dgcyI-k2lRX9h7xtOr7NespHyFDxD_2wr-2Ou5A20aVIE25pvv31IW95Fpc9ZZEgE6E8NbY8YJT4mKWqD2VeKdVCLqTwZcS6Q8-gu9CizX_aaHPxZTYrgdlvfihk_Ta6Up4Y3WfYUdeDTq0rigztMCoKf1G4UY2d4gUPDw5IQVJbZGX4fEYhGQhyT-uIU11_aIydxybBcqQREdsr77UPGkzGWb4zHozQFAjtqQyxRaM7&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1379]:
+                            - 'heading "Kanye West Reaches Deal With German Vocalist Over \"Gun to My Head\" Sample More details here: https://buff.ly/iRA45Op" [level=3] [ref=f2e1381]'
+                            - generic [ref=f2e1382]: 30+ reactions · 2 hours ago
+                            - generic [ref=f2e1394]:
+                              - generic [ref=f2e1395]: complex
+                              - generic [ref=f2e1396]: Facebook
+                        - button "About this result" [ref=f2e1402] [cursor=pointer]
+                    - listitem [ref=f2e1407]:
+                      - generic [ref=f2e1412]:
+                        - link "Would you consider Kanye to be an underground artist? 10+ comments · 3 hours ago r/Kanye Reddit" [ref=f2e1413] [cursor=pointer]:
+                          - /url: /goto?url=CAESmwEBxCJF11aCei-MZaJpVS3EEQmt_xWVX20z4r5nhlK0GfSXGjWUR81dxWa_6M-O89nh9fiDmMwoRLyy6QNzJSeQPCyqtVdGLzUiviSWrrEp1_7U938B-HIg4yDP7ZpGW-9r3u5_hQ72iz3avbdGh7wCNxDdMkXkJcXUcUxVSapLrRg7P8hhCS_rJVaxwFRp0tqusdoYya-XNup7-A&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1417]:
+                            - heading "Would you consider Kanye to be an underground artist?" [level=3] [ref=f2e1419]
+                            - generic [ref=f2e1420]: 10+ comments · 3 hours ago
+                            - generic [ref=f2e1429]:
+                              - generic [ref=f2e1430]: r/Kanye
+                              - generic [ref=f2e1431]: Reddit
+                        - button "About this result" [ref=f2e1437] [cursor=pointer]
+                    - listitem [ref=f2e1442]:
+                      - generic [ref=f2e1447]:
+                        - 'link "0:37 Scump Guesses Kanye 😂 #OpTic #music 870+ likes · 18 hours ago opticgaming Instagram" [ref=f2e1448] [cursor=pointer]':
+                          - /url: /goto?url=CAESaAHEIkXX3M_MHjHxZcMdQJDA0ywLJSehpBsC9Iyn1d7FFE9Pt0JaCa2rrYhmMC3k2KHHq6o8cYhXfIIWxTmgmp6XsJ933klsHvIUcbSbEDunuiHlpeWSR-DBM6kudhuuedaOqdWWbPhx&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1449]: 0:37
+                          - generic [ref=f2e1458]:
+                            - 'heading "Scump Guesses Kanye 😂 #OpTic #music" [level=3] [ref=f2e1460]'
+                            - generic [ref=f2e1461]: 870+ likes · 18 hours ago
+                            - generic [ref=f2e1474]:
+                              - generic [ref=f2e1475]: opticgaming
+                              - generic [ref=f2e1476]: Instagram
+                        - button "About this result" [ref=f2e1482] [cursor=pointer]
+                    - listitem [ref=f2e1487]:
+                      - generic [ref=f2e1492]:
+                        - button "She feeling kanye tonight. Play on Google. 0:26" [ref=f2e1497] [cursor=pointer]:
+                          - generic [ref=f2e1498]: 0:26
+                        - link "She feeling kanye tonight 1.4K+ views · 13 hours ago Runiktv YouTube" [ref=f2e1512] [cursor=pointer]:
+                          - /url: /goto?url=CAESZwHEIkXXHc1j728g099qXbv9Qz_kexL798A32MSJlSirvqU8K3aJCluASt4I_wGvXsV6TJcupYZ-_iVksXimsXbBHe_LXVjc2tBAtONFajzaTpnPEFIL3ld2Nw6ZXY5_WQx7f1GLBHc&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1513]:
+                            - heading "She feeling kanye tonight" [level=3] [ref=f2e1515]
+                            - generic [ref=f2e1516]: 1.4K+ views · 13 hours ago
+                            - generic [ref=f2e1529]:
+                              - generic [ref=f2e1530]: Runiktv
+                              - generic [ref=f2e1531]: YouTube
+                        - button "About this result" [ref=f2e1537] [cursor=pointer]
+                    - listitem [ref=f2e1542]:
+                      - generic [ref=f2e1547]:
+                        - 'link "6:57 Trevor Noah. . Michael Che Reacts to the Leaked Kanye Video: \"I Had No Idea!\" 😳 1.8K+ reactions · 1 day ago TrevorNoah Facebook" [ref=f2e1548] [cursor=pointer]':
+                          - /url: /goto?url=CAEStQEBxCJF1257vjWnIAf62GF-cLrv7sLIxOXemeRD_blWrJbd20Vc8TuCk6fkeTNZJCfw16bU3ajzeyYaJUd7TCOe26PfukNlqWz_dxI9xFN1m5AfYPPs0P8OHDGEp6ThCgRAdyqz2YvWbV140aAF3ql1qCgl13TRDNeoYBHmOsrRPm58a1duoB_Lz5h7M2B7ETCcZWOZclvYestmoatXalbaVFP26IN7PKw1Q7y8KzfgyZlmze-i&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1549]: 6:57
+                          - generic [ref=f2e1558]:
+                            - 'heading "Trevor Noah. . Michael Che Reacts to the Leaked Kanye Video: \"I Had No Idea!\" 😳" [level=3] [ref=f2e1560]'
+                            - generic [ref=f2e1561]: 1.8K+ reactions · 1 day ago
+                            - generic [ref=f2e1574]:
+                              - generic [ref=f2e1575]: TrevorNoah
+                              - generic [ref=f2e1576]: Facebook
+                        - button "About this result" [ref=f2e1582] [cursor=pointer]
+                    - listitem [ref=f2e1587]:
+                      - generic [ref=f2e1592]:
+                        - 'link "2:40 Ye (Kanye West) said… 🩰🔥🤝 #kanyewest #pushat #hiphop #explore 680+ reactions · 12 hours ago ilovejaysquared Facebook" [ref=f2e1593] [cursor=pointer]':
+                          - /url: /goto?url=CAESsAEBxCJF1ydq0YxTVXGPYj7rR-cZGQq_JHbNsVeQqziuS626QFO1N3xa7c9XjpHCpQsv692QGgSIU9WKm5TRBt-aqc7EbVZ96EnYdLeP3oItjmZvfR1zhO_immvPy2a7Ibs7Xth9swdqce9O652qZMwMJvYSQ6pY2i9OtNS9aneVMKUQGnVYY1SQhZY5-QKcKH5fGAvGHrt5Xi6EprfIxJnoSXP3xHdvx0GYDMiyF35bnQ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1594]: 2:40
+                          - generic [ref=f2e1603]:
+                            - 'heading "Ye (Kanye West) said… 🩰🔥🤝 #kanyewest #pushat #hiphop #explore" [level=3] [ref=f2e1605]'
+                            - generic [ref=f2e1606]: 680+ reactions · 12 hours ago
+                            - generic [ref=f2e1619]:
+                              - generic [ref=f2e1620]: ilovejaysquared
+                              - generic [ref=f2e1621]: Facebook
+                        - button "About this result" [ref=f2e1627] [cursor=pointer]
+                    - listitem [ref=f2e1632]:
+                      - generic [ref=f2e1637]:
+                        - link "2:21 Big Sean told E-40 to deliver the best verse of his life. The result? A diamond record. 💎⁠ ⁠ E-40 breaks down how their collaboration came together and the Kanye West addition that took it to another level.⁠ ⁠ Watch the full episode at the link in bio 35.9K+ likes · 1 day ago boardroom Instagram" [ref=f2e1638] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXpopxBQj0DifWLBOsXzlwus9SQDr6jRPA3TAhd1AnLFpokXrCCDnQdB68JtfW9pe4G9013voOOzwemk4b_vSmT_ywDaI4UlS2a6PYEOr0NW_J1mhCQsTIU3AVYEN4XAQpQOQi&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1639]: 2:21
+                          - generic [ref=f2e1648]:
+                            - heading "Big Sean told E-40 to deliver the best verse of his life. The result? A diamond record. 💎⁠ ⁠ E-40 breaks down how their collaboration came together and the Kanye West addition that took it to another level.⁠ ⁠ Watch the full episode at the link in bio" [level=3] [ref=f2e1650]
+                            - generic [ref=f2e1651]: 35.9K+ likes · 1 day ago
+                            - generic [ref=f2e1664]:
+                              - generic [ref=f2e1665]: boardroom
+                              - generic [ref=f2e1666]: Instagram
+                        - button "About this result" [ref=f2e1672] [cursor=pointer]
+                    - listitem [ref=f2e1677]:
+                      - generic [ref=f2e1682]:
+                        - link "Kanye West and Bianca Censori were spotted with their secret son, whom they have reportedly kept away from the spotlight for a long time. An anonymous person captured the family unaware, and as soon as Bianca noticed the camera, she quickly used her hand to cover the boy’s face, while Kanye appeared visibly angry in the moment. 3.4K+ likes · 5 days ago vahphor X" [ref=f2e1683] [cursor=pointer]:
+                          - /url: /goto?url=CAESowEBxCJF18HBcxaSdh-JjAVp5_bzDU0WuPpUewgMNdcanVt0pDrevJouT93r1b9IPf1gUBfuAP4RBMPyoddnzmgOtR9GxZiJ7tNTaJHxYZnvKtmYTCP692JH8w73-8wYj3sYpePOqR7LF0CQAM8Bw5tYCc6AsWt2AdaM5GO2jDdlJ9ahJ0CdxSjLSRqs2QgEk_upR_Oj8quW-SpP-Y5Qj4Mwj39I&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1687]:
+                            - heading "Kanye West and Bianca Censori were spotted with their secret son, whom they have reportedly kept away from the spotlight for a long time. An anonymous person captured the family unaware, and as soon as Bianca noticed the camera, she quickly used her hand to cover the boy’s face, while Kanye appeared visibly angry in the moment." [level=3] [ref=f2e1689]
+                            - generic [ref=f2e1690]: 3.4K+ likes · 5 days ago
+                            - generic [ref=f2e1702]:
+                              - generic [ref=f2e1703]: vahphor
+                              - generic [ref=f2e1704]: X
+                        - button "About this result" [ref=f2e1710] [cursor=pointer]
+                    - listitem [ref=f2e1715]:
+                      - generic [ref=f2e1720]:
+                        - link "Kanye West Sued by Musician Who Says He Was Locked in Wyoming High School to Write Opera Popular comment · ye not everyone is mike dean.... 90+ upvotes . 40+ comments · 1 day ago r/GoodAssSub Reddit" [ref=f2e1721] [cursor=pointer]:
+                          - /url: /goto?url=CAESngEBxCJF1yq_ujstnwd6D2CBeAIVvW5IbXS0n6nf6U3B7QzrLG29nWGlfcCaRf3RP73c6kLULplsWGVLSsJIhbf2wbEIfoAp6AW2-WhKGFzFByNyJaz1uPDnu84In-lua5oZWVzo_TuPJcJkswmY5BdGP-76JI5DAyR7l88WAFg8pXDQmk4U7Nh4FYVxpXV4dJSvx2UdqDeinp2qV6Dq0g&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1722]:
+                            - heading "Kanye West Sued by Musician Who Says He Was Locked in Wyoming High School to Write Opera" [level=3] [ref=f2e1724]
+                            - generic [ref=f2e1725]:
+                              - generic [ref=f2e1726]:
+                                - generic [ref=f2e1727]: Popular comment · ye not everyone is mike dean....
+                                - generic [ref=f2e1728]: 90+ upvotes
+                              - generic [ref=f2e1729]: .
+                            - generic [ref=f2e1730]: 40+ comments · 1 day ago
+                            - generic [ref=f2e1739]:
+                              - generic [ref=f2e1740]: r/GoodAssSub
+                              - generic [ref=f2e1741]: Reddit
+                        - button "About this result" [ref=f2e1747] [cursor=pointer]
+                - button [aria-hidden] [ref=f2e1752] [cursor=pointer]
+              - button "Record-breaking Dallas stadium concert" [ref=f2e1761] [cursor=pointer]
+              - button "Yeezy runway fashion return" [ref=f2e1772] [cursor=pointer]
+              - button "Historic Halloween show in Houston" [ref=f2e1783] [cursor=pointer]
+              - button "Show 1 more" [ref=f2e1791]:
+                - separator [aria-hidden] [ref=f2e1792]
+            - generic [ref=f2e1802]:
+              - heading "Short videos" [level=2] [ref=f2e1804]
+              - generic [ref=f2e1806]:
+                - list [ref=f2e1808]:
+                  - listitem [ref=f2e1809]:
+                    - generic [ref=f2e1812]:
+                      - generic [ref=f2e1814]:
+                        - link "Kanye West in the streets of LA @ye Captured 🎥 ... by Kevin Wong • If I Don’t Work I Can’t Eat ® on Instagram. Play on Instagram. 2:59" [ref=f2e1816] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXX_wbrvDgwDVH2i11_zhpVx35qaERR0LeL6luvcdcwJuYIXwlQF2SJ84R3a0w0nrIUqzQQDTkG3BKFi5UY2r6ot5xDEqKKrf8xH3iEhagvA7B5_dU4Hq3TNCqCbmsvhy_xXeZTzpzDdXex&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1817]: 2:59
+                        - link "Kanye West in the streets of LA @ye Captured ... Instagram · Kevin Wong • If I Don’t Work I Can’t Eat ®" [ref=f2e1826] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXX_wbrvDgwDVH2i11_zhpVx35qaERR0LeL6luvcdcwJuYIXwlQF2SJ84R3a0w0nrIUqzQQDTkG3BKFi5UY2r6ot5xDEqKKrf8xH3iEhagvA7B5_dU4Hq3TNCqCbmsvhy_xXeZTzpzDdXex&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1827]:
+                            - heading "Kanye West in the streets of LA @ye Captured ..." [level=3] [ref=f2e1829]
+                            - generic [ref=f2e1831]: Instagram · Kevin Wong • If I Don’t Work I Can’t Eat ®
+                      - button "About this result" [ref=f2e1841] [cursor=pointer]
+                  - listitem [ref=f2e1846]:
+                    - generic [ref=f2e1849]:
+                      - generic [ref=f2e1851]:
+                        - link "Kanye West is the most influential rapper of all time. by Kevonstage X Tony Baker on Instagram. Play on Instagram. 0:51" [ref=f2e1853] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXXdEyUDSGjaTqW_sxPOwXSN7u9EN1GHcdAVGWXx2N6bCstn2lWVfsQqv-dtMa_yDbopPhZ8Xkqm69pcTpAmd87146SJ1_tEYa2UFV5rVJje7ioeEYyBL-99AEk5juUlNwSMANanr9o8w4D&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1854]: 0:51
+                        - link "Kanye West is the most influential rapper of all time. Instagram · Kevonstage X Tony Baker" [ref=f2e1863] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXXdEyUDSGjaTqW_sxPOwXSN7u9EN1GHcdAVGWXx2N6bCstn2lWVfsQqv-dtMa_yDbopPhZ8Xkqm69pcTpAmd87146SJ1_tEYa2UFV5rVJje7ioeEYyBL-99AEk5juUlNwSMANanr9o8w4D&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1864]:
+                            - heading "Kanye West is the most influential rapper of all time." [level=3] [ref=f2e1866]
+                            - generic [ref=f2e1868]: Instagram · Kevonstage X Tony Baker
+                      - button "About this result" [ref=f2e1878] [cursor=pointer]
+                  - listitem [ref=f2e1883]:
+                    - generic [ref=f2e1886]:
+                      - generic [ref=f2e1888]:
+                        - link "Kanye West, also known as Ye, is an American rapper ... by Motivation | Mindset | Success on Instagram. Play on Instagram. 0:38" [ref=f2e1890] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXXC8AvdFOJbvUHhsYCgsdPiwE3uTBDPzBbsLAauBanmZbx4zW2EFQxjRY1r0nTdWr_Rr2V5gVT9YlcnHTum_nJWniDr4VrJVVpppzPeFhzwUdZsfSYDep7zylZi03pmd0CyHPYcXytx8m5&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1891]: 0:38
+                        - link "Kanye West, also known as Ye, is an American rapper ... Instagram · Motivation | Mindset | Success" [ref=f2e1903] [cursor=pointer]:
+                          - /url: /goto?url=CAESbgHEIkXXC8AvdFOJbvUHhsYCgsdPiwE3uTBDPzBbsLAauBanmZbx4zW2EFQxjRY1r0nTdWr_Rr2V5gVT9YlcnHTum_nJWniDr4VrJVVpppzPeFhzwUdZsfSYDep7zylZi03pmd0CyHPYcXytx8m5&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1904]:
+                            - heading "Kanye West, also known as Ye, is an American rapper ..." [level=3] [ref=f2e1906]
+                            - generic [ref=f2e1908]: Instagram · Motivation | Mindset | Success
+                      - button "About this result" [ref=f2e1918] [cursor=pointer]
+                  - listitem [ref=f2e1923]:
+                    - generic [ref=f2e1926]:
+                      - generic [ref=f2e1928]:
+                        - link "Kanye West, also known as Ye, is an American rapper, music ... by Mre Mru on Facebook. Play on Facebook. 0:13" [ref=f2e1930] [cursor=pointer]:
+                          - /url: /goto?url=CAESzwEBxCJF1xbEObiHkpm07ckltLkKNOWGvUisYIRwJOeasswplVhe0GAi-FeZkRm9tUqz7gxQKQn8baBgREMrEsWanUoZa9L1LRsWLW8aNS7CqiaTB3rYlxBiwt2Q6TGDTkdHQMIL1Gb6Uh-IZzKZ_RHnl2Yplio2AvQ4bJdAiIz0yEUmgvMT2W3BmttUqnF4OCCFX5avZyc8JGuCOkvwhBG0IWuynpvKmnGYj2lslH7o0VITSGUt8vsqfnSsKM8Nsgfi7P8tampkiNoNprTRHYg&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1931]: 0:13
+                        - link "Kanye West, also known as Ye, is an American rapper, music ... Facebook · Mre Mru" [ref=f2e1943] [cursor=pointer]:
+                          - /url: /goto?url=CAESzwEBxCJF1xbEObiHkpm07ckltLkKNOWGvUisYIRwJOeasswplVhe0GAi-FeZkRm9tUqz7gxQKQn8baBgREMrEsWanUoZa9L1LRsWLW8aNS7CqiaTB3rYlxBiwt2Q6TGDTkdHQMIL1Gb6Uh-IZzKZ_RHnl2Yplio2AvQ4bJdAiIz0yEUmgvMT2W3BmttUqnF4OCCFX5avZyc8JGuCOkvwhBG0IWuynpvKmnGYj2lslH7o0VITSGUt8vsqfnSsKM8Nsgfi7P8tampkiNoNprTRHYg&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1944]:
+                            - heading "Kanye West, also known as Ye, is an American rapper, music ..." [level=3] [ref=f2e1946]
+                            - generic [ref=f2e1948]: Facebook · Mre Mru
+                      - button "About this result" [ref=f2e1958] [cursor=pointer]
+                  - listitem [ref=f2e1963]:
+                    - generic [ref=f2e1966]:
+                      - generic [ref=f2e1968]:
+                        - link "Kanye West is one of those artists whose impact on music can ... by Welcome To The Culture on Instagram. Play on Instagram. 0:38" [ref=f2e1970] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXOGHXLFrXqIbLzR9OXsX0ZaX5lK9dgTzEN6t5F7FeYbAuS974xORrF0kGPefEFFB1WcsZ_2YmT1d9iF7TerQzKWCprTBlcDywDMrHZmZSNH3WGXXTwaE_KlavGNNI5vIp5PT3&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1971]: 0:38
+                        - link "Kanye West is one of those artists whose impact on music can ... Instagram · Welcome To The Culture" [ref=f2e1983] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXOGHXLFrXqIbLzR9OXsX0ZaX5lK9dgTzEN6t5F7FeYbAuS974xORrF0kGPefEFFB1WcsZ_2YmT1d9iF7TerQzKWCprTBlcDywDMrHZmZSNH3WGXXTwaE_KlavGNNI5vIp5PT3&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e1984]:
+                            - heading "Kanye West is one of those artists whose impact on music can ..." [level=3] [ref=f2e1986]
+                            - generic [ref=f2e1988]: Instagram · Welcome To The Culture
+                      - button "About this result" [ref=f2e1998] [cursor=pointer]
+                  - listitem [ref=f2e2003]:
+                    - generic [ref=f2e2006]:
+                      - generic [ref=f2e2008]:
+                        - link "Kanye West, now known as Ye, has built much of his career ... by What if? on Instagram. Play on Instagram. 1:02" [ref=f2e2010] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXV_grguAm0NRvz2Zn5pu81BYATzlgKANsTJRx2a7WY7Cjtk_GOxFXpIh3jmm_eLguWgZSIoXiBNF-Brns7ik9orUjvel1aE3a28GJG-uUfmZNrIuSUr8T_uJQHYEWPLNimtvr&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2011]: 1:02
+                        - link "Kanye West, now known as Ye, has built much of his career ... Instagram · What if?" [ref=f2e2020] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXV_grguAm0NRvz2Zn5pu81BYATzlgKANsTJRx2a7WY7Cjtk_GOxFXpIh3jmm_eLguWgZSIoXiBNF-Brns7ik9orUjvel1aE3a28GJG-uUfmZNrIuSUr8T_uJQHYEWPLNimtvr&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2021]:
+                            - heading "Kanye West, now known as Ye, has built much of his career ..." [level=3] [ref=f2e2023]
+                            - generic [ref=f2e2025]: Instagram · What if?
+                      - button "About this result" [ref=f2e2035] [cursor=pointer]
+                  - listitem [ref=f2e2040]:
+                    - generic [ref=f2e2043]:
+                      - generic [ref=f2e2045]:
+                        - 'link "#KanyeWest (also known as #Ye) is one of the most influential ... by No Chill on Instagram. Play on Instagram. 0:13" [ref=f2e2047] [cursor=pointer]':
+                          - /url: /goto?url=CAESbgHEIkXXsuPO8K6827gyjiuIqW-Pz6Tx45bMehQckIO3q2HqrHvlu2zUm5paNDVhKXwLDR6bMmGAF-AMjIJIa40wFvpy4rng3OvGggjfJTILWWSZZafhfrKP6HY82dh1RQMspsdchQS5vfSFghQZ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2048]: 0:13
+                        - 'link "#KanyeWest (also known as #Ye) is one of the most influential ... Instagram · No Chill" [ref=f2e2057] [cursor=pointer]':
+                          - /url: /goto?url=CAESbgHEIkXXsuPO8K6827gyjiuIqW-Pz6Tx45bMehQckIO3q2HqrHvlu2zUm5paNDVhKXwLDR6bMmGAF-AMjIJIa40wFvpy4rng3OvGggjfJTILWWSZZafhfrKP6HY82dh1RQMspsdchQS5vfSFghQZ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2058]:
+                            - 'heading "#KanyeWest (also known as #Ye) is one of the most influential ..." [level=3] [ref=f2e2060]'
+                            - generic [ref=f2e2062]: Instagram · No Chill
+                      - button "About this result" [ref=f2e2072] [cursor=pointer]
+                  - listitem [ref=f2e2077]:
+                    - generic [ref=f2e2080]:
+                      - generic [ref=f2e2082]:
+                        - 'link "Wake up Mr West!! 🐻 #kanyewest #ye by Don on Instagram. Play on Instagram. 0:12" [ref=f2e2084] [cursor=pointer]':
+                          - /url: /goto?url=CAESaAHEIkXXUnIPxWMN0h3-mBiGcHaMSlYoJZjXFKxUBKK-lwCd5xYxDTFghUj2ogAGz_q1nh4dUjuFgW_i0UMNIwYG19qRS2hFrNSOjwZkfmy6blVvYFK-2k8KRPGjJ4P1dKAyaKW18JId&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2085]: 0:12
+                        - 'link "Wake up Mr West!! #kanyewest #ye Instagram · Don" [ref=f2e2094] [cursor=pointer]':
+                          - /url: /goto?url=CAESaAHEIkXXUnIPxWMN0h3-mBiGcHaMSlYoJZjXFKxUBKK-lwCd5xYxDTFghUj2ogAGz_q1nh4dUjuFgW_i0UMNIwYG19qRS2hFrNSOjwZkfmy6blVvYFK-2k8KRPGjJ4P1dKAyaKW18JId&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2095]:
+                            - 'heading "Wake up Mr West!! #kanyewest #ye" [level=3] [ref=f2e2097]'
+                            - generic [ref=f2e2099]: Instagram · Don
+                      - button "About this result" [ref=f2e2109] [cursor=pointer]
+                  - listitem [ref=f2e2114]:
+                    - generic [ref=f2e2117]:
+                      - generic [ref=f2e2119]:
+                        - link "Kanye West is one of the most influential and controversial ... by Mostly Humour on Instagram. Play on Instagram. 0:08" [ref=f2e2121] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXX_CFkkjiKl80CuX07udwd4YZJaJ_Gw11kQWyPQs94lQF_zjwOWnBGLxDITu_V5rWn5aahKrG1rnilnQDUgatVIk1oa38XEyidsBYnXRG-FF8UDGqa2pEsacvQsd5xQvIY09_w&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2122]: 0:08
+                        - link "Kanye West is one of the most influential and controversial ... Instagram · Mostly Humour" [ref=f2e2131] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXX_CFkkjiKl80CuX07udwd4YZJaJ_Gw11kQWyPQs94lQF_zjwOWnBGLxDITu_V5rWn5aahKrG1rnilnQDUgatVIk1oa38XEyidsBYnXRG-FF8UDGqa2pEsacvQsd5xQvIY09_w&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2132]:
+                            - heading "Kanye West is one of the most influential and controversial ..." [level=3] [ref=f2e2134]
+                            - generic [ref=f2e2136]: Instagram · Mostly Humour
+                      - button "About this result" [ref=f2e2146] [cursor=pointer]
+                  - listitem [ref=f2e2151]:
+                    - generic [ref=f2e2154]:
+                      - generic [ref=f2e2156]:
+                        - link "Kanye West, also known as Ye, is one of the most influential ... by 1 in a MILLION by Maximillion on Instagram. Play on Instagram. 0:19" [ref=f2e2158] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXqqqjiThYfwKfKmY9hYGZ-TvdhIqV6yGBSwlUAdJrV75edFjUdWgx9aMFCsX5yiJsO_uIG5xwlHsSc5sx8l6QIb2e_CKeH2-DmJgYqAmASR8hUepUrooGV4sat0atM2suNyrF&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2159]: 0:19
+                        - link "Kanye West, also known as Ye, is one of the most influential ... Instagram · 1 in a MILLION by Maximillion" [ref=f2e2168] [cursor=pointer]:
+                          - /url: /goto?url=CAESaAHEIkXXqqqjiThYfwKfKmY9hYGZ-TvdhIqV6yGBSwlUAdJrV75edFjUdWgx9aMFCsX5yiJsO_uIG5xwlHsSc5sx8l6QIb2e_CKeH2-DmJgYqAmASR8hUepUrooGV4sat0atM2suNyrF&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                          - generic [ref=f2e2169]:
+                            - heading "Kanye West, also known as Ye, is one of the most influential ..." [level=3] [ref=f2e2171]
+                            - generic [ref=f2e2173]: Instagram · 1 in a MILLION by Maximillion
+                      - button "About this result" [ref=f2e2183] [cursor=pointer]
+                - button [aria-hidden] [ref=f2e2188] [cursor=pointer]
+              - link "More short videos" [ref=f2e2194] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&udm=short_vids&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ3egMegQIThAS
+                - separator [aria-hidden] [ref=f2e2195]
+            - generic [ref=f2e2208]:
+              - heading "Movies and shows" [level=2] [ref=f2e2211]
+              - list [ref=f2e2218]:
+                - listitem [ref=f2e2219]:
+                  - generic [ref=f2e2222]:
+                    - link "Keeping Up With the Kardashians 2007 – 2021" [ref=f2e2223] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Keeping+Up+With+the+Kardashians&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxjZPTC41MtFSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVnnv1NSCzLx0hdAChfDMkgyFkoxUBe_EopTE4ozMxLxiAH4A3oBiAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAG
+                    - generic [ref=f2e2227]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2228]:
+                        - generic [ref=f2e2229]: Keeping Up With the Kardashians
+                      - generic [ref=f2e2231]: 2007 – 2021
+                - listitem [ref=f2e2233]:
+                  - generic [ref=f2e2236]:
+                    - link "Kanye West Live Since 2022" [ref=f2e2237] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Live&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0TCuwKDSqzMjSUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtY-b0T8ypTFcJTi0sUfDLLUgEsZVF5VQAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAM
+                    - generic [ref=f2e2241]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2242]:
+                        - generic [ref=f2e2243]: Kanye West Live
+                      - generic [ref=f2e2245]: Since 2022
+                - listitem [ref=f2e2247]:
+                  - generic [ref=f2e2250]:
+                    - link "Runaway 2010" [ref=f2e2251] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Runaway+(2010+film)&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxzc0qywvStVSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVuGg0rzE8sRKBQ0jA0MDhbTMnFxNALggS1pWAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAS
+                    - generic [ref=f2e2255]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2256]:
+                        - generic [ref=f2e2257]: Runaway
+                      - generic [ref=f2e2259]: "2010"
+                - listitem [ref=f2e2261]:
+                  - generic [ref=f2e2264]:
+                    - link "Yeezy Season Since 2018" [ref=f2e2265] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Yeezy+Season&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0TCuwKDRMsTDXUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYeSJTU6sqFYJTE4FKAG_edYJSAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAY
+                    - generic [ref=f2e2269]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2270]:
+                        - generic [ref=f2e2271]: Yeezy Season
+                      - generic [ref=f2e2273]: Since 2018
+                - listitem [ref=f2e2275]:
+                  - generic [ref=f2e2278]:
+                    - link "Jesus Is King 2019" [ref=f2e2279] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Jesus+Is+King+(film)&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0zIgvNyyrSk7SUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYRbxSi0uLFTyLFbwz89IVNNIyc3I1Afu5Pe1aAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAe
+                    - generic [ref=f2e2283]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2284]:
+                        - generic [ref=f2e2285]: Jesus Is King
+                      - generic [ref=f2e2287]: "2019"
+                - listitem [ref=f2e2289]:
+                  - generic [ref=f2e2292]:
+                    - 'link "Kanye West: College Dropout - Video Anthology 2005" [ref=f2e2293] [cursor=pointer]':
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=The+College+Dropout+Video+Anthology&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4gIxDQuKC5LTtVSzk630C1LzC3JSgVRRcX6eVUmZbnFGfnmxbmJeim5ufllmavEiVuWQjFQF5_ycnNT0VAWXovyC_NIShbDMlNR8Bce8koz8nPz0SgAqk8RuZgAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAk
+                    - generic [ref=f2e2297]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2298]:
+                        - generic [ref=f2e2299]: "Kanye West: College Dropout - Video Anthology"
+                      - generic [ref=f2e2301]: "2005"
+                - listitem [ref=f2e2303]:
+                  - generic [ref=f2e2306]:
+                    - 'link "Taylor Swift vs Scooter Braun: Bad Blood Since 2024" [ref=f2e2307] [cursor=pointer]':
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Taylor+Swift+vs+Scooter+Braun:+Bad+Blood&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0rDTJMzXPKTHVUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYNUISK3PyixSCyzPTShTKihWCk_PzS1KLFJyKEkvzrBScElMUnHLy81MAShQye24AAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAq
+                    - generic [ref=f2e2311]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2312]:
+                        - generic [ref=f2e2313]: "Taylor Swift vs Scooter Braun: Bad Blood"
+                      - generic [ref=f2e2315]: Since 2024
+                - listitem [ref=f2e2317]:
+                  - generic [ref=f2e2320]:
+                    - link "A Man Named Scott 2021" [ref=f2e2321] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=A+Man+Named+Scott&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0LDA3s4gvqDLQUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYBR0VfBPzFPwSc1NTFIKT80tKAGqTiqRXAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRAw
+                    - generic [ref=f2e2325]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2326]:
+                        - generic [ref=f2e2327]: A Man Named Scott
+                      - generic [ref=f2e2329]: "2021"
+                - listitem [ref=f2e2331]:
+                  - generic [ref=f2e2334]:
+                    - link "Honor Up 2018" [ref=f2e2335] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Honor+Up&stick=H4sIAAAAAAAAAONgFuLUz9U3MMqxMDFQ4tVP1zc0zLCsqEgpNjbTUs1OttIvSM0vyEkFUkXF-XlWJWW6xRn55cW6iXkpurn5ZZmpxYtYOTzy8_KLFEILAGzJlpVOAAAA&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQgOQBegQITRA2
+                    - generic [ref=f2e2339]:
+                      - heading [level=3] [aria-hidden] [ref=f2e2340]:
+                        - generic [ref=f2e2341]: Honor Up
+                      - generic [ref=f2e2343]: "2018"
+                - listitem [ref=f2e2345]:
+                  - link "See more Movies and shows" [ref=f2e2348] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=kanye+west+movies+and+shows&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ9JYCegQITRA6&ictx=1
+                    - generic [ref=f2e2349]: See more
+            - generic [ref=f2e2359]:
+              - generic [ref=f2e2361]:
+                - heading "Videos" [level=2] [ref=f2e2362]
+                - button "About this result" [ref=f2e2367] [cursor=pointer]
+              - generic [ref=f2e2373]:
+                - generic [ref=f2e2379]:
+                  - generic [ref=f2e2380]:
+                    - link [ref=f2e2382] [cursor=pointer]:
+                      - /url: /goto?url=CAESaAHEIkXXLpna06SE89MYRXlEZLsCR6l61dscD-xqt4Qm_kuYlJIZxJAIxkzSG4yv92pWTY0KBwiZZvccr7ZtcSR127dH5rrz0L0SnBJ0-asujxXi0Oronb5KmMqh4Kxttyl3NyfLAQR7&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                      - heading "YE - FATHER (feat. TRAVIS SCOTT) YouTube Kanye West 28 Mar 2026" [level=3] [ref=f2e2383]:
+                        - generic [ref=f2e2384]: YE - FATHER (feat. TRAVIS SCOTT)
+                        - generic [ref=f2e2388]:
+                          - generic [ref=f2e2389]:
+                            - text: YouTube
+                            - generic [ref=f2e2390]: · Kanye West
+                          - generic [ref=f2e2391]: 28 Mar 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [aria-hidden]:
+                              - text: YouTube
+                              - generic: · Kanye West
+                        - button "About this result" [ref=f2e2395] [cursor=pointer]
+                  - link "YE - FATHER (feat. TRAVIS SCOTT) by Kanye West on YouTube. Play on YouTube. 2:52" [ref=f2e2400] [cursor=pointer]:
+                    - /url: /goto?url=CAESaAHEIkXXLpna06SE89MYRXlEZLsCR6l61dscD-xqt4Qm_kuYlJIZxJAIxkzSG4yv92pWTY0KBwiZZvccr7ZtcSR127dH5rrz0L0SnBJ0-asujxXi0Oronb5KmMqh4Kxttyl3NyfLAQR7&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - generic [ref=f2e2410]: 2:52
+                - generic [ref=f2e2418]:
+                  - generic [ref=f2e2419]:
+                    - link [ref=f2e2421] [cursor=pointer]:
+                      - /url: /goto?url=CAESaAHEIkXX2LpNTKvSV7o4Pui2aFLMShP7ZKcSXvjkL3_982M2_gA1fZ38r9cqq_Te-Sf2tClJXW-ow0obtkXGoT2AGWc-MWD_VnPqK__QAz_dUEgxHWPx9n9U84SbKP7njqKInorzu91t&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                      - heading "YE - I CAN'T WAIT YouTube Kanye West 28 Mar 2026" [level=3] [ref=f2e2422]:
+                        - generic [ref=f2e2423]: YE - I CAN'T WAIT
+                        - generic [ref=f2e2427]:
+                          - generic [ref=f2e2428]:
+                            - text: YouTube
+                            - generic [ref=f2e2429]: · Kanye West
+                          - generic [ref=f2e2430]: 28 Mar 2026
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [aria-hidden]:
+                              - text: YouTube
+                              - generic: · Kanye West
+                        - button "About this result" [ref=f2e2434] [cursor=pointer]
+                  - link "YE - I CAN'T WAIT by Kanye West on YouTube. Play on YouTube. 2:08" [ref=f2e2439] [cursor=pointer]:
+                    - /url: /goto?url=CAESaAHEIkXX2LpNTKvSV7o4Pui2aFLMShP7ZKcSXvjkL3_982M2_gA1fZ38r9cqq_Te-Sf2tClJXW-ow0obtkXGoT2AGWc-MWD_VnPqK__QAz_dUEgxHWPx9n9U84SbKP7njqKInorzu91t&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - generic [ref=f2e2449]: 2:08
+                - generic [ref=f2e2458]:
+                  - generic [ref=f2e2459]:
+                    - link [ref=f2e2461] [cursor=pointer]:
+                      - /url: /goto?url=CAESaAHEIkXXjIthR-mWXy9QweUQU3b_rvat6r-ToX5ggwZ-KHqYQNguO9VEjQQuQCY5LUPkqw80nHG5v9K97NJTYwb6eJt9FvX83cc_bUe7-YZfxo7fEIwexz63SVwl_CkC6wg7t0QXHhOD&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                      - heading "How Kanye West Destroyed a 6 Billion dollar Empire YouTube ECHO tv 1 week ago" [level=3] [ref=f2e2462]:
+                        - generic [ref=f2e2463]: How Kanye West Destroyed a 6 Billion dollar Empire
+                        - generic [ref=f2e2467]:
+                          - generic [ref=f2e2468]:
+                            - text: YouTube
+                            - generic [ref=f2e2469]: · ECHO tv
+                          - generic [ref=f2e2470]: 1 week ago
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic [aria-hidden]:
+                              - text: YouTube
+                              - generic: · ECHO tv
+                        - button "About this result" [ref=f2e2474] [cursor=pointer]
+                  - button "How Kanye West Destroyed a 6 Billion dollar Empire by ECHO tv on YouTube. Play on Google. 16:04" [ref=f2e2479] [cursor=pointer]:
+                    - generic [ref=f2e2489]: 16:04
+              - link "View all videos" [ref=f2e2498] [cursor=pointer]:
+                - /url: /search?sca_esv=bd95a5c1f4e8c0a9&udm=vids&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8ccDKAJ6BAhREAU
+                - separator [aria-hidden] [ref=f2e2499]
+                - generic [ref=f2e2500]: View all
+            - generic [ref=f2e2508]:
+              - heading "Web results" [level=2] [ref=f2e2509]
+              - generic [ref=f2e2510]:
+                - generic [ref=f2e2513]:
+                  - link "Listen to Kanye West Songs Spotify https://open.spotify.com › artist" [ref=f2e2515] [cursor=pointer]:
+                    - /url: /goto?url=CAEScwHEIkXXeWTtxjemsaD-bz4hFEwRSzjZO9MXpIWrPWMEO1vj_JHn_UqlsmWHmwI-ynzslq8dSK95J-QHPSL9XN6beBZkhkzod1WjteWClhwdAzBLLKezqtvQP791L53td5_NPbHsbR_dkPjTypnZwT95JbI&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                    - heading "Listen to Kanye West Songs" [level=3] [ref=f2e2516]
+                    - generic [ref=f2e2522]:
+                      - generic [ref=f2e2523]: Spotify
+                      - generic [ref=f2e2525]: https://open.spotify.com › artist
+                  - button "About this result" [ref=f2e2531] [cursor=pointer]
+                - generic [ref=f2e2537]:
+                  - generic [ref=f2e2538]:
+                    - text: One of the most influential, critically lauded, and controversial artists of the early 21st century,
+                    - emphasis [ref=f2e2539]: American rapper and producer Kanye West
+                    - text: has gone from ...
+                  - link "Read more" [ref=f2e2540] [cursor=pointer]:
+                    - /url: /goto?url=CAESxAEBxCJF14yvvbjJfWeJAzvMbWamF-ltefIq_kWUMVpoac6gJij5xXxWBngQJ9g5v-dfZZwsSOkOEsLChFmiNLD-u2c7tzrX50WxY0pGCrqUHk4Knv6Sj-_GqVm_UkhWP6v7NUvPfBZa3Gn9vrdyJMVphQTI9Tzm0aW0PVI26SeeHMLMo2nEtAvXo1GtoOAMOcu1TFTsJPCD31hxsQ49hDzZuRMWJeMbNL0B6Y6u-b8pYq0taBZN08F1FkI0r-_lPsFw_vME&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                - link [aria-hidden] [ref=f2e2543] [cursor=pointer]:
+                  - /url: /goto?url=CAEScwHEIkXXr-2k0NizKjIXrZRARfEAfPxWdS35csyqeleOeWkgICpWUWJn8-FPedCmMWyTQ2RdGb2qV5nEN8uD-iVJ8mEeTbFv4JeAtk7TiigWY5xWha1bihUDornUHje-IHS7bmCosLbdtLeW0oM0XPrJDik&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+            - generic [ref=f2e2549]:
+              - generic [ref=f2e2552]:
+                - link "Kanye West YouTube · Kanye West 1.3Cr+ followers" [ref=f2e2554] [cursor=pointer]:
+                  - /url: /goto?url=CAESdQHEIkXXptyaLCEcYXtetjD1BwbTeEz5iye5jh_HjFk3l-sUCmVqdi8dFDskaBuJB5Ky0ASbTBWvwaaUZQrlS8gi7ZTt9Slum3bZI8qlVSHg34oo-Pk_ipm-8J2vO2z9ojW_cdPBR4kAp1oKbzL4WmiZh_b7DA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - heading "Kanye West" [level=3] [ref=f2e2555]
+                  - generic [ref=f2e2561]:
+                    - generic [ref=f2e2562]: YouTube · Kanye West
+                    - generic [ref=f2e2564]: 1.3Cr+ followers
+                - button "About this result" [ref=f2e2570] [cursor=pointer]
+              - generic [ref=f2e2576]:
+                - generic [ref=f2e2577]:
+                  - text: Donda ·
+                  - emphasis [ref=f2e2578]: Kanye West
+                  - text: "- Come to Life (Official Video) · Kanye West - 24 (Official Video). Kanye West. 12M views. 5 years ago. Collaborations. 2:43 ..."
+                - link "Read more" [ref=f2e2579] [cursor=pointer]:
+                  - /url: /goto?url=CAES8gEBxCJF10waqQP7G_EWwy08Ls_Syvjea4_J1ke7CJOSBafeNdcnInY66qt-kuF_qndXWxavgdY35YomjWWYTMPJmDDr13c3K09b_Q9RNDwoXSN6f4O53WbW7JWM3l-kbD-bNfuQFx-g3ZzUcGSlveUZX86_IapZGE74RPMqjFQeOLqqMpcU7ZzawMsNjWJex3-FK_6PQZFLvQsU_E6kqA5rBu5ur1AWPkULl2TnijEgvYa_r_-8bcOSbmez4Tx0rAChj4WzcDFQO3150P0LN6qvRVijEy-E_uhqWqvozt8mGONUt--VG2OTZkjUfXILyGoFNA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - link [aria-hidden] [ref=f2e2582] [cursor=pointer]:
+                - /url: /goto?url=CAESdQHEIkXXfLgdQITj69XHyBjuedYeh98w0M9iTtIdqo-a0fL0oXs5C5Wtxx-Wtzo7P8Od6LBLLR5b2Diz7-FmkdoUzjAaN_QCzKXJRKmE4Hk4JFguptZsNUDocqlca8-tjJP6rPQHI4TkMjfkJIVz0kmOwMg-2A&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+            - generic [ref=f2e2588]:
+              - generic [ref=f2e2591]:
+                - link "ye (@kanyewest) / X X · kanyewest 3.1Cr+ followers" [ref=f2e2593] [cursor=pointer]:
+                  - /url: /goto?url=CAESXAHEIkXXHvUBMZ6j91HtGY2qRTTCIamxD3vCNXuYuMLE0b8k5BAfzVptDsGUMRUq3DsrNTsD9KzaITwTo-dpP025EYfqGY3kb5que6F0lwWjw9sljeBVDO_l9BXO&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - heading "ye (@kanyewest) / X" [level=3] [ref=f2e2594]
+                  - generic [ref=f2e2600]:
+                    - generic [ref=f2e2601]: X · kanyewest
+                    - generic [ref=f2e2603]: 3.1Cr+ followers
+                - button "About this result" [ref=f2e2609] [cursor=pointer]
+              - generic [ref=f2e2615]:
+                - generic [ref=f2e2616]:
+                  - text: After much thought and consideration, it is
+                  - emphasis [ref=f2e2617]: my sole decision to postpone my show in Marseille, France
+                  - text: until further notice. 3.2K. 5K. 106K. 5.7M. @ ...
+                - link "Read more" [ref=f2e2618] [cursor=pointer]:
+                  - /url: /goto?url=CAESmQEBxCJF1wnzW0XPKeEkYrTjemg0rF2Rxz1F0bL5jrOiV-W5Q8uN3DLJFeuq1eGV_rxQcNKEPYZiMkOSqAVZY0NZx_Rw_FK7QUQ9_gFxQHXWVRj5u3BXzuPtZr8ON8MtbxUoU3smkzf_yKJnKkOyMf331wGk3jP94l2m6PLbWASrDD31p60sAqCWX1ubhLfYnVCS702xFl-t2SQ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - link [aria-hidden] [ref=f2e2621] [cursor=pointer]:
+                - /url: /goto?url=CAESXAHEIkXXWkWalLHEBdwzkd4Dvz4LYWTw3BfsPgYD6qr2uvSJHgBTXdYJ2Y8zy2jL82rDj4bYN3cJkrRCwGok5-ds-t_5nAtZmbxylF_CgpumNtDXm9g1x_Xw8nUQ&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+            - generic [ref=f2e2627]:
+              - generic [ref=f2e2630]:
+                - link "Ye IMDb https://www.imdb.com › name" [ref=f2e2632] [cursor=pointer]:
+                  - /url: /goto?url=CAESYQHEIkXXnMlNw47q7qxOb7pxJCTcflhiEmoy5f5DDEaygRm6D72tSGZSH9-7br70h1tX3Cr99wcGbNNr1LQoGYuPz3MFITx3H7BwUcZuZOgUP7Y8kXuD4ms3--luuWQgeEo&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - heading "Ye" [level=3] [ref=f2e2633]
+                  - generic [ref=f2e2639]:
+                    - generic [ref=f2e2640]: IMDb
+                    - generic [ref=f2e2642]: https://www.imdb.com › name
+                - button "About this result" [ref=f2e2648] [cursor=pointer]
+              - generic [ref=f2e2654]:
+                - generic [ref=f2e2655]:
+                  - emphasis [ref=f2e2656]: Kanye
+                  - text: Omari
+                  - emphasis [ref=f2e2657]: West
+                  - text: (born June 8, 1977) is an American rapper, record producer, singer, songwriter, entrepreneur, and fashion designer.
+                - link "Read more" [ref=f2e2658] [cursor=pointer]:
+                  - /url: /goto?url=CAESygEBxCJF1wIpd6eLGMnuCFXsgMN1l42j5qx8WmG9Ir_xTlQ0FKLAnz7wcCku8_i7H-mPpJ8clX5DRgC6GjIjSs1VNcIsSG-Id3qnRB0x4eObrpUA2igKmNy6Dn3_Tjt1tnrAY9MlfNYB-XUg_TOuKn52_qTdx3SaXZAJTvp5Fx2cMNmzVQnEeYWccdhm-CFovrCJ3PW9OF3naWtgfTRcunf4C74dCjsXguOZCCPmQ68wf8FedQkIz0wyXf7SfD0Hrv3YZ-z9p739gn8c&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - link [aria-hidden] [ref=f2e2661] [cursor=pointer]:
+                - /url: /goto?url=CAESYQHEIkXXbhw8gsegCCJ5bb1jNcSjihp5-holt2QOiu0wN79Cnh7xMiF3LEn1niO-FRZuun9wEB7L0Q42oARRitbGuOZqnuHr6IHjsQsdimz7TOGjcF9M_Rz4zDKKQGIfnuA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+            - generic [ref=f2e2667]:
+              - generic [ref=f2e2670]:
+                - link "Kanye West | Biography, Music & News Billboard https://www.billboard.com › artist › kanye-west" [ref=f2e2672] [cursor=pointer]:
+                  - /url: /goto?url=CAESaQHEIkXXqRcDkRrFV4KbduU-KbNKkwgmspY6bKStOULlhtNLTQ-dnfikh1BxRwmJp1QC7LQXBS8lcCg9OnD2tc5vprJNlRDlBX6Df1oo1d-WlW2GIGw_8hWDGEqvqzM9A9qL22Z-_6jkRw&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+                  - heading "Kanye West | Biography, Music & News" [level=3] [ref=f2e2673]
+                  - generic [ref=f2e2679]:
+                    - generic [ref=f2e2680]: Billboard
+                    - generic [ref=f2e2682]: https://www.billboard.com › artist › kanye-west
+                - button "About this result" [ref=f2e2688] [cursor=pointer]
+              - generic [ref=f2e2694]:
+                - generic [ref=f2e2695]:
+                  - emphasis [ref=f2e2696]: Kanye West was born in Atlanta and raised in Chicago
+                  - text: . His birthday is June 8, 1977, and his height is 5'8". He began his career by producing music for local ...
+                - link "Read more" [ref=f2e2697] [cursor=pointer]:
+                  - /url: /goto?url=CAEStQEBxCJF1524M_ZYiamSPjIz-t5KRDnBWVJmbUFdoeS9qOdyGxX6x0dTA-M_kjRRG0d4tteoWGRP1PgsSwld2oyxTuynosnl0p1V0sxDxkVKrA8T0N3CNrqgWXuBw98BG0bM_a_nc9iT0KwdvTC2Fzs6J26wDoJ6Np_89zIfz1_Pyr58CbmjmpZxD87lVYeaSzQ7-5iVVDBgFR5wCMNPqpGZUSCWS0h81dCbKLq3WIgDv9o9MLI4&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - link [aria-hidden] [ref=f2e2700] [cursor=pointer]:
+                - /url: /goto?url=CAESaQHEIkXXmabrNy9nB0ckdUMXyKkJ-9HKKUpUBpenBk7o4CsnOO9gddS9wLAAUrcPcPh1rjrWcICHcS2H4z9fPMdIN4PvPGXYMW_RXHvKjLpUfLMI6ihAtsvpftFEN0BfaYJ77P3cxPB_9A&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+          - generic [ref=f2e2704]:
+            - generic [ref=f2e2709]:
+              - heading "People also search for" [level=2] [ref=f2e2711]
+              - generic [ref=f2e2713]:
+                - generic [ref=f2e2714]:
+                  - link "Kanye West tour" [ref=f2e2718] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+tour&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhhEAE
+                  - link "Kanye West concert" [ref=f2e2732] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+concert&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAh3EAE
+                  - link "Kanye West merch" [ref=f2e2746] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+merch&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhzEAE
+                  - link "Kanye West tickets" [ref=f2e2760] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+tickets&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhvEAE
+                - generic [ref=f2e2771]:
+                  - link "Yeezy" [ref=f2e2775] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Yeezy&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhrEAE
+                  - link "Kanye West store" [ref=f2e2789] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+store&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhoEAE
+                  - link "Kanye West Chicago" [ref=f2e2803] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+Chicago&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhlEAE
+                  - link "Kanye West shows" [ref=f2e2817] [cursor=pointer]:
+                    - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kanye+West+shows&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ1QJ6BAhiEAE
+            - navigation [ref=f2e2828]:
+              - heading "Page navigation" [level=1] [ref=f2e2829]
+              - text: "1"
+              - link "Page 2" [ref=f2e2832] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=10&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAE
+                - text: "2"
+              - link "Page 3" [ref=f2e2834] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=20&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAG
+                - text: "3"
+              - link "Page 4" [ref=f2e2836] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=30&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAI
+                - text: "4"
+              - link "Page 5" [ref=f2e2838] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=40&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAK
+                - text: "5"
+              - link "Page 6" [ref=f2e2840] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=50&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAM
+                - text: "6"
+              - link "Page 7" [ref=f2e2842] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=60&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAO
+                - text: "7"
+              - link "Page 8" [ref=f2e2844] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=70&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAQ
+                - text: "8"
+              - link "Page 9" [ref=f2e2846] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=80&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAS
+                - text: "9"
+              - link "Page 10" [ref=f2e2848] [cursor=pointer]:
+                - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=90&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8tMDegQIWxAU
+                - text: "10"
+              - heading [level=2] [ref=f2e2850]:
+                - link "Next" [ref=f2e2851] [cursor=pointer]:
+                  - /url: /search?q=Kanye+West&sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&ei=KqX4ao3vDOit4-EPoNTY2Ac&start=10&sa=N&sstk=AYl2yk--MhSIXOJD5o-9qLkQ_iv5sQeQ2SeslyN-wQYkYKh9btB1uFpZzRelja_fZMDqgg-dnOVTWCALmslQJwkS80VvTMPqgYvJjA&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQ8NMDegQIWxAW
+          - navigation
+      - complementary "Complementary results" [ref=f2e2854]:
+        - heading "Complementary results" [level=2] [ref=f2e2855]
+        - generic [ref=f2e2862]:
+          - heading "About" [level=3] [ref=f2e2865]
+          - generic [ref=f2e2869]:
+            - generic [ref=f2e2870]:
+              - generic [ref=f2e2874]:
+                - heading "Description" [level=3] [ref=f2e2875]
+                - generic [ref=f2e2876]: Ye is an American rapper, songwriter, and record producer. He has been listed among the greatest rappers of all time and referred to as one of the most prominent figures in hip-hop.
+                - link "Wikipedia" [ref=f2e2878] [cursor=pointer]:
+                  - /url: /goto?url=CAESZQHEIkXXGctjHr07LbiWlnnRVcmUSvrtM7RVmhClMcKEZkqcfihvg-uONkhN0osFQunFg-RnTV0wIwfTCmuCdRJLRri8bDhehEGQzro6-Gff-fd5rhSF4BpK17TEaIYUdM_EP3HK&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - generic [ref=f2e2880]:
+                - generic [ref=f2e2884]:
+                  - generic [ref=f2e2885]: Born
+                  - generic [ref=f2e2887]:
+                    - text: 8 June 1977 (age 49 years),
+                    - link "Atlanta, Georgia, United States" [ref=f2e2888] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Atlanta&si=AE1YtOokWSHJBSjaFAVuHrKvdUXDnt4IC6FbHBKzd9pU_Dnj_BaHJ8_3y4nbt-GJpo8TsuCdxD-3f7LyCtybk-jlh5G95-7BBb9NI2haMNzcrsgQGV0_NMUS3CIp5CH_tzN5j67M5VonNpGPVqPQ8UaQWUXx-erkCu5W_F1kLlrwqB8_n8JDbjNthccRd-X6C6q8F3U0ZpLk&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQmxN6BAgeEAI
+                - generic [ref=f2e2892]:
+                  - generic [ref=f2e2893]: Spouse
+                  - generic [ref=f2e2895]:
+                    - link "Bianca Censori" [ref=f2e2896] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Bianca+Censori&si=AE1YtOpq69kQPYJq7TIn_jext5SiMwQcb6Hqfr7QepP6tJJpj7yo37-RlFpgWyAohEyb3nVsD8Tfakk837nA-Upx2Urk4zJwrGNFGg5xtsWDlO6nMDORtWKC6UCiYMXFUZ2jnXaoc-dLwLiX5yhHrOT8ohLKZekDXI6GgivAbxpwGwImEbzWgBW9TFilKcuG_3cKgywmyhu5fiPXRBV2xtYtBcnKsM1EK7ExYKPNq1XR8eXhBKZKSAXV5TPfb1i2mJuHXI2pPiYSUyyHOKiCEt4oYs7ZamhF-A%3D%3D&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQmxN6BAgfEAI
+                    - text: (m. 2022),
+                    - link "Kim Kardashian" [ref=f2e2897] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Kim+Kardashian&si=AE1YtOpYlMP-vGLOpX3-jqVKriI1ZSPgSD1yHkLMGBNlL3t3zjAnafqptB9rMyrzF3r3Zb8IJYL-y4ji0ZILJLbObbd3WiVS8HomaAF4GvE60z2Ha3AeVzjaAsDAcriQ4YKiXj9YbZGIV78-JNCVi9MCz-RbL1PgorxLPCa1psh4H34jaiXifU0XildI3bma_KdGGqfQbTAtYrp_Z9-tWwZLOzQNzkhgW15dSsvY6yBupdN7rv-cEurI55WqCBQLdv-LiMPScC3HCluihIAdOGSZOyZo3vz9gQ%3D%3D&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQmxN6BAgfEAM
+                    - text: (m. 2014–2022)
+                - generic [ref=f2e2901]:
+                  - generic [ref=f2e2902]: Education
+                  - generic [ref=f2e2904]:
+                    - link "American Academy of Art College" [ref=f2e2905] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=American+Academy+of+Art&si=AE1YtOpYlMP-vGLOpX3-jqVKriI1ZSPgSD1yHkLMGBNlL3t3zkTgxJ5in1mOKMpL2xHCTuikJlSV5KilJpdJxn65S5JjHD9qJBcP3Mv0DU3-UXwfBTFiSsGq-U9XOsqMxW4pKhXLM1TI_caPnw9G10Rc-TubS5m3lhtK3bSp4pfhW65dAEO4Yff2e6A1fAW7MXU-dFhfXkmJoeqFn_iYLRyLU86-jsb2HO3dgrYFyN0bNS6j6YLn_Mm0yBSV6h0NJzKnt18v-GJ9q4c7rJOckSTGUuNEnVrYlA%3D%3D&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQmxN6BAghEAI
+                    - text: ","
+                    - link "Chicago State University" [ref=f2e2906] [cursor=pointer]:
+                      - /url: /search?sca_esv=bd95a5c1f4e8c0a9&sxsrf=AKL5yDhM6857687u2Xa0ngAXrEOKk7siJQ:1794680106218&q=Chicago+State+University&si=AE1YtOruOSDH5h0KlIqwNcNYS7e3cFcPRS41TGgpXOwnNEOgU4oPzriTFiU3Y_xxaGWppZs04mGnkVH5nUvsOOLmA57EZd1DHt7xnyd3Tr5GhohlSl1nZ-kT9kLgmH56G_zeayBxoDufJL15PNSBV0dDYwntSgjXAKEl6cRs1VPdbw0vaVg-1eq0cE9pvNFSVJ1xDXpwKRdaziJEuogK2m9xrKvnHxcA2exq88bCasCIoNMLEaWgCsFxAWWN1TiQ31_L33iktkfaaVxYVeDTPn6E1T_px4XHZw%3D%3D&sa=X&ved=2ahUKEwiNrN2xiIiYAxXo1jgGHSAqFnsQmxN6BAghEAM
+                - generic [ref=f2e2910]:
+                  - generic [ref=f2e2911]: Full name
+                  - generic [ref=f2e2912]: Ye
+            - generic [ref=f2e2916]:
+              - text: "Sources include:"
+              - link "Ballotpedia" [ref=f2e2917] [cursor=pointer]:
+                - /url: /goto?url=CAESWQHEIkXXuBrQ4FGfGOd9l13Tltq5-hjOnlnz6DrWeRd4mIgasZiBLIapr_s4_vYQG0DgpbF6gc6IKhxkNT8Cb__Qtp8-FG35B3MFDepOeK0o6z-hPNPWnXqA&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - text: ","
+              - link "Wikipedia" [ref=f2e2918] [cursor=pointer]:
+                - /url: /goto?url=CAESVgHEIkXXIwBI3Vib-_2Gr9H1eGRhaf1DpZP1TowslOaqsetqzV8XT7s3An0b00ID6aNbhBTqjTYq9R5thVf-4ZvtcNNhYDoMmEeKKQJrJVbo-__hyGFF&gsessionid=0qUwXr2IPjR9z7bDuDZ8sDWr-8-rdpn36mwLUsmcJLn1na3dhH3E9A
+              - text: .
+              - link "Learn more" [ref=f2e2919] [cursor=pointer]:
+                - /url: https://support.google.com/knowledgepanel?p=about_knowledge_panels
+          - button "Feedback" [ref=f2e2922] [cursor=pointer]
+    - contentinfo [ref=f2e2924]:
+      - heading "Footer links" [level=1] [ref=f2e2925]
+      - generic [ref=f2e2929]:
+        - generic [ref=f2e2931]:
+          - text: India
+          - generic [ref=f2e2933]:
+            - button "500001, Hyderabad, Telangana - From your IP address" [ref=f2e2935] [cursor=pointer]:
+              - generic [ref=f2e2936]: 500001, Hyderabad, Telangana
+              - generic [ref=f2e2938]:
+                - text: "-"
+                - generic [ref=f2e2939]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=f2e2941] [cursor=pointer]
+        - generic [ref=f2e2944]:
+          - link "Help" [ref=f2e2945] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=f2e2947] [cursor=pointer]
+          - link "Privacy" [ref=f2e2949] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=f2e2950] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

@@ -1,4 +1,4 @@
-from cli.interface import run
+from cli.app import run
 
 
 if __name__ == "__main__":

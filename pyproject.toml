@@ -9,6 +9,7 @@ description = "Max personal AI assistant"
 requires-python = ">=3.10"
 dependencies = [
     "rich>=13.7",
+    "textual>=0.80",
     "langgraph>=1.0",
     "langchain>=1.0",
     "langchain-groq>=1.0",
@@ -17,7 +18,10 @@ dependencies = [
 ]
 
 [project.scripts]
-max = "cli.interface:run"
+max = "cli.app:run"
 
 [tool.setuptools.packages.find]
 include = ["ai*", "cli*"]
+
+[tool.setuptools.package-data]
+cli = ["styles/*.tcss"]
