@@ -1,0 +1,397 @@
+- generic [active] [ref=e1]:
+  - link "Bỏ qua nội dung" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - navigation [ref=e7]:
+          - link [ref=e9] [cursor=pointer]:
+            - /url: https://music4cash.affilideveloper.app/
+            - img "uu88dog" [ref=e11]
+          - text:  
+          - generic:
+            - list
+          - list [ref=e13]:
+            - listitem [ref=e14]:
+              - link "ĐĂNG KÝ" [ref=e16] [cursor=pointer]:
+                - /url: https://seo2222.100uu88.com/register.html
+            - listitem [ref=e18]:
+              - link "ĐĂNG NHẬP" [ref=e20] [cursor=pointer]:
+                - /url: https://seo2222.100uu88.com/register.html
+        - list [ref=e26]:
+          - listitem [ref=e27]:
+            - link [ref=e28] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/
+              - img "icon home uu88" [ref=e30]
+              - text: UU88
+          - listitem [ref=e31]:
+            - link [ref=e32] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/huong-dan-uu88/
+              - img "icon hướng dẫn uu88" [ref=e33]
+              - text: Hướng Dẫn
+              - generic [aria-hidden] [ref=e34]: 
+          - listitem [ref=e35]:
+            - link [ref=e36] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/casino-uu88/
+              - img "icon casino uu88" [ref=e37]
+              - text: Casino
+          - listitem [ref=e38]:
+            - link [ref=e39] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/no-hu-uu88/
+              - img "icon nổ hũ uu88" [ref=e40]
+              - text: Nổ Hũ
+          - listitem [ref=e41]:
+            - link [ref=e42] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/the-thao-uu88/
+              - img "icon thể thao uu88" [ref=e44]
+              - text: Thể Thao
+          - listitem [ref=e45]:
+            - link [ref=e46] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/ban-ca-uu88/
+              - img "icon bắn cá uu88" [ref=e48]
+              - text: Bắn Cá
+          - listitem [ref=e49]:
+            - link [ref=e50] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/da-ga-uu88/
+              - img "icon đá gà uu88" [ref=e52]
+              - text: Đá Gà
+          - listitem [ref=e53]:
+            - link [ref=e54] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/xo-so-uu88/
+              - img "icon xổ số uu88" [ref=e56]
+              - text: Xổ Số
+          - listitem [ref=e57]:
+            - link [ref=e58] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/so-mo-uu88/
+              - img "icon số mơ uu88" [ref=e60]
+              - text: Số Mơ
+    - main [ref=e64]:
+      - main [ref=e65]:
+        - generic [ref=e66]:
+          - link [ref=e70] [cursor=pointer]:
+            - /url: https://music4cash.affilideveloper.app/
+            - img "BANNER UU88" [ref=e72]
+          - generic [ref=e73]:
+            - navigation [ref=e76]:
+              - generic [ref=e77]:
+                - generic [ref=e78]: 
+                - button "Contents" [ref=e79] [cursor=pointer]: 
+                - heading "Contents" [level=3] [ref=e80]
+              - list [ref=e81]:
+                - listitem [ref=e82]:
+                  - button "Expand or collapse" [ref=e83] [cursor=pointer]: 
+                  - link "UU88 MUSIC – Trải Nghiệm Không Gian Thể Thao Live Và Cá Cược Trực Tuyến" [ref=e84] [cursor=pointer]:
+                    - /url: "#ftoc-heading-1"
+                  - list [ref=e86]:
+                    - listitem [ref=e87]:
+                      - link "Hệ sinh thái giải trí tại UU88" [ref=e88] [cursor=pointer]:
+                        - /url: "#ftoc-heading-2"
+                    - listitem [ref=e90]:
+                      - link "Trải nghiệm UU88 trên nhiều thiết bị" [ref=e91] [cursor=pointer]:
+                        - /url: "#ftoc-heading-3"
+                    - listitem [ref=e93]:
+                      - link "Bảo mật tài khoản và dữ liệu" [ref=e94] [cursor=pointer]:
+                        - /url: "#ftoc-heading-4"
+                    - listitem [ref=e96]:
+                      - link "Nạp rút tiền tại UU88" [ref=e97] [cursor=pointer]:
+                        - /url: "#ftoc-heading-5"
+                    - listitem [ref=e99]:
+                      - link "Khuyến mãi và quyền lợi thành viên" [ref=e100] [cursor=pointer]:
+                        - /url: "#ftoc-heading-6"
+                    - listitem [ref=e102]:
+                      - button "Expand or collapse" [ref=e103] [cursor=pointer]: 
+                      - link "Đánh giá tổng quan về UU88" [ref=e104] [cursor=pointer]:
+                        - /url: "#ftoc-heading-7"
+            - heading "UU88 MUSIC – Trải Nghiệm Không Gian Thể Thao Live Và Cá Cược Trực Tuyến" [level=1] [ref=e106]
+          - paragraph
+          - generic [ref=e111]:
+            - paragraph [ref=e112]:
+              - link [ref=e113] [cursor=pointer]:
+                - /url: https://music4cash.affilideveloper.app/
+                - strong [ref=e114]: UU88
+              - text: là thương hiệu cá cược và giải trí trực tuyến được giới thiệu thuộc hệ sinh thái
+              - strong [ref=e115]: OKWIN
+              - text: ", bắt đầu hoạt động từ năm 2018 và hướng đến nhóm người dùng tại thị trường châu Á. Nền tảng phát triển theo mô hình đa dịch vụ, kết hợp nhiều sản phẩm cá cược trong cùng một hệ thống nhằm giúp thành viên thuận tiện hơn khi tìm kiếm và chuyển đổi giữa các danh mục."
+            - paragraph [ref=e116]:
+              - text: Theo các thông tin được công bố về thương hiệu,
+              - strong [ref=e117]: UU88
+              - text: đề cập đến hoạt động vận hành quốc tế cùng một số giấy phép như
+              - strong [ref=e118]: PAGCOR, Isle of Man và Cagayan
+              - text: ", đồng thời có thông tin liên quan đến cơ sở vận hành tại"
+              - strong [ref=e119]: Costa Rica
+              - text: . Tuy nhiên, người dùng nên chủ động kiểm tra tình trạng giấy phép, đơn vị cấp và phạm vi pháp lý trực tiếp từ nguồn chính thức trước khi đăng ký hoặc thực hiện giao dịch.
+            - heading [level=2] [ref=e120]:
+              - strong [ref=e121]: Hệ sinh thái giải trí tại UU88
+            - paragraph [ref=e122]:
+              - text: Một trong những điểm đáng chú ý của
+              - strong [ref=e123]: UU88
+              - text: "là cách phân chia sản phẩm thành nhiều khu vực riêng, giúp người dùng dễ tìm đúng nội dung mình quan tâm. Hệ thống tập trung vào 6 nhóm chính gồm:"
+            - list [ref=e124]:
+              - listitem [ref=e125]:
+                - strong [ref=e126]: "Thể thao:"
+                - text: cung cấp nhiều bộ môn và thị trường cược khác nhau.
+              - listitem [ref=e127]:
+                - strong [ref=e128]: "Casino Live:"
+                - text: tập trung vào trải nghiệm bàn chơi trực tiếp và tương tác theo thời gian thực.
+              - listitem [ref=e129]:
+                - strong [ref=e130]: "Slot game:"
+                - text: sở hữu nhiều chủ đề, giao diện và cơ chế chơi khác nhau.
+              - listitem [ref=e131]:
+                - strong [ref=e132]: "Xổ số:"
+                - text: tổng hợp nhiều hình thức quay số trong từng chuyên mục.
+              - listitem [ref=e133]:
+                - strong [ref=e134]: "Bắn cá:"
+                - text: mang đến các màn chơi có tính tương tác và nhiều cấp độ.
+              - listitem [ref=e135]:
+                - strong [ref=e136]: "Game bài:"
+                - text: quy tụ nhiều trò chơi quen thuộc trên giao diện trực tuyến.
+            - paragraph [ref=e137]: Cách bố trí rõ ràng giúp người chơi hạn chế mất thời gian tìm kiếm và dễ chuyển đổi giữa các sảnh game hơn.
+            - heading [level=2] [ref=e138]:
+              - strong [ref=e139]: Trải nghiệm UU88 trên nhiều thiết bị
+            - paragraph [ref=e140]:
+              - strong [ref=e141]: UU88
+              - text: được xây dựng theo hướng tương thích với nhiều thiết bị như
+              - strong [ref=e142]: máy tính để bàn, laptop, smartphone và máy tính bảng
+              - text: . Người dùng có thể truy cập trên các môi trường phổ biến gồm
+              - strong [ref=e143]: Windows, Android và iOS
+              - text: ", từ đó linh hoạt lựa chọn thiết bị phù hợp với thói quen sử dụng."
+            - paragraph [ref=e144]:
+              - text: Giao diện được điều chỉnh theo từng kích thước màn hình, trong khi các chức năng như
+              - strong [ref=e145]: đăng nhập, danh mục trò chơi, khuyến mãi, nạp rút và quản lý tài khoản
+              - text: được sắp xếp theo hướng trực quan. Đây là yếu tố quan trọng đối với người dùng thường xuyên chuyển đổi giữa điện thoại và máy tính.
+            - heading [level=2] [ref=e146]:
+              - strong [ref=e147]: Bảo mật tài khoản và dữ liệu
+            - paragraph [ref=e148]:
+              - text: Đối với một nền tảng cá cược trực tuyến, bảo vệ thông tin cá nhân và dữ liệu giao dịch là yếu tố cần được ưu tiên.
+              - strong [ref=e149]: UU88
+              - text: cho biết hệ thống sử dụng nhiều lớp công nghệ nhằm hạn chế truy cập trái phép và giảm nguy cơ gián đoạn dịch vụ.
+            - paragraph [ref=e150]:
+              - text: Các giải pháp được đề cập gồm
+              - strong [ref=e151]: mã hóa SSL
+              - text: ","
+              - strong [ref=e152]: xác thực hai lớp 2FA
+              - text: và biện pháp chống
+              - strong [ref=e153]: DDoS
+              - text: . Bên cạnh hệ thống kỹ thuật, người dùng cũng nên chủ động nâng cao bảo mật bằng cách sử dụng mật khẩu mạnh, kích hoạt 2FA nếu được hỗ trợ và tuyệt đối không chia sẻ mật khẩu hoặc mã OTP cho người khác.
+            - heading [level=2] [ref=e154]:
+              - strong [ref=e155]: Nạp rút tiền tại UU88
+            - paragraph [ref=e156]:
+              - strong [ref=e157]: UU88
+              - text: hỗ trợ một số phương thức thanh toán quen thuộc với người dùng Việt Nam như
+              - strong [ref=e158]: Internet Banking, MoMo, ZaloPay và ViettelPay
+              - text: . Việc có nhiều lựa chọn giúp thành viên dễ chọn phương thức phù hợp với nhu cầu cá nhân.
+            - paragraph [ref=e159]:
+              - text: Theo thông tin được cung cấp, thời gian xác nhận nạp tiền có thể dao động khoảng
+              - strong [ref=e160]: 1–3 phút
+              - text: ", trong khi lệnh rút có thể mất khoảng"
+              - strong [ref=e161]: 5–15 phút
+              - text: . Tuy nhiên, tốc độ thực tế còn phụ thuộc vào ngân hàng, hình thức thanh toán, thời điểm giao dịch, quá trình xác minh tài khoản và trạng thái hệ thống. Vì vậy, những mốc này nên được xem là thời gian tham khảo thay vì cam kết cố định.
+            - paragraph [ref=e162]:
+              - text: Khi thực hiện giao dịch, người dùng nên kiểm tra kỹ
+              - strong [ref=e163]: số tiền, thông tin tài khoản, nội dung chuyển khoản
+              - text: và lưu lại biên nhận cho đến khi giao dịch được xác nhận hoàn tất.
+            - heading [level=2] [ref=e164]:
+              - strong [ref=e165]: Khuyến mãi và quyền lợi thành viên
+            - paragraph [ref=e166]:
+              - text: Bên cạnh kho trò chơi,
+              - strong [ref=e167]: UU88
+              - text: triển khai nhiều chương trình ưu đãi dành cho cả người mới và thành viên đang hoạt động. Một chương trình được đề cập là
+              - strong [ref=e168]: thưởng 100% giá trị nạp lần đầu
+              - text: ", với giới hạn tối đa"
+              - strong [ref=e169]: 2.000.000 VNĐ
+              - text: .
+            - paragraph [ref=e170]:
+              - text: Thông tin hiện tại cũng nêu điều kiện doanh thu khoảng
+              - strong [ref=e171]: x15 tiền thưởng trong vòng 7 ngày
+              - text: . Do chính sách khuyến mãi có thể thay đổi theo từng thời điểm, người chơi nên kiểm tra kỹ
+              - strong [ref=e172]: mức thưởng, yêu cầu vòng cược, thời hạn và danh mục game được áp dụng
+              - text: trước khi tham gia.
+            - paragraph [ref=e173]:
+              - text: Ngoài ưu đãi cho người mới, hệ thống còn đề cập đến chương trình
+              - strong [ref=e174]: hoàn tiền khoảng 0,5%–1,5%
+              - text: tùy cấp VIP và điều kiện của từng sản phẩm. Đây là nhóm quyền lợi người dùng nên đọc kỹ thể lệ để hiểu đúng cách tính và điều kiện nhận.
+            - heading [level=2] [ref=e175]:
+              - strong [ref=e176]: Đánh giá tổng quan về UU88
+            - paragraph [ref=e177]:
+              - text: Xét về cấu trúc,
+              - strong [ref=e178]: UU88
+              - text: được phát triển theo mô hình nhà cái trực tuyến đa sản phẩm với các nhóm chính gồm
+              - strong [ref=e179]: thể thao, casino live, slot, xổ số, bắn cá và game bài
+              - text: . Khả năng hỗ trợ
+              - strong [ref=e180]: Windows, Android và iOS
+              - text: giúp nền tảng phù hợp với nhiều thói quen sử dụng khác nhau.
+            - paragraph [ref=e181]:
+              - text: Bên cạnh số lượng sản phẩm, các yếu tố đáng chú ý khác gồm
+              - strong [ref=e182]: giao diện, bảo mật dữ liệu, tốc độ giao dịch, khả năng tương thích thiết bị và hệ thống hỗ trợ người dùng
+              - text: . Đây là những tiêu chí nên được xem xét song song thay vì chỉ tập trung vào mức thưởng hoặc quảng cáo.
+            - paragraph [ref=e183]:
+              - text: Trước khi
+              - strong [ref=e184]: đăng ký, nạp tiền hoặc tham gia cá cược tại UU88
+              - text: ", người dùng nên kiểm tra lại"
+              - strong [ref=e185]: tên miền truy cập, điều khoản sử dụng, quy định nạp rút, chính sách khuyến mãi và thông tin giấy phép còn hiệu lực
+              - text: . Hoạt động cá cược cũng chỉ nên được thực hiện trong phạm vi pháp luật nơi người dùng sinh sống và với ngân sách có thể kiểm soát.
+            - paragraph [ref=e186]:
+              - generic [ref=e190]:
+                - text: "Link vào nhà cái UU88 chính thức T10/2026:"
+                - link [ref=e191] [cursor=pointer]:
+                  - /url: https://music4cash.affilideveloper.app/
+                  - strong [ref=e192]: UU88.COM
+            - paragraph [ref=e193]:
+              - generic [ref=e194]: "Link dự phòng:"
+              - strong [ref=e197]:
+                - link "https://music4cash.affilideveloper.app/vi-vn/" [ref=e198] [cursor=pointer]:
+                  - /url: https://music4cash.affilideveloper.app/vi-vn/
+          - generic [ref=e204]:
+            - heading "Câu hỏi FAQs - thường gặp cho người dùng về nhà cái UU88 uy tín" [level=3] [ref=e206]
+            - generic [ref=e210]:
+              - paragraph
+              - link [ref=e212] [cursor=pointer]:
+                - /url: "#accordion-item-uu88-có-phù-hợp-với-người-thường-xuyên-đổi-thiết-bị-không?"
+                - button "Chuyển đổi" [ref=e213]:
+                  - generic [aria-hidden] [ref=e214]: 
+                - text: UU88 có phù hợp với người thường xuyên đổi thiết bị không?
+              - link [ref=e216] [cursor=pointer]:
+                - /url: "#accordion-item-người-mới-nên-bắt-đầu-tìm-hiểu-uu88-theo-thứ-tự-nào?"
+                - button "Chuyển đổi" [ref=e217]:
+                  - generic [aria-hidden] [ref=e218]: 
+                - text: Người mới nên bắt đầu tìm hiểu UU88 theo thứ tự nào?
+              - link [ref=e220] [cursor=pointer]:
+                - /url: "#accordion-item-một-bài-đánh-giá-uu88-đáng-tin-nên-đề-cập-những-gì?"
+                - button "Chuyển đổi" [ref=e221]:
+                  - generic [aria-hidden] [ref=e222]: 
+                - text: Một bài đánh giá UU88 đáng tin nên đề cập những gì?
+          - generic [ref=e224]:
+            - heading "Tin tức hàng ngày" [level=3] [ref=e226]
+            - paragraph
+            - generic [ref=e230]:
+              - generic [ref=e233]:
+                - generic [ref=e235]:
+                  - link "Mơ Thấy Trúng Số Đánh Con Gì? Giải Mã Điềm Báo May Mắn":
+                    - /url: https://music4cash.affilideveloper.app/mo-thay-trung-so-danh-con-gi/
+                    - img "Mơ Thấy Trúng Số Đánh Con Gì? Giải Mã Điềm Báo May Mắn" [ref=e236] [cursor=pointer]
+                - generic [ref=e238]:
+                  - heading [level=5] [ref=e239]:
+                    - link "Mơ Thấy Trúng Số Đánh Con Gì? Giải Mã Điềm Báo May Mắn" [ref=e240] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/mo-thay-trung-so-danh-con-gi/
+                  - paragraph [ref=e242]: Mơ thấy trúng số đánh con gì luôn là câu hỏi lớn đối với những [...]
+                - generic: 16 Th5
+              - generic [ref=e245]:
+                - generic [ref=e247]:
+                  - link "Mơ Thấy Ma Đánh Con Gì? Giải Mã Số Đề Cực Chuẩn Tại UU88":
+                    - /url: https://music4cash.affilideveloper.app/mo-thay-ma-danh-con-gi/
+                    - img "Mơ Thấy Ma Đánh Con Gì? Giải Mã Số Đề Cực Chuẩn Tại UU88" [ref=e248] [cursor=pointer]
+                - generic [ref=e250]:
+                  - heading [level=5] [ref=e251]:
+                    - link "Mơ Thấy Ma Đánh Con Gì? Giải Mã Số Đề Cực Chuẩn Tại UU88" [ref=e252] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/mo-thay-ma-danh-con-gi/
+                  - paragraph [ref=e254]: Mơ thấy ma đánh con gì là câu hỏi mà rất nhiều người chơi tại [...]
+                - generic: 16 Th5
+              - generic [ref=e257]:
+                - generic [ref=e259]:
+                  - link "Mơ Thấy Người Chết Đánh Con Gì? Giải Mã Số Đề Chuẩn UU88":
+                    - /url: https://music4cash.affilideveloper.app/mo-thay-nguoi-chet-danh-con-gi/
+                    - img "Mơ Thấy Người Chết Đánh Con Gì? Giải Mã Số Đề Chuẩn UU88" [ref=e260] [cursor=pointer]
+                - generic [ref=e262]:
+                  - heading [level=5] [ref=e263]:
+                    - link "Mơ Thấy Người Chết Đánh Con Gì? Giải Mã Số Đề Chuẩn UU88" [ref=e264] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/mo-thay-nguoi-chet-danh-con-gi/
+                  - paragraph [ref=e266]: Mơ thấy người chết đánh con gì luôn là câu hỏi chiếm trọn sự quan [...]
+                - generic: 16 Th5
+              - generic [ref=e269]:
+                - generic [ref=e271]:
+                  - link "Mơ Thấy Rắn Đánh Con Gì Để Nhanh Chóng Về Bờ Tại UU88?":
+                    - /url: https://music4cash.affilideveloper.app/mo-thay-ran-danh-con-gi/
+                    - img "Mơ Thấy Rắn Đánh Con Gì Để Nhanh Chóng Về Bờ Tại UU88?" [ref=e272] [cursor=pointer]
+                - generic [ref=e274]:
+                  - heading [level=5] [ref=e275]:
+                    - link "Mơ Thấy Rắn Đánh Con Gì Để Nhanh Chóng Về Bờ Tại UU88?" [ref=e276] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/mo-thay-ran-danh-con-gi/
+                  - paragraph [ref=e278]: Mơ thấy rắn đánh con gì là một trong những chủ đề thu hút sự [...]
+                - generic: 16 Th5
+              - generic [ref=e281]:
+                - generic [ref=e283]:
+                  - link "Xổ Số Miền Bắc – Bí Kíp Soi Cầu Và Kinh Nghiệm Chơi Hiệu Quả":
+                    - /url: https://music4cash.affilideveloper.app/xo-so-mien-bac/
+                    - img "Xổ Số Miền Bắc - Bí Kíp Soi Cầu Và Kinh Nghiệm Chơi Hiệu Quả" [ref=e284] [cursor=pointer]
+                - generic [ref=e286]:
+                  - heading [level=5] [ref=e287]:
+                    - link "Xổ Số Miền Bắc – Bí Kíp Soi Cầu Và Kinh Nghiệm Chơi Hiệu Quả" [ref=e288] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/xo-so-mien-bac/
+                  - paragraph [ref=e290]: Xổ số miền Bắc hiện đứng đầu về lượng người quan tâm trong danh mục [...]
+                - generic: 16 Th5
+              - generic [ref=e293]:
+                - generic [ref=e295]:
+                  - link "Xổ Số Kiến Thiết – Chiến Thuật Săn Giải Thưởng Hai Tỷ Đồng":
+                    - /url: https://music4cash.affilideveloper.app/xo-so-kien-thiet/
+                    - img "Xổ Số Kiến Thiết - Chiến Thuật Săn Giải Thưởng Hai Tỷ Đồng" [ref=e296] [cursor=pointer]
+                - generic [ref=e298]:
+                  - heading [level=5] [ref=e299]:
+                    - link "Xổ Số Kiến Thiết – Chiến Thuật Săn Giải Thưởng Hai Tỷ Đồng" [ref=e300] [cursor=pointer]:
+                      - /url: https://music4cash.affilideveloper.app/xo-so-kien-thiet/
+                  - paragraph [ref=e302]: Xổ số kiến thiết từ lâu đã được xem là hình thức giải trí quen [...]
+                - generic: 16 Th5
+    - contentinfo [ref=e303]:
+      - generic [ref=e307]:
+        - generic [ref=e310]:
+          - link [ref=e312] [cursor=pointer]:
+            - /url: https://music4cash.affilideveloper.app/
+            - img "logo uu88 chính thức" [ref=e314]
+          - generic [ref=e316]:
+            - paragraph [ref=e317]:
+              - link [ref=e318] [cursor=pointer]:
+                - /url: https://music4cash.affilideveloper.app/
+                - strong [ref=e319]: UU88
+              - text: là nền tảng cá cược trực tuyến sở hữu hệ sinh thái đa dạng với
+              - strong [ref=e320]: thể thao, casino live, slot, bắn cá, xổ số và game bài
+              - text: . Nền tảng chú trọng giao diện trực quan, tốc độ truy cập ổn định, bảo mật tài khoản và quy trình giao dịch rõ ràng, đồng thời tối ưu trải nghiệm trên cả điện thoại lẫn máy tính. Bên cạnh đó,
+              - strong [ref=e321]: CSKH 24/7
+              - text: giúp người dùng thuận tiện hơn khi cần hỗ trợ trong quá trình sử dụng.
+            - img "tín nhiệm an ninh mạng uu88" [ref=e325]
+        - generic [ref=e327]:
+          - heading "LIÊN KẾT NHANH" [level=3] [ref=e329]
+          - generic [ref=e333]:
+            - link "➤ Giới Thiệu UU88" [ref=e335] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/gioi-thieu-uu88/
+            - link "➤ Chơi Có Trách Nhiệm" [ref=e337] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/choi-co-trach-nhiem/
+            - link "➤ Chính Sách Bảo Mật" [ref=e339] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/chinh-sach-bao-mat/
+            - link "➤ Miễn Trừ Trách Nhiệm" [ref=e341] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/mien-tru-trach-nhiem/
+            - link "➤ Điều Khoản Và Điều Kiện" [ref=e343] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/dieu-khoan-va-dieu-kien/
+            - link "➤ Quyền Riêng Tư" [ref=e345] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/quyen-rieng-tu/
+            - link "➤ Đại Lý UU88" [ref=e347] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/dai-ly-uu88/
+            - link "➤ Liên Hệ UU88" [ref=e349] [cursor=pointer]:
+              - /url: https://music4cash.affilideveloper.app/lien-he-uu88/
+        - generic [ref=e351]:
+          - heading "THÔNG TIN NHÀ CÁI" [level=3] [ref=e353]
+          - list [ref=e357]:
+            - listitem [ref=e358]:
+              - text: "Thương Hiệu:"
+              - strong [ref=e359]:
+                - link "UU88" [ref=e360] [cursor=pointer]:
+                  - /url: https://music4cash.affilideveloper.app/
+            - listitem [ref=e361]: "Thể loại: Cá cược thể thao"
+            - listitem [ref=e362]: "Năm hoạt động: 2008"
+            - listitem [ref=e363]: Địa chỉ:328 Đ. Nguyễn Thượng Hiền, Đức Nhuận, Hồ Chí Minh 700000, Vietnam
+            - listitem [ref=e364]: "Phone: 0982547555"
+            - listitem [ref=e365]:
+              - text: "Website:"
+              - link "https://music4cash.affilideveloper.app/" [ref=e366] [cursor=pointer]:
+                - /url: https://music4cash.affilideveloper.app/
+            - listitem [ref=e367]: "Email: support@jnrn2.buzz"
+            - listitem [ref=e368]: "Hashtag: #UU88 #nha-cai-UU88 #trang-chu-UU88 #link-UU88 #tai-UU88"
+            - listitem [ref=e369]:
+              - text: "Sơ đồ website:"
+              - link "sitemap" [ref=e370] [cursor=pointer]:
+                - /url: https://music4cash.affilideveloper.app/sitemap_index.xml/
+      - img "đối tác tin cậy uu88" [ref=e380]
+      - generic [ref=e384]:
+        - text: Copyright 2026 ©
+        - strong [ref=e385]: UU88 - UU88.DOG | Trang Chủ Chính Thức 2026
+      - button "Lên đầu trang":
+        - generic [aria-hidden]: 
+  - text:       

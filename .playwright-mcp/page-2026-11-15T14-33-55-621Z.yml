@@ -1,0 +1,268 @@
+- generic [ref=e2]:
+  - link "Skip to content" [ref=e3] [cursor=pointer]:
+    - /url: "#site-main"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link [ref=e8] [cursor=pointer]:
+        - /url: https://ngit.ac.in/
+        - img "Logo for Neil Gogte Institute of Technology" [ref=e9]
+    - generic [ref=e10]:
+      - navigation [ref=e12]:
+        - text:                 
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "About us" [ref=e15] [cursor=pointer]:
+              - /url: https://ngit.ac.in/about/
+          - listitem [ref=e16]:
+            - text: "|"
+            - link "Administration" [ref=e17] [cursor=pointer]:
+              - /url: https://ngit.ac.in/administration-main-menu/
+            - text: 
+          - listitem [ref=e18]:
+            - text: "|"
+            - link "Academics" [ref=e19] [cursor=pointer]:
+              - /url: https://ngit.ac.in/academics/
+            - text:     
+          - listitem [ref=e20]:
+            - text: "|"
+            - link "Admissions" [ref=e21] [cursor=pointer]:
+              - /url: https://ngit.ac.in/admissions/
+          - listitem [ref=e22]:
+            - text: "|"
+            - link "Infrastructure" [ref=e23] [cursor=pointer]:
+              - /url: https://ngit.ac.in/infrastructure/
+          - listitem [ref=e24]:
+            - text: "|"
+            - link "Placements" [ref=e25] [cursor=pointer]:
+              - /url: https://ngit.ac.in/placement/
+          - listitem [ref=e26]:
+            - text: "|"
+            - link "Initiatives" [ref=e27] [cursor=pointer]:
+              - /url: https://ngit.ac.in/initiatives/
+            - text: 
+          - listitem [ref=e28]:
+            - text: "|"
+            - link "Uniqueness" [ref=e29] [cursor=pointer]:
+              - /url: https://ngit.ac.in/uniqueness/
+            - list [ref=e30]:
+              - listitem [ref=e31]:
+                - link "Tesseract" [ref=e32] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/tesseract/
+              - listitem [ref=e33]:
+                - link "Tessellator" [ref=e34] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/tessellator/
+              - listitem [ref=e35]:
+                - link "Finishing School" [ref=e36] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/finishing-school-2/
+              - listitem [ref=e37]:
+                - link "Foundation School" [ref=e38] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/2810-2/
+              - listitem [ref=e39]:
+                - link "Project School" [ref=e40] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/the-project-school/
+              - listitem [ref=e41]:
+                - link "Accelerator Program" [ref=e42] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/accelerator-program/
+              - listitem [ref=e43]:
+                - link "NFS" [ref=e44] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/nfs/
+              - listitem [ref=e45]:
+                - link "Arjuna" [ref=e46] [cursor=pointer]:
+                  - /url: https://ngit.ac.in/arjuna/
+              - listitem [ref=e47]:
+                - link "Garuda" [ref=e48] [cursor=pointer]:
+                  - /url: https://ngitgaruda.netlify.app/
+          - listitem [ref=e49]:
+            - text: "|"
+            - link "NIRF" [ref=e50] [cursor=pointer]:
+              - /url: https://ngit.ac.in/nirf/
+      - paragraph [ref=e53]:
+        - text: "** EAPCET 2026: New Admissions Process & List of documents to be submitted."
+        - link "Click here for more details" [ref=e54] [cursor=pointer]:
+          - /url: /new-admissions-process
+    - main [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e61]:
+          - generic [ref=e62]:
+            - generic [ref=e63]:
+              - img "NGIT Campus" [ref=e64]
+              - generic [ref=e66]:
+                - heading "NGIT Campus" [level=2] [ref=e67]
+                - paragraph [ref=e68]: Nurturing Excellence in Engineering & Technology
+            - generic [ref=e69]:
+              - img "K-Hub Initiative" [ref=e70]
+              - generic [ref=e72]:
+                - heading "K-Hub Initiative" [level=2] [ref=e73]
+                - paragraph [ref=e74]: DEEP TECH & INNOVATION
+                - link "Click here to know more" [ref=e75] [cursor=pointer]:
+                  - /url: https://k-hub.org.in/
+            - generic [ref=e76]:
+              - img "Bhavishya Dwar" [ref=e77]
+              - generic [ref=e79]:
+                - heading "Bhavishya Dwar" [level=2] [ref=e80]
+                - paragraph [ref=e81]: Training and Placement Cell
+          - button "Previous" [ref=e82] [cursor=pointer]: ←
+          - button "Next" [ref=e83] [cursor=pointer]: →
+          - generic [ref=e84]:
+            - button "Slide 1" [ref=e85] [cursor=pointer]
+            - button "Slide 2" [ref=e86] [cursor=pointer]
+            - button "Slide 3" [ref=e87] [cursor=pointer]
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: Welcome to Neil Gogte Institute of Technology
+          - list [ref=e92]:
+            - listitem [ref=e93]:
+              - generic [ref=e94]:
+                - heading [level=2] [ref=e95]:
+                  - link "Placements" [ref=e96] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/placement/
+                - paragraph [ref=e97]: NGIT has a full-fledged Placement cell looking after Training and Placement activities of the students. NGIT Placement Cell closely coordinates with KMIT Placement Cell and most of the recruitment drives…
+                - paragraph [ref=e98]:
+                  - link "Read More" [ref=e100] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/placement/
+            - listitem [ref=e101]:
+              - generic [ref=e102]:
+                - heading [level=2] [ref=e103]:
+                  - link "Infrastructure" [ref=e104] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/infrastructure/
+                - paragraph [ref=e105]: Nestled in a scenic landscape, Neil Gogte Institute of Technology is a renowned college for computer science engineering. The campus is not only known for its modern facilities but also…
+                - paragraph [ref=e106]:
+                  - link "Read More" [ref=e108] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/infrastructure/
+            - listitem [ref=e109]:
+              - generic [ref=e110]:
+                - heading [level=2] [ref=e111]:
+                  - link "Campus Life" [ref=e112] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/campus-life/
+                - paragraph [ref=e113]: Campus life at Neil Gogte Institute of Technology (NGIT) is known for being vibrant and active, with a strong emphasis on student engagement and involvement. The institute is located in…
+                - paragraph [ref=e114]:
+                  - link "Read More" [ref=e116] [cursor=pointer]:
+                    - /url: https://ngit.ac.in/campus-life/
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - heading "Placements for A.Y 2025-26" [level=2] [ref=e122]
+            - paragraph [ref=e123]: Click below to view placement highlights and details.
+            - link "Click for More Details" [ref=e124] [cursor=pointer]:
+              - /url: /student-placements/
+          - generic [ref=e125]:
+            - heading "New Admission Process" [level=2] [ref=e126]
+            - paragraph [ref=e127]: Click below to view complete admission process details.
+            - link "Click Here for Details" [ref=e128] [cursor=pointer]:
+              - /url: /new-admissions-process
+      - generic [ref=e130]:
+        - generic [ref=e132]:
+          - heading "About NGIT" [level=1] [ref=e133]
+          - generic [ref=e134]:
+            - generic [ref=e136]:
+              - paragraph
+              - paragraph [ref=e137]: Neil Gogte Institute of Technology is the first engineering college to have started after the formation of Telangana state. It was started in 2017, by Keshav Memorial Technical Educational Society with the sole purpose of promoting quality Engineering Education.
+              - paragraph [ref=e138]: The present Executive team comprises luminaries having vast experience in different fields from legal to education.
+              - paragraph [ref=e139]: NGIT is a sister concern of KMIT and all the facilities and successful teaching-learning processes of KMIT are being implemented in this college too.
+              - paragraph [ref=e140]: NGIT is approved by the All India Council for Technical Education (AICTE), New Delhi, affiliated to Osmania University (O.U), Hyderabad, and recognized by Govt. of Telangana.
+              - generic [ref=e142]:
+                - heading "Why NGIT?" [level=2] [ref=e145]
+                - generic [ref=e146]:
+                  - generic [ref=e148]:
+                    - generic [ref=e149]: 
+                    - link [ref=e152] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/wordpress/placement/
+                  - generic [ref=e154]:
+                    - generic [ref=e155]: 
+                    - link [ref=e158] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/wordpress/finishing-school/
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: 
+                    - link [ref=e164] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/?page_id=2294
+                  - generic [ref=e166]:
+                    - generic [ref=e167]: 
+                    - link [ref=e170] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/?page_id=2153
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: 
+                    - link [ref=e176] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/?page_id=1465
+                  - generic [ref=e178]:
+                    - generic [ref=e179]: 
+                    - link [ref=e182] [cursor=pointer]:
+                      - /url: https://ngit.ac.in/?page_id=2117
+            - paragraph [ref=e183]: We invite you to explore our website further to learn more about our college’s values, academic programs, faculty, campus facilities, and the exciting opportunities available to our students. Join us in shaping your future and unlocking your full potential at our college!
+            - paragraph
+            - paragraph
+            - paragraph
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - paragraph [ref=e187]: "Announcements:"
+            - list [ref=e190]:
+              - listitem [ref=e191]:
+                - generic [ref=e193]:
+                  - generic [ref=e194]: 
+                  - paragraph [ref=e197]: 3rd Grand Test for Finishing School batches of A1,A2 and B will be conducted in first week of June,2026
+              - listitem [ref=e198]:
+                - generic [ref=e200]:
+                  - generic [ref=e201]: 
+                  - paragraph [ref=e204]: College will re-open on 1st June ,2026 after summer vacation holidays.
+          - generic [ref=e205]:
+            - paragraph [ref=e206]: Student Services
+            - generic [ref=e209]:
+              - link "Pay the Tuition Fees Pay your college tuition fees securely online. Pay Now" [ref=e210] [cursor=pointer]:
+                - /url: https://octopod.co.in/student/admission/8a811afb31dc9496db6ff40a33afdcc1
+                - heading "Pay the Tuition Fees" [level=3] [ref=e211]
+                - paragraph [ref=e212]: Pay your college tuition fees securely online.
+                - generic [ref=e213]: Pay Now
+              - link "Pay the Transport Fee Pay transport fee through the online payment portal. Pay Now" [ref=e214] [cursor=pointer]:
+                - /url: https://octopod.co.in/payment/collection/fe375bd985e98d0f3ca5d2286aeeb836/e6c31d6dddd304a0e2d23a0fde10b225
+                - heading "Pay the Transport Fee" [level=3] [ref=e215]
+                - paragraph [ref=e216]: Pay transport fee through the online payment portal.
+                - generic [ref=e217]: Pay Now
+              - link "Bus Routes Check available college bus routes and transport details. View Routes" [ref=e218] [cursor=pointer]:
+                - /url: /transport
+                - heading "Bus Routes" [level=3] [ref=e219]
+                - paragraph [ref=e220]: Check available college bus routes and transport details.
+                - generic [ref=e221]: View Routes
+    - contentinfo [ref=e222]:
+      - generic [ref=e224]:
+        - generic [ref=e229]:
+          - paragraph [ref=e230]:
+            - strong [ref=e231]: Neil Gogte Institute of Technology
+          - paragraph [ref=e232]: A Unit of Keshav Memorial Technical Educational Society (KMTES)
+          - paragraph [ref=e233]:
+            - strong [ref=e234]: "Contact Details:"
+          - paragraph [ref=e235]: "Call Us: 9100965022 / 040-29888262"
+          - paragraph [ref=e236]: "Mail: principal@ngit.ac.in"
+        - generic [ref=e240]:
+          - paragraph [ref=e241]: Sitemap
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link " Home" [ref=e245] [cursor=pointer]:
+                - /url: https://ngit.ac.in
+            - listitem [ref=e246]:
+              - link " Gallery" [ref=e247] [cursor=pointer]:
+                - /url: https://ngit.ac.in/gallery/
+            - listitem [ref=e248]:
+              - link " Placements" [ref=e249] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e250]:
+              - link " About us" [ref=e251] [cursor=pointer]:
+                - /url: https://ngit.ac.in/about/
+            - listitem [ref=e252]:
+              - link " Campus Life" [ref=e253] [cursor=pointer]:
+                - /url: https://ngit.ac.in/campus-life/
+        - generic [ref=e257]:
+          - paragraph [ref=e258]: Quick Links
+          - list [ref=e260]:
+            - listitem [ref=e261]:
+              - link " Mandatory Disclosures" [ref=e262] [cursor=pointer]:
+                - /url: https://ngit.ac.in/mandatory-disclosures/
+            - listitem [ref=e263]:
+              - link " Research" [ref=e264] [cursor=pointer]:
+                - /url: https://ngit.ac.in/research/
+            - listitem [ref=e265]:
+              - link " Detailed Project Report for the Grant of Deemed to be University under Distinct Category" [ref=e266] [cursor=pointer]:
+                - /url: https://kmec.in/assets/Detailed%20Project%20Report%20-%20Keshav%20Memorial%20Technological%20Institute.pdf
+            - listitem [ref=e267] [cursor=pointer]:
+              - link " AICTE Faculty Feedback" [ref=e268]:
+                - /url: https://www.aicte-india.org/feedback/faculty.php
+            - listitem [ref=e269] [cursor=pointer]:
+              - link " AICTE Student Feedback" [ref=e270]:
+                - /url: https://www.aicte-india.org/feedback/students.php
+    - paragraph [ref=e273]: © 2026 Neil Gogte Institute of Technology

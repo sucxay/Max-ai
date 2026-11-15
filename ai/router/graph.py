@@ -4,9 +4,11 @@ from ai.router.state import VoiceState
 from ai.router.router import router_node, route_task
 
 from ai.agents.apple_agent import apple_agent
-from ai.agents.browser_agent import browser_agent
+from ai.agents.browser_agent import get_existing_agent, log_browser_debug
 from ai.agents.system_agent import system_agent
 from ai.agents.file_agent import file_agent
+
+_BROWSER_THREAD_ID = "nova-browser"
 
 
 
@@ -19,10 +21,20 @@ async def apple_node(state: VoiceState):
 
 
 async def browser_node(state: VoiceState):
-    async with browser_agent() as agent:
-        result = await agent.ainvoke({
-            "messages": [{"role": "user", "content": state["task"]}]
-        })
+    agent = get_existing_agent()
+    result = await agent.ainvoke(
+        {"messages": [{"role": "user", "content": state["task"]}]},
+        config={"configurable": {"thread_id": _BROWSER_THREAD_ID}},
+    )
+    for message in result.get("messages", []):
+        for tool_call in getattr(message, "tool_calls", []) or []:
+            if isinstance(tool_call, dict):
+                name = tool_call.get("name")
+            else:
+                name = getattr(tool_call, "name", None)
+            if name:
+                print(f">>> Tool call: {name}", flush=True)
+                log_browser_debug(f"Tool call: {name}")
     return {"response": result["messages"][-1].content}
 
 

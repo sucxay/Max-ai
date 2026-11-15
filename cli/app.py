@@ -3,10 +3,11 @@
 from __future__ import annotations
 
 import os
+import asyncio
+import logging
 import time
 from pathlib import Path
 from rich.markdown import Markdown
-from textual import work
 from textual.app import App, ComposeResult
 from textual.containers import Horizontal
 from textual.events import Resize
@@ -50,6 +51,7 @@ class MaxApp(App[None]):
         self.history: list[dict[str, str]] = []
         self.last_activity = time.monotonic()
         self.request_running = False
+        self._request_tasks: set[asyncio.Task] = set()
         self._terminal_timer = None
 
     def compose(self) -> ComposeResult:
@@ -149,14 +151,13 @@ class MaxApp(App[None]):
         if message.startswith("/"):
             self._handle_command(message.casefold())
             return
-        if self.request_running:
-            self.query_one(ChatView).add_status("Max is still working on the current request.")
-            return
-
         self.query_one(ChatView).add_user(message)
         self._mascot().set_state(MascotState.THINKING)
         self._set_status("THINKING")
-        self.run_request(message)
+        task = asyncio.create_task(self.run_request(message))
+        self._request_tasks.add(task)
+        task.add_done_callback(self._request_tasks.discard)
+        self.request_running = True
 
     def _handle_command(self, command: str) -> None:
         chat = self.query_one(ChatView)
@@ -182,7 +183,6 @@ class MaxApp(App[None]):
         else:
             chat.add_status(f"Unknown command: {command}. Use /help.", "bold red")
 
-    @work(group="graph-request", exclusive=True, name="graph-request")
     async def run_request(self, message: str) -> None:
         chat = self.query_one(ChatView)
         input_box = self.query_one(Input)
@@ -190,7 +190,6 @@ class MaxApp(App[None]):
         if self._terminal_timer is not None:
             self._terminal_timer.stop()
             self._terminal_timer = None
-        input_box.disabled = True
         self._touch()
         initial_state = {
             "user_input": _with_history(message, self.history),
@@ -230,8 +229,11 @@ class MaxApp(App[None]):
             self._set_status("ERROR")
             self._return_to_idle_after_animation(MascotState.ERROR)
         finally:
-            self.request_running = False
-            input_box.disabled = False
+            current_task = asyncio.current_task()
+            self.request_running = any(
+                task is not current_task and not task.done()
+                for task in self._request_tasks
+            )
             input_box.focus()
             self.last_activity = time.monotonic()
 
@@ -247,6 +249,24 @@ class MaxApp(App[None]):
         self._terminal_timer = self.set_timer(1.5, return_to_idle)
 
 
+async def main() -> None:
+    """Open shared services and run the interface on one asyncio loop."""
+    from ai.agents.browser_agent import close_browser_agent, get_agent, log_browser_debug
+
+    logging.basicConfig(level=logging.INFO)
+    app = None
+    try:
+        await get_agent()
+        app = MaxApp()
+        log_browser_debug("Textual app starting")
+        await app.run_async()
+        log_browser_debug("Textual app returned; entering shutdown")
+    finally:
+        if app is not None and app._request_tasks:
+            await asyncio.gather(*tuple(app._request_tasks), return_exceptions=True)
+        await close_browser_agent()
+
+
 def run() -> None:
-    """Launch the Textual interface."""
-    MaxApp().run()
+    """Launch the Textual interface with one event loop for its lifetime."""
+    asyncio.run(main())

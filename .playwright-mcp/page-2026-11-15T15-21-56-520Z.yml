@@ -1,0 +1,723 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - button "Guide" [ref=e9] [cursor=pointer]
+          - generic [ref=e11]:
+            - link "YouTube Home" [ref=e12] [cursor=pointer]:
+              - /url: /
+            - generic [ref=e16]: IN
+          - button "Skip navigation" [ref=e20] [cursor=pointer]
+        - generic [ref=e24]:
+          - search [ref=e25]:
+            - generic [ref=e27]:
+              - combobox "Search" [expanded] [ref=e30]
+              - button "Search" [ref=e31] [cursor=pointer]
+          - generic [ref=e34]:
+            - button "Search with your voice" [ref=e36] [cursor=pointer]
+            - tooltip "tooltip"
+        - generic [ref=e41]:
+          - button "Create" [ref=e44] [cursor=pointer]
+          - generic [ref=e48]:
+            - button "Notifications" [ref=e50] [cursor=pointer]
+            - tooltip "tooltip"
+          - button "Account menu" [ref=e56]:
+            - generic [ref=e57] [cursor=pointer]
+    - navigation [ref=e58]
+    - main [ref=e60]:
+      - generic [ref=e63]:
+        - generic [ref=e67]:
+          - tablist [ref=e69]:
+            - tab "All" [selected] [ref=e72] [cursor=pointer]
+            - tab "Podcasts" [ref=e77] [cursor=pointer]
+            - tab "Gaming" [ref=e82] [cursor=pointer]
+            - tab "News" [ref=e87] [cursor=pointer]
+            - tab "Live" [ref=e92] [cursor=pointer]
+            - tab "Software Engineering" [ref=e97] [cursor=pointer]
+            - tab "AI" [ref=e102] [cursor=pointer]
+            - tab "Music" [ref=e107] [cursor=pointer]
+            - tab "eFootball 2024" [ref=e112] [cursor=pointer]
+            - tab "Mixes" [ref=e117] [cursor=pointer]
+            - tab "Server" [ref=e122] [cursor=pointer]
+            - tab "Ice Climbing" [ref=e127] [cursor=pointer]
+            - tab "Tents" [ref=e132] [cursor=pointer]
+            - tab "Stocks" [ref=e137] [cursor=pointer]
+            - tab "Ancient History" [ref=e142] [cursor=pointer]
+            - tab "Mantras" [ref=e147] [cursor=pointer]
+            - tab "Indian pop music" [ref=e152] [cursor=pointer]
+            - tab "Tourism" [ref=e157] [cursor=pointer]
+            - tab "Recently uploaded" [ref=e162] [cursor=pointer]
+            - tab "Watched" [ref=e167] [cursor=pointer]
+            - tab "New to you" [ref=e172] [cursor=pointer]
+          - generic [ref=e176]:
+            - button "Next" [ref=e178] [cursor=pointer]
+            - tooltip "tooltip"
+        - generic [ref=e182]:
+          - generic [ref=e192] [cursor=pointer]:
+            - link [aria-hidden] [ref=e193]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CD-exEc75ate5IZ_p1d8P8On_4AHZsvztigHeyrW_lha1kB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABl6fQkT6oAwTIAwqqBN8BT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvP1M6qpfwDqpitYrxFxolWk2TTzzXNK5AGWKHuA5I-tGSpyiCkKGG0p9i559Mi_twmt4TB7n1vg8lzUf5faN9SQd6fSZv6yyDB4ZtpPkhbtogF0Mr01FqSBQoIE2gBeKOAv60coAahAYAH3IOCkhyIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAfVzhuoB77ZsQKoB7_ZsQKoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzNWdlRpUDFVN0tNqAgB0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJH2h0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy-xCZAyR-nZUHhKyAkXyAmPAcgJwgGYCwG6C1wIAhAFGAQgBygBMBlAAUgAWGRgAGgAcAGIAQCYAQGiASoKHwgAIAMoA9q4BBUyEzoRCg8oMEjr2KuAugqYGQG4IAHQAQGoAgXAAgLYAQGAAgGIAgW6AwV2aXRwZdALEqIMMiABSAFiEQoPY29tLm9wZW5haS5jaGF0ahQKEmNvbS5vcGVuYWkuY2hhdGdwdHgBiAEB0gwCEAHaDCUKChCQw4za38n_pksSAgEDGg0Y0Mr01Fog8Iu15oUGQAFKAhAfmg0BEqoNAklOyA0B0g23AWh0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy8_bW9kZT1kZWZhdWx0P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cHJvZ3JhbW1hdGljJmNfaWQ9MjQzMzcyNjE5MDQmY19hZ2lkPTIwNzcxNTM4Njg2NCZjX2NyaWQ9ODI5MzExNTgxODk1JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDMzNzI2MTkwNLgT____________AYgUBbAUAsAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRdGYCIfPcaYSboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zETfskqLPFBvoWSC50y47LJfaMDtEJ4y1tPCQdqWTbNFotiNtJEvscaArl5EALw_wcB&num=1&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_2aFBmOL8FYvnxZjEX1dEvux7zomA&ctype=110&video_id=3VvTiP1U7KM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - button [aria-hidden] [ref=e199]
+            - generic [ref=e203]:
+              - generic [ref=e204]:
+                - button "ChatGPT" [ref=e208]
+                - generic [ref=e211]:
+                  - link "ChatGPT इमेजेस से पर्सनलाइज़्ड स्टाइल आइडियाज़ पाएँ." [ref=e215]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CD-exEc75ate5IZ_p1d8P8On_4AHZsvztigHeyrW_lha1kB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABl6fQkT6oAwTIAwqqBN8BT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvP1M6qpfwDqpitYrxFxolWk2TTzzXNK5AGWKHuA5I-tGSpyiCkKGG0p9i559Mi_twmt4TB7n1vg8lzUf5faN9SQd6fSZv6yyDB4ZtpPkhbtogF0Mr01FqSBQoIE2gBeKOAv60coAahAYAH3IOCkhyIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAfVzhuoB77ZsQKoB7_ZsQKoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzNWdlRpUDFVN0tNqAgB0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJH2h0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy-xCZAyR-nZUHhKyAkXyAmPAcgJwgGYCwG6C1wIAhAFGAQgBygBMBlAAUgAWGRgAGgAcAGIAQCYAQGiASoKHwgAIAMoA9q4BBUyEzoRCg8oMEjr2KuAugqYGQG4IAHQAQGoAgXAAgLYAQGAAgGIAgW6AwV2aXRwZdALEqIMMiABSAFiEQoPY29tLm9wZW5haS5jaGF0ahQKEmNvbS5vcGVuYWkuY2hhdGdwdHgBiAEB0gwCEAHaDCUKChCQw4za38n_pksSAgEDGg0Y0Mr01Fog8Iu15oUGQAFKAhAfmg0BEqoNAklOyA0B0g23AWh0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy8_bW9kZT1kZWZhdWx0P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cHJvZ3JhbW1hdGljJmNfaWQ9MjQzMzcyNjE5MDQmY19hZ2lkPTIwNzcxNTM4Njg2NCZjX2NyaWQ9ODI5MzExNTgxODk1JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDMzNzI2MTkwNLgT____________AYgUBbAUAsAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRdGYCIfPcaYSboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zETfskqLPFBvoWSC50y47LJfaMDtEJ4y1tPCQdqWTbNFotiNtJEvscaArl5EALw_wcB&num=1&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_2aFBmOL8FYvnxZjEX1dEvux7zomA&ctype=110&video_id=3VvTiP1U7KM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e216]:
+                    - generic [ref=e218]:
+                      - generic [ref=e219]: Sponsored
+                      - text: ·
+                    - generic [ref=e220]: OpenAI
+                - button "My Ad Center" [ref=e223]
+              - generic [ref=e229]:
+                - link "Watch" [ref=e232]:
+                  - /url: /watch?v=3VvTiP1U7KM
+                - link "Sign up" [ref=e238]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CD-exEc75ate5IZ_p1d8P8On_4AHZsvztigHeyrW_lha1kB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABl6fQkT6oAwTIAwqqBN8BT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvP1M6qpfwDqpitYrxFxolWk2TTzzXNK5AGWKHuA5I-tGSpyiCkKGG0p9i559Mi_twmt4TB7n1vg8lzUf5faN9SQd6fSZv6yyDB4ZtpPkhbtogF0Mr01FqSBQoIE2gBeKOAv60coAahAYAH3IOCkhyIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAfVzhuoB77ZsQKoB7_ZsQKoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzNWdlRpUDFVN0tNqAgB0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJH2h0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy-xCZAyR-nZUHhKyAkXyAmPAcgJwgGYCwG6C1wIAhAFGAQgBygBMBlAAUgAWGRgAGgAcAGIAQCYAQGiASoKHwgAIAMoA9q4BBUyEzoRCg8oMEjr2KuAugqYGQG4IAHQAQGoAgXAAgLYAQGAAgGIAgW6AwV2aXRwZdALEqIMMiABSAFiEQoPY29tLm9wZW5haS5jaGF0ahQKEmNvbS5vcGVuYWkuY2hhdGdwdHgBiAEB0gwCEAHaDCUKChCQw4za38n_pksSAgEDGg0Y0Mr01Fog8Iu15oUGQAFKAhAfmg0BEqoNAklOyA0B0g23AWh0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy8_bW9kZT1kZWZhdWx0P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cHJvZ3JhbW1hdGljJmNfaWQ9MjQzMzcyNjE5MDQmY19hZ2lkPTIwNzcxNTM4Njg2NCZjX2NyaWQ9ODI5MzExNTgxODk1JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDMzNzI2MTkwNLgT____________AYgUBbAUAsAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRdGYCIfPcaYSboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zETfskqLPFBvoWSC50y47LJfaMDtEJ4y1tPCQdqWTbNFotiNtJEvscaArl5EALw_wcB&num=1&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_2aFBmOL8FYvnxZjEX1dEvux7zomA&ctype=110&video_id=3VvTiP1U7KM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+          - generic [ref=e245] [cursor=pointer]:
+            - link [aria-hidden] [ref=e246]:
+              - /url: /watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+              - generic [ref=e248]: 36 videos
+            - generic [ref=e260]:
+              - generic [ref=e261]:
+                - heading [level=3] [ref=e262]:
+                  - link "Backend Engineering (Beginner)" [ref=e263]:
+                    - /url: /watch?v=V3ZPPPKEipA&list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+                - generic [ref=e265]:
+                  - group [ref=e266]:
+                    - link "Hussein Nasser" [ref=e269]:
+                      - /url: /@hnasr
+                    - generic "Verified" [ref=e270]
+                    - link "Playlist" [ref=e273]:
+                      - /url: /@hnasr
+                  - group [ref=e274]:
+                    - link "View full playlist" [ref=e277]:
+                      - /url: /playlist?list=PLQnljOFTspQUNnO4p00ua_C5mKTfldiYT
+              - button "More actions" [ref=e280]
+          - generic [ref=e287] [cursor=pointer]:
+            - link [aria-hidden] [ref=e288]:
+              - /url: /watch?v=NmV22jRADaI&t=2167s&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e296]:
+                - generic [aria-hidden] [ref=e297]: 1:13:52
+            - generic [ref=e299]:
+              - button "Go to channel Xander Budnick" [ref=e303]
+              - generic [ref=e307]:
+                - heading [level=3] [ref=e308]:
+                  - link "Climbing Mt Everest 1 hour, 13 minutes" [ref=e309]:
+                    - /url: /watch?v=NmV22jRADaI&t=2167s&pp=ugUEEgJlbg%3D%3D
+                    - text: Climbing Mt Everest
+                - group [ref=e312]:
+                  - link "Xander Budnick" [ref=e315]:
+                    - /url: /@XanderBudnick
+                  - generic "Verified" [ref=e316]
+                  - generic "2.9 million views" [ref=e318]: 2.9M
+                  - generic "9 days ago" [ref=e319]: 9d ago
+              - button "More actions" [ref=e322]
+          - generic [ref=e329]:
+            - generic [ref=e331]:
+              - heading "Shorts" [level=2] [ref=e332]
+              - button "Shorts - More actions" [ref=e342] [cursor=pointer]
+            - generic [ref=e345]:
+              - generic [ref=e349]:
+                - link [aria-hidden] [ref=e350] [cursor=pointer]:
+                  - /url: /shorts/zVS06J8r5lI
+                - generic [ref=e354] [cursor=pointer]:
+                  - generic [ref=e355]:
+                    - heading [level=3] [ref=e356]:
+                      - link "Lessons from Mark Zuckerberg and Elon Musk and Napoleon" [ref=e357]:
+                        - /url: /shorts/zVS06J8r5lI
+                    - generic [aria-hidden] [ref=e358]: 494K views
+                  - button "More actions" [ref=e360]
+              - generic [ref=e367]:
+                - link [aria-hidden] [ref=e368] [cursor=pointer]:
+                  - /url: /shorts/y5DJFWBhawI
+                - generic [ref=e372] [cursor=pointer]:
+                  - generic [ref=e373]:
+                    - heading [level=3] [ref=e374]:
+                      - link "I Met Xander Budnick! (He's Climbing Mt ...)" [ref=e375]:
+                        - /url: /shorts/y5DJFWBhawI
+                    - generic [aria-hidden] [ref=e376]: 82K views
+                  - button "More actions" [ref=e378]
+              - generic [ref=e385]:
+                - link [aria-hidden] [ref=e386] [cursor=pointer]:
+                  - /url: /shorts/IHxfU6Cfv_I
+                  - img [ref=e391]:
+                    - generic [aria-hidden] [ref=e392]: New
+                - generic [ref=e393] [cursor=pointer]:
+                  - generic [ref=e394]:
+                    - heading [level=3] [ref=e395]:
+                      - link "Bash C-Style For Loops Revealed" [ref=e396]:
+                        - /url: /shorts/IHxfU6Cfv_I
+                    - generic [aria-hidden] [ref=e397]: 5.1K views
+                  - button "More actions" [ref=e399]
+              - generic [ref=e406]:
+                - link [aria-hidden] [ref=e407] [cursor=pointer]:
+                  - /url: /shorts/Ty6UG7XZrng
+                  - img [ref=e412]:
+                    - generic [aria-hidden] [ref=e413]: New
+                - generic [ref=e414] [cursor=pointer]:
+                  - generic [ref=e415]:
+                    - heading [level=3] [ref=e416]:
+                      - link "Kashmir Shaivism | The Brutal Truth |…" [ref=e417]:
+                        - /url: /shorts/Ty6UG7XZrng
+                    - generic [aria-hidden] [ref=e418]: 109K views
+                  - button "More actions" [ref=e420]
+              - generic [ref=e427]:
+                - link [aria-hidden] [ref=e428] [cursor=pointer]:
+                  - /url: /shorts/AGJfsYAsn6c
+                - generic [ref=e432] [cursor=pointer]:
+                  - generic [ref=e433]:
+                    - heading [level=3] [ref=e434]:
+                      - link "Posh Vs Cockney Part 2 @Learn English with Papa Teach Me…" [ref=e435]:
+                        - /url: /shorts/AGJfsYAsn6c
+                    - generic [aria-hidden] [ref=e436]: 157K views
+                  - button "More actions" [ref=e438]
+          - generic [ref=e445] [cursor=pointer]:
+            - link [aria-hidden] [ref=e446]:
+              - /url: /watch?v=CswOUBuokjo
+              - img [ref=e452]:
+                - generic [aria-hidden] [ref=e453]: 50:30
+            - generic [ref=e455]:
+              - button "Go to channel Samay Raina" [ref=e459]
+              - generic [ref=e463]:
+                - heading [level=3] [ref=e464]:
+                  - link "INDIA’S GOT LATENT S2 EP9 ft. Raftaar, Balraj Ghai, Sahil Kale 50 minutes" [ref=e465]:
+                    - /url: /watch?v=CswOUBuokjo
+                    - text: INDIA’S GOT LATENT S2 EP9 ft. Raftaar, Balraj Ghai, Sahil Kale
+                - group [ref=e468]:
+                  - link "Samay Raina" [ref=e471]:
+                    - /url: /@SamayRainaOfficial
+                  - generic "Verified" [ref=e472]
+                  - generic "1.3 million views" [ref=e474]: 1.3M
+                  - generic "1 hour ago" [ref=e475]: 1h ago
+              - button "More actions" [ref=e478]
+          - generic [ref=e485] [cursor=pointer]:
+            - link [aria-hidden] [ref=e486]:
+              - /url: /watch?v=nvhg6cfYbRU
+              - img [ref=e492]:
+                - generic [aria-hidden] [ref=e493]: 14:54
+            - generic [ref=e495]:
+              - button "Go to channel Rick'sF1Addiction" [ref=e499]
+              - generic [ref=e503]:
+                - heading [level=3] [ref=e504]:
+                  - link "Antonelli.exe 14 minutes, 54 seconds" [ref=e505]:
+                    - /url: /watch?v=nvhg6cfYbRU
+                    - text: Antonelli.exe
+                - group [ref=e508]:
+                  - link "Rick'sF1Addiction" [ref=e511]:
+                    - /url: /@RicksF1Addiction
+                  - generic "Verified" [ref=e512]
+                  - generic "1.1 million views" [ref=e514]: 1.1M
+                  - generic "1 day ago" [ref=e515]: 1d ago
+              - button "More actions" [ref=e518]
+          - generic [ref=e537] [cursor=pointer]:
+            - generic [ref=e538]:
+              - link "Most Popular IQ Test" [ref=e542]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CqEY-Ec75ate5IZ_p1d8P8On_4AHx4_L_igHoyOn53RZkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYbdlKECqAMEyAMKqgTtAU_QWsccA59DcmNZfNLg51o1eJ4Ed1VvuAA04DjfWWPBtuaAr10orygJYUQopgz-vAFyV2q9lSRktI8qZHVZ-6N6pt6XS2DbYmCphrCJujS1YTGEVww56mJPlPKXkEQVPoEHw0onKW7hlEEzhNUeecnXLbmbUF6GkgFC6Z29Q3MciTFF_d2iXSwxO6Ws-ZCFILtPMKb8IWZaqqZ2xeWPPnubNWopzxB6_79w7kIq3HF4Cp85Q_hrNjRB1HVUhnS2gWf-BlEfrhL3ybQhTkBbV3sBbdRFMWDtF9yhhauWkQl-NUiiXiFSBGWCewcnRYgFxay5_VqSBQoIE2gBeJy9lvYZoAakAYAH4OGS4xmIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe_2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJEWh0dHBzOi8vbXlpcS5jb20vsQlQVTSvB6tHDcgJAJgLAboLXAgCEAUYFiAIKAEwGUABSABYJWAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBAYACAYgCBroDBXZpdHBl0AsS0gwCEAHaDCUKChCQ-ZOZ7-L3iUMSAgEDGg0Yxay5_VogupLi8voFQAFKAhAfmg0BEqoNAklOyA0B0g3jAmh0dHBzOi8vbXlpcS5jb20vP3JkPTEmcmQ9MSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249TkRaX0lOX0VOX1BNYXhfTWF4Q29udiZ1dG1fc291cmNlX2lkPTImdXRtX2NhbXBhaWduX2lkPTI0NDIyMjQ5NzA4JnV0bV9hZGdyb3VwPSZ1dG1fYWRncm91cF9pZD0mdXRtX3Rlcm09JnV0bV9jb250ZW50PSZ1dG1fY29udGVudF9pZD0mcGxhY2VtZW50PXlvdXR1YmUuY29tJnNpdGVfc291cmNlX25hbWU9eCZ1dG1fZnVubmVsPW5kel9yZDEmcGFydG5lcj1pbmhvdXNlJnVybD1odHRwczovL215aXEuY29tLyUzRnJkJTNEMSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQ0MjIyNzQ2MjmwDoP5nJsZuBP___________8BsBQCwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF73aDRe5Sh9UuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zE9WcwydigUViDwox0fxJzNkBRPYqlI24ZLkYRlQbPEitlYmN3VzWYaAvKIEALw_wcB&num=2&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&sig=AOD64_3Y_CQ2SoFAqeP2raVRb4M3kljxDg&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - 'link "The most popular IQ test online: 40 questions, one clear score." [ref=e545]':
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CqEY-Ec75ate5IZ_p1d8P8On_4AHx4_L_igHoyOn53RZkEAIgAGDl6uMDggEXY2EtcHViLTYyMTk4MTE3NDcwNDkzNzGgAYbdlKECqAMEyAMKqgTtAU_QWsccA59DcmNZfNLg51o1eJ4Ed1VvuAA04DjfWWPBtuaAr10orygJYUQopgz-vAFyV2q9lSRktI8qZHVZ-6N6pt6XS2DbYmCphrCJujS1YTGEVww56mJPlPKXkEQVPoEHw0onKW7hlEEzhNUeecnXLbmbUF6GkgFC6Z29Q3MciTFF_d2iXSwxO6Ws-ZCFILtPMKb8IWZaqqZ2xeWPPnubNWopzxB6_79w7kIq3HF4Cp85Q_hrNjRB1HVUhnS2gWf-BlEfrhL3ybQhTkBbV3sBbdRFMWDtF9yhhauWkQl-NUiiXiFSBGWCewcnRYgFxay5_VqSBQoIE2gBeJy9lvYZoAakAYAH4OGS4xmIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe_2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJEWh0dHBzOi8vbXlpcS5jb20vsQlQVTSvB6tHDcgJAJgLAboLXAgCEAUYFiAIKAEwGUABSABYJWAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBAYACAYgCBroDBXZpdHBl0AsS0gwCEAHaDCUKChCQ-ZOZ7-L3iUMSAgEDGg0Yxay5_VogupLi8voFQAFKAhAfmg0BEqoNAklOyA0B0g3jAmh0dHBzOi8vbXlpcS5jb20vP3JkPTEmcmQ9MSZ1dG1fc291cmNlPWdvb2dsZSZ1dG1fbWVkaXVtPWNwYyZ1dG1fY2FtcGFpZ249TkRaX0lOX0VOX1BNYXhfTWF4Q29udiZ1dG1fc291cmNlX2lkPTImdXRtX2NhbXBhaWduX2lkPTI0NDIyMjQ5NzA4JnV0bV9hZGdyb3VwPSZ1dG1fYWRncm91cF9pZD0mdXRtX3Rlcm09JnV0bV9jb250ZW50PSZ1dG1fY29udGVudF9pZD0mcGxhY2VtZW50PXlvdXR1YmUuY29tJnNpdGVfc291cmNlX25hbWU9eCZ1dG1fZnVubmVsPW5kel9yZDEmcGFydG5lcj1pbmhvdXNlJnVybD1odHRwczovL215aXEuY29tLyUzRnJkJTNEMSZnYWRfc291cmNlPTImZ2FkX2NhbXBhaWduaWQ9MjQ0MjIyNzQ2MjmwDoP5nJsZuBP___________8BsBQCwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF73aDRe5Sh9UuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zE9WcwydigUViDwox0fxJzNkBRPYqlI24ZLkYRlQbPEitlYmN3VzWYaAvKIEALw_wcB&num=2&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&sig=AOD64_3Y_CQ2SoFAqeP2raVRb4M3kljxDg&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e546]:
+                - generic [ref=e548]:
+                  - generic [ref=e549]: Sponsored
+                  - text: ·
+                - generic [ref=e550]: MyIQ
+            - button "My Ad Center" [ref=e553]
+          - region "Get more from memberships YouTube featured Explore now Get more from memberships - More actions Enjoy perks like members-only videos and much more" [ref=e560]:
+            - generic [ref=e561]:
+              - generic [ref=e562]:
+                - generic [ref=e563]:
+                  - button "Get more from memberships YouTube featured" [ref=e566] [cursor=pointer]:
+                    - generic [ref=e568]:
+                      - heading "Get more from memberships" [level=2] [ref=e570]
+                      - generic [ref=e572]: YouTube featured
+                  - generic [ref=e577]:
+                    - link "Explore now" [ref=e580] [cursor=pointer]:
+                      - /url: /channel_memberships
+                    - button "Get more from memberships - More actions" [ref=e587] [cursor=pointer]
+                - generic [ref=e589]: Enjoy perks like members-only videos and much more
+              - generic [ref=e592]:
+                - generic [ref=e594] [cursor=pointer]:
+                  - link [aria-hidden] [ref=e595]:
+                    - /url: /watch?v=a1Z40OC553Y&pp=0gcJCccHAYcqIYzvkggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                    - img [ref=e601]:
+                      - generic [aria-hidden] [ref=e602]: 41:55
+                  - generic [ref=e607]:
+                    - button "Go to channel Hussein Nasser" [ref=e611]
+                    - generic [ref=e615]:
+                      - heading [level=3] [ref=e616]:
+                        - link "B-Tree vs B+Tree in Production Database Systems 41 minutes" [ref=e617]:
+                          - /url: /watch?v=a1Z40OC553Y&pp=0gcJCccHAYcqIYzvkggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                          - text: B-Tree vs B+Tree in Production Database Systems
+                      - generic [ref=e619]:
+                        - group [ref=e620]:
+                          - link "Hussein Nasser" [ref=e623]:
+                            - /url: /@hnasr
+                          - generic "Verified" [ref=e624]
+                          - generic "1 year ago" [ref=e625]: 1y ago
+                        - group [ref=e626]:
+                          - generic [ref=e627]: Members only
+                    - button "More actions" [ref=e634]
+                - generic [ref=e639] [cursor=pointer]:
+                  - link [aria-hidden] [ref=e640]:
+                    - /url: /watch?v=olWfkVyPMa0&pp=kggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                    - img [ref=e646]:
+                      - generic [aria-hidden] [ref=e647]: 13:32
+                  - generic [ref=e652]:
+                    - button "Go to channel Hussein Nasser" [ref=e656]
+                    - generic [ref=e660]:
+                      - heading [level=3] [ref=e661]:
+                        - link "I discuss passion, time management and more 13 minutes, 32 seconds" [ref=e662]:
+                          - /url: /watch?v=olWfkVyPMa0&pp=kggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                          - text: I discuss passion, time management and more
+                      - generic [ref=e664]:
+                        - group [ref=e665]:
+                          - link "Hussein Nasser" [ref=e668]:
+                            - /url: /@hnasr
+                          - generic "Verified" [ref=e669]
+                          - generic "1 year ago" [ref=e670]: 1y ago
+                        - group [ref=e671]:
+                          - generic [ref=e672]: Members only
+                    - button "More actions" [ref=e679]
+                - generic [ref=e684] [cursor=pointer]:
+                  - link [aria-hidden] [ref=e685]:
+                    - /url: /watch?v=SBHxEb4E0S4&pp=0gcJCccHAYcqIYzvkggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                    - img [ref=e691]:
+                      - generic [aria-hidden] [ref=e692]: 3:27
+                  - generic [ref=e697]:
+                    - button "Go to channel Hussein Nasser" [ref=e701]
+                    - generic [ref=e705]:
+                      - heading [level=3] [ref=e706]:
+                        - link "Aging tech 3 minutes, 27 seconds" [ref=e707]:
+                          - /url: /watch?v=SBHxEb4E0S4&pp=0gcJCccHAYcqIYzvkggWbXZzLWFjcS15Y20tZGh1Yi13ZWIwYQ%3D%3D
+                          - text: Aging tech
+                      - generic [ref=e709]:
+                        - group [ref=e710]:
+                          - link "Hussein Nasser" [ref=e713]:
+                            - /url: /@hnasr
+                          - generic "Verified" [ref=e714]
+                          - generic "1 year ago" [ref=e715]: 1y ago
+                        - group [ref=e716]:
+                          - generic [ref=e717]: Members only
+                    - button "More actions" [ref=e724]
+            - button "Show more" [ref=e731] [cursor=pointer]
+          - generic [ref=e738] [cursor=pointer]:
+            - link [aria-hidden] [ref=e739]:
+              - /url: /watch?v=npGkWW_SYuk&list=RDnpGkWW_SYuk&start_radio=1
+              - generic [ref=e741]: Mix
+            - generic [ref=e753]:
+              - generic [ref=e754]:
+                - heading [level=3] [ref=e755]:
+                  - link "Mix - Simharoopanada Sri Hari | ಸಿಂಹರೂಪನಾದ ಶ್ರೀ ಹರಿ | Dasara Padagalu With Lyric | Puttur Narasimha Nayak" [ref=e756]:
+                    - /url: /watch?v=npGkWW_SYuk&list=RDnpGkWW_SYuk&start_radio=1
+                - group [ref=e759]:
+                  - generic [ref=e760]: Puttur Narasimha Nayak, Anantraj Mistry, Sheshagiridas Raichur, and more
+                  - generic: Playlist
+              - button "More actions" [ref=e763]
+          - generic [ref=e770] [cursor=pointer]:
+            - link [aria-hidden] [ref=e771]:
+              - /url: /watch?v=4OqXCbcv5BA&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e777]:
+                - generic [aria-hidden] [ref=e778]: 1:14:52
+            - generic [ref=e780]:
+              - button "Go to channel Zerodha" [ref=e784]
+              - generic [ref=e788]:
+                - heading [level=3] [ref=e789]:
+                  - link "How a hobbyist freelancer became the AVP of tech at Zerodha! | The Back Office Ep. 5 1 hour, 14 minutes" [ref=e790]:
+                    - /url: /watch?v=4OqXCbcv5BA&pp=ugUEEgJlbg%3D%3D
+                    - text: How a hobbyist freelancer became the AVP of tech at Zerodha! | The Back Office Ep. 5
+                - group [ref=e793]:
+                  - link "Zerodha" [ref=e796]:
+                    - /url: /@zerodhaonline
+                  - generic "Verified" [ref=e797]
+                  - generic "283 thousand views" [ref=e799]: 283K
+                  - generic "2 weeks ago" [ref=e800]: 2w ago
+              - button "More actions" [ref=e803]
+          - generic [ref=e810] [cursor=pointer]:
+            - link [aria-hidden] [ref=e811]:
+              - /url: /watch?v=2JYT5f2isg4
+              - img [ref=e817]:
+                - generic [aria-hidden] [ref=e818]: 5:08:48
+            - generic [ref=e820]:
+              - button "Go to channel freeCodeCamp.org" [ref=e824]
+              - generic [ref=e828]:
+                - heading [level=3] [ref=e829]:
+                  - link "Full HTTP Networking Course – Fetch and REST APIs in JavaScript 5 hours, 8 minutes" [ref=e830]:
+                    - /url: /watch?v=2JYT5f2isg4
+                    - text: Full HTTP Networking Course – Fetch and REST APIs in JavaScript
+                - group [ref=e833]:
+                  - link "freeCodeCamp.org" [ref=e836]:
+                    - /url: /@freecodecamp
+                  - generic "Verified" [ref=e837]
+                  - generic "1.1 million views" [ref=e839]: 1.1M
+                  - generic "3 years ago" [ref=e840]: 3y ago
+              - button "More actions" [ref=e843]
+          - generic [ref=e850]:
+            - generic [ref=e852]:
+              - heading "Shorts" [level=2] [ref=e853]
+              - button "Shorts - More actions" [ref=e863] [cursor=pointer]
+            - generic [ref=e866]:
+              - generic [ref=e870]:
+                - link [aria-hidden] [ref=e871] [cursor=pointer]:
+                  - /url: /shorts/5bjojiTQ6iI
+                - generic [ref=e875] [cursor=pointer]:
+                  - generic [ref=e876]:
+                    - heading [level=3] [ref=e877]:
+                      - link "Ustad Bismillah Khan Sahab…" [ref=e878]:
+                        - /url: /shorts/5bjojiTQ6iI
+                    - generic [aria-hidden] [ref=e879]: 94K views
+                  - button "More actions" [ref=e881]
+              - generic [ref=e888]:
+                - link [aria-hidden] [ref=e889] [cursor=pointer]:
+                  - /url: /shorts/65Cxn1lwQFM
+                - generic [ref=e893] [cursor=pointer]:
+                  - generic [ref=e894]:
+                    - heading [level=3] [ref=e895]:
+                      - link "Four type of people…" [ref=e896]:
+                        - /url: /shorts/65Cxn1lwQFM
+                    - generic [aria-hidden] [ref=e897]: 176K views
+                  - button "More actions" [ref=e899]
+              - generic [ref=e906]:
+                - link [aria-hidden] [ref=e907] [cursor=pointer]:
+                  - /url: /shorts/But_UYHiRPE
+                - generic [ref=e911] [cursor=pointer]:
+                  - generic [ref=e912]:
+                    - heading [level=3] [ref=e913]:
+                      - link "This Mime Is Actually A Genius 😂…" [ref=e914]:
+                        - /url: /shorts/But_UYHiRPE
+                    - generic [aria-hidden] [ref=e915]: 16M views
+                  - button "More actions" [ref=e917]
+              - generic [ref=e924]:
+                - link [aria-hidden] [ref=e925] [cursor=pointer]:
+                  - /url: /shorts/BlLJl6swV9E
+                  - img [ref=e930]:
+                    - generic [aria-hidden] [ref=e931]: New
+                - generic [ref=e932] [cursor=pointer]:
+                  - generic [ref=e933]:
+                    - heading [level=3] [ref=e934]:
+                      - link "8 November 2026" [ref=e935]:
+                        - /url: /shorts/BlLJl6swV9E
+                    - generic [aria-hidden] [ref=e936]: 2.2M views
+                  - button "More actions" [ref=e938]
+              - generic [ref=e945]:
+                - link [aria-hidden] [ref=e946] [cursor=pointer]:
+                  - /url: /shorts/9H3Zy4ilei8
+                  - img [ref=e951]:
+                    - generic [aria-hidden] [ref=e952]: New
+                - generic [ref=e953] [cursor=pointer]:
+                  - generic [ref=e954]:
+                    - heading [level=3] [ref=e955]:
+                      - link "Why The Rebel Kid Left India at Her Peak | Apoorva Mukhija's New York Move…" [ref=e956]:
+                        - /url: /shorts/9H3Zy4ilei8
+                    - generic [aria-hidden] [ref=e957]: 406K views
+                  - button "More actions" [ref=e959]
+          - generic [ref=e966] [cursor=pointer]:
+            - link [aria-hidden] [ref=e967]:
+              - /url: /watch?v=FgzyLoSkL5k
+              - img [ref=e973]:
+                - generic [aria-hidden] [ref=e974]: 6:52
+            - generic [ref=e976]:
+              - button "Go to channel Forbes" [ref=e980]
+              - generic [ref=e984]:
+                - heading [level=3] [ref=e985]:
+                  - link "The New Youngest Self-Made Billionaire In The World Is A 25-Year-Old College Dropout | Forbes 6 minutes, 52 seconds" [ref=e986]:
+                    - /url: /watch?v=FgzyLoSkL5k
+                    - text: The New Youngest Self-Made Billionaire In The World Is A 25-Year-Old College Dropout | Forbes
+                - group [ref=e989]:
+                  - link "Forbes" [ref=e992]:
+                    - /url: /@Forbes
+                  - generic "Verified" [ref=e993]
+                  - generic "5 million views" [ref=e995]: 5M
+                  - generic "4 years ago" [ref=e996]: 4y ago
+              - button "More actions" [ref=e999]
+          - generic [ref=e1006] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1007]:
+              - /url: /watch?v=sJmf18PlR3M
+              - img [ref=e1013]:
+                - generic [aria-hidden] [ref=e1014]: 11:53
+            - generic [ref=e1016]:
+              - button "Go to channel Venkatesh Dhongadi" [ref=e1020]
+              - generic [ref=e1024]:
+                - heading [level=3] [ref=e1025]:
+                  - link "Don’t Apply to GSoC 2027 Until You Watch This 11 minutes, 53 seconds" [ref=e1026]:
+                    - /url: /watch?v=sJmf18PlR3M
+                    - text: Don’t Apply to GSoC 2027 Until You Watch This
+                - generic [ref=e1028]:
+                  - group [ref=e1029]:
+                    - link "Venkatesh Dhongadi" [ref=e1032]:
+                      - /url: /@flick_23
+                    - generic "97 thousand views" [ref=e1034]: 97K
+                    - generic "6 days ago" [ref=e1035]: 6d ago
+                  - group [ref=e1036]:
+                    - generic [ref=e1037]: Auto-dubbed
+              - button "More actions" [ref=e1044]
+          - generic [ref=e1057] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1058]:
+              - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CLwltEc75ate5IZ_p1d8P8On_4AHxl4G_iQH1jbKaiha1kB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBPsBT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvX1JXypUzraA0JAG7f-g2CzI7dgrBihaQGAjc5dLt4PIDowP579rWjgYbvNmVayOCzbd76IkGXgA16eQ7MjC9MWZ6IUMf76aQDexq2g5GrjPC01hS-tcs2XyqGtILpkLyqcBcd3o4_BDKCkcGIBf-ptc1ZkgUKCBNoAXiLgPDgAqAGoQGAB92d9d8CiAcBkAcCqAfq7rECqAelz7ECqAfnnbECqAfonbECqAeD9rECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHnuqxAqgHn-qxAqgH-OuxAqgHvOqxAqgH_K-xAqgH1c4bqAe-2bECqAe_2bECqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAt5ajdUdi14TVd4RagIAdIIMQgAEAIYWjIBADoUj9CAgICABIDAgICAgICAAqqAgBhI2aDSNVAUWKju7MSjipgDYAGaCThodHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbLEJUKvWuZ_HaMfICRfICY8ByAnCAboLXAgCEAUYBCAHKAEwGUABSABYZGAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBA4ACAYgCBboDBXZpdHBl0AsS4AsBogwzIAFIAWIQCg5jb20uYWRvYmUucG9zdGoWChRjb20uYWRvYmUuc3BhcmsucG9zdHgBiAEB0gwCEAHaDCUKChDw0Z-cv7uVy2cSAgEDGg0Y_6m1zVkgk-S05vgFQAFKAhAfmg0BEqoNAklOyA0B0g24BGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSV82bTF6Vm1vQW91QThPQUNzQUxVMkkzckEwQTdFSmZudWdGdGwwTlhRSmoyalBZcklZVWhxbmtfO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFNlaTFGaEVrcVp1TFEzamdnY1dPT1phRmlsYkJQY2RvNzAwVW9fb0I2NXlsb3dudThNOER5cVBHcW5JY0RfUGF5Z0ItbS1OVlRnTHpla0E7ZGNfcHViaWQ9Nj9odHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbD9zZGlkPTE5U0NESFRDJm12PXNvY2lhbCZtdjI9cGFpZHNvYyZnYWRfc291cmNlPTKwE7D26yW4E____________wGIFAKwFALAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXV7_CAho-GPC6FwYoADAAOAHQGAHwGAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zE0o5F8_3hHtZgXfT1E5cunYoMYP8On3sP9zqjOMFg4ZzFQ7EDWjPcaAlloEALw_wcB&num=3&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_3mya3OerPMEA9Zc7Sx3IJS85-Jkg&ctype=110&video_id=yj7Tv-xMWxE&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - button [aria-hidden] [ref=e1064]
+            - generic [ref=e1068]:
+              - generic [ref=e1069]:
+                - button "Adobe Document Cloud Media" [ref=e1073]
+                - generic [ref=e1076]:
+                  - link "With PDF Spaces, organise multiple files into a single workspace and work seamlessly." [ref=e1080]:
+                    - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CLwltEc75ate5IZ_p1d8P8On_4AHxl4G_iQH1jbKaiha1kB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBPsBT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvX1JXypUzraA0JAG7f-g2CzI7dgrBihaQGAjc5dLt4PIDowP579rWjgYbvNmVayOCzbd76IkGXgA16eQ7MjC9MWZ6IUMf76aQDexq2g5GrjPC01hS-tcs2XyqGtILpkLyqcBcd3o4_BDKCkcGIBf-ptc1ZkgUKCBNoAXiLgPDgAqAGoQGAB92d9d8CiAcBkAcCqAfq7rECqAelz7ECqAfnnbECqAfonbECqAeD9rECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHnuqxAqgHn-qxAqgH-OuxAqgHvOqxAqgH_K-xAqgH1c4bqAe-2bECqAe_2bECqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAt5ajdUdi14TVd4RagIAdIIMQgAEAIYWjIBADoUj9CAgICABIDAgICAgICAAqqAgBhI2aDSNVAUWKju7MSjipgDYAGaCThodHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbLEJUKvWuZ_HaMfICRfICY8ByAnCAboLXAgCEAUYBCAHKAEwGUABSABYZGAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBA4ACAYgCBboDBXZpdHBl0AsS4AsBogwzIAFIAWIQCg5jb20uYWRvYmUucG9zdGoWChRjb20uYWRvYmUuc3BhcmsucG9zdHgBiAEB0gwCEAHaDCUKChDw0Z-cv7uVy2cSAgEDGg0Y_6m1zVkgk-S05vgFQAFKAhAfmg0BEqoNAklOyA0B0g24BGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSV82bTF6Vm1vQW91QThPQUNzQUxVMkkzckEwQTdFSmZudWdGdGwwTlhRSmoyalBZcklZVWhxbmtfO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFNlaTFGaEVrcVp1TFEzamdnY1dPT1phRmlsYkJQY2RvNzAwVW9fb0I2NXlsb3dudThNOER5cVBHcW5JY0RfUGF5Z0ItbS1OVlRnTHpla0E7ZGNfcHViaWQ9Nj9odHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbD9zZGlkPTE5U0NESFRDJm12PXNvY2lhbCZtdjI9cGFpZHNvYyZnYWRfc291cmNlPTKwE7D26yW4E____________wGIFAKwFALAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXV7_CAho-GPC6FwYoADAAOAHQGAHwGAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zE0o5F8_3hHtZgXfT1E5cunYoMYP8On3sP9zqjOMFg4ZzFQ7EDWjPcaAlloEALw_wcB&num=3&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_3mya3OerPMEA9Zc7Sx3IJS85-Jkg&ctype=110&video_id=yj7Tv-xMWxE&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+                  - generic [ref=e1081]:
+                    - generic [ref=e1083]:
+                      - generic [ref=e1084]: Sponsored
+                      - text: ·
+                    - generic [ref=e1085]: Adobe Acrobat
+                - button "My Ad Center" [ref=e1088]
+              - generic [ref=e1094]:
+                - link "Watch" [ref=e1097]:
+                  - /url: /watch?v=yj7Tv-xMWxE
+                - link "Start now" [ref=e1103]:
+                  - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CLwltEc75ate5IZ_p1d8P8On_4AHxl4G_iQH1jbKaiha1kB8QAyAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABi-KKoAGoAwTIAwqqBPsBT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvX1JXypUzraA0JAG7f-g2CzI7dgrBihaQGAjc5dLt4PIDowP579rWjgYbvNmVayOCzbd76IkGXgA16eQ7MjC9MWZ6IUMf76aQDexq2g5GrjPC01hS-tcs2XyqGtILpkLyqcBcd3o4_BDKCkcGIBf-ptc1ZkgUKCBNoAXiLgPDgAqAGoQGAB92d9d8CiAcBkAcCqAfq7rECqAelz7ECqAfnnbECqAfonbECqAeD9rECqAf507ECqAfJ2rECqAep4LECqAeo0huoB7HcG6gHsJuxAqgH_bKxAqgHyM-xAqgHyc-xAqgH_NWxAqgH-9WxAqgHjNaxAqgHi9axAqgHmuKxAqgHm-KxAqgHnuqxAqgHn-qxAqgH-OuxAqgHvOqxAqgH_K-xAqgH1c4bqAe-2bECqAe_2bECqAec3BuoB7ehsQKoB9WpsQKoB-fasQKoB961sQKoB-qxsQKoB763sQKoB5m1sQKoB4XBsQKoB-ulsQKoB8qpsQKSCAt5ajdUdi14TVd4RagIAdIIMQgAEAIYWjIBADoUj9CAgICABIDAgICAgICAAqqAgBhI2aDSNVAUWKju7MSjipgDYAGaCThodHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbLEJUKvWuZ_HaMfICRfICY8ByAnCAboLXAgCEAUYBCAHKAEwGUABSABYZGAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBA4ACAYgCBboDBXZpdHBl0AsS4AsBogwzIAFIAWIQCg5jb20uYWRvYmUucG9zdGoWChRjb20uYWRvYmUuc3BhcmsucG9zdHgBiAEB0gwCEAHaDCUKChDw0Z-cv7uVy2cSAgEDGg0Y_6m1zVkgk-S05vgFQAFKAhAfmg0BEqoNAklOyA0B0g24BGh0dHBzOi8vYWQuZG91YmxlY2xpY2submV0L2RkbS90cmFja2Nsay9OOTcyOTUyLjI3OTM4MkJJRE1BTkFHRVJfREZBU0lURS9CMjYxMjYyMDAuMzE3MTM5NDU5O2RjX3Rya19haWQ9NTA5OTYyODczO2RjX3Rya19jaWQ9MTU5OTQzMzE3O2RjX2RibV90b2tlbj1BT2plTE5FQUFBQTdDalFLREFnQUZRQUFBQUFkQUFBQUFCSU1DQUFWQUFBQUFCMEFBQUFBSWhRSV82bTF6Vm1vQW91QThPQUNzQUxVMkkzckEwQTdFSmZudWdGdGwwTlhRSmoyalBZcklZVWhxbmtfO2RjX2xhdD07ZGNfcmRpZD07dGFnX2Zvcl9jaGlsZF9kaXJlY3RlZF90cmVhdG1lbnQ9O3RmdWE9O2x0ZD07ZGNfdGR2PTE7ZGNfdHJhbnNwYXJlbnQ9MTtkY19ydWk9MTtkY19lcHM9QUhhczhjRFNlaTFGaEVrcVp1TFEzamdnY1dPT1phRmlsYkJQY2RvNzAwVW9fb0I2NXlsb3dudThNOER5cVBHcW5JY0RfUGF5Z0ItbS1OVlRnTHpla0E7ZGNfcHViaWQ9Nj9odHRwOi8vd3d3LmFkb2JlLmNvbS9pbi9hY3JvYmF0L2ZyZWUtdHJpYWwtZG93bmxvYWQuaHRtbD9zZGlkPTE5U0NESFRDJm12PXNvY2lhbCZtdjI9cGFpZHNvYyZnYWRfc291cmNlPTKwE7D26yW4E____________wGIFAKwFALAFYGAgEDQFQHYFQGYFgGoFgHiFgIIAYAXAYoXGAgDGAEgASgBMAE4AUABSAFQAVgBYAJoAaAXAakXV7_CAho-GPC6FwYoADAAOAHQGAHwGAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zE0o5F8_3hHtZgXfT1E5cunYoMYP8On3sP9zqjOMFg4ZzFQ7EDWjPcaAlloEALw_wcB&num=3&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_3mya3OerPMEA9Zc7Sx3IJS85-Jkg&ctype=110&video_id=yj7Tv-xMWxE&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=8&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+          - generic [ref=e1110] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1111]:
+              - /url: /watch?v=cf2Agn9RHuQ&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1117]:
+                - generic [aria-hidden] [ref=e1118]: 14:47
+            - generic [ref=e1120]:
+              - button "Go to channel Good Work" [ref=e1124]
+              - generic [ref=e1128]:
+                - heading [level=3] [ref=e1129]:
+                  - link "What happened to the power lunch? 14 minutes, 47 seconds" [ref=e1130]:
+                    - /url: /watch?v=cf2Agn9RHuQ&pp=ugUEEgJlbg%3D%3D
+                    - text: What happened to the power lunch?
+                - group [ref=e1133]:
+                  - link "Good Work" [ref=e1136]:
+                    - /url: /@GoodWorkMB
+                  - generic "Verified" [ref=e1137]
+                  - generic "1.4 million views" [ref=e1139]: 1.4M
+                  - generic "2 days ago" [ref=e1140]: 2d ago
+              - button "More actions" [ref=e1143]
+          - generic [ref=e1150] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1151]:
+              - /url: /watch?v=EYkbg444H8A
+              - img [ref=e1157]:
+                - generic [aria-hidden] [ref=e1158]: 17:28
+            - generic [ref=e1160]:
+              - button "Go to channel GenZ Club by PhonePe Invest" [ref=e1164]
+              - generic [ref=e1168]:
+                - heading [level=3] [ref=e1169]:
+                  - link "Is an 80 LPA Job Worth Your Mental Health? 17 minutes" [ref=e1170]:
+                    - /url: /watch?v=EYkbg444H8A
+                    - text: Is an 80 LPA Job Worth Your Mental Health?
+                - group [ref=e1173]:
+                  - link "GenZ Club by PhonePe Invest" [ref=e1176]:
+                    - /url: /@GenZClubbyPhonePeInvest
+                  - generic "895 thousand views" [ref=e1178]: 895K
+                  - generic "3 weeks ago" [ref=e1179]: 3w ago
+              - button "More actions" [ref=e1182]
+          - generic [ref=e1189] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1190]:
+              - /url: /watch?v=lY4JE4rbh9I
+              - generic [ref=e1191]: LIVE
+            - generic [ref=e1200]:
+              - button "Tap to watch live, Mednasah channel" [ref=e1204]:
+                - generic [ref=e1205]: LIVE
+              - generic [ref=e1210]:
+                - heading [level=3] [ref=e1211]:
+                  - link "HENRY PACK GIVEAWAY DAY 🎁 I’m Opening Packs Until 3 Viewers Each Get an EPIC! | eFootball 27 LIVE 🔴" [ref=e1212]:
+                    - /url: /watch?v=lY4JE4rbh9I
+                - group [ref=e1215]:
+                  - link "Mednasah" [ref=e1218]:
+                    - /url: /@mednasah
+                  - generic "Verified" [ref=e1219]
+                  - generic "885 watching" [ref=e1220]
+              - button "More actions" [ref=e1223]
+          - region "Get ready to watch Always Lalisa with Premium" [ref=e1230]:
+            - generic [ref=e1231]:
+              - generic [ref=e1234] [cursor=pointer]:
+                - link [aria-hidden] [ref=e1235]:
+                  - /url: /watch?v=s6NUEu1x64I&pp=kggWc3ZzLWFjcS1jLXByZXJlbGVhc2UwYQ%3D%3D
+                  - img [ref=e1241]:
+                    - generic [aria-hidden] [ref=e1242]: 1:20
+                - generic [ref=e1244]:
+                  - button "Collaboration channels" [ref=e1246]
+                  - generic [ref=e1270]:
+                    - heading [level=3] [ref=e1271]:
+                      - link "LISA - Always Lalisa (Official Trailer) 1 minute, 20 seconds" [ref=e1272]:
+                        - /url: /watch?v=s6NUEu1x64I&pp=kggWc3ZzLWFjcS1jLXByZXJlbGVhc2UwYQ%3D%3D
+                        - text: LISA - Always Lalisa (Official Trailer)
+                    - group [ref=e1275]:
+                      - generic [ref=e1276]: LLOUD Official
+                      - generic "Official Artist Channel" [ref=e1277]
+                      - generic [ref=e1278]: and 2 more
+                      - generic "212 million views" [ref=e1280]: 212M
+                      - generic "2 months ago" [ref=e1281]: 2mo ago
+                  - button "More actions" [ref=e1284]
+              - generic [ref=e1288]:
+                - generic [ref=e1289]:
+                  - generic [aria-hidden] [ref=e1290]: Get ready to watch Always Lalisa with Premium
+                  - generic [ref=e1291]: YouTube featured
+                  - generic [ref=e1293]: Stream ad-free when it drops
+                - link "Get it now" [ref=e1298] [cursor=pointer]:
+                  - /url: /premium
+            - button "Get ready to watch Always Lalisa with Premium - More actions" [ref=e1305] [cursor=pointer]
+          - generic [ref=e1310] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1311]:
+              - /url: /watch?v=bMhB47Nb2MA&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1317]:
+                - generic [aria-hidden] [ref=e1318]: 6:38
+            - generic [ref=e1320]:
+              - button "Go to channel bigboxSWE" [ref=e1324]
+              - generic [ref=e1328]:
+                - heading [level=3] [ref=e1329]:
+                  - link "I'm begging you to try systems programming 6 minutes, 38 seconds" [ref=e1330]:
+                    - /url: /watch?v=bMhB47Nb2MA&pp=ugUEEgJlbg%3D%3D
+                    - text: I'm begging you to try systems programming
+                - group [ref=e1333]:
+                  - link "bigboxSWE" [ref=e1336]:
+                    - /url: /@bigboxSWE
+                  - generic "Verified" [ref=e1337]
+                  - generic "615 thousand views" [ref=e1339]: 615K
+                  - generic "13 days ago" [ref=e1340]: 13d ago
+              - button "More actions" [ref=e1343]
+          - generic [ref=e1350] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1351]:
+              - /url: /watch?v=sFck88rcl4s&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1357]:
+                - generic [aria-hidden] [ref=e1358]: 1:05:27
+            - generic [ref=e1360]:
+              - button "Go to channel dzuma" [ref=e1364]
+              - generic [ref=e1368]:
+                - heading [level=3] [ref=e1369]:
+                  - 'link "POV: You Learn Networking For Fun 1 hour, 5 minutes" [ref=e1370]':
+                    - /url: /watch?v=sFck88rcl4s&pp=ugUEEgJlbg%3D%3D
+                    - text: "POV: You Learn Networking For Fun"
+                - group [ref=e1373]:
+                  - link "dzuma" [ref=e1376]:
+                    - /url: /@dzumq
+                  - generic "Verified" [ref=e1377]
+                  - generic "505 thousand views" [ref=e1379]: 505K
+                  - generic "3 weeks ago" [ref=e1380]: 3w ago
+              - button "More actions" [ref=e1383]
+          - generic [ref=e1402] [cursor=pointer]:
+            - generic [ref=e1403]:
+              - link "GoHighLevel 30 Day Free Trial" [ref=e1407]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7w3GEc75ate5IZ_p1d8P8On_4AHZ_pvRigH21pqjoha1kB8QBCAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABlp2XzgKpAlOXeLdPfrI-qAMEyAMKqgTrAU_Q8jEbI5_RcpBsFtfi5l8yeJ0IaCArlwY67BXKaDjB5OCRtlgi6T1bZ1UxowbMkBAQYDWbjxRVsqMqPGUG5rJoqsubdzSvKj-0l6KFrzigYTW-F3059GJJl_WXk1sWIJ4H3cgWlBiZlBg9xdkFed_HYb_aXuvqX2gh9Zm6CS8J0WlFpNPjUTcxLbXg_9GLz9TOqqUE42ifYKgVDOyTkG6Cf8c9wIds4Ymhr7tw-3eJmPzGdCL5Pp1DL8x-9sIwROCaANyiOOSP-krfy2L9XlkNdX2rSVMT4--Di7NYMCMOg-yQfCZK8vrmfYqIBZDm_7lakgUKCBNoAXiqq4iyAaAGboAH0uLosQGIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe_2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJK2h0dHBzOi8vd3d3LmdvaGlnaGxldmVsLmNvbS9lbS0zMC1kYXktdHJpYWyxCXVT19a9sci_yAkAyAmKApgLAboLXAgCEAUYBCAIKAEwGUABSABYJWAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBAYACAYgCBboDBXZpdHBl0AsSogwcIAFIAWoRCg9jb20uZ29oaWdobGV2ZWx4AYgBAdIMAhAB2gwlCgoQ0MX646KrvY99EgIBAxoNGJDm_7laILXZo8PpBUABSgIQH5oNARKqDQJJTsgNAdIN3AFodHRwczovL3d3dy5nb2hpZ2hsZXZlbC5jb20vZW0tMzAtZGF5LXRyaWFsP2ZwX3JlZj1lbWF0Y2gmZnBfc2lkPWVuLXVzLWRnLTMwdHJpYWwmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcGMmdXRtX2NhbXBhaWduPWhpZ2hsZXZlbCZ1dG1fdGVybT1jYW1wYWlnbl9lbl92aXBfZW5fZGVtYW5kZ2VuX2FpXzEmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MjgwODIyNTQ0uBP___________8BsBQCwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF4lQuVpIyKUHuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zFC5fOzfEVqLmLIcE6z413AriCEG0_OhDLkoeyo6hAl4Q-3MrpJVGMaAvwDEALw_wcB&num=4&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&sig=AOD64_1CUrEMj79TvGTwAzFwOR7FbsVBDQ&ms=%5BCLICK_MS%5D&nb=0&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - link "GoHighLevel 30 Day Free Trial - Limited Time Offer" [ref=e1410]:
+                - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=C7w3GEc75ate5IZ_p1d8P8On_4AHZ_pvRigH21pqjoha1kB8QBCAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABlp2XzgKpAlOXeLdPfrI-qAMEyAMKqgTrAU_Q8jEbI5_RcpBsFtfi5l8yeJ0IaCArlwY67BXKaDjB5OCRtlgi6T1bZ1UxowbMkBAQYDWbjxRVsqMqPGUG5rJoqsubdzSvKj-0l6KFrzigYTW-F3059GJJl_WXk1sWIJ4H3cgWlBiZlBg9xdkFed_HYb_aXuvqX2gh9Zm6CS8J0WlFpNPjUTcxLbXg_9GLz9TOqqUE42ifYKgVDOyTkG6Cf8c9wIds4Ymhr7tw-3eJmPzGdCL5Pp1DL8x-9sIwROCaANyiOOSP-krfy2L9XlkNdX2rSVMT4--Di7NYMCMOg-yQfCZK8vrmfYqIBZDm_7lakgUKCBNoAXiqq4iyAaAGboAH0uLosQGIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAe-2bECqAe_2bECqAe3obECqAfVqbECqAfn2rECqAfetbECqAfqsbECqAe-t7ECqAeZtbECqAeFwbECqAfrpbECqAfKqbEC0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJK2h0dHBzOi8vd3d3LmdvaGlnaGxldmVsLmNvbS9lbS0zMC1kYXktdHJpYWyxCXVT19a9sci_yAkAyAmKApgLAboLXAgCEAUYBCAIKAEwGUABSABYJWAAaABwAYgBAJgBAaIBKgofCAAgAygD2rgEFTITOhEKDygwSOvYq4C6CpgZAbggAdABAagCBcACAtgBAYACAYgCBboDBXZpdHBl0AsSogwcIAFIAWoRCg9jb20uZ29oaWdobGV2ZWx4AYgBAdIMAhAB2gwlCgoQ0MX646KrvY99EgIBAxoNGJDm_7laILXZo8PpBUABSgIQH5oNARKqDQJJTsgNAdIN3AFodHRwczovL3d3dy5nb2hpZ2hsZXZlbC5jb20vZW0tMzAtZGF5LXRyaWFsP2ZwX3JlZj1lbWF0Y2gmZnBfc2lkPWVuLXVzLWRnLTMwdHJpYWwmdXRtX3NvdXJjZT1nb29nbGUmdXRtX21lZGl1bT1wcGMmdXRtX2NhbXBhaWduPWhpZ2hsZXZlbCZ1dG1fdGVybT1jYW1wYWlnbl9lbl92aXBfZW5fZGVtYW5kZ2VuX2FpXzEmZ2FkX3NvdXJjZT0yJmdhZF9jYW1wYWlnbmlkPTI0MjgwODIyNTQ0uBP___________8BsBQCwBWBgIBA0BUB2BUBmBYB4hYCCAGAFwGKFxgIAxgBIAEoATABOAFAAUgBUAFYAWACaAGgFwGpF4lQuVpIyKUHuhcGKAAwADgB0BgB8BgBwhkCCAE&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zFC5fOzfEVqLmLIcE6z413AriCEG0_OhDLkoeyo6hAl4Q-3MrpJVGMaAvwDEALw_wcB&num=4&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&sig=AOD64_1CUrEMj79TvGTwAzFwOR7FbsVBDQ&ms=%5BCLICK_MS%5D&nb=7&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+              - generic [ref=e1411]:
+                - generic [ref=e1413]:
+                  - generic [ref=e1414]: Sponsored
+                  - text: ·
+                - generic [ref=e1415]: HighLevel
+            - button "My Ad Center" [ref=e1418]
+          - generic [ref=e1425] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1426]:
+              - /url: /watch?v=ATMkSzHf6eA
+              - img [ref=e1432]:
+                - generic [aria-hidden] [ref=e1433]: 17:06
+            - generic [ref=e1435]:
+              - button "Go to channel Rick'sF1Addiction" [ref=e1439]
+              - generic [ref=e1443]:
+                - heading [level=3] [ref=e1444]:
+                  - link "Leclerc.exe 17 minutes" [ref=e1445]:
+                    - /url: /watch?v=ATMkSzHf6eA
+                    - text: Leclerc.exe
+                - group [ref=e1448]:
+                  - link "Rick'sF1Addiction" [ref=e1451]:
+                    - /url: /@RicksF1Addiction
+                  - generic "Verified" [ref=e1452]
+                  - generic "1.9 million views" [ref=e1454]: 1.9M
+                  - generic "3 weeks ago" [ref=e1455]: 3w ago
+              - button "More actions" [ref=e1458]
+          - generic [ref=e1465] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1466]:
+              - /url: /watch?v=rhCvNUAejVw&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1472]:
+                - generic [aria-hidden] [ref=e1473]: 21:31
+            - generic [ref=e1475]:
+              - button "Go to channel Will Phillips" [ref=e1479]
+              - generic [ref=e1483]:
+                - heading [level=3] [ref=e1484]:
+                  - link "24hrs Inside a YC Startup That Raised $108M to Solve a Major Enterprise AI Bottleneck 21 minutes" [ref=e1485]:
+                    - /url: /watch?v=rhCvNUAejVw&pp=ugUEEgJlbg%3D%3D
+                    - text: 24hrs Inside a YC Startup That Raised $108M to Solve a Major Enterprise AI Bottleneck
+                - group [ref=e1488]:
+                  - link "Will Phillips" [ref=e1491]:
+                    - /url: /@willphillipsclips
+                  - generic "684 thousand views" [ref=e1493]: 684K
+                  - generic "3 weeks ago" [ref=e1494]: 3w ago
+              - button "More actions" [ref=e1497]
+          - generic [ref=e1504] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1505]:
+              - /url: /watch?v=Sgfzo6OGFkI
+              - img [ref=e1511]:
+                - generic [aria-hidden] [ref=e1512]: 12:54
+            - generic [ref=e1514]:
+              - button "Go to channel Lattice" [ref=e1518]
+              - generic [ref=e1522]:
+                - heading [level=3] [ref=e1523]:
+                  - link "Insane Computer Science Concepts 12 minutes, 54 seconds" [ref=e1524]:
+                    - /url: /watch?v=Sgfzo6OGFkI
+                    - text: Insane Computer Science Concepts
+                - group [ref=e1527]:
+                  - link "Lattice" [ref=e1530]:
+                    - /url: /@Latticx
+                  - generic "621 thousand views" [ref=e1532]: 621K
+                  - generic "9 days ago" [ref=e1533]: 9d ago
+              - button "More actions" [ref=e1536]
+          - generic [ref=e1543] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1544]:
+              - /url: /watch?v=InLv897IO5Y
+              - img [ref=e1550]:
+                - generic [aria-hidden] [ref=e1551]: 16:04
+            - generic [ref=e1553]:
+              - button "Go to channel The Sham Sharma Show" [ref=e1557]
+              - generic [ref=e1561]:
+                - heading [level=3] [ref=e1562]:
+                  - link "Salman It’s Done Bro! | Maatrubhumi Trailer Review 16 minutes" [ref=e1563]:
+                    - /url: /watch?v=InLv897IO5Y
+                    - text: Salman It’s Done Bro! | Maatrubhumi Trailer Review
+                - group [ref=e1566]:
+                  - link "The Sham Sharma Show" [ref=e1569]:
+                    - /url: /@ShamSharmaShow
+                  - generic "Verified" [ref=e1570]
+                  - generic "609 thousand views" [ref=e1572]: 609K
+                  - generic "2 days ago" [ref=e1573]: 2d ago
+              - button "More actions" [ref=e1576]
+          - generic [ref=e1583] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1584]:
+              - /url: /watch?v=I15sMDd3-54&pp=ugUEEgJlbg%3D%3D
+              - img [ref=e1590]:
+                - generic [aria-hidden] [ref=e1591]: 1:07:03
+            - generic [ref=e1593]:
+              - button "Go to channel Xander Budnick" [ref=e1597]
+              - generic [ref=e1601]:
+                - heading [level=3] [ref=e1602]:
+                  - link "8 Days Exploring my Favorite Map 1 hour, 7 minutes" [ref=e1603]:
+                    - /url: /watch?v=I15sMDd3-54&pp=ugUEEgJlbg%3D%3D
+                    - text: 8 Days Exploring my Favorite Map
+                - group [ref=e1606]:
+                  - link "Xander Budnick" [ref=e1609]:
+                    - /url: /@XanderBudnick
+                  - generic "Verified" [ref=e1610]
+                  - generic "1 million views" [ref=e1612]: 1M
+                  - generic "1 month ago" [ref=e1613]: 1mo ago
+              - button "More actions" [ref=e1616]
+          - generic [ref=e1623] [cursor=pointer]:
+            - link [aria-hidden] [ref=e1624]:
+              - /url: /watch?v=fj-FoLO_dKQ&pp=ugUEEgJlbtIHCQnHBwGHKiGM7w%3D%3D
+              - img [ref=e1630]:
+                - generic [aria-hidden] [ref=e1631]: 18:27
+            - generic [ref=e1633]:
+              - button "Collaboration channels" [ref=e1635]
+              - generic [ref=e1652]:
+                - heading [level=3] [ref=e1653]:
+                  - link "Even AI Can't Beat This Man at Programming 18 minutes" [ref=e1654]:
+                    - /url: /watch?v=fj-FoLO_dKQ&pp=ugUEEgJlbtIHCQnHBwGHKiGM7w%3D%3D
+                    - text: Even AI Can't Beat This Man at Programming
+                - group [ref=e1657]:
+                  - generic [ref=e1658]: Turing
+                  - generic "Verified" [ref=e1659]
+                  - generic [ref=e1660]: and Turing Now - Science & Tech News
+                  - generic "518 thousand views" [ref=e1662]: 518K
+                  - generic "4 days ago": 4d ago
+              - button "More actions" [ref=e1665]
+  - generic [ref=e1740]:
+    - link:
+      - /url: https://www.googleadservices.com/pagead/aclk?sa=L&ai=CD-exEc75ate5IZ_p1d8P8On_4AHZsvztigHeyrW_lha1kB8QASAAYOXq4wOCARdjYS1wdWItNjIxOTgxMTc0NzA0OTM3MaABl6fQkT6oAwTIAwqqBN8BT9DyMRsjn9FykGwW1-LmXzJ4nQhoICuXBjrsFcpoOMHk4JG2WCLpPVtnVTGjBsyQEBBgNZuPFFWyoyo8ZQbmsmiqy5t3NK8qP7SXooWvOKBhNb4XfTn0YkmX9ZeTWxYgngfdyBaUGJmUGD3F2QV538dhv9pe6-pfaCH1mboJLwnRaUWk0-NRNzEtteD_0YvP1M6qpfwDqpitYrxFxolWk2TTzzXNK5AGWKHuA5I-tGSpyiCkKGG0p9i559Mi_twmt4TB7n1vg8lzUf5faN9SQd6fSZv6yyDB4ZtpPkhbtogF0Mr01FqSBQoIE2gBeKOAv60coAahAYAH3IOCkhyIBwGQBwKoB-rusQKoB6XPsQKoB-edsQKoB-idsQKoB4P2sQKoB_nTsQKoB8nasQKoB6ngsQKoB6jSG6gHsdwbqAewm7ECqAf9srECqAfIz7ECqAfJz7ECqAf81bECqAf71bECqAeM1rECqAeL1rECqAea4rECqAeb4rECqAee6rECqAef6rECqAf467ECqAe86rECqAf8r7ECqAfVzhuoB77ZsQKoB7_ZsQKoB5zcG6gHt6GxAqgH1amxAqgH59qxAqgH3rWxAqgH6rGxAqgHvrexAqgHmbWxAqgHhcGxAqgH66WxAqgHyqmxApIICzNWdlRpUDFVN0tNqAgB0ggxCAAQAhhaMgEAOhSP0ICAgIAEgMCAgICAgIACqoCAGEjZoNI1UBRYqO7sxKOKmANgAZoJH2h0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy-xCZAyR-nZUHhKyAkXyAmPAcgJwgGYCwG6C1wIAhAFGAQgBygBMBlAAUgAWGRgAGgAcAGIAQCYAQGiASoKHwgAIAMoA9q4BBUyEzoRCg8oMEjr2KuAugqYGQG4IAHQAQGoAgXAAgLYAQGAAgGIAgW6AwV2aXRwZdALEqIMMiABSAFiEQoPY29tLm9wZW5haS5jaGF0ahQKEmNvbS5vcGVuYWkuY2hhdGdwdHgBiAEB0gwCEAHaDCUKChCQw4za38n_pksSAgEDGg0Y0Mr01Fog8Iu15oUGQAFKAhAfmg0BEqoNAklOyA0B0g23AWh0dHBzOi8vY2hhdGdwdC5jb20vcGxhbnMvcGx1cy8_bW9kZT1kZWZhdWx0P3V0bV9zb3VyY2U9Z29vZ2xlJnV0bV9tZWRpdW09cHJvZ3JhbW1hdGljJmNfaWQ9MjQzMzcyNjE5MDQmY19hZ2lkPTIwNzcxNTM4Njg2NCZjX2NyaWQ9ODI5MzExNTgxODk1JmdhZF9zb3VyY2U9MiZnYWRfY2FtcGFpZ25pZD0yNDMzNzI2MTkwNLgT____________AYgUBbAUAsAVgYCAQNAVAdgVAZgWAeIWAggBgBcBihcYCAMYASABKAEwATgBQAFIAVABWAFgAmgBoBcBqRdGYCIfPcaYSboXBigAMAA4AdAYAfAYAcIZAggB&ase=2&gclid=Cj0KCQiAzeXXBhCGARIsADO5-zETfskqLPFBvoWSC50y47LJfaMDtEJ4y1tPCQdqWTbNFotiNtJEvscaArl5EALw_wcB&num=1&cid=CAESpQHg9udOAT4PD27J3iNks6PFbe_LCfYyCIVxhIbi_nINZKU24lldataSaG1Tq2caftWza765tUtA2Wiz3h1rXE0WtfoiP8GAEQk1Vf0zs5XiS-MlHKv_0a4Sz-u_nF3Yy1G_0NKa6jVQaYoxMAnroj6bGtj6AHgaj47mNYD1vmDyNnoWL1geSk340FFxggH4Pm2UdIaTJrQG2yygJ6Ioac9f2n-E4ho&ad_cpn=%5BCPN%5D&sig=AOD64_2aFBmOL8FYvnxZjEX1dEvux7zomA&ctype=110&video_id=3VvTiP1U7KM&label=video_click_to_advertiser_site&ms=%5BCLICK_MS%5D&nb=21&nx=%5BNX%5D&ny=%5BNY%5D&dim=%5BDIM%5D
+      - generic [ref=e1741] [cursor=pointer]

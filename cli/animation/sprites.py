@@ -14,15 +14,16 @@ PIXELS: dict[str, str] = {
     "W": "#DDFBFF",  # eye whites
     "Y": "#55F2FF",  # pupils
     "P": "#FF657A",  # error accents
+    "M": "#FF9FB8",  # soft pink nose
     "*": "#72F5FF",  # particles
 }
 
 WIDTH = 19
 BODY = (
-    "." * 7 + "N" * 5 + "." * 7,
-    "." * 5 + "NN" + "B" * 5 + "NN" + "." * 5,
-    "." * 4 + "N" + "B" * 9 + "N" + "." * 4,
-    "." * 3 + "N" + "B" * 11 + "N" + "." * 3,
+    "." * 6 + "N" + "." * 5 + "N" + "." * 6,
+    "." * 5 + "NBN" + "." * 3 + "NBN" + "." * 5,
+    "." * 4 + "NBCBN" + "." + "NBCBN" + "." * 4,
+    "." * 3 + "N" + "B" * 4 + "N" + "." + "N" + "B" * 4 + "N" + "." * 3,
     "." * 2 + "N" + "B" * 13 + "N" + "." * 2,
     "." + "N" + "B" * 15 + "N" + ".",
     "N" + "B" * 17 + "N",
@@ -31,7 +32,7 @@ BODY = (
     "N" + "B" * 2 + "C" * 2 + "F" * 9 + "C" * 2 + "B" * 2 + "N",
     "N" + "B" * 2 + "C" * 2 + "F" * 9 + "C" * 2 + "B" * 2 + "N",
     "N" + "B" * 2 + "C" * 2 + "F" * 9 + "C" * 2 + "B" * 2 + "N",
-    "N" + "B" * 2 + "C" * 2 + "F" * 3 + "C" * 3 + "F" * 3 + "C" * 2 + "B" * 2 + "N",
+    "N" + "B" * 2 + "C" * 2 + "F" * 3 + "F" + "M" + "F" + "F" * 3 + "C" * 2 + "B" * 2 + "N",
     ".N" + "B" * 15 + "N.",
     "..N" + "B" * 13 + "N..",
     ".....N" + "BB" + "NNN" + "BB" + "N.....",
@@ -106,10 +107,10 @@ def _pixel_grid(state: MascotState, frame: int) -> list[list[str]]:
                 grid[face_y + 2][left + eye_x] = "C"
                 grid[face_y + 2][left + eye_x + 1] = "C"
 
-    # A tiny centered mouth gives the face a stable, readable expression.
+    # A tiny pink nose and split cyan mouth give the visor a cat expression.
     if state not in (MascotState.SLEEPING, MascotState.ERROR, MascotState.SUCCESS):
         grid[face_y + 3][left + 8] = "C"
-        grid[face_y + 3][left + 9] = "C"
+        grid[face_y + 3][left + 10] = "C"
 
     # State-specific pixels make actions visually distinct at a glance.
     if state == MascotState.EXECUTING and frame % 2:
