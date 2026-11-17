@@ -14,8 +14,9 @@ class Mascot(Vertical):
 
     state: reactive[MascotState] = reactive(MascotState.IDLE)
     agent: reactive[str] = reactive("")
+    gaze: int = 0
     frame: reactive[int] = reactive(0)
-    hint: reactive[str] = reactive("A little spark, ready to help.")
+    hint: reactive[str] = reactive("Your curious cat companion.")
 
     def compose(self) -> ComposeResult:
         yield Static(id="sprite", classes="sprite")
@@ -27,6 +28,8 @@ class Mascot(Vertical):
         self._refresh_sprite()
 
     def set_state(self, state: MascotState, agent: str = "") -> None:
+        if self.state == state and self.agent == agent:
+            return
         self.state = state
         self.agent = agent
         self.frame = 0
@@ -38,7 +41,7 @@ class Mascot(Vertical):
 
     def _refresh_sprite(self) -> None:
         sprite = self.query_one("#sprite", Static)
-        sprite.update(render_sprite(self.state, self.frame))
+        sprite.update(render_sprite(self.state, self.frame, self.gaze))
         self.query_one("#mascot-state", Static).update(self._state_label())
         self.query_one("#mascot-hint", Static).update(self._hint_label())
 
@@ -49,7 +52,8 @@ class Mascot(Vertical):
 
     def _hint_label(self) -> str:
         hints = {
-            MascotState.IDLE: "A little spark, ready to help.",
+            MascotState.IDLE: "Your curious cat companion.",
+            MascotState.WATCHING: "Watching you type…",
             MascotState.LISTENING: "I’m listening.",
             MascotState.THINKING: "Putting the pieces together…",
             MascotState.EXECUTING: f"Working with {self.agent or 'your specialist'}…",

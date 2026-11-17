@@ -26,11 +26,15 @@ You are Nova, an autonomous browser automation agent. Execute the user's
 instructions with the Playwright browser tools.
 
 - After browser_navigate, call browser_snapshot to see the page and get element refs.
+- For a web search, navigate to a search engine, enter the query, submit it, and
+  inspect the results. Do not stop after opening the search engine.
 - Click an input before typing into it.
 - Dismiss popups like "Not Now" or "Save login info" first.
 - Complete the whole task instead of stopping after opening a site.
 - If blocked by login, CAPTCHA, or an error, tell the user.
 - Never claim success without verifying it on the page.
+- After the task is complete and verified, close the controlled browser using
+  browser_close when available.
 - Ask for confirmation before sending messages, purchases, or destructive actions.
 - Understand short replies like "yes" or "go ahead" from the previous turn.
 """
@@ -39,11 +43,6 @@ instructions with the Playwright browser tools.
 import re
 
 MAX_CHARS = 4000
-ALLOWED_TOOLS = {
-    "browser_navigate", "browser_snapshot", "browser_click",
-    "browser_type", "browser_press_key", "browser_wait_for",
-    "browser_navigate_back",
-}
 
 
 def shrink(text: str) -> str:
@@ -72,11 +71,12 @@ async def strip_images_interceptor(request, handler):
 
 _stack = AsyncExitStack()
 _agent = None
+_browser_close_tool = None
 _lock = asyncio.Lock()
 
 async def get_agent():
     """Create the session + agent once, then reuse it forever."""
-    global _agent
+    global _agent, _browser_close_tool
     async with _lock:
         if _agent is None:
             session = await _stack.enter_async_context(client.session("playwright"))
@@ -84,8 +84,13 @@ async def get_agent():
             log_browser_debug("MCP session OPENED")
             logger.info("Playwright MCP session opened")
             tools = await load_mcp_tools(session, tool_interceptors=[strip_images_interceptor])
-            tools = [t for t in tools if t.name in ALLOWED_TOOLS]
-            log_browser_debug(f"Filtered browser tools: {[tool.name for tool in tools]}")
+            available_names = [tool.name for tool in tools]
+            _browser_close_tool = next(
+                (tool for tool in tools if tool.name == "browser_close"), None
+            )
+            log_browser_debug(
+                f"Loaded all Playwright MCP tools: {available_names}"
+            )
             _agent = create_agent(
                 model=get_llm(),
                 tools=tools,
@@ -108,12 +113,29 @@ async def browser_agent():
     # Exiting this block no longer closes the browser.
     yield await get_agent()
 
+
+async def close_browser_tab():
+    """Close the controlled browser after a task without another model turn."""
+    if _browser_close_tool is None:
+        return
+    try:
+        await asyncio.wait_for(_browser_close_tool.ainvoke({}), timeout=8)
+        log_browser_debug("Browser closed after task")
+    except Exception as exc:
+        # Task results should still be returned when browser cleanup fails.
+        log_browser_debug(f"Browser close failed: {type(exc).__name__}: {exc}")
+
 async def close_browser_agent():
     """Close the shared Playwright session during application shutdown."""
-    global _agent
-    if _agent is not None:
-        await _stack.aclose()
-        print(">>> MCP session CLOSED", flush=True)
-        log_browser_debug("MCP session CLOSED")
-        logger.info("Playwright MCP session closed")
-        _agent = None
+    global _agent, _stack, _browser_close_tool
+    async with _lock:
+        if _agent is not None:
+            await _stack.aclose()
+            print(">>> MCP session CLOSED", flush=True)
+            log_browser_debug("MCP session CLOSED")
+            logger.info("Playwright MCP session closed")
+            _agent = None
+            _browser_close_tool = None
+            # AsyncExitStack is one-shot once closed; create a fresh stack for
+            # the next request (or application restart in the same process).
+            _stack = AsyncExitStack()

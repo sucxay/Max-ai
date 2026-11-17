@@ -157,12 +157,13 @@ class MaxApp(App[None]):
             self._set_status("SLEEPING")
 
     def on_input_changed(self, event: Input.Changed) -> None:
-        if event.input.id != "request-input" or self.request_running:
+        if event.input.id != "request-input" or self.request_running or self._voice_input is not None:
             return
         self._touch()
         if event.value.strip():
-            self._mascot().set_state(MascotState.LISTENING)
-            self._set_status("LISTENING")
+            self._mascot().gaze = (len(event.value) // 4) % 3 - 1
+            self._mascot().set_state(MascotState.WATCHING)
+            self._set_status("WATCHING")
         else:
             self._mascot().set_state(MascotState.IDLE)
             self._set_status("READY")
@@ -213,6 +214,11 @@ class MaxApp(App[None]):
                 ),
                 on_transcribing=lambda: self.call_from_thread(self._on_voice_transcribing),
                 on_error=lambda message: self.call_from_thread(self._on_voice_error, message),
+                # MLX streams are thread-local. Run Parakeet on Textual's app
+                # thread, where the MLX runtime was initialized.
+                transcribe=lambda path: self.call_from_thread(
+                    VoiceInput._transcribe, path
+                ),
             )
             self._voice_input.start()
         elif command == "/history":

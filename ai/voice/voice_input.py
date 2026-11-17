@@ -23,10 +23,12 @@ class VoiceInput:
         on_transcript: Callable[[str], None],
         on_transcribing: Callable[[], None],
         on_error: Callable[[str], None],
+        transcribe: Callable[[Path], str] | None = None,
     ) -> None:
         self.on_transcript = on_transcript
         self.on_transcribing = on_transcribing
         self.on_error = on_error
+        self.transcribe = transcribe or self._transcribe
         self._stop_event = threading.Event()
         self._thread: threading.Thread | None = None
 
@@ -66,7 +68,7 @@ class VoiceInput:
             if audio_path is None or self._stop_event.is_set():
                 return
             self.on_transcribing()
-            transcript = self._transcribe(audio_path)
+            transcript = self.transcribe(audio_path)
             audio_path = None  # _transcribe removes the temporary recording.
             if not self._stop_event.is_set():
                 self.on_transcript(transcript)

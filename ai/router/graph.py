@@ -1,10 +1,12 @@
+import asyncio
+
 from langgraph.graph import StateGraph, START, END
 
 from ai.router.state import VoiceState
 from ai.router.router import router_node, route_task
 
 from ai.agents.apple_agent import apple_agent
-from ai.agents.browser_agent import get_existing_agent, log_browser_debug
+from ai.agents.browser_agent import close_browser_tab, get_existing_agent, log_browser_debug
 from ai.agents.system_agent import system_agent
 from ai.agents.file_agent import file_agent
 from ai.agents.convo_agent import convo_agent
@@ -23,10 +25,26 @@ async def apple_node(state: VoiceState):
 
 async def browser_node(state: VoiceState):
     agent = get_existing_agent()
-    result = await agent.ainvoke(
-        {"messages": [{"role": "user", "content": state["task"]}]},
-        config={"configurable": {"thread_id": _BROWSER_THREAD_ID}},
-    )
+    log_browser_debug("Browser task started")
+    try:
+        result = await asyncio.wait_for(
+            agent.ainvoke(
+                {"messages": [{"role": "user", "content": state["task"]}]},
+                config={
+                    "configurable": {"thread_id": _BROWSER_THREAD_ID},
+                    "recursion_limit": 16,
+                },
+            ),
+            timeout=90,
+        )
+    except asyncio.TimeoutError as exc:
+        log_browser_debug("Browser task timed out after 90 seconds")
+        raise TimeoutError("Browser task timed out after 90 seconds.") from exc
+    finally:
+        # Keep browser shutdown outside the model/tool loop. Some MCP close
+        # tools end the browser process and can otherwise prevent a final turn.
+        await close_browser_tab()
+    log_browser_debug("Browser task returned")
     for message in result.get("messages", []):
         for tool_call in getattr(message, "tool_calls", []) or []:
             if isinstance(tool_call, dict):
