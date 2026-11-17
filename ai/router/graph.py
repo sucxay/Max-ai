@@ -7,6 +7,7 @@ from ai.agents.apple_agent import apple_agent
 from ai.agents.browser_agent import get_existing_agent, log_browser_debug
 from ai.agents.system_agent import system_agent
 from ai.agents.file_agent import file_agent
+from ai.agents.convo_agent import convo_agent
 
 _BROWSER_THREAD_ID = "nova-browser"
 
@@ -54,6 +55,14 @@ async def system_node(state: VoiceState):
     return {"response": result["messages"][-1].content}
 
 
+async def convo_node(state: VoiceState):
+    agent = convo_agent()
+    result = await agent.ainvoke({
+        "messages": [{"role": "user", "content": state["task"]}]
+    })
+    return {"response": result["messages"][-1].content}
+
+
 builder = StateGraph(VoiceState)
 
 # Register nodes
@@ -62,6 +71,7 @@ builder.add_node("apple", apple_node)
 builder.add_node("browser", browser_node)
 builder.add_node("system", system_node)
 builder.add_node("file", file_node)
+builder.add_node("convo", convo_node)
 
 # Start -> Router
 builder.add_edge(START, "router")
@@ -75,11 +85,12 @@ builder.add_conditional_edges(
         "browser": "browser",
         "system": "system",
         "file": "file",
+        "convo": "convo",
     }
 )
 
 # Selected agent -> End
-for node in ["apple", "browser", "system", "file"]:
+for node in ["apple", "browser", "system", "file", "convo"]:
     builder.add_edge(node, END)
 
 voice_graph = builder.compile()

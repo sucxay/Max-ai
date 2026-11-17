@@ -8,7 +8,7 @@ llm = get_llm()
 
 
 class RouterDecision(BaseModel):
-    agent: Literal["apple", "browser", "system", "file"]
+    agent: Literal["apple", "browser", "system", "file", "convo"]
     task: str
     reason: str
 

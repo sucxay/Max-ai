@@ -1,0 +1,555 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Skip to main content" [ref=e2] [cursor=pointer]
+      - link "Accessibility help" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=en-IN
+  - generic [ref=e801]:
+    - button [aria-hidden] [ref=e802]
+    - generic [ref=e803]:
+      - button "Open sidebar" [ref=e805] [cursor=pointer]
+      - button "New thread" [ref=e809] [cursor=pointer]
+    - button "Settings" [ref=e816] [cursor=pointer]
+  - link "Go to Google Home" [ref=e23] [cursor=pointer]:
+    - /url: https://www.google.com/webhp?hl=en&ictx=0&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQPHoECAYQBA&atvm=2
+  - generic [ref=e33]:
+    - search [ref=e34]:
+      - generic [ref=e38]:
+        - combobox "Search" [ref=e40]: Langgraph token cost counting Langgraph token cost counting
+        - generic [ref=e41]:
+          - button "Clear" [ref=e45] [cursor=pointer]
+          - generic [ref=e50]:
+            - button "Search by voice" [ref=e53] [cursor=pointer]
+            - button "Search by image" [ref=e58] [cursor=pointer]
+    - generic [ref=e61]:
+      - button "Share" [ref=e62] [cursor=pointer]
+      - generic [ref=e68]:
+        - button "Google apps" [ref=e70] [cursor=pointer]
+        - 'button "Google Account: Suchay Joshi (suchayj2508@gmail.com), Google membership" [ref=e75] [cursor=pointer]'
+  - generic [ref=e79]:
+    - navigation [ref=e83]:
+      - generic [ref=e89]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - link "AI Mode" [ref=e94] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&udm=50&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&vsint=&aep=1&ntc=1&cs=0&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ2J8OegQIFBAD
+          - listitem [ref=e98]:
+            - link "All" [disabled] [ref=e99]
+          - listitem [ref=e102]:
+            - link "Shopping" [ref=e103] [cursor=pointer]:
+              - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&udm=28&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&q=Langgraph+token+cost+counting&ved=1t:220175&ictx=111
+          - listitem [ref=e106]:
+            - link "Images" [ref=e107] [cursor=pointer]:
+              - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&udm=2&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&q=Langgraph+token+cost+counting&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQtKgLegQIFxAB
+          - listitem [ref=e110]:
+            - link "Videos" [ref=e111] [cursor=pointer]:
+              - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&udm=vids&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&q=Langgraph+token+cost+counting&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQtKgLegQIGxAB
+          - listitem [ref=e114]:
+            - link "News" [ref=e115] [cursor=pointer]:
+              - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Langgraph+token+cost+counting&tbm=nws&source=lnms&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ0pQJegQIGRAB
+          - listitem [ref=e118]:
+            - link "Forums" [ref=e119] [cursor=pointer]:
+              - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&udm=forums&fbs=ACAhTvwdifjn2dKXmjtOfBxVFl_kNo0J7LRbgf5U9cgi9kOJRhZo2b70ls_k56Dkh0A5OtLcyphi0shU_Hby4szCRWjASZhvj7V7UCEgRb9azH8LFFcFPdMQekLxQGSofaA2-k0SnMZ0knVmea9zvfWz3m9QqmPCUJst1iWbzh5dgNnzAHCvtjU4TQL9fgqlWHY1jPHDumM6MzKUg1tVQtYkZ1Lw87mCxQ&q=Langgraph+token+cost+counting&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQs6gLegQIGhAB
+          - listitem [ref=e122]:
+            - button [ref=e123] [cursor=pointer]:
+              - generic "More filters" [ref=e124]: More
+        - button "Tools" [ref=e131] [cursor=pointer]
+    - heading "Search Results" [level=1] [ref=e138]
+    - main [ref=e144]:
+      - generic [ref=e145]:
+        - heading [level=2] [ref=e149]:
+          - text: "Did you mean:"
+          - link "Langgraph token cost accounting" [ref=e150] [cursor=pointer]:
+            - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Langgraph+token+cost+accounting&spell=1&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQBSgAegQIExAB
+            - text: Langgraph token cost
+            - generic [ref=e151]: accounting
+        - generic [ref=e894]:
+          - generic [ref=e897]:
+            - generic [ref=e899]:
+              - heading "AI Overview" [level=2] [ref=e903]
+              - button "Listen" [ref=e907]:
+                - generic [ref=e911] [cursor=pointer]
+            - generic [ref=e939]:
+              - generic [ref=e940]:
+                - text: Token cost counting in
+                - strong [ref=e941]: LangGraph
+                - text: relies on capturing usage metadata (
+                - code [ref=e942]: UsageMetadata
+                - text: ) from LLM responses and tracking them across your agentic workflow nodes.
+                - generic [ref=e946]:
+                  - link "LangChain Forum" [ref=e947] [cursor=pointer]:
+                    - /url: https://forum.langchain.com/t/how-to-obtain-token-usage-from-langgraph/1727
+                  - button "LangChain Forum (+1) – related results" [ref=e948] [cursor=pointer]:
+                    - generic [ref=e950]:
+                      - generic [ref=e951]: LangChain Forum
+                      - generic [ref=e952]: "+1"
+              - heading "How Token Usage is Captured" [level=3] [ref=e953]
+              - list [ref=e954]:
+                - listitem [ref=e956]:
+                  - generic [ref=e957]:
+                    - strong [ref=e958]:
+                      - code [ref=e959]: UsageMetadata
+                      - text: (
+                      - code [ref=e960]: langchain_core
+                      - text: )
+                    - text: ": Standardized in"
+                    - code [ref=e961]: langchain-core
+                    - text: ", model responses return an"
+                    - code [ref=e962]: usage_metadata
+                    - text: object containing
+                    - code [ref=e963]: input_tokens
+                    - text: ","
+                    - code [ref=e964]: output_tokens
+                    - text: ","
+                    - code [ref=e965]: total_tokens
+                    - text: ", and optional details like"
+                    - code [ref=e966]: input_token_details
+                    - text: (e.g., cache reads) and
+                    - code [ref=e967]: output_token_details
+                    - text: (e.g., reasoning tokens).
+                  - generic [ref=e971]:
+                    - link [ref=e972] [cursor=pointer]:
+                      - /url: https://docs.langchain.com/langsmith/cost-tracking
+                    - button [ref=e973] [cursor=pointer]:
+                      - generic [ref=e975]:
+                        - generic [ref=e976]: Docs by LangChain
+                        - generic [ref=e977]: "+1"
+                - listitem [ref=e979]:
+                  - generic [ref=e980]:
+                    - strong [ref=e981]: Enable Streaming Usage
+                    - text: ": If you are streaming responses or working inside nodes, ensure"
+                    - code [ref=e982]: stream_usage=True
+                    - text: is enabled on your chat models (e.g.,
+                    - code [ref=e983]: ChatOpenAI(stream_usage=True)
+                    - text: ) so the provider populates token counts on intermediate chunks.
+                  - generic [ref=e987]:
+                    - link [ref=e988] [cursor=pointer]:
+                      - /url: https://forum.langchain.com/t/how-to-obtain-token-usage-from-langgraph/1727
+                    - button [ref=e989] [cursor=pointer]:
+                      - generic [ref=e990]: LangChain Forum
+                - listitem [ref=e994]:
+                  - generic [ref=e995]:
+                    - strong [ref=e996]: Approximate Counting
+                    - text: ": For pre-run or offline estimates without hitting an LLM API, you can use"
+                    - code [ref=e997]: count_tokens_approximately
+                    - text: from
+                    - code [ref=e998]: langchain_core.messages.utils
+                    - text: ", which estimates tokens based on characters, message roles, and tool schemas."
+                  - generic [ref=e1002]:
+                    - link [ref=e1003] [cursor=pointer]:
+                      - /url: https://reference.langchain.com/python/langchain-core/messages/utils/count_tokens_approximately
+                    - button [ref=e1004] [cursor=pointer]:
+                      - generic [ref=e1005]: LangChain
+              - separator [ref=e1009]
+              - heading [level=3] [ref=e1011]: Methods for Tracking & Calculating Costs
+              - list [aria-hidden] [ref=e1012]:
+                - listitem [ref=e1014]:
+                  - strong [ref=e1016]: LangSmith Integration (Built-in)
+                  - list [ref=e1017]:
+                    - listitem [ref=e1018]:
+                      - generic [ref=e1019]:
+                        - text: LangGraph natively integrates with
+                        - link [ref=e1022] [cursor=pointer]:
+                          - /url: https://www.langchain.com/pricing
+                          - text: LangSmith
+                        - text: to automatically log traces, token counts, and cost breakdowns per run and node.
+                    - listitem [ref=e1023]:
+                      - generic [ref=e1024]:
+                        - text: LangSmith computes costs greedily using model price definitions (input price, output price, and cache breakdowns) mapped to
+                        - code [ref=e1025]: ls_model_name
+                        - text: .
+                      - generic [ref=e1029]:
+                        - link [ref=e1030] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=fU-TEVNrRYY
+                        - button [ref=e1031] [cursor=pointer]:
+                          - generic [ref=e1033]:
+                            - generic [ref=e1034]: YouTube
+                            - generic [ref=e1035]: ·Code AI with Rok
+                            - generic [ref=e1036]: "+1"
+                - listitem [ref=e1038]:
+                  - strong [ref=e1040]: Callback Handlers & Custom Accumulators
+                  - list [ref=e1041]:
+                    - listitem [ref=e1042]:
+                      - generic [ref=e1043]:
+                        - text: You can attach custom callback handlers (such as
+                        - code [ref=e1044]: UsageMetadataCallbackHandler
+                        - text: ) or aggregate
+                        - code [ref=e1045]: response_metadata
+                        - text: /
+                        - code [ref=e1046]: usage_metadata
+                        - text: from messages passed through your state graph reducer.
+                - listitem [ref=e1048]:
+                  - strong [ref=e1050]: External Observability Tools
+                  - list [ref=e1051]:
+                    - listitem [ref=e1052]:
+                      - generic [ref=e1053]:
+                        - text: Most users on the
+                        - link [ref=e1056] [cursor=pointer]:
+                          - /url: https://forum.langchain.com/t/how-to-obtain-token-usage-from-langgraph/1727
+                          - text: LangChain Forum
+                        - text: and
+                        - generic [ref=e1057]: r/LangChain
+                        - text: use external platforms like
+                        - strong [ref=e1058]: Langfuse
+                        - text: or
+                        - strong [ref=e1059]: Langsmith
+                        - text: for automated token aggregation and cost alerts across loops and subgraphs.
+                      - generic [ref=e1063]:
+                        - link [ref=e1064] [cursor=pointer]:
+                          - /url: https://www.reddit.com/r/LangChain/comments/1pd8pxb/how_do_you_handle_token_counting_and_budget/
+                        - button [ref=e1065] [cursor=pointer]:
+                          - generic [ref=e1067]:
+                            - generic [ref=e1068]: Reddit
+                            - generic [ref=e1069]: ·r/LangChain
+                            - generic [ref=e1070]: "+1"
+              - separator [ref=e1072]
+              - heading [level=3] [ref=e1074]: Key Cost Challenges in LangGraph
+              - list [aria-hidden] [ref=e1075]:
+                - listitem [ref=e1077]:
+                  - generic [ref=e1078]:
+                    - strong [ref=e1079]: "Graph State Bloat:"
+                    - text: Passing the entire graph state into every node multiplies prompt tokens across steps.
+                  - generic [ref=e1083]:
+                    - link [ref=e1084] [cursor=pointer]:
+                      - /url: https://tokendiet.io/integrations/langgraph
+                    - button [ref=e1085] [cursor=pointer]:
+                      - generic [ref=e1086]: tokendiet.io
+                - listitem [ref=e1090]:
+                  - generic [ref=e1091]:
+                    - strong [ref=e1092]: "Loops and Retries:"
+                    - text: Conditional edges, agent re-planning loops, and error retries can quietly multiply token consumption if not bounded or trimmed.
+                  - generic [ref=e1096]:
+                    - link [ref=e1097] [cursor=pointer]:
+                      - /url: https://tokendiet.io/integrations/langgraph
+                    - button [ref=e1098] [cursor=pointer]:
+                      - generic [ref=e1099]: tokendiet.io
+                - listitem [ref=e1103]:
+                  - generic [ref=e1104]:
+                    - strong [ref=e1105]: "Reasoning/Special Tokens:"
+                    - text: Ensure your wrapper captures hidden tokens (such as O-series reasoning tokens or cache hits) so your billing math matches the provider invoice.
+                  - generic [ref=e1109]:
+                    - link [ref=e1110] [cursor=pointer]:
+                      - /url: https://github.com/orgs/langfuse/discussions/7032
+                    - button [ref=e1111] [cursor=pointer]:
+                      - generic [ref=e1113]:
+                        - generic [ref=e1114]: GitHub
+                        - generic [ref=e1115]: "+1"
+              - generic [ref=e1117]:
+                - generic [ref=e1118]: "Would you like to explore:"
+                - generic [ref=e1119]:
+                  - link [ref=e1122] [cursor=pointer]:
+                    - generic [ref=e1127]:
+                      - text: A code snippet for
+                      - strong [ref=e1128]: accumulating token usage inside a LangGraph state reducer
+                      - text: "?"
+                  - link [ref=e1131] [cursor=pointer]:
+                    - generic [ref=e1136]:
+                      - text: How to
+                      - strong [ref=e1137]: configure LangSmith
+                      - text: for node-level cost attribution?
+                  - link [ref=e1140] [cursor=pointer]:
+                    - generic [ref=e1145]:
+                      - text: Techniques for
+                      - strong [ref=e1146]: trimming state history
+                      - text: to reduce token burn?
+                - generic [ref=e1147]: Which of these would help most?
+          - button "Show more AI Overview" [ref=e1152]:
+            - generic [ref=e1153] [cursor=pointer]: Show more
+      - generic [ref=e174]:
+        - generic [ref=e178]:
+          - generic [ref=e181]:
+            - heading "Web results" [level=2] [ref=e182]
+            - generic [ref=e183]:
+              - generic [ref=e186]:
+                - link "Cost tracking - Docs by LangChain Docs by LangChain https://docs.langchain.com › langsmith › cost-tracking" [ref=e188] [cursor=pointer]:
+                  - /url: https://docs.langchain.com/langsmith/cost-tracking
+                  - heading "Cost tracking - Docs by LangChain" [level=3] [ref=e189]
+                  - generic [ref=e195]:
+                    - generic [ref=e196]: Docs by LangChain
+                    - generic [ref=e198]: https://docs.langchain.com › langsmith › cost-tracking
+                - button "About this result" [ref=e204] [cursor=pointer]
+              - generic [ref=e210]:
+                - generic [ref=e211]:
+                  - emphasis [ref=e212]: LangSmith automatically records LLM token usage and costs
+                  - text: for major providers, and also allows you to submit custom cost data for any additional components.
+                - link "Read more" [ref=e213] [cursor=pointer]:
+                  - /url: https://docs.langchain.com/langsmith/cost-tracking#:~:text=LangSmith%20automatically%20records%20LLM%20token,data%20for%20any%20additional%20components.
+              - list [ref=e215]:
+                - listitem [ref=e216]:
+                  - link "Token and cost breakdowns" [ref=e217] [cursor=pointer]:
+                    - /url: https://docs.langchain.com/langsmith/cost-tracking#token-and-cost-breakdowns
+                - listitem [ref=e220]:
+                  - link "Cost tracking" [ref=e221] [cursor=pointer]:
+                    - /url: https://docs.langchain.com/langsmith/cost-tracking#cost-tracking
+                - listitem [ref=e224]:
+                  - 'link "LLM calls: Automatically track..." [ref=e225] [cursor=pointer]':
+                    - /url: https://docs.langchain.com/langsmith/cost-tracking#llm-calls-automatically-track-costs-based-on-token-counts
+          - generic [ref=e231]:
+            - generic [ref=e234]:
+              - link "How to obtain token usage from langgraph? LangChain Forum https://forum.langchain.com › ... › LangGraph" [ref=e236] [cursor=pointer]:
+                - /url: https://forum.langchain.com/t/how-to-obtain-token-usage-from-langgraph/1727
+                - heading "How to obtain token usage from langgraph?" [level=3] [ref=e237]
+                - generic [ref=e243]:
+                  - generic [ref=e244]: LangChain Forum
+                  - generic [ref=e246]: https://forum.langchain.com › ... › LangGraph
+              - button "About this result" [ref=e252] [cursor=pointer]
+            - generic [ref=e258]:
+              - generic [ref=e259]: 1 Oct 2025 —
+              - generic [ref=e260]:
+                - text: How to obtain token usage from langgraph? ... Hi, I'm following this guide to
+                - emphasis [ref=e261]: track token usage
+                - text: "in my agentic workflow, this is my implementation:"
+              - link "Read more" [ref=e262] [cursor=pointer]:
+                - /url: https://forum.langchain.com/t/how-to-obtain-token-usage-from-langgraph/1727#:~:text=How%20to%20obtain%20token%20usage,from%20langgraph%3F&text=Hi%2C%20I'm%20following%20this%20guide,workflow%2C%20this%20is%20my%20implementation%3A
+          - generic [ref=e266]:
+            - generic [ref=e269]:
+              - link "count_tokens_approximately | langchain_core LangChain https://reference.langchain.com › messages › utils › cou..." [ref=e271] [cursor=pointer]:
+                - /url: https://reference.langchain.com/python/langchain-core/messages/utils/count_tokens_approximately
+                - heading "count_tokens_approximately | langchain_core" [level=3] [ref=e272]
+                - generic [ref=e278]:
+                  - generic [ref=e279]: LangChain
+                  - generic [ref=e281]: https://reference.langchain.com › messages › utils › cou...
+              - button "About this result" [ref=e287] [cursor=pointer]
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - emphasis [ref=e295]: Approximate the total number of tokens in messages
+                - text: . The token count includes stringified message content, role, and (optionally) name.
+              - link "Read more" [ref=e296] [cursor=pointer]:
+                - /url: https://reference.langchain.com/python/langchain-core/messages/utils/count_tokens_approximately#:~:text=Approximate%20the%20total%20number%20of,content%2C%20role%2C%20and%20(optionally)%20name.
+          - generic [ref=e301]:
+            - heading "People also ask" [level=2] [ref=e303]
+            - generic [ref=e304]:
+              - button "How are token costs calculated?" [ref=e310] [cursor=pointer]
+              - button "How much text is 1000 tokens?" [ref=e324] [cursor=pointer]
+              - button "What is the cost of 1000 AI tokens?" [ref=e338] [cursor=pointer]
+              - button "What is the cost of 100k tokens?" [ref=e352] [cursor=pointer]
+          - generic [ref=e362]:
+            - heading "Web results" [level=2] [ref=e363]
+            - generic [ref=e364]:
+              - generic [ref=e367]:
+                - link "LangSmith Plans and Pricing LangChain https://www.langchain.com › pricing" [ref=e369] [cursor=pointer]:
+                  - /url: https://www.langchain.com/pricing
+                  - heading "LangSmith Plans and Pricing" [level=3] [ref=e370]
+                  - generic [ref=e376]:
+                    - generic [ref=e377]: LangChain
+                    - generic [ref=e379]: https://www.langchain.com › pricing
+                - button "About this result" [ref=e385] [cursor=pointer]
+              - generic [ref=e391]:
+                - generic [ref=e392]:
+                  - text: Authentication & authorization for LangGraph APIs ...
+                  - emphasis [ref=e393]: LangSmith lets you choose the right retention for each trace
+                  - text: ", helping you balance cost and value."
+                - link "Read more" [ref=e394] [cursor=pointer]:
+                  - /url: https://www.langchain.com/pricing#:~:text=Authentication%20%26%20authorization%20for%20LangGraph,APIs&text=Are%20Tuned%20Evaluations%20charged%20for
+          - generic [ref=e398]:
+            - generic [ref=e401]:
+              - link "Tokens cost not computed for o4-mini with langgraph ... GitHub https://github.com › orgs › langfuse › discussions" [ref=e403] [cursor=pointer]:
+                - /url: https://github.com/orgs/langfuse/discussions/7032
+                - heading "Tokens cost not computed for o4-mini with langgraph ..." [level=3] [ref=e404]
+                - generic [ref=e410]:
+                  - generic [ref=e411]: GitHub
+                  - generic [ref=e413]: https://github.com › orgs › langfuse › discussions
+              - button "About this result" [ref=e419] [cursor=pointer]
+            - generic [ref=e425]:
+              - generic [ref=e426]: 26 May 2025 —
+              - generic [ref=e427]:
+                - text: Ensure that the
+                - emphasis [ref=e428]: token
+                - text: usage data being sent to Langfuse for o* models includes all
+                - emphasis [ref=e429]: tokens
+                - text: billed by the provider, including reasoning
+                - emphasis [ref=e430]: tokens
+                - text: .
+              - link "Read more" [ref=e431] [cursor=pointer]:
+                - /url: https://github.com/orgs/langfuse/discussions/7032#:~:text=Ensure%20that%20the%20token%20usage,the%20provider%2C%20including%20reasoning%20tokens.
+            - generic [ref=e434]:
+              - generic [ref=e435]:
+                - link [ref=e438] [cursor=pointer]:
+                  - /url: https://github.com/orgs/langfuse/discussions/7790
+                  - generic [ref=e439]:
+                    - text: How to show
+                    - emphasis [ref=e440]: token
+                    - text: and
+                    - emphasis [ref=e441]: cost
+                    - text: using aws bedrock on
+                    - emphasis [ref=e442]: langGraph
+                    - text: ...
+                - generic [ref=e443]: 9 Jul 2025
+              - generic [ref=e445]:
+                - link [ref=e448] [cursor=pointer]:
+                  - /url: https://github.com/orgs/langfuse/discussions/7964
+                  - generic [ref=e449]:
+                    - text: Differences in
+                    - emphasis [ref=e450]: Token
+                    - text: /
+                    - emphasis [ref=e451]: Cost
+                    - text: Tracking between Langfuse and ...
+                - generic [ref=e452]: 18 Jul 2025
+              - link "More results from github.com" [ref=e457] [cursor=pointer]:
+                - /url: /search?q=Langgraph+token+cost+counting+site:github.com&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQrQIoAnoECCUQAw
+          - generic [ref=e461]:
+            - generic [ref=e464]:
+              - 'link "LangGraph Pricing Guide: How Much Does It Cost? ZenML https://www.zenml.io › Blog › LLMOps" [ref=e466] [cursor=pointer]':
+                - /url: https://www.zenml.io/blog/langgraph-pricing
+                - 'heading "LangGraph Pricing Guide: How Much Does It Cost?" [level=3] [ref=e467]'
+                - generic [ref=e473]:
+                  - generic [ref=e474]: ZenML
+                  - generic [ref=e476]: https://www.zenml.io › Blog › LLMOps
+              - button "About this result" [ref=e482] [cursor=pointer]
+            - generic [ref=e488]:
+              - generic [ref=e489]: 22 Jun 2025 —
+              - generic [ref=e490]:
+                - text: In this LangGraph pricing guide, we discuss the
+                - emphasis [ref=e491]: costs, features, and value LangGraph provides
+                - text: to help you decide if it's the right investment ...
+              - link "Read more" [ref=e492] [cursor=pointer]:
+                - /url: https://www.zenml.io/blog/langgraph-pricing#:~:text=In%20this%20LangGraph%20pricing%20guide%2C,right%20investment%20for%20your%20business.
+            - list [ref=e494]:
+              - listitem [ref=e495]:
+                - link "LangGraph Pricing Factors to..." [ref=e496] [cursor=pointer]:
+                  - /url: https://www.zenml.io/blog/langgraph-pricing#langgraph-pricing-factors-to-consider
+              - listitem [ref=e499]:
+                - link "All Pricing Plans that..." [ref=e500] [cursor=pointer]:
+                  - /url: https://www.zenml.io/blog/langgraph-pricing#all-pricing-plans-that-langgraph-offers-open-source--paid
+              - listitem [ref=e503]:
+                - link "ZenML – An Affordable..." [ref=e504] [cursor=pointer]:
+                  - /url: https://www.zenml.io/blog/langgraph-pricing#zenml--an-affordable-langgraph-alternative
+          - generic [ref=e510]:
+            - generic [ref=e513]:
+              - link "LangGraph Cost Optimization - TokenDiet tokendiet.io https://tokendiet.io › ... › AI software factories & agents" [ref=e515] [cursor=pointer]:
+                - /url: https://tokendiet.io/integrations/langgraph
+                - heading "LangGraph Cost Optimization - TokenDiet" [level=3] [ref=e516]
+                - generic [ref=e522]:
+                  - generic [ref=e523]: tokendiet.io
+                  - generic [ref=e525]: https://tokendiet.io › ... › AI software factories & agents
+              - button "About this result" [ref=e531] [cursor=pointer]
+            - generic [ref=e538]:
+              - text: TokenDiet routes every AI request to the leanest model that clears your quality bar. Same results, healthier spend —
+              - emphasis [ref=e539]: cut model and token costs by up to 50
+              - text: "%."
+          - generic [ref=e543]:
+            - generic [ref=e546]:
+              - 'link "LangGraph Pricing: A Complete Breakdown for 2026 TrueFoundry https://www.truefoundry.com › blogs" [ref=e548] [cursor=pointer]':
+                - /url: https://www.truefoundry.com/blog/langgraph-pricing
+                - 'heading "LangGraph Pricing: A Complete Breakdown for 2026" [level=3] [ref=e549]'
+                - generic [ref=e555]:
+                  - generic [ref=e556]: TrueFoundry
+                  - generic [ref=e558]: https://www.truefoundry.com › blogs
+              - button "About this result" [ref=e564] [cursor=pointer]
+            - generic [ref=e570]:
+              - generic [ref=e571]: 24 Jul 2026 —
+              - generic [ref=e572]:
+                - text: The Developer plan is free for one seat, while Plus
+                - emphasis [ref=e573]: costs
+                - text: $39 per seat per month and includes up to 10,000 base traces per month. LangSmith ...
+              - link "Read more" [ref=e574] [cursor=pointer]:
+                - /url: https://www.truefoundry.com/blog/langgraph-pricing#:~:text=The%20Developer%20plan%20is%20free,for%20deploying%20and%20scaling%20agents.
+          - generic [ref=e578]:
+            - generic [ref=e581]:
+              - link "UsageMetadata | langchain_core LangChain https://reference.langchain.com › ... › UsageMetadata" [ref=e583] [cursor=pointer]:
+                - /url: https://reference.langchain.com/python/langchain-core/messages/ai/UsageMetadata
+                - heading "UsageMetadata | langchain_core" [level=3] [ref=e584]
+                - generic [ref=e590]:
+                  - generic [ref=e591]: LangChain
+                  - generic [ref=e593]: https://reference.langchain.com › ... › UsageMetadata
+              - button "About this result" [ref=e599] [cursor=pointer]
+            - generic [ref=e605]:
+              - generic [ref=e606]:
+                - emphasis [ref=e607]: Count
+                - text: of input (or prompt)
+                - emphasis [ref=e608]: tokens
+                - text: . Sum of all input
+                - emphasis [ref=e609]: token
+                - text: types. ...
+                - emphasis [ref=e610]: Count
+                - text: of output (or completion)
+                - emphasis [ref=e611]: tokens
+                - text: . Sum of all output
+                - emphasis [ref=e612]: token
+                - text: types. ... Total
+                - emphasis [ref=e613]: token count
+                - text: .
+              - link "Read more" [ref=e614] [cursor=pointer]:
+                - /url: https://reference.langchain.com/python/langchain-core/messages/ai/UsageMetadata#:~:text=Count%20of%20input%20(or%20prompt),of%20all%20input%20token%20types.&text=Count%20of%20output%20(or%20completion),of%20all%20output%20token%20types.&text=Total%20token%20count.%20Sum%20of
+        - generic [ref=e616]:
+          - generic [ref=e621]:
+            - heading "People also search for" [level=2] [ref=e623]
+            - generic [ref=e625]:
+              - generic [ref=e626]:
+                - link "LangChain cost tracking" [ref=e630] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=LangChain+cost+tracking&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhLEAE
+                - link "Langgraph token usage" [ref=e644] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Langgraph+token+usage&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhOEAE
+                - link "Langchain count tokens approximately" [ref=e658] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Langchain+count+tokens+approximately&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhTEAE
+                - link "LangGraph price" [ref=e672] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=LangGraph+price&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhUEAE
+              - generic [ref=e683]:
+                - link "Langfuse cost tracking" [ref=e687] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Langfuse+cost+tracking&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhREAE
+                - link "Is LangGraph free for commercial use" [ref=e701] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Is+LangGraph+free+for+commercial+use&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhSEAE
+                - link "Is LangGraph free to use" [ref=e715] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Is+LangGraph+free+to+use&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhNEAE
+                - link "Get token count langchain" [ref=e729] [cursor=pointer]:
+                  - /url: /search?sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&q=Get+token+count+langchain&sa=X&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ1QJ6BAhMEAE
+          - navigation [ref=e740]:
+            - heading "Page navigation" [level=1] [ref=e741]
+            - text: "1"
+            - link "Page 2" [ref=e744] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=10&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAE
+              - text: "2"
+            - link "Page 3" [ref=e746] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=20&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAG
+              - text: "3"
+            - link "Page 4" [ref=e748] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=30&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAI
+              - text: "4"
+            - link "Page 5" [ref=e750] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=40&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAK
+              - text: "5"
+            - link "Page 6" [ref=e752] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=50&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAM
+              - text: "6"
+            - link "Page 7" [ref=e754] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=60&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAO
+              - text: "7"
+            - link "Page 8" [ref=e756] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=70&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAQ
+              - text: "8"
+            - link "Page 9" [ref=e758] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=80&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAS
+              - text: "9"
+            - link "Page 10" [ref=e760] [cursor=pointer]:
+              - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=90&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8tMDegQIORAU
+              - text: "10"
+            - heading [level=2] [ref=e762]:
+              - link "Next" [ref=e763] [cursor=pointer]:
+                - /url: /search?q=Langgraph+token+cost+counting&sca_esv=cdc0bdeba4f9a603&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421&ei=Xr76avCRGZqaseMPu8KemAY&start=10&sa=N&sstk=AYl2yk-Q9oYKNcZh0gz2G523GpsfhN-8Bf2akb_fmBjdTvK65MWtcpT6hQ5OGKuazaJ5MRvT8LrG5sPlGOH1ogMGzA-KzO7nwik5fA&ved=2ahUKEwjwuLDaiIyYAxUaTWwGHTuhB2MQ8NMDegQIORAW
+        - navigation
+    - contentinfo [ref=e766]:
+      - heading "Footer links" [level=1] [ref=e767]
+      - generic [ref=e771]:
+        - generic [ref=e774]:
+          - generic [ref=e775]: Results are personalised
+          - generic [ref=e776]: "-"
+          - link "Try without personalisation" [ref=e778] [cursor=pointer]:
+            - /url: https://www.google.com/search?q=Langgraph+token+cost+counting&peek_pws=0&sxsrf=AKL5yDjuvMkDc6dfIvoSlYfinPDj4kRULw:1794817630421
+        - generic [ref=e781]:
+          - text: India
+          - generic [ref=e783]:
+            - button "500088, Hyderabad, Telangana - From your IP address" [ref=e785] [cursor=pointer]:
+              - generic [ref=e786]: 500088, Hyderabad, Telangana
+              - generic [ref=e788]:
+                - text: "-"
+                - generic [ref=e789]: From your IP address
+            - text: "-"
+            - button "Update location" [ref=e791] [cursor=pointer]
+        - generic [ref=e794]:
+          - link "Help" [ref=e795] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=en-IN&fg=1
+          - button "Send feedback" [ref=e797] [cursor=pointer]
+          - link "Privacy" [ref=e799] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-IN&fg=1
+          - link "Terms" [ref=e800] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-IN&fg=1

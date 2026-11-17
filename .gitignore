@@ -1,5 +1,6 @@
 .env
-tests/
+tests/*
+!tests/test_voice.py
 ARCHITECTURE.md
 __pycache__/
 *.py[cod]

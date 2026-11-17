@@ -1,0 +1,4 @@
+[      81ms] [WARNING] Error with Permissions-Policy header: Unrecognized feature: 'attribution-reporting'. @ :1
+[     231ms] [INFO] [O11Y] [DatadogRUM] Initialized {service: claude-ai, env: production, version: b2c5ba9e6a} @ https://assets-proxy.anthropic.com/claude-ai/v2/assets/v1/shared-l-p-m-w-0-ngPjbQwo.js:27
+[     348ms] [LOG] recaptchacompat disabled @ https://js.hcaptcha.com/1/api.js?render=explicit&recaptchacompat=off&onload=__antClientAttestationHcaptchaInvisibleReady:4
+[    1054ms] [INFO] Auto re-authn was previously triggered less than 10 minutes ago. Only one auto re-authn request can be made every 10 minutes. @ https://claude.ai/login:1

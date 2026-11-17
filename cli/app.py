@@ -17,13 +17,14 @@ from ai.router.graph import voice_graph
 from cli.animation.states import MascotState
 from cli.widgets.chat_view import ChatView
 from cli.widgets.mascot import Mascot
+from ai.voice.voice_input import VoiceInput
 
 
 try:
     SLEEP_AFTER_SECONDS = max(10, int(os.getenv("MAX_IDLE_SLEEP_SECONDS", "90")))
 except ValueError:
     SLEEP_AFTER_SECONDS = 90
-SPECIALISTS = {"apple", "browser", "system", "file"}
+SPECIALISTS = {"apple", "browser", "system", "file", "convo"}
 
 
 def _with_history(message: str, history: list[dict[str, str]]) -> str:
@@ -53,6 +54,7 @@ class MaxApp(App[None]):
         self.request_running = False
         self._request_tasks: set[asyncio.Task] = set()
         self._terminal_timer = None
+        self._voice_input: VoiceInput | None = None
 
     def compose(self) -> ComposeResult:
         with Horizontal(id="topbar"):
@@ -64,7 +66,7 @@ class MaxApp(App[None]):
         with Horizontal(id="input-row"):
             yield Static("›", id="input-prompt")
             yield Input(placeholder="Ask Max anything…", id="request-input")
-        yield Static("/help   /clear   /history   /reset   /exit", id="command-help")
+        yield Static("/help   /voice   /clear   /history   /reset   /exit", id="command-help")
 
     def on_mount(self) -> None:
         chat = self.query_one(ChatView)
@@ -72,6 +74,29 @@ class MaxApp(App[None]):
         self.query_one(Input).focus()
         self.set_interval(2.0, self._check_idle)
         self._adapt_layout(self.size.width, self.size.height)
+
+    def on_unmount(self) -> None:
+        if self._voice_input is not None:
+            self._voice_input.stop()
+
+    def _on_voice_transcript(self, transcript: str) -> None:
+        self._voice_input = None
+        if self.request_running:
+            return
+        self.query_one(ChatView).add_status(f"Heard: {transcript}", "dim")
+        self._submit_message(transcript)
+
+    def _on_voice_error(self, message: str) -> None:
+        self._voice_input = None
+        chat = self.query_one(ChatView)
+        self._mascot().set_state(MascotState.IDLE)
+        self._set_status("READY")
+        chat.add_status(f"Voice input: {message}", "yellow")
+
+    def _on_voice_transcribing(self) -> None:
+        self._mascot().set_state(MascotState.THINKING)
+        self._set_status("TRANSCRIBING")
+        self.query_one(ChatView).add_status("Transcribing with Parakeet MLX…", "cyan")
 
     def on_resize(self, event: Resize) -> None:
         self._adapt_layout(event.size.width, event.size.height)
@@ -151,6 +176,12 @@ class MaxApp(App[None]):
         if message.startswith("/"):
             self._handle_command(message.casefold())
             return
+        self._submit_message(message)
+
+    def _submit_message(self, message: str) -> None:
+        if not message or self.request_running:
+            return
+        self._touch()
         self.query_one(ChatView).add_user(message)
         self._mascot().set_state(MascotState.THINKING)
         self._set_status("THINKING")
@@ -164,7 +195,26 @@ class MaxApp(App[None]):
         if command == "/exit":
             self.exit()
         elif command == "/help":
-            chat.add_status("Commands: /help · /clear · /history · /reset · /exit", "cyan")
+            chat.add_status("Commands: /help · /voice · /clear · /history · /reset · /exit", "cyan")
+        elif command == "/voice":
+            if self.request_running:
+                chat.add_status("Wait for the current request to finish before using /voice.", "yellow")
+                return
+            if self._voice_input is not None and self._voice_input.is_running:
+                chat.add_status("Voice capture is already active.", "yellow")
+                return
+            self._touch()
+            self._mascot().set_state(MascotState.LISTENING)
+            self._set_status("LISTENING")
+            chat.add_status("Listening now. Speak your request; pause when you’re done.", "cyan")
+            self._voice_input = VoiceInput(
+                on_transcript=lambda transcript: self.call_from_thread(
+                    self._on_voice_transcript, transcript
+                ),
+                on_transcribing=lambda: self.call_from_thread(self._on_voice_transcribing),
+                on_error=lambda message: self.call_from_thread(self._on_voice_error, message),
+            )
+            self._voice_input.start()
         elif command == "/history":
             if not self.history:
                 chat.add_status("No completed requests in this session yet.")

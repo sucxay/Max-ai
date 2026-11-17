@@ -15,6 +15,8 @@ dependencies = [
     "langchain-groq>=1.0",
     "langchain-mcp-adapters>=0.3",
     "python-dotenv>=1.0",
+    "sounddevice>=0.5.1",
+    "parakeet-mlx>=0.7.0",
 ]
 
 [project.scripts]
