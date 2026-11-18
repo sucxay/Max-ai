@@ -29,12 +29,18 @@ instructions with the Playwright browser tools.
 - For a web search, navigate to a search engine, enter the query, submit it, and
   inspect the results. Do not stop after opening the search engine.
 - Click an input before typing into it.
+- Two dedicated tabs are opened for you in the user's existing Chrome session.
+  Use browser_tabs to select and reuse them. Leave the user's other tabs alone.
+  Do not open additional tabs unless the task requires them.
 - Dismiss popups like "Not Now" or "Save login info" first.
 - Complete the whole task instead of stopping after opening a site.
+- For a request that only asks to open a site, successful navigation completes
+  the task. Reply immediately; do not search, inspect unrelated elements, or wait
+  for the user to interact. For other tasks, stop once the requested result is verified.
 - If blocked by login, CAPTCHA, or an error, tell the user.
 - Never claim success without verifying it on the page.
-- After the task is complete and verified, close the controlled browser using
-  browser_close when available.
+- Keep the browser open after tasks so the user can interact with it and
+  continue in later turns. Only use browser_close when the user asks to close it.
 - Ask for confirmation before sending messages, purchases, or destructive actions.
 - Understand short replies like "yes" or "go ahead" from the previous turn.
 """
@@ -73,10 +79,13 @@ _stack = AsyncExitStack()
 _agent = None
 _browser_close_tool = None
 _lock = asyncio.Lock()
+_tabs_lock = asyncio.Lock()
+_session = None
+_task_tab_count = 0
 
 async def get_agent():
     """Create the session + agent once, then reuse it forever."""
-    global _agent, _browser_close_tool
+    global _agent, _browser_close_tool, _session
     async with _lock:
         if _agent is None:
             session = await _stack.enter_async_context(client.session("playwright"))
@@ -97,7 +106,62 @@ async def get_agent():
                 checkpointer=InMemorySaver(),
                 system_prompt=SYSTEM_PROMPT,
             )
+            _session = session
     return _agent
+
+
+async def prepare_browser_tabs():
+    """Create two task tabs once per connection, without replacing user tabs."""
+    global _task_tab_count
+    async with _tabs_lock:
+        if _session is None:
+            raise RuntimeError("Browser agent has not been initialized at startup.")
+        while _task_tab_count < 2:
+            result = await _session.call_tool("browser_tabs", {"action": "new"})
+            if result.isError:
+                raise RuntimeError(
+                    "Could not open task tabs in Chrome. Open chrome://inspect/#remote-debugging "
+                    "and enable 'Allow remote debugging for this browser instance', "
+                    "then approve the connection in Chrome."
+                )
+            _task_tab_count += 1
+
+
+def navigation_target(task: str):
+    """Recognize navigation-only requests; leave interactive tasks to the agent."""
+    match = re.fullmatch(
+        r"\s*(?:please\s+)?(?:open|visit|navigate to|go to)\s+"
+        r"(\S+?)(?:\s+(?:please|in (?:the )?browser))?[.!]?\s*",
+        task, re.IGNORECASE,
+    )
+    if not match:
+        return None
+    target = match.group(1)
+    sites = {
+        "instagram": "https://www.instagram.com/",
+        "youtube": "https://www.youtube.com/",
+        "google": "https://www.google.com/",
+        "gmail": "https://mail.google.com/",
+        "facebook": "https://www.facebook.com/",
+        "reddit": "https://www.reddit.com/",
+    }
+    if target.lower() in sites:
+        return sites[target.lower()]
+    if re.fullmatch(r"(?:https?://)?[\w-]+(?:\.[\w-]+)+(?:[/:?#][^\s]*)?", target):
+        return target if target.startswith(("http://", "https://")) else f"https://{target}"
+    return None
+
+
+async def open_browser_url(url: str):
+    """Return after navigation, without waiting for an unnecessary model turn."""
+    result = await _session.call_tool("browser_navigate", {"url": url})
+    details = "\n".join(
+        item.text for item in result.content if getattr(item, "type", None) == "text"
+    )
+    if result.isError:
+        raise RuntimeError(f"Could not open {url}: {details}")
+    log_browser_debug(f"Navigation completed: {url}")
+    return {"response": f"Opened {url} in Chrome."}
 
 
 def get_existing_agent():
@@ -127,7 +191,7 @@ async def close_browser_tab():
 
 async def close_browser_agent():
     """Close the shared Playwright session during application shutdown."""
-    global _agent, _stack, _browser_close_tool
+    global _agent, _stack, _browser_close_tool, _session, _task_tab_count
     async with _lock:
         if _agent is not None:
             await _stack.aclose()
@@ -136,6 +200,8 @@ async def close_browser_agent():
             logger.info("Playwright MCP session closed")
             _agent = None
             _browser_close_tool = None
+            _session = None
+            _task_tab_count = 0
             # AsyncExitStack is one-shot once closed; create a fresh stack for
             # the next request (or application restart in the same process).
             _stack = AsyncExitStack()

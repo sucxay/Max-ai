@@ -1,6 +1,12 @@
 .env
 tests/*
 !tests/test_voice.py
+!tests/test_browser_lifecycle.py
+!tests/test_system_app_tools.py
+!tests/test_apple_agent.py
+!tests/test_computer_tools.py
+tests/manual/
+.playwright-mcp/
 ARCHITECTURE.md
 __pycache__/
 *.py[cod]

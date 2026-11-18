@@ -1,6 +1,8 @@
 from langchain.agents import create_agent 
 from ai.llm.llm import get_llm 
 from ai.mcp.apple_mcp import get_apple_tools 
+from ai.tools.music import apple_music
+from datetime import datetime
 
 
 SYSTEM_PROMPT= """
@@ -32,6 +34,17 @@ Use available tools to interact with:
 - Apple Contacts: Search and retrieve contacts.
 - Apple Messages: Search conversations and send messages when authorized.
 - Apple Mail: Search emails and send messages when authorized.
+- Apple Maps: Search locations, get directions, and manage favorites and guides.
+- Apple Music: Play/pause/stop, skip tracks, inspect playback, search the user's
+  library, list/play playlists, and set Music volume. Catalog search is unavailable.
+
+The tool inventory below is authoritative. Use every available tool as appropriate;
+do not assume an app or operation exists merely because it is an Apple service.
+Resolve relative dates using the current local date/time below and include time zones
+when needed. Clarify ambiguous event times or recipients before changing anything.
+If macOS denies permission, report the specific service and permission error.
+Finish as soon as the requested action is verified; never wait for future reminders,
+calendar events, music playback to end, or another user interaction.
 
 Only use capabilities actually exposed by the connected MCP server.
 
@@ -50,16 +63,18 @@ Your responsibility is to act as a reliable macOS application agent, not a gener
 
 
 async def apple_agent(): 
-    tools = await get_apple_tools()
+    tools = [*await get_apple_tools(), apple_music]
+    inventory = "\n".join(f"- {tool.name}: {tool.description}" for tool in tools)
+    prompt = (
+        SYSTEM_PROMPT
+        + "\nCurrent local date/time: " + datetime.now().astimezone().isoformat()
+        + "\n\nAvailable tools for this request:\n" + inventory
+    )
 
     agent = create_agent(
         model=get_llm() , 
         tools=tools, 
-        system_prompt=SYSTEM_PROMPT
+        system_prompt=prompt
     )
-    return agent 
-
- 
-
-
+    return agent
  

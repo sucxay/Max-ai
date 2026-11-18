@@ -119,8 +119,104 @@ APP_ALIASES = {
     "settings": "System Settings",
     "calculator": "Calculator",
     "notes": "Notes",
-    "camera":"Photo Booth"
+    "camera": "Photo Booth",
+    "claude": "Claude",
+    "chatgpt": "ChatGPT",
+    "chat gpt": "ChatGPT",
 }
+
+
+# Pass application names and user text as argv, never as AppleScript source.
+_TYPE_IN_APP_SCRIPT = '''
+on run argv
+    set appName to item 1 of argv
+    set promptText to item 2 of argv
+    set shouldSubmit to item 3 of argv
+    tell application appName
+        activate
+        set appID to id
+    end tell
+    tell application "System Events"
+        set targetProcess to first application process whose bundle identifier is appID
+        repeat 40 times
+            if frontmost of targetProcess then exit repeat
+            delay 0.1
+        end repeat
+        if not (frontmost of targetProcess) then error "Could not focus the requested app."
+        tell targetProcess
+            set focusedElement to value of attribute "AXFocusedUIElement"
+            set focusedRole to role of focusedElement
+            if focusedRole is not in {"AXTextArea", "AXTextField", "AXComboBox"} then
+                error "Click the message input in the requested app, then try again."
+            end if
+        end tell
+    end tell
+    set savedClipboard to the clipboard as record
+    try
+        set the clipboard to promptText
+        tell application "System Events"
+            if not (frontmost of targetProcess) then error "App focus changed; text was not pasted."
+            keystroke "v" using command down
+            delay 0.3
+            if shouldSubmit is "true" then
+                if not (frontmost of targetProcess) then error "App focus changed; prompt was not submitted."
+                key code 36
+            end if
+        end tell
+    on error errorMessage
+        set the clipboard to savedClipboard
+        error errorMessage
+    end try
+    set the clipboard to savedClipboard
+end run
+'''
+
+
+def _type_in_app(app_name: str, text: str, submit: bool) -> str:
+    app = APP_ALIASES.get(app_name.strip().lower(), app_name.strip())
+    if not app or not text.strip():
+        return "Application name and text are required."
+    try:
+        subprocess.run(
+            ["osascript", "-", app, text, str(submit).lower()],
+            input=_TYPE_IN_APP_SCRIPT,
+            check=True, capture_output=True, text=True, timeout=20,
+        )
+    except subprocess.TimeoutExpired:
+        return "App interaction timed out. Check the app before retrying; text may already have been entered."
+    except subprocess.CalledProcessError as exc:
+        return (
+            f"Could not complete typing in {app}: {exc.stderr.strip()}. "
+            "If macOS denied access, allow your terminal or Max in System Settings > "
+            "Privacy & Security > Accessibility and Automation. Do not retry submission "
+            "without checking whether it already went through."
+        )
+    except OSError as exc:
+        return f"Could not control {app}: {exc}"
+    if submit:
+        return f"Pasted text into {app} and pressed Return. Delivery has not been verified."
+    return f"Pasted text into the focused input in {app}."
+
+
+@tool
+def type_in_app(app_name: str, text: str) -> str:
+    """Open/focus a macOS app and paste exact text into its focused text input without sending.
+
+    The user must have the desired input selected in the app. Preserves the clipboard.
+    Requires macOS Accessibility and Automation permissions.
+    """
+    return _type_in_app(app_name, text, submit=False)
+
+
+@tool
+def send_app_prompt(app_name: str, text: str) -> str:
+    """Open/focus an app, paste exact text in its focused input and press Return once.
+
+    Use when the user explicitly asks to send/submit a prompt, e.g. to Claude or ChatGPT.
+    The desired message input must be selected; Return must submit in that app.
+    This reports keyboard actions, not verified delivery. Never blindly retry.
+    """
+    return _type_in_app(app_name, text, submit=True)
 
 
 @tool
