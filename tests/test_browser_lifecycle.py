@@ -16,7 +16,7 @@ class BrowserLifecycleTests(unittest.IsolatedAsyncioTestCase):
             isError=False, content=[]
         )))
         with (
-            patch.object(graph, "get_existing_agent", return_value=agent),
+            patch.object(graph, "get_agent", new_callable=AsyncMock, return_value=agent),
             patch.object(graph, "prepare_browser_tabs", new_callable=AsyncMock),
             patch.object(graph, "log_browser_debug"),
             patch.object(browser_agent, "log_browser_debug"),
@@ -50,7 +50,7 @@ class BrowserLifecycleTests(unittest.IsolatedAsyncioTestCase):
         close_tool = SimpleNamespace(ainvoke=AsyncMock())
         with (
             patch.object(browser_agent, "_browser_close_tool", close_tool),
-            patch.object(graph, "get_existing_agent", return_value=agent),
+            patch.object(graph, "get_agent", new_callable=AsyncMock, return_value=agent),
             patch.object(graph, "prepare_browser_tabs", new_callable=AsyncMock),
             patch.object(graph, "log_browser_debug"),
             patch.object(asyncio, "wait_for", side_effect=AssertionError("Unexpected deadline")),
@@ -70,7 +70,7 @@ class BrowserLifecycleTests(unittest.IsolatedAsyncioTestCase):
         close_tool = SimpleNamespace(ainvoke=AsyncMock())
         with (
             patch.object(browser_agent, "_browser_close_tool", close_tool),
-            patch.object(graph, "get_existing_agent", return_value=agent),
+            patch.object(graph, "get_agent", new_callable=AsyncMock, return_value=agent),
             patch.object(graph, "prepare_browser_tabs", new_callable=AsyncMock),
             patch.object(graph, "log_browser_debug"),
         ):

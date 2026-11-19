@@ -5,7 +5,7 @@ from ai.router.router import router_node, route_task
 
 from ai.agents.apple_agent import apple_agent
 from ai.agents.browser_agent import (
-    get_existing_agent, log_browser_debug, prepare_browser_tabs,
+    get_agent, log_browser_debug, prepare_browser_tabs,
     navigation_target, open_browser_url,
 )
 from ai.agents.system_agent import system_agent
@@ -25,7 +25,9 @@ async def apple_node(state: VoiceState):
 
 
 async def browser_node(state: VoiceState):
-    agent = get_existing_agent()
+    # Connect to Chrome only when a browser task is requested. Max should still
+    # launch when Chrome is closed or remote debugging has not been enabled.
+    agent = await get_agent()
     await prepare_browser_tabs()
     log_browser_debug("Browser task started")
     url = navigation_target(state["task"])

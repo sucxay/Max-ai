@@ -306,13 +306,12 @@ class MaxApp(App[None]):
 
 
 async def main() -> None:
-    """Open shared services and run the interface on one asyncio loop."""
-    from ai.agents.browser_agent import close_browser_agent, get_agent, log_browser_debug
+    """Run the interface and close shared services on one asyncio loop."""
+    from ai.agents.browser_agent import close_browser_agent, log_browser_debug
 
     logging.basicConfig(level=logging.INFO)
     app = None
     try:
-        await get_agent()
         app = MaxApp()
         log_browser_debug("Textual app starting")
         await app.run_async()
