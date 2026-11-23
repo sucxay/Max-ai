@@ -5,12 +5,13 @@ from ai.router.router import router_node, route_task
 
 from ai.agents.apple_agent import apple_agent
 from ai.agents.browser_agent import (
-    get_agent, log_browser_debug, prepare_browser_tabs,
-    navigation_target, open_browser_url,
+    get_agent, is_open_chrome_request, log_browser_debug,
+    navigation_target, open_browser_url, open_chrome, open_web_search, search_target,
 )
 from ai.agents.system_agent import system_agent
 from ai.agents.file_agent import file_agent
 from ai.agents.convo_agent import convo_agent
+from ai.tools.system import send_app_prompt, type_in_app
 
 _BROWSER_THREAD_ID = "nova-browser"
 
@@ -25,14 +26,17 @@ async def apple_node(state: VoiceState):
 
 
 async def browser_node(state: VoiceState):
-    # Connect to Chrome only when a browser task is requested. Max should still
-    # launch when Chrome is closed or remote debugging has not been enabled.
+    # Launch Max's Chrome session only when a browser task is requested.
     agent = await get_agent()
-    await prepare_browser_tabs()
     log_browser_debug("Browser task started")
+    if is_open_chrome_request(state["task"]):
+        return await open_chrome()
     url = navigation_target(state["task"])
     if url:
         return await open_browser_url(url)
+    query = search_target(state["task"])
+    if query:
+        return await open_web_search(query)
     # Browser tasks can include logins and other user interaction. Keep the
     # shared session alive across requests and close it only at app shutdown.
     result = await agent.ainvoke(
@@ -64,6 +68,13 @@ async def file_node(state: VoiceState):
 
 
 async def system_node(state: VoiceState):
+    desktop_input = state.get("desktop_input")
+    if desktop_input is not None:
+        input_tool = send_app_prompt if desktop_input["submit"] else type_in_app
+        return {"response": await input_tool.ainvoke({
+            "app_name": desktop_input["app_name"],
+            "text": desktop_input["text"],
+        })}
     agent = system_agent()
     result = await agent.ainvoke({
         "messages": [{"role": "user", "content": state["task"]}]

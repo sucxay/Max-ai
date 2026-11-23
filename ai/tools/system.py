@@ -121,6 +121,7 @@ APP_ALIASES = {
     "notes": "Notes",
     "camera": "Photo Booth",
     "claude": "Claude",
+    "claude desktop": "Claude",
     "chatgpt": "ChatGPT",
     "chat gpt": "ChatGPT",
 }
@@ -128,6 +129,57 @@ APP_ALIASES = {
 
 # Pass application names and user text as argv, never as AppleScript source.
 _TYPE_IN_APP_SCRIPT = '''
+on isClaudeComposer(candidate)
+    tell application "System Events"
+        try
+            if role of candidate is not "AXTextArea" then return false
+            repeat with labelAttribute in {"AXDescription", "AXTitle"}
+                try
+                    if value of attribute (contents of labelAttribute) of candidate is "Write your prompt to Claude" then return true
+                end try
+            end repeat
+        end try
+    end tell
+    return false
+end isClaudeComposer
+
+on findClaudeComposer(targetProcess)
+    tell application "System Events"
+        repeat 16 times
+            if not (frontmost of targetProcess) then error "App focus changed before typing."
+            try
+                set focusedElement to value of attribute "AXFocusedUIElement" of targetProcess
+                if my isClaudeComposer(focusedElement) then return focusedElement
+            end try
+            if (count of windows of targetProcess) > 0 then
+                set visibleWindow to front window of targetProcess
+                repeat with candidate in (entire contents of visibleWindow)
+                    if my isClaudeComposer(contents of candidate) then return contents of candidate
+                end repeat
+            end if
+            delay 0.25
+        end repeat
+    end tell
+    error "Could not find Claude's message input. Open a Claude chat and try again."
+end findClaudeComposer
+
+on hasDraft(composer)
+    tell application "System Events" to set draftText to value of attribute "AXValue" of composer
+    if draftText is missing value then return false
+    repeat with characterValue in characters of (draftText as text)
+        if (contents of characterValue) is not in {" ", tab, return, linefeed} then return true
+    end repeat
+    return false
+end hasDraft
+
+on checkClaudeFocus(targetProcess, composer)
+    tell application "System Events"
+        if not (frontmost of targetProcess) then error "App focus changed."
+        if value of attribute "AXFocused" of composer is true then return
+    end tell
+    error "Claude's message input lost focus."
+end checkClaudeFocus
+
 on run argv
     set appName to item 1 of argv
     set promptText to item 2 of argv
@@ -136,36 +188,63 @@ on run argv
         activate
         set appID to id
     end tell
+    set isClaude to appID is "com.anthropic.claudefordesktop"
     tell application "System Events"
         set targetProcess to first application process whose bundle identifier is appID
+        set frontmost of targetProcess to true
         repeat 40 times
             if frontmost of targetProcess then exit repeat
             delay 0.1
         end repeat
         if not (frontmost of targetProcess) then error "Could not focus the requested app."
-        tell targetProcess
-            set focusedElement to value of attribute "AXFocusedUIElement"
+        if isClaude then
+            set composer to my findClaudeComposer(targetProcess)
+            if my hasDraft(composer) then error "Claude already has a draft. Clear or send it before asking Max to enter a new prompt."
+            set value of attribute "AXFocused" of composer to true
+            delay 0.15
+            my checkClaudeFocus(targetProcess, composer)
+        else
+            set focusedElement to value of attribute "AXFocusedUIElement" of targetProcess
             set focusedRole to role of focusedElement
             if focusedRole is not in {"AXTextArea", "AXTextField", "AXComboBox"} then
                 error "Click the message input in the requested app, then try again."
             end if
-        end tell
+        end if
     end tell
     set savedClipboard to the clipboard as record
     try
         set the clipboard to promptText
         tell application "System Events"
             if not (frontmost of targetProcess) then error "App focus changed; text was not pasted."
+            if isClaude then my checkClaudeFocus(targetProcess, composer)
             keystroke "v" using command down
             delay 0.3
+            if isClaude then
+                set pasteVerified to false
+                repeat 10 times
+                    my checkClaudeFocus(targetProcess, composer)
+                    set pastedText to value of attribute "AXValue" of composer
+                    if pastedText is not missing value then
+                        considering case
+                            if (pastedText as text) contains promptText then
+                                set pasteVerified to true
+                                exit repeat
+                            end if
+                        end considering
+                    end if
+                    delay 0.1
+                end repeat
+                if not pasteVerified then error "Could not verify the pasted text in Claude. Check the composer before retrying."
+            end if
             if shouldSubmit is "true" then
                 if not (frontmost of targetProcess) then error "App focus changed; prompt was not submitted."
+                if isClaude then my checkClaudeFocus(targetProcess, composer)
                 key code 36
             end if
         end tell
-    on error errorMessage
+    on error errorMessage number errorNumber
         set the clipboard to savedClipboard
-        error errorMessage
+        error errorMessage number errorNumber
     end try
     set the clipboard to savedClipboard
 end run
@@ -185,12 +264,21 @@ def _type_in_app(app_name: str, text: str, submit: bool) -> str:
     except subprocess.TimeoutExpired:
         return "App interaction timed out. Check the app before retrying; text may already have been entered."
     except subprocess.CalledProcessError as exc:
-        return (
-            f"Could not complete typing in {app}: {exc.stderr.strip()}. "
-            "If macOS denied access, allow your terminal or Max in System Settings > "
-            "Privacy & Security > Accessibility and Automation. Do not retry submission "
-            "without checking whether it already went through."
-        )
+        details = (exc.stderr or str(exc)).strip()
+        result = f"Could not complete typing in {app}: {details}"
+        if "(-25211)" in details or "assistive access" in details:
+            return (
+                f"{result} In System Settings → Privacy & Security → Accessibility, "
+                "enable the app that launches Max, such as Terminal or Visual Studio Code."
+            )
+        if "(-1743)" in details or "Not authorized" in details:
+            return (
+                f"{result} In System Settings → Privacy & Security → Automation, "
+                "allow the app that launches Max to control System Events."
+            )
+        if submit:
+            return f"{result} Check the app before retrying submission."
+        return result
     except OSError as exc:
         return f"Could not control {app}: {exc}"
     if submit:
@@ -202,7 +290,8 @@ def _type_in_app(app_name: str, text: str, submit: bool) -> str:
 def type_in_app(app_name: str, text: str) -> str:
     """Open/focus a macOS app and paste exact text into its focused text input without sending.
 
-    The user must have the desired input selected in the app. Preserves the clipboard.
+    Locates Claude's message input automatically. In other apps, select the
+    desired input first. Preserves the clipboard.
     Requires macOS Accessibility and Automation permissions.
     """
     return _type_in_app(app_name, text, submit=False)
@@ -213,7 +302,8 @@ def send_app_prompt(app_name: str, text: str) -> str:
     """Open/focus an app, paste exact text in its focused input and press Return once.
 
     Use when the user explicitly asks to send/submit a prompt, e.g. to Claude or ChatGPT.
-    The desired message input must be selected; Return must submit in that app.
+    Locates Claude's message input automatically. In other apps, select the
+    desired message input first. Return must submit in the app.
     This reports keyboard actions, not verified delivery. Never blindly retry.
     """
     return _type_in_app(app_name, text, submit=True)

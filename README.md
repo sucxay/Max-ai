@@ -1,20 +1,9 @@
 # Max assistant
 
-The browser agent connects to your running Google Chrome, using your existing
-profile and signed-in sessions.
-
-Before the first browser request:
-
-1. Open Chrome and go to `chrome://inspect/#remote-debugging`.
-2. Enable **Allow remote debugging for this browser instance**.
-3. Start Max and approve the connection in Chrome when prompted.
-
-This requires a Chrome version that offers that setting. See the
-[Playwright connection instructions](https://playwright.dev/mcp/configuration/browser-extension).
-
-On the first browser request, Max opens two dedicated tabs in that Chrome
-session. Later requests reuse them. Existing tabs remain open, and browser
-requests have no fixed 90-second deadline.
+Install Google Chrome to use Max's browser agent. On the first browser request,
+Max launches a separate Chrome session with a fresh profile and uses its
+initial tab. Later requests reuse that session. Closing Max ends the session
+and discards its cookies and sign-ins.
 
 The Apple agent loads every tool advertised by Apple MCP: Calendar, Reminders,
 Notes, Contacts, Messages, Mail, and Maps. Native Music controls additionally
@@ -40,6 +29,14 @@ For example, “Open VS Code and launch my SPEC2RTL project” searches for that
 folder and opens it in VS Code. If several folders match, Max asks which one.
 Opening a project does not automatically execute its code. Window controls and
 desktop typing require macOS Accessibility and Automation permissions.
+
+In **System Settings → Privacy & Security → Accessibility**, enable the app
+you use to launch Max (for example, Terminal). On the first typing request,
+allow that app to control **System Events** when macOS prompts, or enable it
+under **Privacy & Security → Automation** if it is already listed. Max focuses
+Claude's message composer automatically. In other apps, focus the desired
+input before asking Max to type. Say “Open Claude Desktop and ask it why the
+sky is blue” to submit a prompt, or “Type this in Claude” to leave a draft.
 
 ### Approved project commands
 

@@ -33,7 +33,8 @@ def system_agent():
         Rules:
         - Use system_volume for all volume operations.
         - Use system_brightness for all brightness operations.
-        - Use open_app for all application opening operations.
+        - Use open_app for requests that only need to open an app. For requests
+          to open an app and type or send a prompt, use the typing tool directly.
         - For "Open VS Code and launch my SPEC2RTL project", find_local_items
           with kind=directory and name=SPEC2RTL, then open_project with the resolved
           path. If multiple projects match, ask which one. Do not invent paths.
@@ -48,8 +49,8 @@ def system_agent():
           directly for requests that include text entry.
         - Preserve the user's exact requested text. Use type_in_app for drafts and
           send_app_prompt only when the user asks to send, ask, or submit it.
-        - If an input is not focused, tell the user to click the message input.
-          Do not guess keyboard shortcuts or type into a different application.
+        - If the typing tool cannot locate or focus an input, report its exact
+          error. Do not guess shortcuts or type into a different application.
         - After the tool returns, finish promptly. Do not repeat submissions.
         - Report that Return was pressed; do not claim delivery or an AI response
           was verified, since these tools cannot read the response.

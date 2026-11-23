@@ -1,8 +1,8 @@
-from contextlib import asynccontextmanager, AsyncExitStack
+from contextlib import asynccontextmanager
 import asyncio
-import logging
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urlencode
 
 from langchain.agents import create_agent
 from langchain_mcp_adapters.tools import load_mcp_tools
@@ -12,7 +12,6 @@ from mcp.types import TextContent
 from ai.llm.llm import get_llm
 from ai.mcp.client import client
 
-logger = logging.getLogger(__name__)
 _DEBUG_LOG = Path("/tmp/max-browser-lifecycle.log")
 
 
@@ -25,12 +24,13 @@ SYSTEM_PROMPT = """
 You are Nova, an autonomous browser automation agent. Execute the user's
 instructions with the Playwright browser tools.
 
-- After browser_navigate, call browser_snapshot to see the page and get element refs.
+- Use the snapshot included in browser_navigate results to read the page and get
+  element refs. Call browser_snapshot if you need a newer or fuller snapshot.
+- When the snapshot already contains the information requested, answer directly.
 - For a web search, navigate to a search engine, enter the query, submit it, and
   inspect the results. Do not stop after opening the search engine.
 - Click an input before typing into it.
-- Two dedicated tabs are opened for you in the user's existing Chrome session.
-  Use browser_tabs to select and reuse them. Leave the user's other tabs alone.
+- Use the current tab in Max's separate Chrome session.
   Do not open additional tabs unless the task requires them.
 - Dismiss popups like "Not Now" or "Save login info" first.
 - Complete the whole task instead of stopping after opening a site.
@@ -54,14 +54,15 @@ MAX_CHARS = 4000
 def shrink(text: str) -> str:
     if "### Snapshot" in text:
         head, _, body = text.partition("### Snapshot")
-        # keep only interactive lines (they carry the refs) and drop bounding boxes
-        lines = [re.sub(r"\s*\[box=[^\]]*\]", "", l) for l in body.splitlines() if "[ref=" in l]
-        text = head + "### Snapshot\n" + "\n".join(lines)
+        body = re.sub(r"\s*\[box=[^\]]*\]", "", body)
+        text = head + "### Snapshot" + body
     return text[:MAX_CHARS]
 
 
 async def strip_images_interceptor(request, handler):
+    log_browser_debug(f"Calling browser tool: {request.name}")
     result = await handler(request)
+    log_browser_debug(f"Browser tool returned: {request.name} (error={result.isError})")
     if hasattr(result, "content") and isinstance(result.content, list):
         cleaned = []
         for item in result.content:
@@ -75,63 +76,93 @@ async def strip_images_interceptor(request, handler):
         result.content = cleaned or [TextContent(type="text", text="Action completed.")]
     return result
 
-_stack = AsyncExitStack()
 _agent = None
 _browser_close_tool = None
 _lock = asyncio.Lock()
-_tabs_lock = asyncio.Lock()
 _session = None
-_task_tab_count = 0
+_session_task = None
+_stop_session = None
 
-async def get_agent():
-    """Create the session + agent once, then reuse it forever."""
-    global _agent, _browser_close_tool, _session
-    async with _lock:
-        if _agent is None:
-            session = await _stack.enter_async_context(client.session("playwright"))
-            print(">>> MCP session OPENED", flush=True)
-            log_browser_debug("MCP session OPENED")
-            logger.info("Playwright MCP session opened")
+
+async def _run_browser_session(ready, stop):
+    """Keep the MCP context open and close it from the task that entered it."""
+    try:
+        async with client.session("playwright") as session:
             tools = await load_mcp_tools(session, tool_interceptors=[strip_images_interceptor])
-            available_names = [tool.name for tool in tools]
-            _browser_close_tool = next(
-                (tool for tool in tools if tool.name == "browser_close"), None
-            )
-            log_browser_debug(
-                f"Loaded all Playwright MCP tools: {available_names}"
-            )
-            _agent = create_agent(
-                model=get_llm(),
+            # The browser model resends these schemas on every turn. Keep the
+            # validation rules and the guidance for non-obvious arguments.
+            for tool in tools:
+                schema = tool.args_schema
+                if isinstance(schema, dict):
+                    schema.pop("$schema", None)
+                    for name, argument in schema.get("properties", {}).items():
+                        if name not in {"ref", "key", "function", "code"} and argument.get("type") in {
+                            "string", "boolean", "integer", "number",
+                        }:
+                            argument.pop("description", None)
+            agent = create_agent(
+                model=get_llm(browser=True),
                 tools=tools,
                 checkpointer=InMemorySaver(),
                 system_prompt=SYSTEM_PROMPT,
             )
-            _session = session
+            close_tool = next((tool for tool in tools if tool.name == "browser_close"), None)
+            log_browser_debug("MCP session OPENED")
+            ready.set_result((session, agent, close_tool))
+            await stop.wait()
+    except Exception as exc:
+        if not ready.done():
+            ready.set_exception(exc)
+            return
+        raise
+    log_browser_debug("MCP session CLOSED")
+
+async def get_agent():
+    """Create the shared session on first use."""
+    global _agent, _browser_close_tool, _session, _session_task, _stop_session
+    async with _lock:
+        if _agent is None:
+            ready = asyncio.get_running_loop().create_future()
+            stop = asyncio.Event()
+            owner = asyncio.create_task(_run_browser_session(ready, stop))
+            try:
+                _session, _agent, _browser_close_tool = await asyncio.shield(ready)
+            except BaseException:
+                if not ready.done():
+                    ready.cancel()
+                owner.cancel()
+                await asyncio.gather(owner, return_exceptions=True)
+                raise
+            _session_task, _stop_session = owner, stop
     return _agent
 
 
-async def prepare_browser_tabs():
-    """Create two task tabs once per connection, without replacing user tabs."""
-    global _task_tab_count
-    async with _tabs_lock:
-        if _session is None:
-            raise RuntimeError("Browser agent has not been initialized at startup.")
-        while _task_tab_count < 2:
-            result = await _session.call_tool("browser_tabs", {"action": "new"})
-            if result.isError:
-                raise RuntimeError(
-                    "Could not open task tabs in Chrome. Open chrome://inspect/#remote-debugging "
-                    "and enable 'Allow remote debugging for this browser instance', "
-                    "then approve the connection in Chrome."
-                )
-            _task_tab_count += 1
+async def open_chrome():
+    """Start Chrome or reuse the existing session without changing its pages."""
+    result = await _session.call_tool("browser_tabs", {"action": "list"})
+    if result.isError:
+        details = "\n".join(
+            item.text for item in result.content if getattr(item, "type", None) == "text"
+        )
+        raise RuntimeError(f"Could not open Max's Chrome session: {details}")
+    return {"response": "Max's Chrome session is open."}
+
+
+def is_open_chrome_request(task: str) -> bool:
+    return bool(re.fullmatch(
+        r"\s*(?:please\s+)?(?:open|launch|start)\s+"
+        r"(?:(?:google\s+)?chrome|(?:the\s+)?browser)(?:\s+please)?[.!]?\s*",
+        task,
+        re.IGNORECASE,
+    ))
 
 
 def navigation_target(task: str):
     """Recognize navigation-only requests; leave interactive tasks to the agent."""
     match = re.fullmatch(
-        r"\s*(?:please\s+)?(?:open|visit|navigate to|go to)\s+"
-        r"(\S+?)(?:\s+(?:please|in (?:the )?browser))?[.!]?\s*",
+        r"\s*(?:please\s+)?(?:open (?:google )?chrome and\s+)?"
+        r"(?:open|visit|navigate to|go to)\s+"
+        r"(\S+?)(?:\s+(?:please|in (?:the browser|browser|(?:google )?chrome)))*[.!]?\s*",
         task, re.IGNORECASE,
     )
     if not match:
@@ -152,16 +183,49 @@ def navigation_target(task: str):
     return None
 
 
+def search_target(task: str) -> str | None:
+    """Extract a standalone web search, leaving follow-up actions to the agent."""
+    match = re.fullmatch(
+        r"\s*(?:please\s+)?(?:search(?:\s+(?:the web|google|online))?\s+for|"
+        r"(?:google|look up))\s+(.+?)\s*",
+        task,
+        re.IGNORECASE,
+    )
+    if not match:
+        return None
+    query = match.group(1).removesuffix(".")
+    if not query.strip() or re.search(
+        r"\b(?:and|then)\s+(?:open|click|read|summarize|tell|give|find|compare|show|report)\b",
+        query,
+        re.IGNORECASE,
+    ):
+        return None
+    return query
+
+
+async def open_web_search(query: str):
+    url = "https://www.google.com/search?" + urlencode({"q": query})
+    details = await _navigate(url)
+    if "/sorry/" in details or "unusual traffic" in details.lower():
+        return {"response": "Google blocked the search with a traffic check. Complete the check in Chrome to see the results."}
+    return {"response": f"Opened Google search results for **{query}** in Chrome."}
+
+
 async def open_browser_url(url: str):
     """Return after navigation, without waiting for an unnecessary model turn."""
+    await _navigate(url)
+    return {"response": f"Opened {url} in Chrome."}
+
+
+async def _navigate(url: str) -> str:
     result = await _session.call_tool("browser_navigate", {"url": url})
     details = "\n".join(
         item.text for item in result.content if getattr(item, "type", None) == "text"
     )
     if result.isError:
         raise RuntimeError(f"Could not open {url}: {details}")
-    log_browser_debug(f"Navigation completed: {url}")
-    return {"response": f"Opened {url} in Chrome."}
+    log_browser_debug("Browser navigation completed")
+    return details
 
 
 def get_existing_agent():
@@ -191,17 +255,12 @@ async def close_browser_tab():
 
 async def close_browser_agent():
     """Close the shared Playwright session during application shutdown."""
-    global _agent, _stack, _browser_close_tool, _session, _task_tab_count
+    global _agent, _browser_close_tool, _session, _session_task, _stop_session
     async with _lock:
-        if _agent is not None:
-            await _stack.aclose()
-            print(">>> MCP session CLOSED", flush=True)
-            log_browser_debug("MCP session CLOSED")
-            logger.info("Playwright MCP session closed")
-            _agent = None
-            _browser_close_tool = None
-            _session = None
-            _task_tab_count = 0
-            # AsyncExitStack is one-shot once closed; create a fresh stack for
-            # the next request (or application restart in the same process).
-            _stack = AsyncExitStack()
+        if _session_task is not None:
+            _stop_session.set()
+            try:
+                await _session_task
+            finally:
+                _agent = _browser_close_tool = _session = None
+                _session_task = _stop_session = None

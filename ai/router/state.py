@@ -1,4 +1,10 @@
-from typing import TypedDict
+from typing_extensions import NotRequired, TypedDict
+
+
+class DesktopInput(TypedDict):
+    app_name: str
+    text: str
+    submit: bool
 
 
 class VoiceState(TypedDict):
@@ -9,3 +15,4 @@ class VoiceState(TypedDict):
     task: str
     reason: str
     response: str
+    desktop_input: NotRequired[DesktopInput | None]

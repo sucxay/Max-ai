@@ -69,9 +69,22 @@ ROUTING RULES:
   Notes, Contacts, Messages, Mail, and Maps actions go to apple unless the user
   explicitly requests a website. Music app volume goes to apple; Mac system volume
   goes to system. Do not route music playback to browser by default.
-- Browser-related requests must go to browser.
+- Requests to navigate or interact with a website go to browser.
+- For a request only to open Chrome, visit a site, or run a web search, pass the
+  simple action and its target to browser without adding steps. Preserve any
+  requested follow-up actions.
+- Requests to type, paste, or dictate text into a named desktop application go to
+  system, including when opening or focusing the app is part of the request.
 - Requests to open, type in, or send prompts to desktop Claude/ChatGPT apps go to
   system. Use browser only when the user requests their website or browser version.
+- For a request to type or send specified text in a desktop app, set desktop_input
+  with the app name and the text to enter. Preserve quoted text verbatim. For
+  "open Claude and ask it why the sky is blue", set app_name to "Claude", text
+  to "Why is the sky blue?", and submit to true. Set submit to false for typing
+  or drafting without a request to send. An app-open request alone has no
+  desktop_input. If the request also requires other actions besides opening,
+  focusing, typing into, or submitting to that app, leave desktop_input unset
+  and describe all of the requested actions in the specialist task.
 - Reading/listing local file contents goes to file. Finding/opening projects,
   moving/renaming/organizing files, approved project commands and window control
   go to system. A combined "open VS Code and launch my project" request goes to system.

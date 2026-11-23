@@ -4,9 +4,8 @@ client = MultiServerMCPClient({
     "playwright": {
         "transport": "stdio",
         "command": "npx",
-        # Attach to the user's running Chrome instead of launching a separate
-        # automation profile. Chrome must allow remote debugging.
-        "args": ["-y", "@playwright/mcp@latest", "--cdp-endpoint=chrome"],
+        # Start with an empty profile each time Max starts a browser session.
+        "args": ["-y", "@playwright/mcp@latest", "--browser", "chrome", "--isolated"],
     }
 })
 
